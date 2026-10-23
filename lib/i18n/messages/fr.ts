@@ -70,6 +70,8 @@ export const fr = {
   "result.next": "Suivant",
   "result.finish": "Voir le bilan",
   "result.combo": "Combo ×{x}",
+  "result.collapse": "Réduire",
+  "result.expand": "Afficher le bilan",
 
   "fact.capital": "Capitale",
   "fact.population": "Population",

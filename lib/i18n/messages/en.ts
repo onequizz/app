@@ -72,6 +72,8 @@ export const en: Messages = {
   "result.next": "Next",
   "result.finish": "See results",
   "result.combo": "Combo ×{x}",
+  "result.collapse": "Collapse",
+  "result.expand": "Show result",
 
   "fact.capital": "Capital",
   "fact.population": "Population",

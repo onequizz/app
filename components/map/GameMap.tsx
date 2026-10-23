@@ -210,6 +210,8 @@ export default function GameMap(props: GameMapProps) {
         map.on("load", () => {
           if (cancelled) return;
           map!.setProjection({ type: live.current.globe ? "globe" : "mercator" });
+          // Crédit replié (bouton ⓘ) : déplié, il masquait les étiquettes de la carte sur mobile.
+          map!.getContainer().querySelector(".maplibregl-ctrl-attrib")?.classList.remove("maplibregl-compact-show");
           setReady(true);
         });
 
@@ -335,14 +337,23 @@ export default function GameMap(props: GameMapProps) {
     }
 
     // Cadrage : la cible et les essais.
-    const bounds = new LngLatBounds();
+    const focus = new LngLatBounds();
     if (target.kind === "country" && country.bbox) {
-      bounds.extend([country.bbox[0], country.bbox[1]]);
-      bounds.extend([country.bbox[2], country.bbox[3]]);
+      focus.extend([country.bbox[0], country.bbox[1]]);
+      focus.extend([country.bbox[2], country.bbox[3]]);
     }
-    if (anchor) bounds.extend(anchor);
+    if (anchor) focus.extend(anchor);
+    const bounds = focus.isEmpty() ? new LngLatBounds() : new LngLatBounds(focus.getSouthWest(), focus.getNorthEast());
     guesses.forEach((g) => bounds.extend([g.lng, g.lat]));
-    map.fitBounds(bounds, { padding: { top: 120, bottom: 260, left: 60, right: 60 }, maxZoom: 5.5, duration: 1200 });
+
+    const options = { padding: { top: 120, bottom: 260, left: 60, right: 60 }, maxZoom: 5.5, duration: 1200 };
+    // En Mercator, la carte ne dézoome pas au-delà du monde entier en hauteur : sur un écran en
+    // portrait, une cible et des essais très éloignés ne tiennent pas ensemble. On centre alors la cible.
+    const minZoom = Math.log2(map.getContainer().clientHeight / 512);
+    const camera = map.cameraForBounds(bounds, options);
+    const fits = live.current.globe || !camera?.zoom || camera.zoom >= minZoom;
+    if (fits || focus.isEmpty()) map.fitBounds(bounds, options);
+    else map.fitBounds(focus, { ...options, maxZoom: 3.5 });
   }, [ready, guesses, roundStatus, target, hotCold, targetName, km]);
 
   return (

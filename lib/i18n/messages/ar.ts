@@ -72,6 +72,8 @@ export const ar: Messages = {
   "result.next": "التالي",
   "result.finish": "عرض النتيجة",
   "result.combo": "سلسلة ×{x}",
+  "result.collapse": "تصغير",
+  "result.expand": "عرض النتيجة",
 
   "fact.capital": "العاصمة",
   "fact.population": "عدد السكان",

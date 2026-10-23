@@ -201,3 +201,11 @@ body {
     display: none;
   }
 }
+
+/* Sur mobile, le crédit de la carte remonte sous le HUD : en bas, il chevauchait les cartes de jeu. */
+@media (max-width: 639px) {
+  .maplibregl-ctrl-bottom-right {
+    top: 76px;
+    bottom: auto;
+  }
+}

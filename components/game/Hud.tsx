@@ -101,7 +101,10 @@ export function Hud({ onOpenSettings }: { onOpenSettings: () => void }) {
       </div>
 
       <div className="glass pointer-events-auto flex h-12 items-center gap-0.5 rounded-full px-1 shadow-lg">
-        <LanguageSwitcher />
+        {/* Sur mobile, la place va aux scores : langue et son restent dans les Paramètres. */}
+        <div className="max-sm:hidden">
+          <LanguageSwitcher />
+        </div>
         <IconButton label={t("common.sound")} onClick={() => setSetting("sound", !sound)} className="max-sm:hidden">
           {sound ? <Volume2 size={19} /> : <VolumeX size={19} />}
         </IconButton>
