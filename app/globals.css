@@ -1,26 +1,203 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* --- Thème clair : « Atlas papier » ------------------------------------- */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #f1ece1;
+  --surface: rgb(255 252 245 / 0.86);
+  --surface-solid: #fffcf5;
+  --surface-2: #f4eee2;
+  --line: rgb(40 50 70 / 0.12);
+  --text: #182031;
+  --muted: #5d6a7e;
+  --accent: #d97a00;
+  --accent-ink: #ffffff;
+  --success: #0f9d66;
+  --danger: #e0454b;
+  --reveal: #ff4f12;
+
+  /* Carte */
+  --map-ocean: #c9dce6;
+  --map-land: #f7f2e7;
+  --map-land-hover: #ecdfc4;
+  --map-border: #9eabb6;
+  --map-graticule: rgb(40 80 120 / 0.12);
+
+  color-scheme: light;
+}
+
+/* --- Thème sombre : « Atlas nocturne » ---------------------------------- */
+:root[data-theme="dark"] {
+  --bg: #070d18;
+  --surface: rgb(13 22 38 / 0.82);
+  --surface-solid: #0e1828;
+  --surface-2: #142236;
+  --line: rgb(150 180 220 / 0.14);
+  --text: #e9eef7;
+  --muted: #8ea2bd;
+  --accent: #ffb547;
+  --accent-ink: #1a1203;
+  --success: #3ddc97;
+  --danger: #ff6266;
+  --reveal: #ff7a1a;
+
+  --map-ocean: #0a1729;
+  --map-land: #1c3246;
+  --map-land-hover: #2a4a63;
+  --map-border: #46698a;
+  --map-graticule: rgb(120 160 210 / 0.09);
+
+  color-scheme: dark;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-solid: var(--surface-solid);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-reveal: var(--reveal);
+
+  /* Le navigateur bascule glyphe par glyphe : latin → Manrope / Bricolage, arabe → Cairo. */
+  --font-sans: var(--font-manrope), var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-bricolage), var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* En arabe, Cairo passe en tête : les polices de secours de Manrope et Bricolage (Arial)
+   contiennent des glyphes arabes, et le navigateur ne descendrait jamais jusqu'à Cairo. */
+:root[lang="ar"] {
+  --font-sans: var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Les glyphes arabes de Cairo descendent jusqu'à ~0,5 em sous la ligne de base : avec un interligne
+   serré, les textes qui coupent leur débordement (truncate, line-clamp) seraient rognés. */
+:root[lang="ar"] :is(.truncate, [class*="line-clamp-"]) {
+  line-height: 1.75;
+}
+
+/* L'arabe gagne à être un peu plus grand et plus aéré. */
+:root[lang="ar"] body {
+  font-size: 1.04em;
+  line-height: 1.7;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+:root[lang="ar"] .font-display {
+  letter-spacing: 0;
+}
+
+.glass {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(14px) saturate(1.3);
+  -webkit-backdrop-filter: blur(14px) saturate(1.3);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Fond de carte décoratif (page d'accueil) */
+.graticule-bg {
+  background-image:
+    linear-gradient(var(--map-graticule) 1px, transparent 1px),
+    linear-gradient(90deg, var(--map-graticule) 1px, transparent 1px);
+  background-size: 56px 56px;
+  background-position: center;
+}
+
+/* --- Marqueurs MapLibre -------------------------------------------------- */
+.maplibregl-canvas {
+  outline: none;
+}
+.maplibregl-canvas-container.maplibregl-interactive {
+  cursor: crosshair;
+}
+
+.oq-marker {
+  position: relative;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.oq-marker__dot {
+  position: absolute;
+  left: -8px;
+  top: -8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: var(--c);
+  border: 2.5px solid #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.35);
+}
+.oq-marker__pulse {
+  position: absolute;
+  left: -8px;
+  top: -8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: var(--c);
+  animation: oq-pulse 1.6s ease-out infinite;
+}
+.oq-marker__label {
+  position: absolute;
+  left: 0;
+  bottom: 14px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 3px 9px;
+  border-radius: 9999px;
+  font: 700 12px/1.4 var(--font-sans);
+  color: #fff;
+  background: var(--c);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.3);
+}
+.oq-marker--target .oq-marker__dot {
+  width: 20px;
+  height: 20px;
+  left: -10px;
+  top: -10px;
+  border-width: 3px;
+}
+@keyframes oq-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .oq-marker__pulse {
+    animation: none;
+    display: none;
+  }
 }

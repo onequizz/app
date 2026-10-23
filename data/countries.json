@@ -1,0 +1,7917 @@
+[
+ {
+  "code": "AF",
+  "region": "asia",
+  "subregion": "Southern Asia",
+  "names": {
+   "fr": "Afghanistan",
+   "en": "Afghanistan",
+   "ar": "أفغانستان",
+   "es": "Afganistán"
+  },
+  "capital": {
+   "lat": 34.5328,
+   "lng": 69.1658,
+   "names": {
+    "fr": "Kaboul",
+    "en": "Kabul",
+    "ar": "كابل",
+    "es": "Kabul"
+   }
+  },
+  "center": [
+   33,
+   65
+  ],
+  "area": 652230,
+  "population": 41454761,
+  "flag": "🇦🇫",
+  "bbox": [
+   60.49,
+   29.39,
+   74.89,
+   38.46
+  ],
+  "wiki": {
+   "fr": "Afghanistan",
+   "en": "Afghanistan",
+   "ar": "أفغانستان",
+   "es": "Afganistán"
+  }
+ },
+ {
+  "code": "AL",
+  "region": "europe",
+  "subregion": "Southeast Europe",
+  "names": {
+   "fr": "Albanie",
+   "en": "Albania",
+   "ar": "ألبانيا",
+   "es": "Albania"
+  },
+  "capital": {
+   "lat": 41.3283,
+   "lng": 19.8181,
+   "names": {
+    "fr": "Tirana",
+    "en": "Tirana",
+    "ar": "تيرانا",
+    "es": "Tirana"
+   }
+  },
+  "center": [
+   41,
+   20
+  ],
+  "area": 28748,
+  "population": 2811655,
+  "flag": "🇦🇱",
+  "bbox": [
+   19.28,
+   39.65,
+   21.03,
+   42.65
+  ],
+  "wiki": {
+   "fr": "Albanie",
+   "en": "Albania",
+   "ar": "ألبانيا",
+   "es": "Albania"
+  }
+ },
+ {
+  "code": "DZ",
+  "region": "africa",
+  "subregion": "Northern Africa",
+  "names": {
+   "fr": "Algérie",
+   "en": "Algeria",
+   "ar": "الجزائر",
+   "es": "Argelia"
+  },
+  "capital": {
+   "lat": 36.7764,
+   "lng": 3.0586,
+   "names": {
+    "fr": "Alger",
+    "en": "Algiers",
+    "ar": "الجزائر العاصمة",
+    "es": "Argel"
+   }
+  },
+  "center": [
+   28,
+   3
+  ],
+  "area": 2381741,
+  "population": 46164219,
+  "flag": "🇩🇿",
+  "bbox": [
+   -8.68,
+   18.99,
+   11.97,
+   37.09
+  ],
+  "wiki": {
+   "fr": "Algérie",
+   "en": "Algeria",
+   "ar": "الجزائر",
+   "es": "Argelia"
+  }
+ },
+ {
+  "code": "AD",
+  "region": "europe",
+  "subregion": "Southern Europe",
+  "names": {
+   "fr": "Andorre",
+   "en": "Andorra",
+   "ar": "أندورا",
+   "es": "Andorra"
+  },
+  "capital": {
+   "lat": 42.5072,
+   "lng": 1.5222,
+   "names": {
+    "fr": "Andorre-la-Vieille",
+    "en": "Andorra la Vella",
+    "ar": "أندورا لا فيلا",
+    "es": "Andorra la Vieja"
+   }
+  },
+  "center": [
+   42.5,
+   1.5
+  ],
+  "area": 468,
+  "population": 89752,
+  "flag": "🇦🇩",
+  "bbox": [
+   1.42,
+   42.43,
+   1.74,
+   42.64
+  ],
+  "wiki": {
+   "fr": "Andorre",
+   "en": "Andorra",
+   "ar": "أندورا",
+   "es": "Andorra"
+  }
+ },
+ {
+  "code": "AO",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "Angola",
+   "en": "Angola",
+   "ar": "جمهورية أنغولا",
+   "es": "Angola"
+  },
+  "capital": {
+   "lat": -8.8383,
+   "lng": 13.2344,
+   "names": {
+    "fr": "Luanda",
+    "en": "Luanda",
+    "ar": "لواندا",
+    "es": "Luanda"
+   }
+  },
+  "center": [
+   -12.5,
+   18.5
+  ],
+  "area": 1246700,
+  "population": 36749906,
+  "flag": "🇦🇴",
+  "bbox": [
+   11.74,
+   -18.02,
+   24.05,
+   -4.43
+  ],
+  "wiki": {
+   "fr": "Angola",
+   "en": "Angola",
+   "ar": "أنغولا",
+   "es": "Angola"
+  }
+ },
+ {
+  "code": "AG",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Antigua-et-Barbuda",
+   "en": "Antigua and Barbuda",
+   "ar": "أنتيغوا وباربودا",
+   "es": "Antigua y Barbuda"
+  },
+  "capital": {
+   "lat": 17.1211,
+   "lng": -61.8447,
+   "names": {
+    "fr": "Saint John's",
+    "en": "Saint John's",
+    "ar": "سانت جونز",
+    "es": "Saint John"
+   }
+  },
+  "center": [
+   17.05,
+   -61.8
+  ],
+  "area": 442,
+  "population": 101489,
+  "flag": "🇦🇬",
+  "bbox": [
+   -61.89,
+   17,
+   -61.68,
+   17.72
+  ],
+  "wiki": {
+   "fr": "Antigua-et-Barbuda",
+   "en": "Antigua and Barbuda",
+   "ar": "أنتيغوا وباربودا",
+   "es": "Antigua y Barbuda"
+  }
+ },
+ {
+  "code": "AR",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Argentine",
+   "en": "Argentina",
+   "ar": "الأرجنتين",
+   "es": "Argentina"
+  },
+  "capital": {
+   "lat": -34.5997,
+   "lng": -58.3819,
+   "names": {
+    "fr": "Buenos Aires",
+    "en": "Buenos Aires",
+    "ar": "بوينس آيرس",
+    "es": "Buenos Aires"
+   }
+  },
+  "center": [
+   -34,
+   -64
+  ],
+  "area": 2780400,
+  "population": 47327407,
+  "flag": "🇦🇷",
+  "bbox": [
+   -73.58,
+   -55.03,
+   -53.67,
+   -21.8
+  ],
+  "wiki": {
+   "fr": "Argentine",
+   "en": "Argentina",
+   "ar": "الأرجنتين",
+   "es": "Argentina"
+  }
+ },
+ {
+  "code": "AM",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Arménie",
+   "en": "Armenia",
+   "ar": "أرمينيا",
+   "es": "Armenia"
+  },
+  "capital": {
+   "lat": 40.1814,
+   "lng": 44.5144,
+   "names": {
+    "fr": "Erevan",
+    "en": "Yerevan",
+    "ar": "يريفان",
+    "es": "Ereván"
+   }
+  },
+  "center": [
+   40,
+   45
+  ],
+  "area": 29743,
+  "population": 2930450,
+  "flag": "🇦🇲",
+  "bbox": [
+   43.44,
+   38.87,
+   46.59,
+   41.29
+  ],
+  "wiki": {
+   "fr": "Arménie",
+   "en": "Armenia",
+   "ar": "أرمينيا",
+   "es": "Armenia"
+  }
+ },
+ {
+  "code": "AU",
+  "region": "oceania",
+  "subregion": "Australia and New Zealand",
+  "names": {
+   "fr": "Australie",
+   "en": "Australia",
+   "ar": "أستراليا",
+   "es": "Australia"
+  },
+  "capital": {
+   "lat": -35.2931,
+   "lng": 149.1269,
+   "names": {
+    "fr": "Canberra",
+    "en": "Canberra",
+    "ar": "كانبرا",
+    "es": "Canberra"
+   }
+  },
+  "center": [
+   -27,
+   133
+  ],
+  "area": 7692024,
+  "population": 27614411,
+  "flag": "🇦🇺",
+  "bbox": [
+   112.91,
+   -54.75,
+   158.96,
+   -10.05
+  ],
+  "wiki": {
+   "fr": "Australie",
+   "en": "Australia",
+   "ar": "أستراليا",
+   "es": "Australia"
+  }
+ },
+ {
+  "code": "AT",
+  "region": "europe",
+  "subregion": "Central Europe",
+  "names": {
+   "fr": "Autriche",
+   "en": "Austria",
+   "ar": "النمسا",
+   "es": "Austria"
+  },
+  "capital": {
+   "lat": 48.2083,
+   "lng": 16.3725,
+   "names": {
+    "fr": "Vienne",
+    "en": "Vienna",
+    "ar": "فيينا",
+    "es": "Viena"
+   }
+  },
+  "center": [
+   47.33,
+   13.33
+  ],
+  "area": 83871,
+  "population": 8979894,
+  "flag": "🇦🇹",
+  "bbox": [
+   9.52,
+   46.4,
+   17.15,
+   49
+  ],
+  "wiki": {
+   "fr": "Autriche",
+   "en": "Austria",
+   "ar": "النمسا",
+   "es": "Austria"
+  }
+ },
+ {
+  "code": "AZ",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Azerbaïdjan",
+   "en": "Azerbaijan",
+   "ar": "أذربيجان",
+   "es": "Azerbaiyán"
+  },
+  "capital": {
+   "lat": 40.3667,
+   "lng": 49.8352,
+   "names": {
+    "fr": "Bakou",
+    "en": "Baku",
+    "ar": "باكو",
+    "es": "Bakú"
+   }
+  },
+  "center": [
+   40.5,
+   47.5
+  ],
+  "area": 86600,
+  "population": 10180770,
+  "flag": "🇦🇿",
+  "bbox": [
+   44.77,
+   38.4,
+   50.37,
+   41.89
+  ],
+  "wiki": {
+   "fr": "Azerbaïdjan",
+   "en": "Azerbaijan",
+   "ar": "أذربيجان",
+   "es": "Azerbaiyán"
+  }
+ },
+ {
+  "code": "BS",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Bahamas",
+   "en": "Bahamas",
+   "ar": "البهاما",
+   "es": "Bahamas"
+  },
+  "capital": {
+   "lat": 25.0781,
+   "lng": -77.3386,
+   "names": {
+    "fr": "Nassau",
+    "en": "Nassau",
+    "ar": "ناساو",
+    "es": "Nasáu"
+   }
+  },
+  "center": [
+   24.25,
+   -76
+  ],
+  "area": 13943,
+  "population": 399440,
+  "flag": "🇧🇸",
+  "bbox": [
+   -78.99,
+   20.94,
+   -72.75,
+   26.94
+  ],
+  "wiki": {
+   "fr": "Bahamas",
+   "en": "The Bahamas",
+   "ar": "جزر البهاما",
+   "es": "Bahamas"
+  }
+ },
+ {
+  "code": "BH",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Bahreïn",
+   "en": "Bahrain",
+   "ar": "البحرين",
+   "es": "Bahrein"
+  },
+  "capital": {
+   "lat": 26.2167,
+   "lng": 50.5833,
+   "names": {
+    "fr": "Manama",
+    "en": "Manama",
+    "ar": "المنامة",
+    "es": "Manama"
+   }
+  },
+  "center": [
+   26,
+   50.55
+  ],
+  "area": 765,
+  "population": 1569666,
+  "flag": "🇧🇭",
+  "bbox": [
+   50.45,
+   25.81,
+   50.62,
+   26.25
+  ],
+  "wiki": {
+   "fr": "Bahreïn",
+   "en": "Bahrain",
+   "ar": "البحرين",
+   "es": "Baréin"
+  }
+ },
+ {
+  "code": "BD",
+  "region": "asia",
+  "subregion": "Southern Asia",
+  "names": {
+   "fr": "Bangladesh",
+   "en": "Bangladesh",
+   "ar": "بنغلاديش",
+   "es": "Bangladesh"
+  },
+  "capital": {
+   "lat": 23.7289,
+   "lng": 90.3944,
+   "names": {
+    "fr": "Dacca",
+    "en": "Dhaka",
+    "ar": "دكا",
+    "es": "Daca"
+   }
+  },
+  "center": [
+   24,
+   90
+  ],
+  "area": 147570,
+  "population": 171466990,
+  "flag": "🇧🇩",
+  "bbox": [
+   88.02,
+   20.79,
+   92.63,
+   26.57
+  ],
+  "wiki": {
+   "fr": "Bangladesh",
+   "en": "Bangladesh",
+   "ar": "بنغلاديش",
+   "es": "Bangladés"
+  }
+ },
+ {
+  "code": "BB",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Barbade",
+   "en": "Barbados",
+   "ar": "باربادوس",
+   "es": "Barbados"
+  },
+  "capital": {
+   "lat": 13.0975,
+   "lng": -59.6167,
+   "names": {
+    "fr": "Bridgetown",
+    "en": "Bridgetown",
+    "ar": "بريدج تاون",
+    "es": "Bridgetown"
+   }
+  },
+  "center": [
+   13.17,
+   -59.53
+  ],
+  "area": 430,
+  "population": 303431,
+  "flag": "🇧🇧",
+  "bbox": [
+   -59.65,
+   13.06,
+   -59.43,
+   13.32
+  ],
+  "wiki": {
+   "fr": "Barbade",
+   "en": "Barbados",
+   "ar": "بربادوس",
+   "es": "Barbados"
+  }
+ },
+ {
+  "code": "BY",
+  "region": "europe",
+  "subregion": "Eastern Europe",
+  "names": {
+   "fr": "Biélorussie",
+   "en": "Belarus",
+   "ar": "بيلاروسيا",
+   "es": "Bielorrusia"
+  },
+  "capital": {
+   "lat": 53.9022,
+   "lng": 27.5618,
+   "names": {
+    "fr": "Minsk",
+    "en": "Minsk",
+    "ar": "مينسك",
+    "es": "Minsk"
+   }
+  },
+  "center": [
+   53,
+   28
+  ],
+  "area": 207600,
+  "population": 9056080,
+  "flag": "🇧🇾",
+  "bbox": [
+   23.18,
+   51.27,
+   32.71,
+   56.15
+  ],
+  "wiki": {
+   "fr": "Biélorussie",
+   "en": "Belarus",
+   "ar": "بيلاروس",
+   "es": "Bielorrusia"
+  }
+ },
+ {
+  "code": "BE",
+  "region": "europe",
+  "subregion": "Western Europe",
+  "names": {
+   "fr": "Belgique",
+   "en": "Belgium",
+   "ar": "بلجيكا",
+   "es": "Bélgica"
+  },
+  "capital": {
+   "lat": 50.8467,
+   "lng": 4.3517,
+   "names": {
+    "fr": "Bruxelles",
+    "en": "Brussels",
+    "ar": "مدينة بروكسل",
+    "es": "Bruselas"
+   }
+  },
+  "center": [
+   50.83,
+   4
+  ],
+  "area": 30528,
+  "population": 11825551,
+  "flag": "🇧🇪",
+  "bbox": [
+   2.53,
+   49.51,
+   6.36,
+   51.49
+  ],
+  "wiki": {
+   "fr": "Belgique",
+   "en": "Belgium",
+   "ar": "بلجيكا",
+   "es": "Bélgica"
+  }
+ },
+ {
+  "code": "BZ",
+  "region": "americas",
+  "subregion": "Central America",
+  "names": {
+   "fr": "Belize",
+   "en": "Belize",
+   "ar": "بليز",
+   "es": "Belice"
+  },
+  "capital": {
+   "lat": 17.25,
+   "lng": -88.7675,
+   "names": {
+    "fr": "Belmopan",
+    "en": "Belmopan",
+    "ar": "بلموبان",
+    "es": "Belmopán"
+   }
+  },
+  "center": [
+   17.25,
+   -88.75
+  ],
+  "area": 22966,
+  "population": 411106,
+  "flag": "🇧🇿",
+  "bbox": [
+   -89.24,
+   15.89,
+   -87.79,
+   18.48
+  ],
+  "wiki": {
+   "fr": "Belize",
+   "en": "Belize",
+   "ar": "بليز",
+   "es": "Belice"
+  }
+ },
+ {
+  "code": "BJ",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Bénin",
+   "en": "Benin",
+   "ar": "بنين",
+   "es": "Benín"
+  },
+  "capital": {
+   "lat": 6.4833,
+   "lng": 2.6167,
+   "names": {
+    "fr": "Porto-Novo",
+    "en": "Porto-Novo",
+    "ar": "بورتو نوفو",
+    "es": "Porto Novo"
+   }
+  },
+  "center": [
+   9.5,
+   2.25
+  ],
+  "area": 112622,
+  "population": 14111034,
+  "flag": "🇧🇯",
+  "bbox": [
+   0.77,
+   6.22,
+   3.84,
+   12.38
+  ],
+  "wiki": {
+   "fr": "Bénin",
+   "en": "Benin",
+   "ar": "بنين",
+   "es": "Benín"
+  }
+ },
+ {
+  "code": "BT",
+  "region": "asia",
+  "subregion": "Southern Asia",
+  "names": {
+   "fr": "Bhoutan",
+   "en": "Bhutan",
+   "ar": "بوتان",
+   "es": "Bután"
+  },
+  "capital": {
+   "lat": 27.4714,
+   "lng": 89.6337,
+   "names": {
+    "fr": "Thimphou",
+    "en": "Thimphu",
+    "ar": "تيمفو",
+    "es": "Timbu"
+   }
+  },
+  "center": [
+   27.5,
+   90.5
+  ],
+  "area": 38394,
+  "population": 787424,
+  "flag": "🇧🇹",
+  "bbox": [
+   88.74,
+   26.7,
+   92.08,
+   28.31
+  ],
+  "wiki": {
+   "fr": "Bhoutan",
+   "en": "Bhutan",
+   "ar": "بوتان",
+   "es": "Bután"
+  }
+ },
+ {
+  "code": "BO",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Bolivie",
+   "en": "Bolivia",
+   "ar": "بوليفيا",
+   "es": "Bolivia"
+  },
+  "capital": {
+   "lat": -19.0475,
+   "lng": -65.26,
+   "names": {
+    "fr": "Sucre",
+    "en": "Sucre",
+    "ar": "سوكري",
+    "es": "Sucre"
+   }
+  },
+  "center": [
+   -17,
+   -65
+  ],
+  "area": 1098581,
+  "population": 12244159,
+  "flag": "🇧🇴",
+  "bbox": [
+   -69.64,
+   -22.89,
+   -57.49,
+   -9.71
+  ],
+  "wiki": {
+   "fr": "Bolivie",
+   "en": "Bolivia",
+   "ar": "بوليفيا",
+   "es": "Bolivia"
+  }
+ },
+ {
+  "code": "BA",
+  "region": "europe",
+  "subregion": "Southeast Europe",
+  "names": {
+   "fr": "Bosnie-Herzégovine",
+   "en": "Bosnia and Herzegovina",
+   "ar": "البوسنة والهرسك",
+   "es": "Bosnia y Herzegovina"
+  },
+  "capital": {
+   "lat": 43.8564,
+   "lng": 18.4131,
+   "names": {
+    "fr": "Sarajevo",
+    "en": "Sarajevo",
+    "ar": "سراييفو",
+    "es": "Sarajevo"
+   }
+  },
+  "center": [
+   44,
+   18
+  ],
+  "area": 51209,
+  "population": 3816459,
+  "flag": "🇧🇦",
+  "bbox": [
+   15.74,
+   42.56,
+   19.58,
+   45.28
+  ],
+  "wiki": {
+   "fr": "Bosnie-Herzégovine",
+   "en": "Bosnia and Herzegovina",
+   "ar": "البوسنة والهرسك",
+   "es": "Bosnia y Herzegovina"
+  }
+ },
+ {
+  "code": "BW",
+  "region": "africa",
+  "subregion": "Southern Africa",
+  "names": {
+   "fr": "Botswana",
+   "en": "Botswana",
+   "ar": "بوتسوانا",
+   "es": "Botswana"
+  },
+  "capital": {
+   "lat": -24.6569,
+   "lng": 25.9086,
+   "names": {
+    "fr": "Gaborone",
+    "en": "Gaborone",
+    "ar": "غابورون",
+    "es": "Gaborone"
+   }
+  },
+  "center": [
+   -22,
+   24
+  ],
+  "area": 582000,
+  "population": 2480244,
+  "flag": "🇧🇼",
+  "bbox": [
+   19.98,
+   -26.85,
+   29.36,
+   -17.79
+  ],
+  "wiki": {
+   "fr": "Botswana",
+   "en": "Botswana",
+   "ar": "بوتسوانا",
+   "es": "Botsuana"
+  }
+ },
+ {
+  "code": "BR",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Brésil",
+   "en": "Brazil",
+   "ar": "البرازيل",
+   "es": "Brasil"
+  },
+  "capital": {
+   "lat": -15.7939,
+   "lng": -47.8828,
+   "names": {
+    "fr": "Brasilia",
+    "en": "Brasília",
+    "ar": "برازيليا",
+    "es": "Brasilia"
+   }
+  },
+  "center": [
+   -10,
+   -55
+  ],
+  "area": 8515767,
+  "population": 214211951,
+  "flag": "🇧🇷",
+  "bbox": [
+   -74,
+   -33.74,
+   -34.81,
+   5.26
+  ],
+  "wiki": {
+   "fr": "Brésil",
+   "en": "Brazil",
+   "ar": "البرازيل",
+   "es": "Brasil"
+  }
+ },
+ {
+  "code": "BN",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Brunei",
+   "en": "Brunei",
+   "ar": "بروناي",
+   "es": "Brunei"
+  },
+  "capital": {
+   "lat": 4.9167,
+   "lng": 114.9167,
+   "names": {
+    "fr": "Bandar Seri Begawan",
+    "en": "Bandar Seri Begawan",
+    "ar": "بندر سري بكاوان",
+    "es": "Bandar Seri Begawan"
+   }
+  },
+  "center": [
+   4.5,
+   114.67
+  ],
+  "area": 5765,
+  "population": 458949,
+  "flag": "🇧🇳",
+  "bbox": [
+   114.07,
+   4.03,
+   115.33,
+   5.02
+  ],
+  "wiki": {
+   "fr": "Brunei",
+   "en": "Brunei",
+   "ar": "بروناي",
+   "es": "Brunéi"
+  }
+ },
+ {
+  "code": "BG",
+  "region": "europe",
+  "subregion": "Southeast Europe",
+  "names": {
+   "fr": "Bulgarie",
+   "en": "Bulgaria",
+   "ar": "بلغاريا",
+   "es": "Bulgaria"
+  },
+  "capital": {
+   "lat": 42.6979,
+   "lng": 23.3217,
+   "names": {
+    "fr": "Sofia",
+    "en": "Sofia",
+    "ar": "صوفيا",
+    "es": "Sofía"
+   }
+  },
+  "center": [
+   43,
+   25
+  ],
+  "area": 110879,
+  "population": 6423207,
+  "flag": "🇧🇬",
+  "bbox": [
+   22.34,
+   41.24,
+   28.59,
+   44.24
+  ],
+  "wiki": {
+   "fr": "Bulgarie",
+   "en": "Bulgaria",
+   "ar": "بلغاريا",
+   "es": "Bulgaria"
+  }
+ },
+ {
+  "code": "BF",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Burkina Faso",
+   "en": "Burkina Faso",
+   "ar": "بوركينا فاسو",
+   "es": "Burkina Faso"
+  },
+  "capital": {
+   "lat": 12.3686,
+   "lng": -1.5275,
+   "names": {
+    "fr": "Ouagadougou",
+    "en": "Ouagadougou",
+    "ar": "واغادوغو",
+    "es": "Uagadugú"
+   }
+  },
+  "center": [
+   13,
+   -2
+  ],
+  "area": 272967,
+  "population": 23025776,
+  "flag": "🇧🇫",
+  "bbox": [
+   -5.52,
+   9.43,
+   2.39,
+   15.08
+  ],
+  "wiki": {
+   "fr": "Burkina Faso",
+   "en": "Burkina Faso",
+   "ar": "بوركينا فاسو",
+   "es": "Burkina Faso"
+  }
+ },
+ {
+  "code": "BI",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Burundi",
+   "en": "Burundi",
+   "ar": "بوروندي",
+   "es": "Burundi"
+  },
+  "capital": {
+   "lat": -3.4283,
+   "lng": 29.925,
+   "names": {
+    "fr": "Gitega",
+    "en": "Gitega",
+    "ar": "غيتيغا",
+    "es": "Guitega"
+   }
+  },
+  "center": [
+   -3.5,
+   30
+  ],
+  "area": 27834,
+  "population": 13689450,
+  "flag": "🇧🇮",
+  "bbox": [
+   29.01,
+   -4.46,
+   30.81,
+   -2.31
+  ],
+  "wiki": {
+   "fr": "Burundi",
+   "en": "Burundi",
+   "ar": "بوروندي",
+   "es": "Burundi"
+  }
+ },
+ {
+  "code": "KH",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Cambodge",
+   "en": "Cambodia",
+   "ar": "كمبوديا",
+   "es": "Camboya"
+  },
+  "capital": {
+   "lat": 11.5696,
+   "lng": 104.921,
+   "names": {
+    "fr": "Phnom Penh",
+    "en": "Phnom Penh",
+    "ar": "بنوم بنه",
+    "es": "Nom Pen"
+   }
+  },
+  "center": [
+   13,
+   105
+  ],
+  "area": 181035,
+  "population": 17423880,
+  "flag": "🇰🇭",
+  "bbox": [
+   102.32,
+   10.41,
+   107.61,
+   14.71
+  ],
+  "wiki": {
+   "fr": "Cambodge",
+   "en": "Cambodia",
+   "ar": "كمبوديا",
+   "es": "Camboya"
+  }
+ },
+ {
+  "code": "CM",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "Cameroun",
+   "en": "Cameroon",
+   "ar": "الكاميرون",
+   "es": "Camerún"
+  },
+  "capital": {
+   "lat": 3.8578,
+   "lng": 11.5181,
+   "names": {
+    "fr": "Yaoundé",
+    "en": "Yaoundé",
+    "ar": "ياوندي",
+    "es": "Yaundé"
+   }
+  },
+  "center": [
+   6,
+   12
+  ],
+  "area": 475442,
+  "population": 28372687,
+  "flag": "🇨🇲",
+  "bbox": [
+   8.53,
+   1.68,
+   16.18,
+   13.08
+  ],
+  "wiki": {
+   "fr": "Cameroun",
+   "en": "Cameroon",
+   "ar": "الكاميرون",
+   "es": "Camerún"
+  }
+ },
+ {
+  "code": "CA",
+  "region": "americas",
+  "subregion": "North America",
+  "names": {
+   "fr": "Canada",
+   "en": "Canada",
+   "ar": "كندا",
+   "es": "Canadá"
+  },
+  "capital": {
+   "lat": 45.4247,
+   "lng": -75.695,
+   "names": {
+    "fr": "Ottawa",
+    "en": "Ottawa",
+    "ar": "أوتاوا",
+    "es": "Ottawa"
+   }
+  },
+  "center": [
+   60,
+   -95
+  ],
+  "area": 9984670,
+  "population": 36991981,
+  "flag": "🇨🇦",
+  "bbox": [
+   -141,
+   41.68,
+   -52.65,
+   83.12
+  ],
+  "wiki": {
+   "fr": "Canada",
+   "en": "Canada",
+   "ar": "كندا",
+   "es": "Canadá"
+  }
+ },
+ {
+  "code": "CV",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Îles du Cap-Vert",
+   "en": "Cape Verde",
+   "ar": "كابو فيردي",
+   "es": "Cabo Verde"
+  },
+  "capital": {
+   "lat": 14.9177,
+   "lng": -23.5092,
+   "names": {
+    "fr": "Praia",
+    "en": "Praia",
+    "ar": "برايا",
+    "es": "Praia"
+   }
+  },
+  "center": [
+   16,
+   -24
+  ],
+  "area": 4033,
+  "population": 555988,
+  "flag": "🇨🇻",
+  "bbox": [
+   -25.34,
+   14.82,
+   -22.68,
+   17.19
+  ],
+  "wiki": {
+   "fr": "Cap-Vert",
+   "en": "Cape Verde",
+   "ar": "الرأس الأخضر",
+   "es": "Cabo Verde"
+  }
+ },
+ {
+  "code": "CF",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "République centrafricaine",
+   "en": "Central African Republic",
+   "ar": "جمهورية أفريقيا الوسطى",
+   "es": "República Centroafricana"
+  },
+  "capital": {
+   "lat": 4.3733,
+   "lng": 18.5628,
+   "names": {
+    "fr": "Bangui",
+    "en": "Bangui",
+    "ar": "بنغي",
+    "es": "Bangui"
+   }
+  },
+  "center": [
+   7,
+   21
+  ],
+  "area": 622984,
+  "population": 5152421,
+  "flag": "🇨🇫",
+  "bbox": [
+   14.43,
+   2.27,
+   27.4,
+   11
+  ],
+  "wiki": {
+   "fr": "République centrafricaine",
+   "en": "Central African Republic",
+   "ar": "جمهورية إفريقيا الوسطى",
+   "es": "República Centroafricana"
+  }
+ },
+ {
+  "code": "TD",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "Tchad",
+   "en": "Chad",
+   "ar": "تشاد",
+   "es": "Chad"
+  },
+  "capital": {
+   "lat": 12.11,
+   "lng": 15.05,
+   "names": {
+    "fr": "N'Djaména",
+    "en": "N'Djamena",
+    "ar": "انجمينا",
+    "es": "Yamena"
+   }
+  },
+  "center": [
+   15,
+   19
+  ],
+  "area": 1284000,
+  "population": 19319064,
+  "flag": "🇹🇩",
+  "bbox": [
+   13.45,
+   7.48,
+   23.98,
+   23.45
+  ],
+  "wiki": {
+   "fr": "Tchad",
+   "en": "Chad",
+   "ar": "تشاد",
+   "es": "Chad"
+  }
+ },
+ {
+  "code": "CL",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Chili",
+   "en": "Chile",
+   "ar": "تشيلي",
+   "es": "Chile"
+  },
+  "capital": {
+   "lat": -33.4375,
+   "lng": -70.65,
+   "names": {
+    "fr": "Santiago",
+    "en": "Santiago",
+    "ar": "سانتياغو",
+    "es": "Santiago de Chile"
+   }
+  },
+  "center": [
+   -30,
+   -71
+  ],
+  "area": 756102,
+  "population": 19458000,
+  "flag": "🇨🇱",
+  "bbox": [
+   -109.44,
+   -55.89,
+   -66.44,
+   -17.5
+  ],
+  "wiki": {
+   "fr": "Chili",
+   "en": "Chile",
+   "ar": "تشيلي",
+   "es": "Chile"
+  }
+ },
+ {
+  "code": "CN",
+  "region": "asia",
+  "subregion": "Eastern Asia",
+  "names": {
+   "fr": "Chine",
+   "en": "China",
+   "ar": "الصين",
+   "es": "China"
+  },
+  "capital": {
+   "lat": 39.904,
+   "lng": 116.4075,
+   "names": {
+    "fr": "Pékin",
+    "en": "Beijing",
+    "ar": "بكين",
+    "es": "Pekín"
+   }
+  },
+  "center": [
+   35,
+   105
+  ],
+  "area": 9706961,
+  "population": 1404890000,
+  "flag": "🇨🇳",
+  "bbox": [
+   73.61,
+   18.22,
+   134.75,
+   53.56
+  ],
+  "wiki": {
+   "fr": "Chine",
+   "en": "China",
+   "ar": "الصين",
+   "es": "República Popular China"
+  }
+ },
+ {
+  "code": "CO",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Colombie",
+   "en": "Colombia",
+   "ar": "كولومبيا",
+   "es": "Colombia"
+  },
+  "capital": {
+   "lat": 4.6097,
+   "lng": -74.0817,
+   "names": {
+    "fr": "Bogota",
+    "en": "Bogotá",
+    "ar": "بوغوتا",
+    "es": "Bogotá"
+   }
+  },
+  "center": [
+   4,
+   -72
+  ],
+  "area": 1141748,
+  "population": 52321152,
+  "flag": "🇨🇴",
+  "bbox": [
+   -79.03,
+   -4.24,
+   -66.88,
+   12.43
+  ],
+  "wiki": {
+   "fr": "Colombie",
+   "en": "Colombia",
+   "ar": "كولومبيا",
+   "es": "Colombia"
+  }
+ },
+ {
+  "code": "KM",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Comores",
+   "en": "Comoros",
+   "ar": "جزر القمر",
+   "es": "Comoras"
+  },
+  "capital": {
+   "lat": -11.7036,
+   "lng": 43.2536,
+   "names": {
+    "fr": "Moroni",
+    "en": "Moroni",
+    "ar": "موروني",
+    "es": "Moroni"
+   }
+  },
+  "center": [
+   -12.17,
+   44.25
+  ],
+  "area": 1862,
+  "population": 902348,
+  "flag": "🇰🇲",
+  "bbox": [
+   43.23,
+   -12.37,
+   44.53,
+   -11.37
+  ],
+  "wiki": {
+   "fr": "Comores (pays)",
+   "en": "Comoros",
+   "ar": "جزر القمر",
+   "es": "Comoras"
+  }
+ },
+ {
+  "code": "CR",
+  "region": "americas",
+  "subregion": "Central America",
+  "names": {
+   "fr": "Costa Rica",
+   "en": "Costa Rica",
+   "ar": "كوستاريكا",
+   "es": "Costa Rica"
+  },
+  "capital": {
+   "lat": 9.9327,
+   "lng": -84.0796,
+   "names": {
+    "fr": "San José",
+    "en": "San José",
+    "ar": "سان خوسيه",
+    "es": "San José"
+   }
+  },
+  "center": [
+   10,
+   -84
+  ],
+  "area": 51100,
+  "population": 5265575,
+  "flag": "🇨🇷",
+  "bbox": [
+   -85.91,
+   8.07,
+   -82.56,
+   11.19
+  ],
+  "wiki": {
+   "fr": "Costa Rica",
+   "en": "Costa Rica",
+   "ar": "كوستاريكا",
+   "es": "Costa Rica"
+  }
+ },
+ {
+  "code": "HR",
+  "region": "europe",
+  "subregion": "Southeast Europe",
+  "names": {
+   "fr": "Croatie",
+   "en": "Croatia",
+   "ar": "كرواتيا",
+   "es": "Croacia"
+  },
+  "capital": {
+   "lat": 45.8131,
+   "lng": 15.9772,
+   "names": {
+    "fr": "Zagreb",
+    "en": "Zagreb",
+    "ar": "زغرب",
+    "es": "Zagreb"
+   }
+  },
+  "center": [
+   45.17,
+   15.5
+  ],
+  "area": 56594,
+  "population": 3871833,
+  "flag": "🇭🇷",
+  "bbox": [
+   13.52,
+   42.43,
+   19.4,
+   46.53
+  ],
+  "wiki": {
+   "fr": "Croatie",
+   "en": "Croatia",
+   "ar": "كرواتيا",
+   "es": "Croacia"
+  }
+ },
+ {
+  "code": "CU",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Cuba",
+   "en": "Cuba",
+   "ar": "كوبا",
+   "es": "Cuba"
+  },
+  "capital": {
+   "lat": 23.1367,
+   "lng": -82.3589,
+   "names": {
+    "fr": "La Havane",
+    "en": "Havana",
+    "ar": "هافانا",
+    "es": "La Habana"
+   }
+  },
+  "center": [
+   21.5,
+   -80
+  ],
+  "area": 109884,
+  "population": 10985974,
+  "flag": "🇨🇺",
+  "bbox": [
+   -84.89,
+   19.86,
+   -74.14,
+   23.19
+  ],
+  "wiki": {
+   "fr": "Cuba",
+   "en": "Cuba",
+   "ar": "كوبا",
+   "es": "Cuba"
+  }
+ },
+ {
+  "code": "CY",
+  "region": "europe",
+  "subregion": "Southern Europe",
+  "names": {
+   "fr": "Chypre",
+   "en": "Cyprus",
+   "ar": "قبرص",
+   "es": "Chipre"
+  },
+  "capital": {
+   "lat": 35.1725,
+   "lng": 33.365,
+   "names": {
+    "fr": "Nicosie",
+    "en": "Nicosia",
+    "ar": "نيقوسيا",
+    "es": "Nicosia"
+   }
+  },
+  "center": [
+   35,
+   33
+  ],
+  "area": 9251,
+  "population": 1344976,
+  "flag": "🇨🇾",
+  "bbox": [
+   32.3,
+   34.57,
+   34.56,
+   35.66
+  ],
+  "wiki": {
+   "fr": "Chypre (pays)",
+   "en": "Cyprus",
+   "ar": "قبرص",
+   "es": "Chipre"
+  }
+ },
+ {
+  "code": "CZ",
+  "region": "europe",
+  "subregion": "Central Europe",
+  "names": {
+   "fr": "Tchéquie",
+   "en": "Czechia",
+   "ar": "التشيك",
+   "es": "Chequia"
+  },
+  "capital": {
+   "lat": 50.0875,
+   "lng": 14.4214,
+   "names": {
+    "fr": "Prague",
+    "en": "Prague",
+    "ar": "براغ",
+    "es": "Praga"
+   }
+  },
+  "center": [
+   49.75,
+   15.5
+  ],
+  "area": 78865,
+  "population": 10909500,
+  "flag": "🇨🇿",
+  "bbox": [
+   12.09,
+   48.58,
+   18.83,
+   51.04
+  ],
+  "wiki": {
+   "fr": "Tchéquie",
+   "en": "Czech Republic",
+   "ar": "جمهورية التشيك",
+   "es": "República Checa"
+  }
+ },
+ {
+  "code": "DK",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Danemark",
+   "en": "Denmark",
+   "ar": "الدنمارك",
+   "es": "Dinamarca"
+  },
+  "capital": {
+   "lat": 55.6761,
+   "lng": 12.5689,
+   "names": {
+    "fr": "Copenhague",
+    "en": "Copenhagen",
+    "ar": "كوبنهاغن",
+    "es": "Copenhague"
+   }
+  },
+  "center": [
+   56,
+   10
+  ],
+  "area": 43094,
+  "population": 5822863,
+  "flag": "🇩🇰",
+  "bbox": [
+   8.12,
+   54.63,
+   15.14,
+   57.74
+  ],
+  "wiki": {
+   "fr": "Danemark (pays constitutif)",
+   "en": "Denmark",
+   "ar": "الدنمارك",
+   "es": "Dinamarca"
+  }
+ },
+ {
+  "code": "DJ",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Djibouti",
+   "en": "Djibouti",
+   "ar": "جيبوتي",
+   "es": "Djibouti"
+  },
+  "capital": {
+   "lat": 11.595,
+   "lng": 43.1481,
+   "names": {
+    "fr": "Djibouti",
+    "en": "Djibouti",
+    "ar": "جيبوتي",
+    "es": "Ciudad de Yibuti"
+   }
+  },
+  "center": [
+   11.5,
+   43
+  ],
+  "area": 23200,
+  "population": 1152944,
+  "flag": "🇩🇯",
+  "bbox": [
+   41.77,
+   10.94,
+   43.41,
+   12.71
+  ],
+  "wiki": {
+   "fr": "Djibouti",
+   "en": "Djibouti",
+   "ar": "جيبوتي",
+   "es": "Yibuti"
+  }
+ },
+ {
+  "code": "DM",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Dominique",
+   "en": "Dominica",
+   "ar": "دومينيكا",
+   "es": "Dominica"
+  },
+  "capital": {
+   "lat": 15.3,
+   "lng": -61.3833,
+   "names": {
+    "fr": "Roseau",
+    "en": "Roseau",
+    "ar": "روسو",
+    "es": "Roseau"
+   }
+  },
+  "center": [
+   15.42,
+   -61.33
+  ],
+  "area": 751,
+  "population": 74656,
+  "flag": "🇩🇲",
+  "bbox": [
+   -61.48,
+   15.23,
+   -61.25,
+   15.63
+  ],
+  "wiki": {
+   "fr": "Dominique (pays)",
+   "en": "Dominica",
+   "ar": "دومينيكا",
+   "es": "Dominica"
+  }
+ },
+ {
+  "code": "DO",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "République dominicaine",
+   "en": "Dominican Republic",
+   "ar": "جمهورية الدومينيكان",
+   "es": "República Dominicana"
+  },
+  "capital": {
+   "lat": 18.4625,
+   "lng": -69.9361,
+   "names": {
+    "fr": "Saint-Domingue",
+    "en": "Santo Domingo",
+    "ar": "سانتو دومينغو",
+    "es": "Santo Domingo"
+   }
+  },
+  "center": [
+   19,
+   -70.67
+  ],
+  "area": 48671,
+  "population": 10760028,
+  "flag": "🇩🇴",
+  "bbox": [
+   -72,
+   17.64,
+   -68.34,
+   19.91
+  ],
+  "wiki": {
+   "fr": "République dominicaine",
+   "en": "Dominican Republic",
+   "ar": "جمهورية الدومينيكان",
+   "es": "República Dominicana"
+  }
+ },
+ {
+  "code": "CD",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "Congo (Rép. dém.)",
+   "en": "DR Congo",
+   "ar": "الكونغو",
+   "es": "Congo (Rep. Dem.)"
+  },
+  "capital": {
+   "lat": -4.3219,
+   "lng": 15.3119,
+   "names": {
+    "fr": "Kinshasa",
+    "en": "Kinshasa",
+    "ar": "كينشاسا",
+    "es": "Kinsasa"
+   }
+  },
+  "center": [
+   0,
+   25
+  ],
+  "area": 2344858,
+  "population": 105789731,
+  "flag": "🇨🇩",
+  "bbox": [
+   12.21,
+   -13.45,
+   31.28,
+   5.31
+  ],
+  "wiki": {
+   "fr": "République démocratique du Congo",
+   "en": "Democratic Republic of the Congo",
+   "ar": "جمهورية الكونغو الديمقراطية",
+   "es": "República Democrática del Congo"
+  }
+ },
+ {
+  "code": "EC",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Équateur",
+   "en": "Ecuador",
+   "ar": "الإكوادور",
+   "es": "Ecuador"
+  },
+  "capital": {
+   "lat": -0.22,
+   "lng": -78.5125,
+   "names": {
+    "fr": "Quito",
+    "en": "Quito",
+    "ar": "كيتو",
+    "es": "Quito"
+   }
+  },
+  "center": [
+   -2,
+   -77.5
+  ],
+  "area": 276841,
+  "population": 16938986,
+  "flag": "🇪🇨",
+  "bbox": [
+   -91.65,
+   -4.99,
+   -75.25,
+   1.46
+  ],
+  "wiki": {
+   "fr": "Équateur (pays)",
+   "en": "Ecuador",
+   "ar": "الإكوادور",
+   "es": "Ecuador"
+  }
+ },
+ {
+  "code": "EG",
+  "region": "africa",
+  "subregion": "Northern Africa",
+  "names": {
+   "fr": "Égypte",
+   "en": "Egypt",
+   "ar": "مصر",
+   "es": "Egipto"
+  },
+  "capital": {
+   "lat": 30.0444,
+   "lng": 31.2358,
+   "names": {
+    "fr": "Le Caire",
+    "en": "Cairo",
+    "ar": "القاهرة",
+    "es": "El Cairo"
+   }
+  },
+  "center": [
+   27,
+   30
+  ],
+  "area": 1002450,
+  "population": 114535772,
+  "flag": "🇪🇬",
+  "bbox": [
+   24.7,
+   21.99,
+   36.87,
+   31.66
+  ],
+  "wiki": {
+   "fr": "Égypte",
+   "en": "Egypt",
+   "ar": "مصر",
+   "es": "Egipto"
+  }
+ },
+ {
+  "code": "SV",
+  "region": "americas",
+  "subregion": "Central America",
+  "names": {
+   "fr": "Salvador",
+   "en": "El Salvador",
+   "ar": "السلفادور",
+   "es": "El Salvador"
+  },
+  "capital": {
+   "lat": 13.6976,
+   "lng": -89.1912,
+   "names": {
+    "fr": "San Salvador",
+    "en": "San Salvador",
+    "ar": "سان سلفادور",
+    "es": "San Salvador"
+   }
+  },
+  "center": [
+   13.83,
+   -88.92
+  ],
+  "area": 21041,
+  "population": 6029976,
+  "flag": "🇸🇻",
+  "bbox": [
+   -90.11,
+   13.17,
+   -87.72,
+   14.43
+  ],
+  "wiki": {
+   "fr": "Salvador",
+   "en": "El Salvador",
+   "ar": "السلفادور",
+   "es": "El Salvador"
+  }
+ },
+ {
+  "code": "GQ",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "Guinée équatoriale",
+   "en": "Equatorial Guinea",
+   "ar": "غينيا الاستوائية",
+   "es": "Guinea Ecuatorial"
+  },
+  "capital": {
+   "lat": 1.5917,
+   "lng": 10.8222,
+   "names": {
+    "fr": "Ciudad de la Paz",
+    "en": "Ciudad de la Paz",
+    "ar": "سيوداد دي لا باز",
+    "es": "Ciudad de la Paz"
+   }
+  },
+  "center": [
+   2,
+   10
+  ],
+  "area": 28051,
+  "population": 1847549,
+  "flag": "🇬🇶",
+  "bbox": [
+   8.43,
+   0.96,
+   11.34,
+   3.76
+  ],
+  "wiki": {
+   "fr": "Guinée équatoriale",
+   "en": "Equatorial Guinea",
+   "ar": "غينيا الاستوائية",
+   "es": "Guinea Ecuatorial"
+  }
+ },
+ {
+  "code": "ER",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Érythrée",
+   "en": "Eritrea",
+   "ar": "إريتريا",
+   "es": "Eritrea"
+  },
+  "capital": {
+   "lat": 15.3333,
+   "lng": 38.9167,
+   "names": {
+    "fr": "Asmara",
+    "en": "Asmara",
+    "ar": "أسمرة",
+    "es": "Asmara"
+   }
+  },
+  "center": [
+   15,
+   39
+  ],
+  "area": 117600,
+  "population": 3497000,
+  "flag": "🇪🇷",
+  "bbox": [
+   36.43,
+   12.38,
+   43.12,
+   18.01
+  ],
+  "wiki": {
+   "fr": "Érythrée",
+   "en": "Eritrea",
+   "ar": "إرتريا",
+   "es": "Eritrea"
+  }
+ },
+ {
+  "code": "EE",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Estonie",
+   "en": "Estonia",
+   "ar": "إستونيا",
+   "es": "Estonia"
+  },
+  "capital": {
+   "lat": 59.4372,
+   "lng": 24.745,
+   "names": {
+    "fr": "Tallinn",
+    "en": "Tallinn",
+    "ar": "تالين",
+    "es": "Tallin"
+   }
+  },
+  "center": [
+   59,
+   26
+  ],
+  "area": 45227,
+  "population": 1369995,
+  "flag": "🇪🇪",
+  "bbox": [
+   21.85,
+   57.53,
+   28.15,
+   59.64
+  ],
+  "wiki": {
+   "fr": "Estonie",
+   "en": "Estonia",
+   "ar": "إستونيا",
+   "es": "Estonia"
+  }
+ },
+ {
+  "code": "SZ",
+  "region": "africa",
+  "subregion": "Southern Africa",
+  "names": {
+   "fr": "Swaziland",
+   "en": "Eswatini",
+   "ar": "إسواتيني",
+   "es": "Suazilandia"
+  },
+  "capital": {
+   "lat": -26.4465,
+   "lng": 31.2064,
+   "names": {
+    "fr": "Lobamba",
+    "en": "Lobamba",
+    "ar": "لوبامبا",
+    "es": "Lobamba"
+   }
+  },
+  "center": [
+   -26.5,
+   31.5
+  ],
+  "area": 17364,
+  "population": 1230506,
+  "flag": "🇸🇿",
+  "bbox": [
+   30.79,
+   -27.31,
+   32.11,
+   -25.74
+  ],
+  "wiki": {
+   "fr": "Eswatini",
+   "en": "Eswatini",
+   "ar": "إسواتيني",
+   "es": "Suazilandia"
+  }
+ },
+ {
+  "code": "ET",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Éthiopie",
+   "en": "Ethiopia",
+   "ar": "إثيوبيا",
+   "es": "Etiopía"
+  },
+  "capital": {
+   "lat": 9.0358,
+   "lng": 38.7525,
+   "names": {
+    "fr": "Addis-Abeba",
+    "en": "Addis Ababa",
+    "ar": "أديس أبابا",
+    "es": "Adís Abeba"
+   }
+  },
+  "center": [
+   8,
+   38
+  ],
+  "area": 1104300,
+  "population": 128691692,
+  "flag": "🇪🇹",
+  "bbox": [
+   33,
+   3.46,
+   47.98,
+   14.85
+  ],
+  "wiki": {
+   "fr": "Éthiopie",
+   "en": "Ethiopia",
+   "ar": "إثيوبيا",
+   "es": "Etiopía"
+  }
+ },
+ {
+  "code": "FJ",
+  "region": "oceania",
+  "subregion": "Melanesia",
+  "names": {
+   "fr": "Fidji",
+   "en": "Fiji",
+   "ar": "فيجي",
+   "es": "Fiyi"
+  },
+  "capital": {
+   "lat": -18.1333,
+   "lng": 178.4333,
+   "names": {
+    "fr": "Suva",
+    "en": "Suva",
+    "ar": "سوفا",
+    "es": "Suva"
+   }
+  },
+  "center": [
+   -18,
+   175
+  ],
+  "area": 18272,
+  "population": 926276,
+  "flag": "🇫🇯",
+  "bbox": [
+   -180,
+   -21.71,
+   180,
+   -12.48
+  ],
+  "wiki": {
+   "fr": "Fidji",
+   "en": "Fiji",
+   "ar": "فيجي",
+   "es": "Fiyi"
+  }
+ },
+ {
+  "code": "FI",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Finlande",
+   "en": "Finland",
+   "ar": "فنلندا",
+   "es": "Finlandia"
+  },
+  "capital": {
+   "lat": 60.1708,
+   "lng": 24.9375,
+   "names": {
+    "fr": "Helsinki",
+    "en": "Helsinki",
+    "ar": "هلسنكي",
+    "es": "Helsinki"
+   }
+  },
+  "center": [
+   64,
+   26
+  ],
+  "area": 338424,
+  "population": 5652881,
+  "flag": "🇫🇮",
+  "bbox": [
+   20.62,
+   59.82,
+   31.54,
+   70.06
+  ],
+  "wiki": {
+   "fr": "Finlande",
+   "en": "Finland",
+   "ar": "فنلندا",
+   "es": "Finlandia"
+  }
+ },
+ {
+  "code": "FR",
+  "region": "europe",
+  "subregion": "Western Europe",
+  "names": {
+   "fr": "France",
+   "en": "France",
+   "ar": "فرنسا",
+   "es": "Francia"
+  },
+  "capital": {
+   "lat": 48.8567,
+   "lng": 2.3522,
+   "names": {
+    "fr": "Paris",
+    "en": "Paris",
+    "ar": "باريس",
+    "es": "París"
+   }
+  },
+  "center": [
+   46,
+   2
+  ],
+  "area": 551695,
+  "population": 68605616,
+  "flag": "🇫🇷",
+  "bbox": [
+   -61.79,
+   -21.37,
+   55.84,
+   51.1
+  ],
+  "wiki": {
+   "fr": "France",
+   "en": "France",
+   "ar": "فرنسا",
+   "es": "Francia"
+  }
+ },
+ {
+  "code": "GA",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "Gabon",
+   "en": "Gabon",
+   "ar": "الغابون",
+   "es": "Gabón"
+  },
+  "capital": {
+   "lat": 0.4078,
+   "lng": 9.4403,
+   "names": {
+    "fr": "Libreville",
+    "en": "Libreville",
+    "ar": "ليبرفيل",
+    "es": "Libreville"
+   }
+  },
+  "center": [
+   -1,
+   11.75
+  ],
+  "area": 267668,
+  "population": 2025137,
+  "flag": "🇬🇦",
+  "bbox": [
+   8.7,
+   -3.92,
+   14.48,
+   2.3
+  ],
+  "wiki": {
+   "fr": "Gabon",
+   "en": "Gabon",
+   "ar": "الغابون",
+   "es": "Gabón"
+  }
+ },
+ {
+  "code": "GM",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Gambie",
+   "en": "Gambia",
+   "ar": "غامبيا",
+   "es": "Gambia"
+  },
+  "capital": {
+   "lat": 13.4531,
+   "lng": -16.5775,
+   "names": {
+    "fr": "Banjul",
+    "en": "Banjul",
+    "ar": "بانجول",
+    "es": "Banjul"
+   }
+  },
+  "center": [
+   13.47,
+   -16.57
+  ],
+  "area": 10689,
+  "population": 2639916,
+  "flag": "🇬🇲",
+  "bbox": [
+   -16.82,
+   13.06,
+   -13.83,
+   13.81
+  ],
+  "wiki": {
+   "fr": "Gambie",
+   "en": "The Gambia",
+   "ar": "غامبيا",
+   "es": "Gambia"
+  }
+ },
+ {
+  "code": "GE",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Géorgie",
+   "en": "Georgia",
+   "ar": "جورجيا",
+   "es": "Georgia"
+  },
+  "capital": {
+   "lat": 41.7225,
+   "lng": 44.7925,
+   "names": {
+    "fr": "Tbilissi",
+    "en": "Tbilisi",
+    "ar": "تبليسي",
+    "es": "Tiflis"
+   }
+  },
+  "center": [
+   42,
+   43.5
+  ],
+  "area": 69700,
+  "population": 3929581,
+  "flag": "🇬🇪",
+  "bbox": [
+   39.98,
+   41.07,
+   46.67,
+   43.57
+  ],
+  "wiki": {
+   "fr": "Géorgie (pays)",
+   "en": "Georgia (country)",
+   "ar": "جورجيا",
+   "es": "Georgia"
+  }
+ },
+ {
+  "code": "DE",
+  "region": "europe",
+  "subregion": "Western Europe",
+  "names": {
+   "fr": "Allemagne",
+   "en": "Germany",
+   "ar": "ألمانيا",
+   "es": "Alemania"
+  },
+  "capital": {
+   "lat": 52.5167,
+   "lng": 13.3833,
+   "names": {
+    "fr": "Berlin",
+    "en": "Berlin",
+    "ar": "برلين",
+    "es": "Berlín"
+   }
+  },
+  "center": [
+   51,
+   9
+  ],
+  "area": 357114,
+  "population": 83467117,
+  "flag": "🇩🇪",
+  "bbox": [
+   5.86,
+   47.28,
+   15.02,
+   55.06
+  ],
+  "wiki": {
+   "fr": "Allemagne",
+   "en": "Germany",
+   "ar": "ألمانيا",
+   "es": "Alemania"
+  }
+ },
+ {
+  "code": "GH",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Ghana",
+   "en": "Ghana",
+   "ar": "غانا",
+   "es": "Ghana"
+  },
+  "capital": {
+   "lat": 5.556,
+   "lng": -0.1969,
+   "names": {
+    "fr": "Accra",
+    "en": "Accra",
+    "ar": "أكرا",
+    "es": "Acra"
+   }
+  },
+  "center": [
+   8,
+   -2
+  ],
+  "area": 238533,
+  "population": 32833031,
+  "flag": "🇬🇭",
+  "bbox": [
+   -3.24,
+   4.76,
+   1.19,
+   11.17
+  ],
+  "wiki": {
+   "fr": "Ghana",
+   "en": "Ghana",
+   "ar": "غانا",
+   "es": "Ghana"
+  }
+ },
+ {
+  "code": "GR",
+  "region": "europe",
+  "subregion": "Southern Europe",
+  "names": {
+   "fr": "Grèce",
+   "en": "Greece",
+   "ar": "اليونان",
+   "es": "Grecia"
+  },
+  "capital": {
+   "lat": 37.9842,
+   "lng": 23.7281,
+   "names": {
+    "fr": "Athènes",
+    "en": "Athens",
+    "ar": "أثينا",
+    "es": "Atenas"
+   }
+  },
+  "center": [
+   39,
+   22
+  ],
+  "area": 131990,
+  "population": 10482487,
+  "flag": "🇬🇷",
+  "bbox": [
+   19.65,
+   34.93,
+   28.23,
+   41.75
+  ],
+  "wiki": {
+   "fr": "Grèce",
+   "en": "Greece",
+   "ar": "اليونان",
+   "es": "Grecia"
+  }
+ },
+ {
+  "code": "GD",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Grenade",
+   "en": "Grenada",
+   "ar": "غرينادا",
+   "es": "Grenada"
+  },
+  "capital": {
+   "lat": 12.0525,
+   "lng": -61.7531,
+   "names": {
+    "fr": "Saint-Georges",
+    "en": "St. George's",
+    "ar": "سانت جورجز",
+    "es": "Saint George"
+   }
+  },
+  "center": [
+   12.12,
+   -61.67
+  ],
+  "area": 344,
+  "population": 114299,
+  "flag": "🇬🇩",
+  "bbox": [
+   -61.78,
+   12.01,
+   -61.61,
+   12.24
+  ],
+  "wiki": {
+   "fr": "Grenade (pays)",
+   "en": "Grenada",
+   "ar": "غرينادا",
+   "es": "Granada (país)"
+  }
+ },
+ {
+  "code": "GT",
+  "region": "americas",
+  "subregion": "Central America",
+  "names": {
+   "fr": "Guatemala",
+   "en": "Guatemala",
+   "ar": "غواتيمالا",
+   "es": "Guatemala"
+  },
+  "capital": {
+   "lat": 14.6417,
+   "lng": -90.5133,
+   "names": {
+    "fr": "Guatemala",
+    "en": "Guatemala City",
+    "ar": "غواتيمالا العاصمة",
+    "es": "Ciudad de Guatemala"
+   }
+  },
+  "center": [
+   15.5,
+   -90.25
+  ],
+  "area": 108889,
+  "population": 17263239,
+  "flag": "🇬🇹",
+  "bbox": [
+   -92.23,
+   13.74,
+   -88.23,
+   17.82
+  ],
+  "wiki": {
+   "fr": "Guatemala",
+   "en": "Guatemala",
+   "ar": "غواتيمالا",
+   "es": "Guatemala"
+  }
+ },
+ {
+  "code": "GN",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Guinée",
+   "en": "Guinea",
+   "ar": "غينيا",
+   "es": "Guinea"
+  },
+  "capital": {
+   "lat": 9.5092,
+   "lng": -13.7122,
+   "names": {
+    "fr": "Conakry",
+    "en": "Conakry",
+    "ar": "كوناكري",
+    "es": "Conakri"
+   }
+  },
+  "center": [
+   11,
+   -10
+  ],
+  "area": 245857,
+  "population": 17521167,
+  "flag": "🇬🇳",
+  "bbox": [
+   -15.05,
+   7.22,
+   -7.68,
+   12.67
+  ],
+  "wiki": {
+   "fr": "Guinée",
+   "en": "Guinea",
+   "ar": "غينيا",
+   "es": "Guinea"
+  }
+ },
+ {
+  "code": "GW",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Guinée-Bissau",
+   "en": "Guinea-Bissau",
+   "ar": "غينيا بيساو",
+   "es": "Guinea-Bisáu"
+  },
+  "capital": {
+   "lat": 11.86,
+   "lng": -15.5833,
+   "names": {
+    "fr": "Bissau",
+    "en": "Bissau",
+    "ar": "بيساو",
+    "es": "Bisáu"
+   }
+  },
+  "center": [
+   12,
+   -15
+  ],
+  "area": 36125,
+  "population": 1861283,
+  "flag": "🇬🇼",
+  "bbox": [
+   -16.71,
+   10.94,
+   -13.67,
+   12.68
+  ],
+  "wiki": {
+   "fr": "Guinée-Bissau",
+   "en": "Guinea-Bissau",
+   "ar": "غينيا بيساو",
+   "es": "Guinea-Bisáu"
+  }
+ },
+ {
+  "code": "GY",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Guyana",
+   "en": "Guyana",
+   "ar": "غيانا",
+   "es": "Guyana"
+  },
+  "capital": {
+   "lat": 6.8058,
+   "lng": -58.1508,
+   "names": {
+    "fr": "Georgetown",
+    "en": "Georgetown",
+    "ar": "جورج تاون",
+    "es": "Georgetown"
+   }
+  },
+  "center": [
+   5,
+   -59
+  ],
+  "area": 214969,
+  "population": 878674,
+  "flag": "🇬🇾",
+  "bbox": [
+   -61.39,
+   1.2,
+   -56.48,
+   8.55
+  ],
+  "wiki": {
+   "fr": "Guyana",
+   "en": "Guyana",
+   "ar": "غيانا",
+   "es": "Guyana"
+  }
+ },
+ {
+  "code": "HT",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Haïti",
+   "en": "Haiti",
+   "ar": "هايتي",
+   "es": "Haití"
+  },
+  "capital": {
+   "lat": 18.5469,
+   "lng": -72.3403,
+   "names": {
+    "fr": "Port-au-Prince",
+    "en": "Port-au-Prince",
+    "ar": "بورت أو برانس",
+    "es": "Puerto Príncipe"
+   }
+  },
+  "center": [
+   19,
+   -72.42
+  ],
+  "area": 27750,
+  "population": 10981229,
+  "flag": "🇭🇹",
+  "bbox": [
+   -74.48,
+   18.04,
+   -71.65,
+   20.09
+  ],
+  "wiki": {
+   "fr": "Haïti",
+   "en": "Haiti",
+   "ar": "هايتي",
+   "es": "Haití"
+  }
+ },
+ {
+  "code": "HN",
+  "region": "americas",
+  "subregion": "Central America",
+  "names": {
+   "fr": "Honduras",
+   "en": "Honduras",
+   "ar": "هندوراس",
+   "es": "Honduras"
+  },
+  "capital": {
+   "lat": 14.1058,
+   "lng": -87.2047,
+   "names": {
+    "fr": "Tegucigalpa",
+    "en": "Tegucigalpa",
+    "ar": "تيغوسيغالبا",
+    "es": "Tegucigalpa"
+   }
+  },
+  "center": [
+   15,
+   -86.5
+  ],
+  "area": 112492,
+  "population": 8303771,
+  "flag": "🇭🇳",
+  "bbox": [
+   -89.36,
+   12.98,
+   -83.16,
+   16.51
+  ],
+  "wiki": {
+   "fr": "Honduras",
+   "en": "Honduras",
+   "ar": "هندوراس",
+   "es": "Honduras"
+  }
+ },
+ {
+  "code": "HU",
+  "region": "europe",
+  "subregion": "Central Europe",
+  "names": {
+   "fr": "Hongrie",
+   "en": "Hungary",
+   "ar": "المجر",
+   "es": "Hungría"
+  },
+  "capital": {
+   "lat": 47.4983,
+   "lng": 19.0408,
+   "names": {
+    "fr": "Budapest",
+    "en": "Budapest",
+    "ar": "بودابست",
+    "es": "Budapest"
+   }
+  },
+  "center": [
+   47,
+   20
+  ],
+  "area": 93028,
+  "population": 9603634,
+  "flag": "🇭🇺",
+  "bbox": [
+   16.09,
+   45.75,
+   22.88,
+   48.55
+  ],
+  "wiki": {
+   "fr": "Hongrie",
+   "en": "Hungary",
+   "ar": "المجر",
+   "es": "Hungría"
+  }
+ },
+ {
+  "code": "IS",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Islande",
+   "en": "Iceland",
+   "ar": "آيسلندا",
+   "es": "Islandia"
+  },
+  "capital": {
+   "lat": 64.1475,
+   "lng": -21.935,
+   "names": {
+    "fr": "Reykjavik",
+    "en": "Reykjavík",
+    "ar": "ريكيافيك",
+    "es": "Reikiavik"
+   }
+  },
+  "center": [
+   65,
+   -18
+  ],
+  "area": 103000,
+  "population": 364260,
+  "flag": "🇮🇸",
+  "bbox": [
+   -24.47,
+   63.41,
+   -13.56,
+   66.53
+  ],
+  "wiki": {
+   "fr": "Islande",
+   "en": "Iceland",
+   "ar": "آيسلندا",
+   "es": "Islandia"
+  }
+ },
+ {
+  "code": "IN",
+  "region": "asia",
+  "subregion": "Southern Asia",
+  "names": {
+   "fr": "Inde",
+   "en": "India",
+   "ar": "الهند",
+   "es": "India"
+  },
+  "capital": {
+   "lat": 28.6139,
+   "lng": 77.2089,
+   "names": {
+    "fr": "New Delhi",
+    "en": "New Delhi",
+    "ar": "نيو دلهي",
+    "es": "Nueva Delhi"
+   }
+  },
+  "center": [
+   20,
+   77
+  ],
+  "area": 3287590,
+  "population": 1326093247,
+  "flag": "🇮🇳",
+  "bbox": [
+   68.17,
+   6.75,
+   97.34,
+   35.5
+  ],
+  "wiki": {
+   "fr": "Inde",
+   "en": "India",
+   "ar": "الهند",
+   "es": "India"
+  }
+ },
+ {
+  "code": "ID",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Indonésie",
+   "en": "Indonesia",
+   "ar": "إندونيسيا",
+   "es": "Indonesia"
+  },
+  "capital": {
+   "lat": -6.1753,
+   "lng": 106.8269,
+   "names": {
+    "fr": "Jakarta",
+    "en": "Jakarta",
+    "ar": "جاكرتا",
+    "es": "Yakarta"
+   }
+  },
+  "center": [
+   -5,
+   120
+  ],
+  "area": 1904569,
+  "population": 275439000,
+  "flag": "🇮🇩",
+  "bbox": [
+   95.21,
+   -10.91,
+   140.98,
+   5.91
+  ],
+  "wiki": {
+   "fr": "Indonésie",
+   "en": "Indonesia",
+   "ar": "إندونيسيا",
+   "es": "Indonesia"
+  }
+ },
+ {
+  "code": "IR",
+  "region": "asia",
+  "subregion": "Southern Asia",
+  "names": {
+   "fr": "Iran",
+   "en": "Iran",
+   "ar": "إيران",
+   "es": "Iran"
+  },
+  "capital": {
+   "lat": 35.6889,
+   "lng": 51.3897,
+   "names": {
+    "fr": "Téhéran",
+    "en": "Tehran",
+    "ar": "طهران",
+    "es": "Teherán"
+   }
+  },
+  "center": [
+   32,
+   53
+  ],
+  "area": 1648195,
+  "population": 92417700,
+  "flag": "🇮🇷",
+  "bbox": [
+   44.02,
+   25.1,
+   63.31,
+   39.77
+  ],
+  "wiki": {
+   "fr": "Iran",
+   "en": "Iran",
+   "ar": "إيران",
+   "es": "Irán"
+  }
+ },
+ {
+  "code": "IQ",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Irak",
+   "en": "Iraq",
+   "ar": "العراق",
+   "es": "Irak"
+  },
+  "capital": {
+   "lat": 33.3153,
+   "lng": 44.3661,
+   "names": {
+    "fr": "Bagdad",
+    "en": "Baghdad",
+    "ar": "بغداد",
+    "es": "Bagdad"
+   }
+  },
+  "center": [
+   33,
+   44
+  ],
+  "area": 438317,
+  "population": 38274618,
+  "flag": "🇮🇶",
+  "bbox": [
+   38.77,
+   29.06,
+   48.55,
+   37.37
+  ],
+  "wiki": {
+   "fr": "Irak",
+   "en": "Iraq",
+   "ar": "العراق",
+   "es": "Irak"
+  }
+ },
+ {
+  "code": "IE",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Irlande",
+   "en": "Ireland",
+   "ar": "أيرلندا",
+   "es": "Irlanda"
+  },
+  "capital": {
+   "lat": 53.3497,
+   "lng": -6.2603,
+   "names": {
+    "fr": "Dublin",
+    "en": "Dublin",
+    "ar": "دبلن",
+    "es": "Dublín"
+   }
+  },
+  "center": [
+   53,
+   -8
+  ],
+  "area": 70273,
+  "population": 5149139,
+  "flag": "🇮🇪",
+  "bbox": [
+   -10.39,
+   51.47,
+   -6.03,
+   55.37
+  ],
+  "wiki": {
+   "fr": "Irlande (pays)",
+   "en": "Republic of Ireland",
+   "ar": "جمهورية أيرلندا",
+   "es": "Irlanda"
+  }
+ },
+ {
+  "code": "IL",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Israël",
+   "en": "Israel",
+   "ar": "إسرائيل",
+   "es": "Israel"
+  },
+  "capital": {
+   "lat": 31.7767,
+   "lng": 35.2342,
+   "names": {
+    "fr": "Jérusalem",
+    "en": "Jerusalem",
+    "ar": "القدس",
+    "es": "Jerusalén"
+   }
+  },
+  "center": [
+   31.47,
+   35.13
+  ],
+  "area": 20770,
+  "population": 9840000,
+  "flag": "🇮🇱",
+  "bbox": [
+   34.24,
+   29.48,
+   35.91,
+   33.43
+  ],
+  "wiki": {
+   "fr": "Israël",
+   "en": "Israel",
+   "ar": "إسرائيل",
+   "es": "Israel"
+  }
+ },
+ {
+  "code": "IT",
+  "region": "europe",
+  "subregion": "Southern Europe",
+  "names": {
+   "fr": "Italie",
+   "en": "Italy",
+   "ar": "إيطاليا",
+   "es": "Italia"
+  },
+  "capital": {
+   "lat": 41.8931,
+   "lng": 12.4828,
+   "names": {
+    "fr": "Rome",
+    "en": "Rome",
+    "ar": "روما",
+    "es": "Roma"
+   }
+  },
+  "center": [
+   42.83,
+   12.83
+  ],
+  "area": 301336,
+  "population": 58850717,
+  "flag": "🇮🇹",
+  "bbox": [
+   6.63,
+   36.69,
+   18.48,
+   47.08
+  ],
+  "wiki": {
+   "fr": "Italie",
+   "en": "Italy",
+   "ar": "إيطاليا",
+   "es": "Italia"
+  }
+ },
+ {
+  "code": "CI",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Côte d'Ivoire",
+   "en": "Ivory Coast",
+   "ar": "ساحل العاج",
+   "es": "Costa de Marfil"
+  },
+  "capital": {
+   "lat": 6.8161,
+   "lng": -5.2742,
+   "names": {
+    "fr": "Yamoussoukro",
+    "en": "Yamoussoukro",
+    "ar": "ياموسوكرو",
+    "es": "Yamusukro"
+   }
+  },
+  "center": [
+   8,
+   -5
+  ],
+  "area": 322463,
+  "population": 31165654,
+  "flag": "🇨🇮",
+  "bbox": [
+   -8.6,
+   4.35,
+   -2.51,
+   10.72
+  ],
+  "wiki": {
+   "fr": "Côte d'Ivoire",
+   "en": "Ivory Coast",
+   "ar": "ساحل العاج",
+   "es": "Costa de Marfil"
+  }
+ },
+ {
+  "code": "JM",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Jamaïque",
+   "en": "Jamaica",
+   "ar": "جامايكا",
+   "es": "Jamaica"
+  },
+  "capital": {
+   "lat": 17.9714,
+   "lng": -76.7931,
+   "names": {
+    "fr": "Kingston",
+    "en": "Kingston",
+    "ar": "كينغستون",
+    "es": "Kingston"
+   }
+  },
+  "center": [
+   18.25,
+   -77.5
+  ],
+  "area": 10991,
+  "population": 2697983,
+  "flag": "🇯🇲",
+  "bbox": [
+   -78.34,
+   17.72,
+   -76.21,
+   18.52
+  ],
+  "wiki": {
+   "fr": "Jamaïque",
+   "en": "Jamaica",
+   "ar": "جامايكا",
+   "es": "Jamaica"
+  }
+ },
+ {
+  "code": "JP",
+  "region": "asia",
+  "subregion": "Eastern Asia",
+  "names": {
+   "fr": "Japon",
+   "en": "Japan",
+   "ar": "اليابان",
+   "es": "Japón"
+  },
+  "capital": {
+   "lat": 35.6894,
+   "lng": 139.6917,
+   "names": {
+    "fr": "Tokyo",
+    "en": "Tokyo",
+    "ar": "طوكيو",
+    "es": "Tokio"
+   }
+  },
+  "center": [
+   36,
+   138
+  ],
+  "area": 377930,
+  "population": 123802000,
+  "flag": "🇯🇵",
+  "bbox": [
+   123.68,
+   24.27,
+   145.83,
+   45.51
+  ],
+  "wiki": {
+   "fr": "Japon",
+   "en": "Japan",
+   "ar": "اليابان",
+   "es": "Japón"
+  }
+ },
+ {
+  "code": "JO",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Jordanie",
+   "en": "Jordan",
+   "ar": "الأردن",
+   "es": "Jordania"
+  },
+  "capital": {
+   "lat": 31.931,
+   "lng": 35.9261,
+   "names": {
+    "fr": "Amman",
+    "en": "Amman",
+    "ar": "عَمَّان",
+    "es": "Amán"
+   }
+  },
+  "center": [
+   31,
+   36
+  ],
+  "area": 89342,
+  "population": 10428241,
+  "flag": "🇯🇴",
+  "bbox": [
+   34.95,
+   29.19,
+   39.29,
+   33.37
+  ],
+  "wiki": {
+   "fr": "Jordanie",
+   "en": "Jordan",
+   "ar": "الأردن",
+   "es": "Jordania"
+  }
+ },
+ {
+  "code": "KZ",
+  "region": "asia",
+  "subregion": "Central Asia",
+  "names": {
+   "fr": "Kazakhstan",
+   "en": "Kazakhstan",
+   "ar": "كازاخستان",
+   "es": "Kazajistán"
+  },
+  "capital": {
+   "lat": 51.1333,
+   "lng": 71.4333,
+   "names": {
+    "fr": "Astana",
+    "en": "Astana",
+    "ar": "أستانة",
+    "es": "Astaná"
+   }
+  },
+  "center": [
+   48,
+   68
+  ],
+  "area": 2724900,
+  "population": 20139914,
+  "flag": "🇰🇿",
+  "bbox": [
+   46.61,
+   40.61,
+   87.32,
+   55.39
+  ],
+  "wiki": {
+   "fr": "Kazakhstan",
+   "en": "Kazakhstan",
+   "ar": "كازاخستان",
+   "es": "Kazajistán"
+  }
+ },
+ {
+  "code": "KE",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Kenya",
+   "en": "Kenya",
+   "ar": "كينيا",
+   "es": "Kenia"
+  },
+  "capital": {
+   "lat": -1.2864,
+   "lng": 36.8172,
+   "names": {
+    "fr": "Nairobi",
+    "en": "Nairobi",
+    "ar": "نيروبي",
+    "es": "Nairobi"
+   }
+  },
+  "center": [
+   1,
+   38
+  ],
+  "area": 580367,
+  "population": 48468138,
+  "flag": "🇰🇪",
+  "bbox": [
+   33.9,
+   -4.69,
+   41.89,
+   5.49
+  ],
+  "wiki": {
+   "fr": "Kenya",
+   "en": "Kenya",
+   "ar": "كينيا",
+   "es": "Kenia"
+  }
+ },
+ {
+  "code": "KI",
+  "region": "oceania",
+  "subregion": "Micronesia",
+  "names": {
+   "fr": "Kiribati",
+   "en": "Kiribati",
+   "ar": "كيريباتي",
+   "es": "Kiribati"
+  },
+  "capital": {
+   "lat": 1.3333,
+   "lng": 172.9667,
+   "names": {
+    "fr": "Tarawa-Sud",
+    "en": "South Tarawa",
+    "ar": "جنوب تاراوا",
+    "es": "Tarawa Sur"
+   }
+  },
+  "center": [
+   1.42,
+   173
+  ],
+  "area": 811,
+  "population": 134518,
+  "flag": "🇰🇮",
+  "bbox": [
+   -174.54,
+   -11.46,
+   174.78,
+   3.92
+  ],
+  "wiki": {
+   "fr": "Kiribati",
+   "en": "Kiribati",
+   "ar": "كيريباتي",
+   "es": "Kiribati"
+  }
+ },
+ {
+  "code": "XK",
+  "region": "europe",
+  "subregion": "Southeast Europe",
+  "names": {
+   "fr": "Kosovo",
+   "en": "Kosovo",
+   "ar": "كوسوفو",
+   "es": "Kosovo"
+  },
+  "capital": {
+   "lat": 42.6667,
+   "lng": 21.1667,
+   "names": {
+    "fr": "Pristina",
+    "en": "Pristina",
+    "ar": "برشتينة",
+    "es": "Pristina"
+   }
+  },
+  "center": [
+   42.67,
+   21.17
+  ],
+  "area": 10908,
+  "population": 1586659,
+  "flag": "🇽🇰",
+  "bbox": [
+   20.03,
+   41.85,
+   21.75,
+   43.26
+  ],
+  "wiki": {
+   "fr": "Kosovo",
+   "en": "Kosovo",
+   "ar": "كوسوفو",
+   "es": "Kosovo"
+  }
+ },
+ {
+  "code": "KW",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Koweït",
+   "en": "Kuwait",
+   "ar": "الكويت",
+   "es": "Kuwait"
+  },
+  "capital": {
+   "lat": 29.375,
+   "lng": 47.98,
+   "names": {
+    "fr": "Koweït",
+    "en": "Kuwait City",
+    "ar": "مدينة الكويت",
+    "es": "Ciudad de Kuwait"
+   }
+  },
+  "center": [
+   29.5,
+   45.75
+  ],
+  "area": 17818,
+  "population": 4464000,
+  "flag": "🇰🇼",
+  "bbox": [
+   46.53,
+   28.53,
+   48.44,
+   30.1
+  ],
+  "wiki": {
+   "fr": "Koweït",
+   "en": "Kuwait",
+   "ar": "الكويت",
+   "es": "Kuwait"
+  }
+ },
+ {
+  "code": "KG",
+  "region": "asia",
+  "subregion": "Central Asia",
+  "names": {
+   "fr": "Kirghizistan",
+   "en": "Kyrgyzstan",
+   "ar": "قيرغيزستان",
+   "es": "Kirguizistán"
+  },
+  "capital": {
+   "lat": 42.8667,
+   "lng": 74.5667,
+   "names": {
+    "fr": "Bichkek",
+    "en": "Bishkek",
+    "ar": "بيشكك",
+    "es": "Biskek"
+   }
+  },
+  "center": [
+   41,
+   75
+  ],
+  "area": 199951,
+  "population": 7281800,
+  "flag": "🇰🇬",
+  "bbox": [
+   69.23,
+   39.21,
+   80.25,
+   43.24
+  ],
+  "wiki": {
+   "fr": "Kirghizistan",
+   "en": "Kyrgyzstan",
+   "ar": "قرغيزستان",
+   "es": "Kirguistán"
+  }
+ },
+ {
+  "code": "LA",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Laos",
+   "en": "Laos",
+   "ar": "لاوس",
+   "es": "Laos"
+  },
+  "capital": {
+   "lat": 17.98,
+   "lng": 102.63,
+   "names": {
+    "fr": "Vientiane",
+    "en": "Vientiane",
+    "ar": "فيينتيان",
+    "es": "Vientián"
+   }
+  },
+  "center": [
+   18,
+   105
+  ],
+  "area": 236800,
+  "population": 6858160,
+  "flag": "🇱🇦",
+  "bbox": [
+   100.12,
+   13.92,
+   107.65,
+   22.5
+  ],
+  "wiki": {
+   "fr": "Laos",
+   "en": "Laos",
+   "ar": "لاوس",
+   "es": "Laos"
+  }
+ },
+ {
+  "code": "LV",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Lettonie",
+   "en": "Latvia",
+   "ar": "لاتفيا",
+   "es": "Letonia"
+  },
+  "capital": {
+   "lat": 56.9475,
+   "lng": 24.1069,
+   "names": {
+    "fr": "Riga",
+    "en": "Riga",
+    "ar": "ريغا",
+    "es": "Riga"
+   }
+  },
+  "center": [
+   57,
+   25
+  ],
+  "area": 64559,
+  "population": 1845096,
+  "flag": "🇱🇻",
+  "bbox": [
+   21.02,
+   55.67,
+   28.2,
+   58.06
+  ],
+  "wiki": {
+   "fr": "Lettonie",
+   "en": "Latvia",
+   "ar": "لاتفيا",
+   "es": "Letonia"
+  }
+ },
+ {
+  "code": "LB",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Liban",
+   "en": "Lebanon",
+   "ar": "لبنان",
+   "es": "Líbano"
+  },
+  "capital": {
+   "lat": 33.8869,
+   "lng": 35.5131,
+   "names": {
+    "fr": "Beyrouth",
+    "en": "Beirut",
+    "ar": "بيروت",
+    "es": "Beirut"
+   }
+  },
+  "center": [
+   33.83,
+   35.83
+  ],
+  "area": 10452,
+  "population": 6100075,
+  "flag": "🇱🇧",
+  "bbox": [
+   35.11,
+   33.08,
+   36.59,
+   34.68
+  ],
+  "wiki": {
+   "fr": "Liban",
+   "en": "Lebanon",
+   "ar": "لبنان",
+   "es": "Líbano"
+  }
+ },
+ {
+  "code": "LS",
+  "region": "africa",
+  "subregion": "Southern Africa",
+  "names": {
+   "fr": "Lesotho",
+   "en": "Lesotho",
+   "ar": "ليسوتو",
+   "es": "Lesotho"
+  },
+  "capital": {
+   "lat": -29.31,
+   "lng": 27.48,
+   "names": {
+    "fr": "Maseru",
+    "en": "Maseru",
+    "ar": "ماسيرو",
+    "es": "Maseru"
+   }
+  },
+  "center": [
+   -29.5,
+   28.5
+  ],
+  "area": 30355,
+  "population": 2007201,
+  "flag": "🇱🇸",
+  "bbox": [
+   27.05,
+   -30.64,
+   29.39,
+   -28.58
+  ],
+  "wiki": {
+   "fr": "Lesotho",
+   "en": "Lesotho",
+   "ar": "ليسوتو",
+   "es": "Lesoto"
+  }
+ },
+ {
+  "code": "LR",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Liberia",
+   "en": "Liberia",
+   "ar": "ليبيريا",
+   "es": "Liberia"
+  },
+  "capital": {
+   "lat": 6.3106,
+   "lng": -10.8047,
+   "names": {
+    "fr": "Monrovia",
+    "en": "Monrovia",
+    "ar": "مونروفيا",
+    "es": "Monrovia"
+   }
+  },
+  "center": [
+   6.5,
+   -9.5
+  ],
+  "area": 111369,
+  "population": 5214030,
+  "flag": "🇱🇷",
+  "bbox": [
+   -11.51,
+   4.35,
+   -7.4,
+   8.54
+  ],
+  "wiki": {
+   "fr": "Liberia",
+   "en": "Liberia",
+   "ar": "ليبيريا",
+   "es": "Liberia"
+  }
+ },
+ {
+  "code": "LY",
+  "region": "africa",
+  "subregion": "Northern Africa",
+  "names": {
+   "fr": "Libye",
+   "en": "Libya",
+   "ar": "ليبيا",
+   "es": "Libia"
+  },
+  "capital": {
+   "lat": 32.8875,
+   "lng": 13.1875,
+   "names": {
+    "fr": "Tripoli",
+    "en": "Tripoli",
+    "ar": "طرابلس",
+    "es": "Trípoli"
+   }
+  },
+  "center": [
+   25,
+   17
+  ],
+  "area": 1759540,
+  "population": 7381023,
+  "flag": "🇱🇾",
+  "bbox": [
+   9.31,
+   19.5,
+   25.15,
+   33.18
+  ],
+  "wiki": {
+   "fr": "Libye",
+   "en": "Libya",
+   "ar": "ليبيا",
+   "es": "Libia"
+  }
+ },
+ {
+  "code": "LI",
+  "region": "europe",
+  "subregion": "Western Europe",
+  "names": {
+   "fr": "Liechtenstein",
+   "en": "Liechtenstein",
+   "ar": "ليختنشتاين",
+   "es": "Liechtenstein"
+  },
+  "capital": {
+   "lat": 47.1406,
+   "lng": 9.5222,
+   "names": {
+    "fr": "Vaduz",
+    "en": "Vaduz",
+    "ar": "فادوتس",
+    "es": "Vaduz"
+   }
+  },
+  "center": [
+   47.27,
+   9.53
+  ],
+  "area": 160,
+  "population": 37922,
+  "flag": "🇱🇮",
+  "bbox": [
+   9.48,
+   47.06,
+   9.61,
+   47.27
+  ],
+  "wiki": {
+   "fr": "Liechtenstein",
+   "en": "Liechtenstein",
+   "ar": "ليختنشتاين",
+   "es": "Liechtenstein"
+  }
+ },
+ {
+  "code": "LT",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Lituanie",
+   "en": "Lithuania",
+   "ar": "ليتوانيا",
+   "es": "Lituania"
+  },
+  "capital": {
+   "lat": 54.6872,
+   "lng": 25.28,
+   "names": {
+    "fr": "Vilnius",
+    "en": "Vilnius",
+    "ar": "فيلنيوس",
+    "es": "Vilna"
+   }
+  },
+  "center": [
+   56,
+   24
+  ],
+  "area": 65300,
+  "population": 2860002,
+  "flag": "🇱🇹",
+  "bbox": [
+   20.9,
+   53.89,
+   26.78,
+   56.41
+  ],
+  "wiki": {
+   "fr": "Lituanie",
+   "en": "Lithuania",
+   "ar": "ليتوانيا",
+   "es": "Lituania"
+  }
+ },
+ {
+  "code": "LU",
+  "region": "europe",
+  "subregion": "Western Europe",
+  "names": {
+   "fr": "Luxembourg",
+   "en": "Luxembourg",
+   "ar": "لوكسمبورغ",
+   "es": "Luxemburgo"
+  },
+  "capital": {
+   "lat": 49.6114,
+   "lng": 6.13,
+   "names": {
+    "fr": "Luxembourg",
+    "en": "Luxembourg",
+    "ar": "مدينة لوكسمبورغ",
+    "es": "Luxemburgo"
+   }
+  },
+  "center": [
+   49.75,
+   6.17
+  ],
+  "area": 2586,
+  "population": 690959,
+  "flag": "🇱🇺",
+  "bbox": [
+   5.73,
+   49.45,
+   6.49,
+   50.17
+  ],
+  "wiki": {
+   "fr": "Luxembourg",
+   "en": "Luxembourg",
+   "ar": "لوكسمبورغ",
+   "es": "Luxemburgo"
+  }
+ },
+ {
+  "code": "MG",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Madagascar",
+   "en": "Madagascar",
+   "ar": "مدغشقر",
+   "es": "Madagascar"
+  },
+  "capital": {
+   "lat": -18.91,
+   "lng": 47.525,
+   "names": {
+    "fr": "Antananarivo",
+    "en": "Antananarivo",
+    "ar": "أنتانانريفو",
+    "es": "Antananarivo"
+   }
+  },
+  "center": [
+   -20,
+   47
+  ],
+  "area": 587041,
+  "population": 31964956,
+  "flag": "🇲🇬",
+  "bbox": [
+   43.26,
+   -25.57,
+   50.48,
+   -12.08
+  ],
+  "wiki": {
+   "fr": "Madagascar",
+   "en": "Madagascar",
+   "ar": "مدغشقر",
+   "es": "Madagascar"
+  }
+ },
+ {
+  "code": "MW",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Malawi",
+   "en": "Malawi",
+   "ar": "مالاوي",
+   "es": "Malawi"
+  },
+  "capital": {
+   "lat": -13.9864,
+   "lng": 33.7681,
+   "names": {
+    "fr": "Lilongwe",
+    "en": "Lilongwe",
+    "ar": "ليلونغوي",
+    "es": "Lilongüe"
+   }
+  },
+  "center": [
+   -13.5,
+   34
+  ],
+  "area": 118484,
+  "population": 17563749,
+  "flag": "🇲🇼",
+  "bbox": [
+   32.67,
+   -17.13,
+   35.89,
+   -9.39
+  ],
+  "wiki": {
+   "fr": "Malawi",
+   "en": "Malawi",
+   "ar": "ملاوي",
+   "es": "Malaui"
+  }
+ },
+ {
+  "code": "MY",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Malaisie",
+   "en": "Malaysia",
+   "ar": "ماليزيا",
+   "es": "Malasia"
+  },
+  "capital": {
+   "lat": 3.1478,
+   "lng": 101.6953,
+   "names": {
+    "fr": "Kuala Lumpur",
+    "en": "Kuala Lumpur",
+    "ar": "كوالالمبور",
+    "es": "Kuala Lumpur"
+   }
+  },
+  "center": [
+   2.5,
+   112.5
+  ],
+  "area": 330803,
+  "population": 34231700,
+  "flag": "🇲🇾",
+  "bbox": [
+   99.65,
+   0.86,
+   119.27,
+   7.35
+  ],
+  "wiki": {
+   "fr": "Malaisie",
+   "en": "Malaysia",
+   "ar": "ماليزيا",
+   "es": "Malasia"
+  }
+ },
+ {
+  "code": "MV",
+  "region": "asia",
+  "subregion": "Southern Asia",
+  "names": {
+   "fr": "Maldives",
+   "en": "Maldives",
+   "ar": "المالديف",
+   "es": "Maldivas"
+  },
+  "capital": {
+   "lat": 4.175,
+   "lng": 73.5083,
+   "names": {
+    "fr": "Malé",
+    "en": "Malé",
+    "ar": "ماليه",
+    "es": "Malé"
+   }
+  },
+  "center": [
+   3.25,
+   73
+  ],
+  "area": 300,
+  "population": 436330,
+  "flag": "🇲🇻",
+  "bbox": [
+   73.38,
+   3.23,
+   73.53,
+   4.25
+  ],
+  "wiki": {
+   "fr": "Maldives",
+   "en": "Maldives",
+   "ar": "المالديف",
+   "es": "Maldivas"
+  }
+ },
+ {
+  "code": "ML",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Mali",
+   "en": "Mali",
+   "ar": "مالي",
+   "es": "Mali"
+  },
+  "capital": {
+   "lat": 12.6458,
+   "lng": -7.9922,
+   "names": {
+    "fr": "Bamako",
+    "en": "Bamako",
+    "ar": "باماكو",
+    "es": "Bamako"
+   }
+  },
+  "center": [
+   17,
+   -4
+  ],
+  "area": 1240192,
+  "population": 22395489,
+  "flag": "🇲🇱",
+  "bbox": [
+   -12.28,
+   10.14,
+   4.24,
+   25
+  ],
+  "wiki": {
+   "fr": "Mali",
+   "en": "Mali",
+   "ar": "مالي",
+   "es": "Mali"
+  }
+ },
+ {
+  "code": "MT",
+  "region": "europe",
+  "subregion": "Southern Europe",
+  "names": {
+   "fr": "Malte",
+   "en": "Malta",
+   "ar": "مالطا",
+   "es": "Malta"
+  },
+  "capital": {
+   "lat": 35.8978,
+   "lng": 14.5125,
+   "names": {
+    "fr": "La Valette",
+    "en": "Valletta",
+    "ar": "البلد",
+    "es": "La Valeta"
+   }
+  },
+  "center": [
+   35.83,
+   14.58
+  ],
+  "area": 316,
+  "population": 553214,
+  "flag": "🇲🇹",
+  "bbox": [
+   14.18,
+   35.82,
+   14.57,
+   36.08
+  ],
+  "wiki": {
+   "fr": "Malte",
+   "en": "Malta",
+   "ar": "مالطا",
+   "es": "Malta"
+  }
+ },
+ {
+  "code": "MH",
+  "region": "oceania",
+  "subregion": "Micronesia",
+  "names": {
+   "fr": "Îles Marshall",
+   "en": "Marshall Islands",
+   "ar": "جزر مارشال",
+   "es": "Islas Marshall"
+  },
+  "capital": {
+   "lat": 7.0918,
+   "lng": 171.3802,
+   "names": {
+    "fr": "Majuro",
+    "en": "Majuro",
+    "ar": "ماجورو",
+    "es": "Majuro"
+   }
+  },
+  "center": [
+   9,
+   168
+  ],
+  "area": 181,
+  "population": 53127,
+  "flag": "🇲🇭",
+  "bbox": [
+   166.85,
+   5.8,
+   171.76,
+   11.17
+  ],
+  "wiki": {
+   "fr": "Îles Marshall",
+   "en": "Marshall Islands",
+   "ar": "جزر مارشال",
+   "es": "Islas Marshall"
+  }
+ },
+ {
+  "code": "MR",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Mauritanie",
+   "en": "Mauritania",
+   "ar": "موريتانيا",
+   "es": "Mauritania"
+  },
+  "capital": {
+   "lat": 18.0858,
+   "lng": -15.9785,
+   "names": {
+    "fr": "Nouakchott",
+    "en": "Nouakchott",
+    "ar": "نواكشوط",
+    "es": "Nuakchot"
+   }
+  },
+  "center": [
+   20,
+   -12
+  ],
+  "area": 1030700,
+  "population": 4736139,
+  "flag": "🇲🇷",
+  "bbox": [
+   -17.06,
+   14.75,
+   -4.82,
+   27.29
+  ],
+  "wiki": {
+   "fr": "Mauritanie",
+   "en": "Mauritania",
+   "ar": "موريتانيا",
+   "es": "Mauritania"
+  }
+ },
+ {
+  "code": "MU",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Île Maurice",
+   "en": "Mauritius",
+   "ar": "موريشيوس",
+   "es": "Mauricio"
+  },
+  "capital": {
+   "lat": -20.1619,
+   "lng": 57.4989,
+   "names": {
+    "fr": "Port-Louis",
+    "en": "Port Louis",
+    "ar": "بورت لويس",
+    "es": "Port Louis"
+   }
+  },
+  "center": [
+   -20.28,
+   57.55
+  ],
+  "area": 2040,
+  "population": 1264613,
+  "flag": "🇲🇺",
+  "bbox": [
+   57.32,
+   -20.51,
+   57.79,
+   -19.99
+  ],
+  "wiki": {
+   "fr": "Maurice (pays)",
+   "en": "Mauritius",
+   "ar": "موريشيوس",
+   "es": "Mauricio"
+  }
+ },
+ {
+  "code": "MX",
+  "region": "americas",
+  "subregion": "North America",
+  "names": {
+   "fr": "Mexique",
+   "en": "Mexico",
+   "ar": "المسكيك",
+   "es": "México"
+  },
+  "capital": {
+   "lat": 19.3538,
+   "lng": -99.1359,
+   "names": {
+    "fr": "Mexico",
+    "en": "Mexico City",
+    "ar": "مدينة مكسيكو",
+    "es": "Ciudad de México"
+   }
+  },
+  "center": [
+   23,
+   -102
+  ],
+  "area": 1964375,
+  "population": 132274416,
+  "flag": "🇲🇽",
+  "bbox": [
+   -118.4,
+   14.55,
+   -86.7,
+   32.72
+  ],
+  "wiki": {
+   "fr": "Mexique",
+   "en": "Mexico",
+   "ar": "المكسيك",
+   "es": "México"
+  }
+ },
+ {
+  "code": "FM",
+  "region": "oceania",
+  "subregion": "Micronesia",
+  "names": {
+   "fr": "Micronésie",
+   "en": "Micronesia",
+   "ar": "ميكرونيسيا",
+   "es": "Micronesia"
+  },
+  "capital": {
+   "lat": 6.9178,
+   "lng": 158.185,
+   "names": {
+    "fr": "Palikir",
+    "en": "Palikir",
+    "ar": "باليكير",
+    "es": "Palikir"
+   }
+  },
+  "center": [
+   6.92,
+   158.25
+  ],
+  "area": 702,
+  "population": 75817,
+  "flag": "🇫🇲",
+  "bbox": [
+   138.06,
+   5.28,
+   162.99,
+   9.59
+  ],
+  "wiki": {
+   "fr": "États fédérés de Micronésie",
+   "en": "Federated States of Micronesia",
+   "ar": "ولايات ميكرونيسيا المتحدة",
+   "es": "Estados Federados de Micronesia"
+  }
+ },
+ {
+  "code": "MD",
+  "region": "europe",
+  "subregion": "Eastern Europe",
+  "names": {
+   "fr": "Moldavie",
+   "en": "Moldova",
+   "ar": "مولدوڤا",
+   "es": "Moldavia"
+  },
+  "capital": {
+   "lat": 47.0228,
+   "lng": 28.8353,
+   "names": {
+    "fr": "Chișinău",
+    "en": "Chișinău",
+    "ar": "كيشيناو",
+    "es": "Chisináu"
+   }
+  },
+  "center": [
+   47,
+   29
+  ],
+  "area": 33846,
+  "population": 2409207,
+  "flag": "🇲🇩",
+  "bbox": [
+   26.62,
+   45.45,
+   30.13,
+   48.48
+  ],
+  "wiki": {
+   "fr": "Moldavie",
+   "en": "Moldova",
+   "ar": "مولدوفا",
+   "es": "Moldavia"
+  }
+ },
+ {
+  "code": "MC",
+  "region": "europe",
+  "subregion": "Western Europe",
+  "names": {
+   "fr": "Monaco",
+   "en": "Monaco",
+   "ar": "موناكو",
+   "es": "Mónaco"
+  },
+  "capital": {
+   "lat": 43.7311,
+   "lng": 7.42,
+   "names": {
+    "fr": "Monaco",
+    "en": "Monaco",
+    "ar": "موناكو",
+    "es": "Mónaco"
+   }
+  },
+  "center": [
+   43.73,
+   7.4
+  ],
+  "area": 2.02,
+  "population": 38857,
+  "flag": "🇲🇨",
+  "bbox": [
+   7.38,
+   43.73,
+   7.44,
+   43.77
+  ],
+  "wiki": {
+   "fr": "Monaco",
+   "en": "Monaco",
+   "ar": "موناكو",
+   "es": "Mónaco"
+  }
+ },
+ {
+  "code": "MN",
+  "region": "asia",
+  "subregion": "Eastern Asia",
+  "names": {
+   "fr": "Mongolie",
+   "en": "Mongolia",
+   "ar": "منغوليا",
+   "es": "Mongolia"
+  },
+  "capital": {
+   "lat": 47.9214,
+   "lng": 106.9055,
+   "names": {
+    "fr": "Oulan-Bator",
+    "en": "Ulaanbaatar",
+    "ar": "أولان باتور",
+    "es": "Ulán Bator"
+   }
+  },
+  "center": [
+   46,
+   105
+  ],
+  "area": 1564110,
+  "population": 3409939,
+  "flag": "🇲🇳",
+  "bbox": [
+   87.74,
+   41.6,
+   119.9,
+   52.12
+  ],
+  "wiki": {
+   "fr": "Mongolie",
+   "en": "Mongolia",
+   "ar": "منغوليا",
+   "es": "Mongolia"
+  }
+ },
+ {
+  "code": "ME",
+  "region": "europe",
+  "subregion": "Southeast Europe",
+  "names": {
+   "fr": "Monténégro",
+   "en": "Montenegro",
+   "ar": "الجبل الاسود",
+   "es": "Montenegro"
+  },
+  "capital": {
+   "lat": 42.4414,
+   "lng": 19.2628,
+   "names": {
+    "fr": "Podgorica",
+    "en": "Podgorica",
+    "ar": "بودغوريتسا",
+    "es": "Podgorica"
+   }
+  },
+  "center": [
+   42.5,
+   19.3
+  ],
+  "area": 13812,
+  "population": 617213,
+  "flag": "🇲🇪",
+  "bbox": [
+   18.44,
+   41.87,
+   20.35,
+   43.54
+  ],
+  "wiki": {
+   "fr": "Monténégro",
+   "en": "Montenegro",
+   "ar": "الجبل الأسود",
+   "es": "Montenegro"
+  }
+ },
+ {
+  "code": "MA",
+  "region": "africa",
+  "subregion": "Northern Africa",
+  "names": {
+   "fr": "Maroc",
+   "en": "Morocco",
+   "ar": "المغرب",
+   "es": "Marruecos"
+  },
+  "capital": {
+   "lat": 34.0211,
+   "lng": -6.8414,
+   "names": {
+    "fr": "Rabat",
+    "en": "Rabat",
+    "ar": "الرباط",
+    "es": "Rabat"
+   }
+  },
+  "center": [
+   32,
+   -5
+  ],
+  "area": 446550,
+  "population": 36828330,
+  "flag": "🇲🇦",
+  "bbox": [
+   -13.16,
+   27.67,
+   -1.06,
+   35.93
+  ],
+  "wiki": {
+   "fr": "Maroc",
+   "en": "Morocco",
+   "ar": "المغرب",
+   "es": "Marruecos"
+  }
+ },
+ {
+  "code": "MZ",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Mozambique",
+   "en": "Mozambique",
+   "ar": "موزمبيق",
+   "es": "Mozambique"
+  },
+  "capital": {
+   "lat": -25.9689,
+   "lng": 32.5733,
+   "names": {
+    "fr": "Maputo",
+    "en": "Maputo",
+    "ar": "مابوتو",
+    "es": "Maputo"
+   }
+  },
+  "center": [
+   -18.25,
+   35
+  ],
+  "area": 801590,
+  "population": 29668834,
+  "flag": "🇲🇿",
+  "bbox": [
+   30.22,
+   -26.86,
+   40.84,
+   -10.46
+  ],
+  "wiki": {
+   "fr": "Mozambique",
+   "en": "Mozambique",
+   "ar": "موزمبيق",
+   "es": "Mozambique"
+  }
+ },
+ {
+  "code": "MM",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Birmanie",
+   "en": "Myanmar",
+   "ar": "ميانمار",
+   "es": "Myanmar"
+  },
+  "capital": {
+   "lat": 19.7475,
+   "lng": 96.115,
+   "names": {
+    "fr": "Naypyidaw",
+    "en": "Naypyidaw",
+    "ar": "نايبيداو",
+    "es": "Naipyidó"
+   }
+  },
+  "center": [
+   22,
+   98
+  ],
+  "area": 676578,
+  "population": 53370609,
+  "flag": "🇲🇲",
+  "bbox": [
+   92.18,
+   9.88,
+   101.15,
+   28.52
+  ],
+  "wiki": {
+   "fr": "Birmanie",
+   "en": "Myanmar",
+   "ar": "ميانمار",
+   "es": "Birmania"
+  }
+ },
+ {
+  "code": "NA",
+  "region": "africa",
+  "subregion": "Southern Africa",
+  "names": {
+   "fr": "Namibie",
+   "en": "Namibia",
+   "ar": "ناميبيا",
+   "es": "Namibia"
+  },
+  "capital": {
+   "lat": -22.57,
+   "lng": 17.0836,
+   "names": {
+    "fr": "Windhoek",
+    "en": "Windhoek",
+    "ar": "ويندهوك",
+    "es": "Windhoek"
+   }
+  },
+  "center": [
+   -22,
+   17
+  ],
+  "area": 825615,
+  "population": 2533794,
+  "flag": "🇳🇦",
+  "bbox": [
+   11.72,
+   -28.94,
+   25.26,
+   -16.97
+  ],
+  "wiki": {
+   "fr": "Namibie",
+   "en": "Namibia",
+   "ar": "ناميبيا",
+   "es": "Namibia"
+  }
+ },
+ {
+  "code": "NR",
+  "region": "oceania",
+  "subregion": "Micronesia",
+  "names": {
+   "fr": "Nauru",
+   "en": "Nauru",
+   "ar": "ناورو",
+   "es": "Nauru"
+  },
+  "capital": {
+   "lat": -0.5477,
+   "lng": 166.9209,
+   "names": {
+    "fr": "Yaren",
+    "en": "Yaren District",
+    "ar": "ضاحية يارين",
+    "es": "Yaren"
+   }
+  },
+  "center": [
+   -0.53,
+   166.92
+  ],
+  "area": 21,
+  "population": 13650,
+  "flag": "🇳🇷",
+  "bbox": [
+   166.91,
+   -0.55,
+   166.96,
+   -0.49
+  ],
+  "wiki": {
+   "fr": "Nauru",
+   "en": "Nauru",
+   "ar": "ناورو",
+   "es": "Nauru"
+  }
+ },
+ {
+  "code": "NP",
+  "region": "asia",
+  "subregion": "Southern Asia",
+  "names": {
+   "fr": "Népal",
+   "en": "Nepal",
+   "ar": "نيبال",
+   "es": "Nepal"
+  },
+  "capital": {
+   "lat": 27.71,
+   "lng": 85.32,
+   "names": {
+    "fr": "Katmandou",
+    "en": "Kathmandu",
+    "ar": "كتمندو",
+    "es": "Katmandú"
+   }
+  },
+  "center": [
+   28,
+   84
+  ],
+  "area": 147181,
+  "population": 29164578,
+  "flag": "🇳🇵",
+  "bbox": [
+   80.05,
+   26.36,
+   88.16,
+   30.39
+  ],
+  "wiki": {
+   "fr": "Népal",
+   "en": "Nepal",
+   "ar": "نيبال",
+   "es": "Nepal"
+  }
+ },
+ {
+  "code": "NL",
+  "region": "europe",
+  "subregion": "Western Europe",
+  "names": {
+   "fr": "Pays-Bas",
+   "en": "Netherlands",
+   "ar": "هولندا",
+   "es": "Países Bajos"
+  },
+  "capital": {
+   "lat": 52.3667,
+   "lng": 4.8833,
+   "names": {
+    "fr": "Amsterdam",
+    "en": "Amsterdam",
+    "ar": "أمستردام",
+    "es": "Ámsterdam"
+   }
+  },
+  "center": [
+   52.5,
+   5.75
+  ],
+  "area": 41850,
+  "population": 17100715,
+  "flag": "🇳🇱",
+  "bbox": [
+   -68.37,
+   12.03,
+   7.2,
+   53.63
+  ],
+  "wiki": {
+   "fr": "Pays-Bas",
+   "en": "Kingdom of the Netherlands",
+   "ar": "مملكة هولندا",
+   "es": "Reino de los Países Bajos"
+  }
+ },
+ {
+  "code": "NZ",
+  "region": "oceania",
+  "subregion": "Australia and New Zealand",
+  "names": {
+   "fr": "Nouvelle-Zélande",
+   "en": "New Zealand",
+   "ar": "نيوزيلندا",
+   "es": "Nueva Zelanda"
+  },
+  "capital": {
+   "lat": -41.2889,
+   "lng": 174.7772,
+   "names": {
+    "fr": "Wellington",
+    "en": "Wellington",
+    "ar": "ويلينغتون",
+    "es": "Wellington"
+   }
+  },
+  "center": [
+   -41,
+   174
+  ],
+  "area": 270467,
+  "population": 5307800,
+  "flag": "🇳🇿",
+  "bbox": [
+   -176.85,
+   -52.57,
+   178.54,
+   -8.55
+  ],
+  "wiki": {
+   "fr": "Nouvelle-Zélande",
+   "en": "New Zealand",
+   "ar": "نيوزيلندا",
+   "es": "Nueva Zelanda"
+  }
+ },
+ {
+  "code": "NI",
+  "region": "americas",
+  "subregion": "Central America",
+  "names": {
+   "fr": "Nicaragua",
+   "en": "Nicaragua",
+   "ar": "نيكاراغوا",
+   "es": "Nicaragua"
+  },
+  "capital": {
+   "lat": 12.1547,
+   "lng": -86.2737,
+   "names": {
+    "fr": "Managua",
+    "en": "Managua",
+    "ar": "ماناغوا",
+    "es": "Managua"
+   }
+  },
+  "center": [
+   13,
+   -85
+  ],
+  "area": 130373,
+  "population": 5142098,
+  "flag": "🇳🇮",
+  "bbox": [
+   -87.67,
+   10.74,
+   -83.16,
+   15.01
+  ],
+  "wiki": {
+   "fr": "Nicaragua",
+   "en": "Nicaragua",
+   "ar": "نيكاراغوا",
+   "es": "Nicaragua"
+  }
+ },
+ {
+  "code": "NE",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Niger",
+   "en": "Niger",
+   "ar": "النيجر",
+   "es": "Níger"
+  },
+  "capital": {
+   "lat": 13.515,
+   "lng": 2.1175,
+   "names": {
+    "fr": "Niamey",
+    "en": "Niamey",
+    "ar": "نيامي",
+    "es": "Niamey"
+   }
+  },
+  "center": [
+   16,
+   8
+  ],
+  "area": 1267000,
+  "population": 21477348,
+  "flag": "🇳🇪",
+  "bbox": [
+   0.16,
+   11.7,
+   15.96,
+   23.52
+  ],
+  "wiki": {
+   "fr": "Niger",
+   "en": "Niger",
+   "ar": "النيجر",
+   "es": "Níger"
+  }
+ },
+ {
+  "code": "NG",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Nigéria",
+   "en": "Nigeria",
+   "ar": "نيجيريا",
+   "es": "Nigeria"
+  },
+  "capital": {
+   "lat": 9.0556,
+   "lng": 7.4914,
+   "names": {
+    "fr": "Abuja",
+    "en": "Abuja",
+    "ar": "أبوجا",
+    "es": "Abuya"
+   }
+  },
+  "center": [
+   10,
+   8
+  ],
+  "area": 923768,
+  "population": 211400708,
+  "flag": "🇳🇬",
+  "bbox": [
+   2.69,
+   4.28,
+   14.63,
+   13.87
+  ],
+  "wiki": {
+   "fr": "Nigeria",
+   "en": "Nigeria",
+   "ar": "نيجيريا",
+   "es": "Nigeria"
+  }
+ },
+ {
+  "code": "KP",
+  "region": "asia",
+  "subregion": "Eastern Asia",
+  "names": {
+   "fr": "Corée du Nord",
+   "en": "North Korea",
+   "ar": "كوريا الشمالية",
+   "es": "Corea del Norte"
+  },
+  "capital": {
+   "lat": 39.0167,
+   "lng": 125.7475,
+   "names": {
+    "fr": "Pyongyang",
+    "en": "Pyongyang",
+    "ar": "بيونغيانغ",
+    "es": "Pionyang"
+   }
+  },
+  "center": [
+   40,
+   127
+  ],
+  "area": 120538,
+  "population": 26418204,
+  "flag": "🇰🇵",
+  "bbox": [
+   124.35,
+   37.72,
+   130.69,
+   43
+  ],
+  "wiki": {
+   "fr": "Corée du Nord",
+   "en": "North Korea",
+   "ar": "كوريا الشمالية",
+   "es": "Corea del Norte"
+  }
+ },
+ {
+  "code": "MK",
+  "region": "europe",
+  "subregion": "Southeast Europe",
+  "names": {
+   "fr": "Macédoine du Nord",
+   "en": "North Macedonia",
+   "ar": "شمال مقدونيا",
+   "es": "Macedonia del Norte"
+  },
+  "capital": {
+   "lat": 41.9961,
+   "lng": 21.4317,
+   "names": {
+    "fr": "Skopje",
+    "en": "Skopje",
+    "ar": "إسكوبية",
+    "es": "Skopie"
+   }
+  },
+  "center": [
+   41.83,
+   22
+  ],
+  "area": 25713,
+  "population": 1836713,
+  "flag": "🇲🇰",
+  "bbox": [
+   20.45,
+   40.85,
+   23.01,
+   42.36
+  ],
+  "wiki": {
+   "fr": "Macédoine du Nord",
+   "en": "North Macedonia",
+   "ar": "مقدونيا الشمالية",
+   "es": "Macedonia del Norte"
+  }
+ },
+ {
+  "code": "NO",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Norvège",
+   "en": "Norway",
+   "ar": "النرويج",
+   "es": "Noruega"
+  },
+  "capital": {
+   "lat": 59.9133,
+   "lng": 10.7389,
+   "names": {
+    "fr": "Oslo",
+    "en": "Oslo",
+    "ar": "أوسلو",
+    "es": "Oslo"
+   }
+  },
+  "center": [
+   62,
+   10
+  ],
+  "area": 323802,
+  "population": 5627400,
+  "flag": "🇳🇴",
+  "bbox": [
+   -9.1,
+   58.02,
+   33.63,
+   80.48
+  ],
+  "wiki": {
+   "fr": "Norvège",
+   "en": "Norway",
+   "ar": "النرويج",
+   "es": "Noruega"
+  }
+ },
+ {
+  "code": "OM",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Oman",
+   "en": "Oman",
+   "ar": "عمان",
+   "es": "Omán"
+  },
+  "capital": {
+   "lat": 23.6139,
+   "lng": 58.5922,
+   "names": {
+    "fr": "Mascate",
+    "en": "Muscat",
+    "ar": "مسقط",
+    "es": "Mascate"
+   }
+  },
+  "center": [
+   21,
+   57
+  ],
+  "area": 309500,
+  "population": 4829480,
+  "flag": "🇴🇲",
+  "bbox": [
+   51.98,
+   16.65,
+   59.84,
+   26.36
+  ],
+  "wiki": {
+   "fr": "Oman",
+   "en": "Oman",
+   "ar": "سلطنة عمان",
+   "es": "Omán"
+  }
+ },
+ {
+  "code": "PK",
+  "region": "asia",
+  "subregion": "Southern Asia",
+  "names": {
+   "fr": "Pakistan",
+   "en": "Pakistan",
+   "ar": "باكستان",
+   "es": "Pakistán"
+  },
+  "capital": {
+   "lat": 33.6989,
+   "lng": 73.0369,
+   "names": {
+    "fr": "Islamabad",
+    "en": "Islamabad",
+    "ar": "إسلام آباد",
+    "es": "Islamabad"
+   }
+  },
+  "center": [
+   30,
+   70
+  ],
+  "area": 881912,
+  "population": 223773700,
+  "flag": "🇵🇰",
+  "bbox": [
+   60.84,
+   23.75,
+   77.05,
+   37.04
+  ],
+  "wiki": {
+   "fr": "Pakistan",
+   "en": "Pakistan",
+   "ar": "باكستان",
+   "es": "Pakistán"
+  }
+ },
+ {
+  "code": "PW",
+  "region": "oceania",
+  "subregion": "Micronesia",
+  "names": {
+   "fr": "Palaos (Palau)",
+   "en": "Palau",
+   "ar": "بالاو",
+   "es": "Palau"
+  },
+  "capital": {
+   "lat": 7.5006,
+   "lng": 134.6242,
+   "names": {
+    "fr": "Ngerulmud",
+    "en": "Ngerulmud",
+    "ar": "نغيرولمود",
+    "es": "Ngerulmud"
+   }
+  },
+  "center": [
+   7.5,
+   134.5
+  ],
+  "area": 459,
+  "population": 21729,
+  "flag": "🇵🇼",
+  "bbox": [
+   131.14,
+   3.02,
+   134.66,
+   7.71
+  ],
+  "wiki": {
+   "fr": "Palaos",
+   "en": "Palau",
+   "ar": "بالاو",
+   "es": "Palaos"
+  }
+ },
+ {
+  "code": "PS",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Palestine",
+   "en": "Palestine",
+   "ar": "فلسطين",
+   "es": "Palestina"
+  },
+  "capital": {
+   "lat": 31.8969,
+   "lng": 35.2017,
+   "names": {
+    "fr": "Ramallah",
+    "en": "Ramallah",
+    "ar": "رام الله",
+    "es": "Ramala"
+   }
+  },
+  "center": [
+   31.9,
+   35.2
+  ],
+  "area": 6220,
+  "population": 5227193,
+  "flag": "🇵🇸",
+  "bbox": [
+   34.2,
+   31.21,
+   35.57,
+   32.53
+  ],
+  "wiki": {
+   "fr": "Palestine (État)",
+   "en": "Palestine",
+   "ar": "دولة فلسطين",
+   "es": "Palestina"
+  }
+ },
+ {
+  "code": "PA",
+  "region": "americas",
+  "subregion": "Central America",
+  "names": {
+   "fr": "Panama",
+   "en": "Panama",
+   "ar": "بنما",
+   "es": "Panamá"
+  },
+  "capital": {
+   "lat": 8.9711,
+   "lng": -79.5347,
+   "names": {
+    "fr": "Panama",
+    "en": "Panama City",
+    "ar": "مدينة بنما",
+    "es": "Ciudad de Panamá"
+   }
+  },
+  "center": [
+   9,
+   -80
+  ],
+  "area": 75417,
+  "population": 4570133,
+  "flag": "🇵🇦",
+  "bbox": [
+   -83.03,
+   7.22,
+   -77.2,
+   9.6
+  ],
+  "wiki": {
+   "fr": "Panama",
+   "en": "Panama",
+   "ar": "بنما",
+   "es": "Panamá"
+  }
+ },
+ {
+  "code": "PG",
+  "region": "oceania",
+  "subregion": "Melanesia",
+  "names": {
+   "fr": "Papouasie-Nouvelle-Guinée",
+   "en": "Papua New Guinea",
+   "ar": "بابوا غينيا الجديدة",
+   "es": "Papúa Nueva Guinea"
+  },
+  "capital": {
+   "lat": -9.4789,
+   "lng": 147.1494,
+   "names": {
+    "fr": "Port Moresby",
+    "en": "Port Moresby",
+    "ar": "بورت مورسبي",
+    "es": "Puerto Moresby"
+   }
+  },
+  "center": [
+   -6,
+   147
+  ],
+  "area": 462840,
+  "population": 8935000,
+  "flag": "🇵🇬",
+  "bbox": [
+   140.86,
+   -11.63,
+   155.96,
+   -1.35
+  ],
+  "wiki": {
+   "fr": "Papouasie-Nouvelle-Guinée",
+   "en": "Papua New Guinea",
+   "ar": "بابوا غينيا الجديدة",
+   "es": "Papúa Nueva Guinea"
+  }
+ },
+ {
+  "code": "PY",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Paraguay",
+   "en": "Paraguay",
+   "ar": "باراغواي",
+   "es": "Paraguay"
+  },
+  "capital": {
+   "lat": -25.28,
+   "lng": -57.6344,
+   "names": {
+    "fr": "Asuncion",
+    "en": "Asunción",
+    "ar": "أسونسيون",
+    "es": "Asunción"
+   }
+  },
+  "center": [
+   -23,
+   -58
+  ],
+  "area": 406752,
+  "population": 6811297,
+  "flag": "🇵🇾",
+  "bbox": [
+   -62.65,
+   -27.55,
+   -54.24,
+   -19.29
+  ],
+  "wiki": {
+   "fr": "Paraguay",
+   "en": "Paraguay",
+   "ar": "باراغواي",
+   "es": "Paraguay"
+  }
+ },
+ {
+  "code": "PE",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Pérou",
+   "en": "Peru",
+   "ar": "بيرو",
+   "es": "Perú"
+  },
+  "capital": {
+   "lat": -12.06,
+   "lng": -77.0375,
+   "names": {
+    "fr": "Lima",
+    "en": "Lima",
+    "ar": "ليما",
+    "es": "Lima"
+   }
+  },
+  "center": [
+   -10,
+   -76
+  ],
+  "area": 1285216,
+  "population": 34157732,
+  "flag": "🇵🇪",
+  "bbox": [
+   -81.34,
+   -18.34,
+   -68.69,
+   -0.04
+  ],
+  "wiki": {
+   "fr": "Pérou",
+   "en": "Peru",
+   "ar": "بيرو",
+   "es": "Perú"
+  }
+ },
+ {
+  "code": "PH",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Philippines",
+   "en": "Philippines",
+   "ar": "الفلبين",
+   "es": "Filipinas"
+  },
+  "capital": {
+   "lat": 14.5958,
+   "lng": 120.9772,
+   "names": {
+    "fr": "Manille",
+    "en": "Manila",
+    "ar": "مانيلا",
+    "es": "Manila"
+   }
+  },
+  "center": [
+   13,
+   122
+  ],
+  "area": 342353,
+  "population": 112729484,
+  "flag": "🇵🇭",
+  "bbox": [
+   116.97,
+   5.06,
+   126.59,
+   20.84
+  ],
+  "wiki": {
+   "fr": "Philippines",
+   "en": "Philippines",
+   "ar": "الفلبين",
+   "es": "Filipinas"
+  }
+ },
+ {
+  "code": "PL",
+  "region": "europe",
+  "subregion": "Central Europe",
+  "names": {
+   "fr": "Pologne",
+   "en": "Poland",
+   "ar": "بولندا",
+   "es": "Polonia"
+  },
+  "capital": {
+   "lat": 52.23,
+   "lng": 21.0111,
+   "names": {
+    "fr": "Varsovie",
+    "en": "Warsaw",
+    "ar": "وارسو",
+    "es": "Varsovia"
+   }
+  },
+  "center": [
+   52,
+   20
+  ],
+  "area": 312679,
+  "population": 37563071,
+  "flag": "🇵🇱",
+  "bbox": [
+   14.13,
+   49.02,
+   24.1,
+   54.84
+  ],
+  "wiki": {
+   "fr": "Pologne",
+   "en": "Poland",
+   "ar": "بولندا",
+   "es": "Polonia"
+  }
+ },
+ {
+  "code": "PT",
+  "region": "europe",
+  "subregion": "Southern Europe",
+  "names": {
+   "fr": "Portugal",
+   "en": "Portugal",
+   "ar": "البرتغال",
+   "es": "Portugal"
+  },
+  "capital": {
+   "lat": 38.708,
+   "lng": -9.139,
+   "names": {
+    "fr": "Lisbonne",
+    "en": "Lisbon",
+    "ar": "لشبونة",
+    "es": "Lisboa"
+   }
+  },
+  "center": [
+   39.5,
+   -8
+  ],
+  "area": 92090,
+  "population": 10347892,
+  "flag": "🇵🇹",
+  "bbox": [
+   -31.28,
+   32.65,
+   -6.21,
+   42.14
+  ],
+  "wiki": {
+   "fr": "Portugal",
+   "en": "Portugal",
+   "ar": "البرتغال",
+   "es": "Portugal"
+  }
+ },
+ {
+  "code": "QA",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Qatar",
+   "en": "Qatar",
+   "ar": "قطر",
+   "es": "Catar"
+  },
+  "capital": {
+   "lat": 25.2861,
+   "lng": 51.5294,
+   "names": {
+    "fr": "Doha",
+    "en": "Doha",
+    "ar": "الدوحة",
+    "es": "Doha"
+   }
+  },
+  "center": [
+   25.5,
+   51.25
+  ],
+  "area": 11586,
+  "population": 2639211,
+  "flag": "🇶🇦",
+  "bbox": [
+   50.76,
+   24.57,
+   51.61,
+   26.15
+  ],
+  "wiki": {
+   "fr": "Qatar",
+   "en": "Qatar",
+   "ar": "قطر",
+   "es": "Catar"
+  }
+ },
+ {
+  "code": "CG",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "Congo",
+   "en": "Republic of the Congo",
+   "ar": "جمهورية الكونغو",
+   "es": "Congo"
+  },
+  "capital": {
+   "lat": -4.2694,
+   "lng": 15.2711,
+   "names": {
+    "fr": "Brazzaville",
+    "en": "Brazzaville",
+    "ar": "برازافيل",
+    "es": "Brazzaville"
+   }
+  },
+  "center": [
+   -1,
+   15
+  ],
+  "area": 342000,
+  "population": 6142180,
+  "flag": "🇨🇬",
+  "bbox": [
+   11.13,
+   -5,
+   18.62,
+   3.69
+  ],
+  "wiki": {
+   "fr": "République du Congo",
+   "en": "Republic of the Congo",
+   "ar": "جمهورية الكونغو",
+   "es": "República del Congo"
+  }
+ },
+ {
+  "code": "RO",
+  "region": "europe",
+  "subregion": "Southeast Europe",
+  "names": {
+   "fr": "Roumanie",
+   "en": "Romania",
+   "ar": "رومانيا",
+   "es": "Rumania"
+  },
+  "capital": {
+   "lat": 44.4134,
+   "lng": 26.0978,
+   "names": {
+    "fr": "Bucarest",
+    "en": "Bucharest",
+    "ar": "بوخارست",
+    "es": "Bucarest"
+   }
+  },
+  "center": [
+   46,
+   25
+  ],
+  "area": 238391,
+  "population": 19053815,
+  "flag": "🇷🇴",
+  "bbox": [
+   20.24,
+   43.67,
+   29.71,
+   48.26
+  ],
+  "wiki": {
+   "fr": "Roumanie",
+   "en": "Romania",
+   "ar": "رومانيا",
+   "es": "Rumania"
+  }
+ },
+ {
+  "code": "RU",
+  "region": "europe",
+  "subregion": "Eastern Europe",
+  "names": {
+   "fr": "Russie",
+   "en": "Russia",
+   "ar": "روسيا",
+   "es": "Rusia"
+  },
+  "capital": {
+   "lat": 55.7506,
+   "lng": 37.6175,
+   "names": {
+    "fr": "Moscou",
+    "en": "Moscow",
+    "ar": "موسكو",
+    "es": "Moscú"
+   }
+  },
+  "center": [
+   60,
+   100
+  ],
+  "area": 17098242,
+  "population": 146119928,
+  "flag": "🇷🇺",
+  "bbox": [
+   -180,
+   41.2,
+   180,
+   81.86
+  ],
+  "wiki": {
+   "fr": "Russie",
+   "en": "Russia",
+   "ar": "روسيا",
+   "es": "Rusia"
+  }
+ },
+ {
+  "code": "RW",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Rwanda",
+   "en": "Rwanda",
+   "ar": "رواندا",
+   "es": "Ruanda"
+  },
+  "capital": {
+   "lat": -1.9525,
+   "lng": 30.115,
+   "names": {
+    "fr": "Kigali",
+    "en": "Kigali",
+    "ar": "كيغالي",
+    "es": "Kigali"
+   }
+  },
+  "center": [
+   -2,
+   30
+  ],
+  "area": 26338,
+  "population": 14569341,
+  "flag": "🇷🇼",
+  "bbox": [
+   28.86,
+   -2.81,
+   30.88,
+   -1.06
+  ],
+  "wiki": {
+   "fr": "Rwanda",
+   "en": "Rwanda",
+   "ar": "رواندا",
+   "es": "Ruanda"
+  }
+ },
+ {
+  "code": "KN",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Saint-Christophe-et-Niévès",
+   "en": "Saint Kitts and Nevis",
+   "ar": "سانت كيتس ونيفيس",
+   "es": "San Cristóbal y Nieves"
+  },
+  "capital": {
+   "lat": 17.2983,
+   "lng": -62.7342,
+   "names": {
+    "fr": "Basseterre",
+    "en": "Basseterre",
+    "ar": "باستير",
+    "es": "Basseterre"
+   }
+  },
+  "center": [
+   17.33,
+   -62.75
+  ],
+  "area": 261,
+  "population": 46922,
+  "flag": "🇰🇳",
+  "bbox": [
+   -62.84,
+   17.1,
+   -62.53,
+   17.4
+  ],
+  "wiki": {
+   "fr": "Saint-Christophe-et-Niévès",
+   "en": "Saint Kitts and Nevis",
+   "ar": "سانت كيتس ونيفيس",
+   "es": "San Cristóbal y Nieves"
+  }
+ },
+ {
+  "code": "LC",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Sainte-Lucie",
+   "en": "Saint Lucia",
+   "ar": "سانت لوسيا",
+   "es": "Santa Lucía"
+  },
+  "capital": {
+   "lat": 14.0108,
+   "lng": -60.9894,
+   "names": {
+    "fr": "Castries",
+    "en": "Castries",
+    "ar": "كاستريس",
+    "es": "Castries"
+   }
+  },
+  "center": [
+   13.88,
+   -60.97
+  ],
+  "area": 616,
+  "population": 167591,
+  "flag": "🇱🇨",
+  "bbox": [
+   -61.07,
+   13.72,
+   -60.89,
+   14.09
+  ],
+  "wiki": {
+   "fr": "Sainte-Lucie",
+   "en": "Saint Lucia",
+   "ar": "سانت لوسيا",
+   "es": "Santa Lucía"
+  }
+ },
+ {
+  "code": "VC",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Saint-Vincent-et-les-Grenadines",
+   "en": "Saint Vincent and the Grenadines",
+   "ar": "سانت فينسنت والغرينادين",
+   "es": "San Vicente y Granadinas"
+  },
+  "capital": {
+   "lat": 13.1553,
+   "lng": -61.2274,
+   "names": {
+    "fr": "Kingstown",
+    "en": "Kingstown",
+    "ar": "كينغستاون",
+    "es": "Kingstown"
+   }
+  },
+  "center": [
+   13.25,
+   -61.2
+  ],
+  "area": 389,
+  "population": 109296,
+  "flag": "🇻🇨",
+  "bbox": [
+   -61.35,
+   12.69,
+   -61.12,
+   13.36
+  ],
+  "wiki": {
+   "fr": "Saint-Vincent-et-les-Grenadines",
+   "en": "Saint Vincent and the Grenadines",
+   "ar": "سانت فنسنت وجزر غرينادين",
+   "es": "San Vicente y las Granadinas"
+  }
+ },
+ {
+  "code": "WS",
+  "region": "oceania",
+  "subregion": "Polynesia",
+  "names": {
+   "fr": "Samoa",
+   "en": "Samoa",
+   "ar": "ساموا",
+   "es": "Samoa"
+  },
+  "capital": {
+   "lat": -13.8333,
+   "lng": -171.8333,
+   "names": {
+    "fr": "Apia",
+    "en": "Apia",
+    "ar": "أبيا",
+    "es": "Apia"
+   }
+  },
+  "center": [
+   -13.58,
+   -172.33
+  ],
+  "area": 2842,
+  "population": 200010,
+  "flag": "🇼🇸",
+  "bbox": [
+   -172.78,
+   -14.05,
+   -171.45,
+   -13.47
+  ],
+  "wiki": {
+   "fr": "Samoa",
+   "en": "Samoa",
+   "ar": "ساموا",
+   "es": "Samoa"
+  }
+ },
+ {
+  "code": "SM",
+  "region": "europe",
+  "subregion": "Southern Europe",
+  "names": {
+   "fr": "Saint-Marin",
+   "en": "San Marino",
+   "ar": "سان مارينو",
+   "es": "San Marino"
+  },
+  "capital": {
+   "lat": 43.932,
+   "lng": 12.4485,
+   "names": {
+    "fr": "Saint-Marin",
+    "en": "San Marino",
+    "ar": "مدينة سان مارينو",
+    "es": "San Marino"
+   }
+  },
+  "center": [
+   43.77,
+   12.42
+  ],
+  "area": 61,
+  "population": 34167,
+  "flag": "🇸🇲",
+  "bbox": [
+   12.4,
+   43.89,
+   12.52,
+   43.99
+  ],
+  "wiki": {
+   "fr": "Saint-Marin",
+   "en": "San Marino",
+   "ar": "سان مارينو",
+   "es": "San Marino"
+  }
+ },
+ {
+  "code": "ST",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "São Tomé et Príncipe",
+   "en": "São Tomé and Príncipe",
+   "ar": "ساو تومي وبرينسيب",
+   "es": "Santo Tomé y Príncipe"
+  },
+  "capital": {
+   "lat": 0.3375,
+   "lng": 6.7283,
+   "names": {
+    "fr": "São Tomé",
+    "en": "São Tomé",
+    "ar": "ساو تومي",
+    "es": "Santo Tomé"
+   }
+  },
+  "center": [
+   1,
+   7
+  ],
+  "area": 964,
+  "population": 204327,
+  "flag": "🇸🇹",
+  "bbox": [
+   6.47,
+   0.05,
+   7.45,
+   1.7
+  ],
+  "wiki": {
+   "fr": "Sao Tomé-et-Principe",
+   "en": "São Tomé and Príncipe",
+   "ar": "ساو تومي وبرينسيب",
+   "es": "Santo Tomé y Príncipe"
+  }
+ },
+ {
+  "code": "SA",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Arabie Saoudite",
+   "en": "Saudi Arabia",
+   "ar": "السعودية",
+   "es": "Arabia Saudí"
+  },
+  "capital": {
+   "lat": 24.6383,
+   "lng": 46.715,
+   "names": {
+    "fr": "Riyad",
+    "en": "Riyadh",
+    "ar": "الرياض",
+    "es": "Riad"
+   }
+  },
+  "center": [
+   25,
+   45
+  ],
+  "area": 2149690,
+  "population": 33000000,
+  "flag": "🇸🇦",
+  "bbox": [
+   34.62,
+   16.37,
+   55.64,
+   32.13
+  ],
+  "wiki": {
+   "fr": "Arabie saoudite",
+   "en": "Saudi Arabia",
+   "ar": "السعودية",
+   "es": "Arabia Saudita"
+  }
+ },
+ {
+  "code": "SN",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Sénégal",
+   "en": "Senegal",
+   "ar": "السنغال",
+   "es": "Senegal"
+  },
+  "capital": {
+   "lat": 14.6726,
+   "lng": -17.432,
+   "names": {
+    "fr": "Dakar",
+    "en": "Dakar",
+    "ar": "دكار",
+    "es": "Dakar"
+   }
+  },
+  "center": [
+   14,
+   -14
+  ],
+  "area": 196722,
+  "population": 16876720,
+  "flag": "🇸🇳",
+  "bbox": [
+   -17.53,
+   12.33,
+   -11.38,
+   16.68
+  ],
+  "wiki": {
+   "fr": "Sénégal",
+   "en": "Senegal",
+   "ar": "السنغال",
+   "es": "Senegal"
+  }
+ },
+ {
+  "code": "RS",
+  "region": "europe",
+  "subregion": "Southeast Europe",
+  "names": {
+   "fr": "Serbie",
+   "en": "Serbia",
+   "ar": "صيربيا",
+   "es": "Serbia"
+  },
+  "capital": {
+   "lat": 44.8178,
+   "lng": 20.4569,
+   "names": {
+    "fr": "Belgrade",
+    "en": "Belgrade",
+    "ar": "بلغراد",
+    "es": "Belgrado"
+   }
+  },
+  "center": [
+   44,
+   21
+  ],
+  "area": 88361,
+  "population": 6605168,
+  "flag": "🇷🇸",
+  "bbox": [
+   18.84,
+   42.24,
+   22.98,
+   46.17
+  ],
+  "wiki": {
+   "fr": "Serbie",
+   "en": "Serbia",
+   "ar": "صربيا",
+   "es": "Serbia"
+  }
+ },
+ {
+  "code": "SC",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Seychelles",
+   "en": "Seychelles",
+   "ar": "سيشل",
+   "es": "Seychelles"
+  },
+  "capital": {
+   "lat": -4.6236,
+   "lng": 55.4544,
+   "names": {
+    "fr": "Victoria",
+    "en": "Victoria",
+    "ar": "فكتوريا",
+    "es": "Victoria"
+   }
+  },
+  "center": [
+   -4.58,
+   55.67
+  ],
+  "area": 452,
+  "population": 119773,
+  "flag": "🇸🇨",
+  "bbox": [
+   55.39,
+   -4.79,
+   55.54,
+   -4.56
+  ],
+  "wiki": {
+   "fr": "Seychelles",
+   "en": "Seychelles",
+   "ar": "سيشل",
+   "es": "Seychelles"
+  }
+ },
+ {
+  "code": "SL",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Sierra Leone",
+   "en": "Sierra Leone",
+   "ar": "سيراليون",
+   "es": "Sierra Leone"
+  },
+  "capital": {
+   "lat": 8.4872,
+   "lng": -13.2356,
+   "names": {
+    "fr": "Freetown",
+    "en": "Freetown",
+    "ar": "فريتاون",
+    "es": "Freetown"
+   }
+  },
+  "center": [
+   8.5,
+   -11.5
+  ],
+  "area": 71740,
+  "population": 7557212,
+  "flag": "🇸🇱",
+  "bbox": [
+   -13.29,
+   6.91,
+   -10.28,
+   10
+  ],
+  "wiki": {
+   "fr": "Sierra Leone",
+   "en": "Sierra Leone",
+   "ar": "سيراليون",
+   "es": "Sierra Leona"
+  }
+ },
+ {
+  "code": "SG",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Singapour",
+   "en": "Singapore",
+   "ar": "سنغافورة",
+   "es": "Singapur"
+  },
+  "capital": {
+   "lat": 1.3,
+   "lng": 103.8,
+   "names": {
+    "fr": "Singapour",
+    "en": "Singapore",
+    "ar": "سنغافورة",
+    "es": "Singapur"
+   }
+  },
+  "center": [
+   1.37,
+   103.8
+  ],
+  "area": 710,
+  "population": 5866139,
+  "flag": "🇸🇬",
+  "bbox": [
+   103.65,
+   1.27,
+   104,
+   1.45
+  ],
+  "wiki": {
+   "fr": "Singapour",
+   "en": "Singapore",
+   "ar": "سنغافورة",
+   "es": "Singapur"
+  }
+ },
+ {
+  "code": "SK",
+  "region": "europe",
+  "subregion": "Central Europe",
+  "names": {
+   "fr": "Slovaquie",
+   "en": "Slovakia",
+   "ar": "سلوفاكيا",
+   "es": "Eslovaquia"
+  },
+  "capital": {
+   "lat": 48.1517,
+   "lng": 17.1093,
+   "names": {
+    "fr": "Bratislava",
+    "en": "Bratislava",
+    "ar": "براتيسلافا",
+    "es": "Bratislava"
+   }
+  },
+  "center": [
+   48.67,
+   19.5
+  ],
+  "area": 49037,
+  "population": 5409407,
+  "flag": "🇸🇰",
+  "bbox": [
+   16.86,
+   47.76,
+   22.54,
+   49.6
+  ],
+  "wiki": {
+   "fr": "Slovaquie",
+   "en": "Slovakia",
+   "ar": "سلوفاكيا",
+   "es": "Eslovaquia"
+  }
+ },
+ {
+  "code": "SI",
+  "region": "europe",
+  "subregion": "Central Europe",
+  "names": {
+   "fr": "Slovénie",
+   "en": "Slovenia",
+   "ar": "سلوفينيا",
+   "es": "Eslovenia"
+  },
+  "capital": {
+   "lat": 46.0514,
+   "lng": 14.5061,
+   "names": {
+    "fr": "Ljubljana",
+    "en": "Ljubljana",
+    "ar": "لبلانة",
+    "es": "Liubliana"
+   }
+  },
+  "center": [
+   46.12,
+   14.82
+  ],
+  "area": 20273,
+  "population": 2066880,
+  "flag": "🇸🇮",
+  "bbox": [
+   13.38,
+   45.43,
+   16.52,
+   46.86
+  ],
+  "wiki": {
+   "fr": "Slovénie",
+   "en": "Slovenia",
+   "ar": "سلوفينيا",
+   "es": "Eslovenia"
+  }
+ },
+ {
+  "code": "SB",
+  "region": "oceania",
+  "subregion": "Melanesia",
+  "names": {
+   "fr": "Îles Salomon",
+   "en": "Solomon Islands",
+   "ar": "جزر سليمان",
+   "es": "Islas Salomón"
+  },
+  "capital": {
+   "lat": -9.4333,
+   "lng": 159.95,
+   "names": {
+    "fr": "Honiara",
+    "en": "Honiara",
+    "ar": "هونيارا",
+    "es": "Honiara"
+   }
+  },
+  "center": [
+   -8,
+   159
+  ],
+  "area": 28896,
+  "population": 611343,
+  "flag": "🇸🇧",
+  "bbox": [
+   155.68,
+   -11.83,
+   166.93,
+   -6.61
+  ],
+  "wiki": {
+   "fr": "Îles Salomon",
+   "en": "Solomon Islands",
+   "ar": "جزر سليمان",
+   "es": "Islas Salomón"
+  }
+ },
+ {
+  "code": "SO",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Somalie",
+   "en": "Somalia",
+   "ar": "الصومال",
+   "es": "Somalia"
+  },
+  "capital": {
+   "lat": 2.0392,
+   "lng": 45.3419,
+   "names": {
+    "fr": "Mogadiscio",
+    "en": "Mogadishu",
+    "ar": "مقديشو",
+    "es": "Mogadiscio"
+   }
+  },
+  "center": [
+   10,
+   49
+  ],
+  "area": 637657,
+  "population": 11031386,
+  "flag": "🇸🇴",
+  "bbox": [
+   40.96,
+   -1.69,
+   51.39,
+   11.98
+  ],
+  "wiki": {
+   "fr": "Somalie",
+   "en": "Somalia",
+   "ar": "الصومال",
+   "es": "Somalia"
+  }
+ },
+ {
+  "code": "ZA",
+  "region": "africa",
+  "subregion": "Southern Africa",
+  "names": {
+   "fr": "Afrique du Sud",
+   "en": "South Africa",
+   "ar": "جنوب أفريقيا",
+   "es": "Sudáfrica"
+  },
+  "capital": {
+   "lat": -25.7464,
+   "lng": 28.1881,
+   "names": {
+    "fr": "Pretoria",
+    "en": "Pretoria",
+    "ar": "بريتوريا",
+    "es": "Pretoria"
+   }
+  },
+  "center": [
+   -29,
+   24
+  ],
+  "area": 1221037,
+  "population": 62027503,
+  "flag": "🇿🇦",
+  "bbox": [
+   16.45,
+   -46.96,
+   37.89,
+   -22.15
+  ],
+  "wiki": {
+   "fr": "Afrique du Sud",
+   "en": "South Africa",
+   "ar": "جنوب إفريقيا",
+   "es": "Sudáfrica"
+  }
+ },
+ {
+  "code": "KR",
+  "region": "asia",
+  "subregion": "Eastern Asia",
+  "names": {
+   "fr": "Corée du Sud",
+   "en": "South Korea",
+   "ar": "كوريا الجنوبية",
+   "es": "Corea del Sur"
+  },
+  "capital": {
+   "lat": 37.56,
+   "lng": 126.99,
+   "names": {
+    "fr": "Séoul",
+    "en": "Seoul",
+    "ar": "سول",
+    "es": "Seúl"
+   }
+  },
+  "center": [
+   37,
+   127.5
+  ],
+  "area": 100210,
+  "population": 51466201,
+  "flag": "🇰🇷",
+  "bbox": [
+   126.01,
+   33.2,
+   130.94,
+   38.62
+  ],
+  "wiki": {
+   "fr": "Corée du Sud",
+   "en": "South Korea",
+   "ar": "كوريا الجنوبية",
+   "es": "Corea del Sur"
+  }
+ },
+ {
+  "code": "SS",
+  "region": "africa",
+  "subregion": "Middle Africa",
+  "names": {
+   "fr": "Soudan du Sud",
+   "en": "South Sudan",
+   "ar": "جنوب السودان",
+   "es": "Sudán del Sur"
+  },
+  "capital": {
+   "lat": 4.8539,
+   "lng": 31.5825,
+   "names": {
+    "fr": "Djouba",
+    "en": "Juba",
+    "ar": "جوبا",
+    "es": "Yuba"
+   }
+  },
+  "center": [
+   7,
+   30
+  ],
+  "area": 619745,
+  "population": 12575714,
+  "flag": "🇸🇸",
+  "bbox": [
+   24.15,
+   3.49,
+   35.27,
+   12.22
+  ],
+  "wiki": {
+   "fr": "Soudan du Sud",
+   "en": "South Sudan",
+   "ar": "جنوب السودان",
+   "es": "Sudán del Sur"
+  }
+ },
+ {
+  "code": "ES",
+  "region": "europe",
+  "subregion": "Southern Europe",
+  "names": {
+   "fr": "Espagne",
+   "en": "Spain",
+   "ar": "إسبانيا",
+   "es": "España"
+  },
+  "capital": {
+   "lat": 40.4169,
+   "lng": -3.7033,
+   "names": {
+    "fr": "Madrid",
+    "en": "Madrid",
+    "ar": "مدريد",
+    "es": "Madrid"
+   }
+  },
+  "center": [
+   40,
+   -4
+  ],
+  "area": 505992,
+  "population": 48592909,
+  "flag": "🇪🇸",
+  "bbox": [
+   -18.16,
+   27.65,
+   4.32,
+   43.77
+  ],
+  "wiki": {
+   "fr": "Espagne",
+   "en": "Spain",
+   "ar": "إسبانيا",
+   "es": "España"
+  }
+ },
+ {
+  "code": "LK",
+  "region": "asia",
+  "subregion": "Southern Asia",
+  "names": {
+   "fr": "Sri Lanka",
+   "en": "Sri Lanka",
+   "ar": "سريلانكا",
+   "es": "Sri Lanka"
+  },
+  "capital": {
+   "lat": 6.9267,
+   "lng": 79.8606,
+   "names": {
+    "fr": "Colombo",
+    "en": "Colombo",
+    "ar": "كولمبو",
+    "es": "Colombo"
+   }
+  },
+  "center": [
+   7,
+   81
+  ],
+  "area": 65610,
+  "population": 21444000,
+  "flag": "🇱🇰",
+  "bbox": [
+   79.71,
+   5.95,
+   81.88,
+   9.81
+  ],
+  "wiki": {
+   "fr": "Sri Lanka",
+   "en": "Sri Lanka",
+   "ar": "سريلانكا",
+   "es": "Sri Lanka"
+  }
+ },
+ {
+  "code": "SD",
+  "region": "africa",
+  "subregion": "Northern Africa",
+  "names": {
+   "fr": "Soudan",
+   "en": "Sudan",
+   "ar": "السودان",
+   "es": "Sudán"
+  },
+  "capital": {
+   "lat": 15.6031,
+   "lng": 32.5265,
+   "names": {
+    "fr": "Khartoum",
+    "en": "Khartoum",
+    "ar": "الخرطوم",
+    "es": "Jartum"
+   }
+  },
+  "center": [
+   15,
+   30
+  ],
+  "area": 1886068,
+  "population": 40533330,
+  "flag": "🇸🇩",
+  "bbox": [
+   21.83,
+   8.66,
+   38.61,
+   22.2
+  ],
+  "wiki": {
+   "fr": "Soudan",
+   "en": "Sudan",
+   "ar": "السودان",
+   "es": "Sudán"
+  }
+ },
+ {
+  "code": "SR",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Surinam",
+   "en": "Suriname",
+   "ar": "سورينام",
+   "es": "Surinam"
+  },
+  "capital": {
+   "lat": 5.8667,
+   "lng": -55.1667,
+   "names": {
+    "fr": "Paramaribo",
+    "en": "Paramaribo",
+    "ar": "باراماريبو",
+    "es": "Paramaribo"
+   }
+  },
+  "center": [
+   4,
+   -56
+  ],
+  "area": 163820,
+  "population": 563402,
+  "flag": "🇸🇷",
+  "bbox": [
+   -58.06,
+   1.84,
+   -53.99,
+   5.99
+  ],
+  "wiki": {
+   "fr": "Suriname",
+   "en": "Suriname",
+   "ar": "سورينام",
+   "es": "Surinam"
+  }
+ },
+ {
+  "code": "SE",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Suède",
+   "en": "Sweden",
+   "ar": "السويد",
+   "es": "Suecia"
+  },
+  "capital": {
+   "lat": 59.3294,
+   "lng": 18.0686,
+   "names": {
+    "fr": "Stockholm",
+    "en": "Stockholm",
+    "ar": "ستوكهولم",
+    "es": "Estocolmo"
+   }
+  },
+  "center": [
+   62,
+   15
+  ],
+  "area": 450295,
+  "population": 10609460,
+  "flag": "🇸🇪",
+  "bbox": [
+   11.15,
+   55.35,
+   24.15,
+   69.04
+  ],
+  "wiki": {
+   "fr": "Suède",
+   "en": "Sweden",
+   "ar": "السويد",
+   "es": "Suecia"
+  }
+ },
+ {
+  "code": "CH",
+  "region": "europe",
+  "subregion": "Western Europe",
+  "names": {
+   "fr": "Suisse",
+   "en": "Switzerland",
+   "ar": "سويسرا",
+   "es": "Suiza"
+  },
+  "capital": {
+   "lat": 46.948,
+   "lng": 7.4474,
+   "names": {
+    "fr": "Berne",
+    "en": "Bern",
+    "ar": "برن",
+    "es": "Berna"
+   }
+  },
+  "center": [
+   47,
+   8
+  ],
+  "area": 41284,
+  "population": 9104063,
+  "flag": "🇨🇭",
+  "bbox": [
+   5.97,
+   45.83,
+   10.46,
+   47.78
+  ],
+  "wiki": {
+   "fr": "Suisse",
+   "en": "Switzerland",
+   "ar": "سويسرا",
+   "es": "Suiza"
+  }
+ },
+ {
+  "code": "SY",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Syrie",
+   "en": "Syria",
+   "ar": "سوريا",
+   "es": "Siria"
+  },
+  "capital": {
+   "lat": 33.513,
+   "lng": 36.292,
+   "names": {
+    "fr": "Damas",
+    "en": "Damascus",
+    "ar": "دمشق",
+    "es": "Damasco"
+   }
+  },
+  "center": [
+   35,
+   38
+  ],
+  "area": 185180,
+  "population": 23865423,
+  "flag": "🇸🇾",
+  "bbox": [
+   35.77,
+   32.32,
+   42.36,
+   37.3
+  ],
+  "wiki": {
+   "fr": "Syrie",
+   "en": "Syria",
+   "ar": "سوريا",
+   "es": "Siria"
+  }
+ },
+ {
+  "code": "TW",
+  "region": "asia",
+  "subregion": "Eastern Asia",
+  "names": {
+   "fr": "Taïwan",
+   "en": "Taiwan",
+   "ar": "تايوان",
+   "es": "Taiwán"
+  },
+  "capital": {
+   "lat": 25.0375,
+   "lng": 121.5625,
+   "names": {
+    "fr": "Taipei",
+    "en": "Taipei",
+    "ar": "تايبيه",
+    "es": "Taipéi"
+   }
+  },
+  "center": [
+   23.5,
+   121
+  ],
+  "area": 36193,
+  "population": 23317031,
+  "flag": "🇹🇼",
+  "bbox": [
+   118.29,
+   21.93,
+   121.93,
+   25.28
+  ],
+  "wiki": {
+   "fr": "Taïwan",
+   "en": "Taiwan",
+   "ar": "تايوان",
+   "es": "República de China"
+  }
+ },
+ {
+  "code": "TJ",
+  "region": "asia",
+  "subregion": "Central Asia",
+  "names": {
+   "fr": "Tadjikistan",
+   "en": "Tajikistan",
+   "ar": "طاجيكستان",
+   "es": "Tayikistán"
+  },
+  "capital": {
+   "lat": 38.5731,
+   "lng": 68.7864,
+   "names": {
+    "fr": "Douchanbé",
+    "en": "Dushanbe",
+    "ar": "دوشنبة",
+    "es": "Dusambé"
+   }
+  },
+  "center": [
+   39,
+   71
+  ],
+  "area": 143100,
+  "population": 9504000,
+  "flag": "🇹🇯",
+  "bbox": [
+   67.35,
+   36.68,
+   75.12,
+   41.04
+  ],
+  "wiki": {
+   "fr": "Tadjikistan",
+   "en": "Tajikistan",
+   "ar": "طاجيكستان",
+   "es": "Tayikistán"
+  }
+ },
+ {
+  "code": "TZ",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Tanzanie",
+   "en": "Tanzania",
+   "ar": "تنزانيا",
+   "es": "Tanzania"
+  },
+  "capital": {
+   "lat": -6.1835,
+   "lng": 35.746,
+   "names": {
+    "fr": "Dodoma",
+    "en": "Dodoma",
+    "ar": "دودوما",
+    "es": "Dodoma"
+   }
+  },
+  "center": [
+   -6,
+   35
+  ],
+  "area": 945087,
+  "population": 57310019,
+  "flag": "🇹🇿",
+  "bbox": [
+   29.32,
+   -11.72,
+   40.46,
+   -0.99
+  ],
+  "wiki": {
+   "fr": "Tanzanie",
+   "en": "Tanzania",
+   "ar": "تنزانيا",
+   "es": "Tanzania"
+  }
+ },
+ {
+  "code": "TH",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Thaïlande",
+   "en": "Thailand",
+   "ar": "تايلند",
+   "es": "Tailandia"
+  },
+  "capital": {
+   "lat": 13.75,
+   "lng": 100.5167,
+   "names": {
+    "fr": "Bangkok",
+    "en": "Bangkok",
+    "ar": "بانكوك",
+    "es": "Bangkok"
+   }
+  },
+  "center": [
+   15,
+   100
+  ],
+  "area": 513120,
+  "population": 66188503,
+  "flag": "🇹🇭",
+  "bbox": [
+   97.38,
+   5.64,
+   105.64,
+   20.43
+  ],
+  "wiki": {
+   "fr": "Thaïlande",
+   "en": "Thailand",
+   "ar": "تايلاند",
+   "es": "Tailandia"
+  }
+ },
+ {
+  "code": "TL",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Timor oriental",
+   "en": "Timor-Leste",
+   "ar": "تيمور الشرقية",
+   "es": "Timor Oriental"
+  },
+  "capital": {
+   "lat": -8.5536,
+   "lng": 125.5783,
+   "names": {
+    "fr": "Dili",
+    "en": "Dili",
+    "ar": "ديلي",
+    "es": "Dili"
+   }
+  },
+  "center": [
+   -8.83,
+   125.92
+  ],
+  "area": 14874,
+  "population": 1400638,
+  "flag": "🇹🇱",
+  "bbox": [
+   124.04,
+   -9.51,
+   127.3,
+   -8.14
+  ],
+  "wiki": {
+   "fr": "Timor oriental",
+   "en": "Timor-Leste",
+   "ar": "تيمور الشرقية",
+   "es": "Timor Oriental"
+  }
+ },
+ {
+  "code": "TG",
+  "region": "africa",
+  "subregion": "Western Africa",
+  "names": {
+   "fr": "Togo",
+   "en": "Togo",
+   "ar": "توغو",
+   "es": "Togo"
+  },
+  "capital": {
+   "lat": 6.13,
+   "lng": 1.2158,
+   "names": {
+    "fr": "Lomé",
+    "en": "Lomé",
+    "ar": "لومي",
+    "es": "Lomé"
+   }
+  },
+  "center": [
+   8,
+   1.17
+  ],
+  "area": 56785,
+  "population": 7797694,
+  "flag": "🇹🇬",
+  "bbox": [
+   -0.09,
+   6.09,
+   1.78,
+   11.12
+  ],
+  "wiki": {
+   "fr": "Togo",
+   "en": "Togo",
+   "ar": "توغو",
+   "es": "Togo"
+  }
+ },
+ {
+  "code": "TO",
+  "region": "oceania",
+  "subregion": "Polynesia",
+  "names": {
+   "fr": "Tonga",
+   "en": "Tonga",
+   "ar": "تونغا",
+   "es": "Tonga"
+  },
+  "capital": {
+   "lat": -21.1343,
+   "lng": -175.2018,
+   "names": {
+    "fr": "Nukuʻalofa",
+    "en": "Nukuʻalofa",
+    "ar": "نوكو ألوفا",
+    "es": "Nukualofa"
+   }
+  },
+  "center": [
+   -20,
+   -175
+  ],
+  "area": 747,
+  "population": 108020,
+  "flag": "🇹🇴",
+  "bbox": [
+   -175.36,
+   -21.45,
+   -173.92,
+   -18.57
+  ],
+  "wiki": {
+   "fr": "Tonga",
+   "en": "Tonga",
+   "ar": "تونغا",
+   "es": "Tonga"
+  }
+ },
+ {
+  "code": "TT",
+  "region": "americas",
+  "subregion": "Caribbean",
+  "names": {
+   "fr": "Trinité-et-Tobago",
+   "en": "Trinidad and Tobago",
+   "ar": "ترينيداد وتوباغو",
+   "es": "Trinidad y Tobago"
+  },
+  "capital": {
+   "lat": 10.6667,
+   "lng": -61.5167,
+   "names": {
+    "fr": "Port-d'Espagne",
+    "en": "Port of Spain",
+    "ar": "بورت أوف سبين",
+    "es": "Puerto España"
+   }
+  },
+  "center": [
+   11,
+   -61
+  ],
+  "area": 5130,
+  "population": 1369125,
+  "flag": "🇹🇹",
+  "bbox": [
+   -61.9,
+   10.06,
+   -60.53,
+   11.33
+  ],
+  "wiki": {
+   "fr": "Trinité-et-Tobago",
+   "en": "Trinidad and Tobago",
+   "ar": "ترينيداد وتوباغو",
+   "es": "Trinidad y Tobago"
+  }
+ },
+ {
+  "code": "TN",
+  "region": "africa",
+  "subregion": "Northern Africa",
+  "names": {
+   "fr": "Tunisie",
+   "en": "Tunisia",
+   "ar": "تونس",
+   "es": "Túnez"
+  },
+  "capital": {
+   "lat": 36.8008,
+   "lng": 10.18,
+   "names": {
+    "fr": "Tunis",
+    "en": "Tunis",
+    "ar": "تونس",
+    "es": "Túnez"
+   }
+  },
+  "center": [
+   34,
+   9
+  ],
+  "area": 163610,
+  "population": 11565204,
+  "flag": "🇹🇳",
+  "bbox": [
+   7.5,
+   30.23,
+   11.54,
+   37.34
+  ],
+  "wiki": {
+   "fr": "Tunisie",
+   "en": "Tunisia",
+   "ar": "تونس",
+   "es": "Túnez"
+  }
+ },
+ {
+  "code": "TR",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Turquie",
+   "en": "Türkiye",
+   "ar": "تركيا",
+   "es": "Turquía"
+  },
+  "capital": {
+   "lat": 39.9358,
+   "lng": 32.8387,
+   "names": {
+    "fr": "Ankara",
+    "en": "Ankara",
+    "ar": "أنقرة",
+    "es": "Ankara"
+   }
+  },
+  "center": [
+   39,
+   35
+  ],
+  "area": 783562,
+  "population": 85372377,
+  "flag": "🇹🇷",
+  "bbox": [
+   25.67,
+   35.83,
+   44.82,
+   42.09
+  ],
+  "wiki": {
+   "fr": "Turquie",
+   "en": "Turkey",
+   "ar": "تركيا",
+   "es": "Turquía"
+  }
+ },
+ {
+  "code": "TM",
+  "region": "asia",
+  "subregion": "Central Asia",
+  "names": {
+   "fr": "Turkménistan",
+   "en": "Turkmenistan",
+   "ar": "تركمانستان",
+   "es": "Turkmenistán"
+  },
+  "capital": {
+   "lat": 37.95,
+   "lng": 58.3833,
+   "names": {
+    "fr": "Achgabat",
+    "en": "Ashgabat",
+    "ar": "عشق آباد",
+    "es": "Asjabad"
+   }
+  },
+  "center": [
+   40,
+   60
+  ],
+  "area": 488100,
+  "population": 6117933,
+  "flag": "🇹🇲",
+  "bbox": [
+   52.49,
+   35.17,
+   66.63,
+   42.78
+  ],
+  "wiki": {
+   "fr": "Turkménistan",
+   "en": "Turkmenistan",
+   "ar": "تركمانستان",
+   "es": "Turkmenistán"
+  }
+ },
+ {
+  "code": "TV",
+  "region": "oceania",
+  "subregion": "Polynesia",
+  "names": {
+   "fr": "Tuvalu",
+   "en": "Tuvalu",
+   "ar": "توفالو",
+   "es": "Tuvalu"
+  },
+  "capital": {
+   "lat": -8.5048,
+   "lng": 179.1174,
+   "names": {
+    "fr": "Funafuti",
+    "en": "Funafuti",
+    "ar": "فونافوتي",
+    "es": "Funafuti"
+   }
+  },
+  "center": [
+   -8,
+   178
+  ],
+  "area": 26,
+  "population": 10643,
+  "flag": "🇹🇻",
+  "bbox": null,
+  "wiki": {
+   "fr": "Tuvalu",
+   "en": "Tuvalu",
+   "ar": "توفالو",
+   "es": "Tuvalu"
+  }
+ },
+ {
+  "code": "UG",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Ouganda",
+   "en": "Uganda",
+   "ar": "أوغندا",
+   "es": "Uganda"
+  },
+  "capital": {
+   "lat": 0.3136,
+   "lng": 32.5811,
+   "names": {
+    "fr": "Kampala",
+    "en": "Kampala",
+    "ar": "كامبالا",
+    "es": "Kampala"
+   }
+  },
+  "center": [
+   1,
+   32
+  ],
+  "area": 241550,
+  "population": 47123531,
+  "flag": "🇺🇬",
+  "bbox": [
+   29.56,
+   -1.47,
+   34.98,
+   4.22
+  ],
+  "wiki": {
+   "fr": "Ouganda",
+   "en": "Uganda",
+   "ar": "أوغندا",
+   "es": "Uganda"
+  }
+ },
+ {
+  "code": "UA",
+  "region": "europe",
+  "subregion": "Eastern Europe",
+  "names": {
+   "fr": "Ukraine",
+   "en": "Ukraine",
+   "ar": "أوكرانيا",
+   "es": "Ucrania"
+  },
+  "capital": {
+   "lat": 50.45,
+   "lng": 30.5236,
+   "names": {
+    "fr": "Kiev",
+    "en": "Kyiv",
+    "ar": "كييف",
+    "es": "Kiev"
+   }
+  },
+  "center": [
+   49,
+   32
+  ],
+  "area": 603500,
+  "population": 41167335,
+  "flag": "🇺🇦",
+  "bbox": [
+   22.13,
+   45.23,
+   40.13,
+   52.35
+  ],
+  "wiki": {
+   "fr": "Ukraine",
+   "en": "Ukraine",
+   "ar": "أوكرانيا",
+   "es": "Ucrania"
+  }
+ },
+ {
+  "code": "AE",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Émirats arabes unis",
+   "en": "United Arab Emirates",
+   "ar": "الإمارات",
+   "es": "Emiratos Árabes Unidos"
+  },
+  "capital": {
+   "lat": 24.4511,
+   "lng": 54.3969,
+   "names": {
+    "fr": "Abou Dabi",
+    "en": "Abu Dhabi",
+    "ar": "أبو ظبي",
+    "es": "Abu Dhabi"
+   }
+  },
+  "center": [
+   24,
+   54
+  ],
+  "area": 83600,
+  "population": 9890400,
+  "flag": "🇦🇪",
+  "bbox": [
+   51.57,
+   22.62,
+   56.39,
+   26.07
+  ],
+  "wiki": {
+   "fr": "Émirats arabes unis",
+   "en": "United Arab Emirates",
+   "ar": "الإمارات العربية المتحدة",
+   "es": "Emiratos Árabes Unidos"
+  }
+ },
+ {
+  "code": "GB",
+  "region": "europe",
+  "subregion": "Northern Europe",
+  "names": {
+   "fr": "Royaume-Uni",
+   "en": "United Kingdom",
+   "ar": "المملكة المتحدة",
+   "es": "Reino Unido"
+  },
+  "capital": {
+   "lat": 51.5072,
+   "lng": -0.1275,
+   "names": {
+    "fr": "Londres",
+    "en": "London",
+    "ar": "لندن",
+    "es": "Londres"
+   }
+  },
+  "center": [
+   54,
+   -2
+  ],
+  "area": 242900,
+  "population": 67326569,
+  "flag": "🇬🇧",
+  "bbox": [
+   -8.14,
+   50.02,
+   1.75,
+   60.83
+  ],
+  "wiki": {
+   "fr": "Royaume-Uni",
+   "en": "United Kingdom",
+   "ar": "المملكة المتحدة",
+   "es": "Reino Unido"
+  }
+ },
+ {
+  "code": "US",
+  "region": "americas",
+  "subregion": "North America",
+  "names": {
+   "fr": "États-Unis",
+   "en": "United States",
+   "ar": "الولايات المتحدة",
+   "es": "Estados Unidos"
+  },
+  "capital": {
+   "lat": 38.895,
+   "lng": -77.0367,
+   "names": {
+    "fr": "Washington",
+    "en": "Washington, D.C.",
+    "ar": "واشنطن العاصمة",
+    "es": "Washington D. C."
+   }
+  },
+  "center": [
+   38,
+   -97
+  ],
+  "area": 9372610,
+  "population": 340110988,
+  "flag": "🇺🇸",
+  "bbox": [
+   -178.19,
+   18.97,
+   179.78,
+   71.41
+  ],
+  "wiki": {
+   "fr": "États-Unis",
+   "en": "United States",
+   "ar": "الولايات المتحدة",
+   "es": "Estados Unidos"
+  }
+ },
+ {
+  "code": "UY",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Uruguay",
+   "en": "Uruguay",
+   "ar": "الأوروغواي",
+   "es": "Uruguay"
+  },
+  "capital": {
+   "lat": -34.9059,
+   "lng": -56.1913,
+   "names": {
+    "fr": "Montevideo",
+    "en": "Montevideo",
+    "ar": "مونتفيدو",
+    "es": "Montevideo"
+   }
+  },
+  "center": [
+   -33,
+   -56
+  ],
+  "area": 181034,
+  "population": 3444263,
+  "flag": "🇺🇾",
+  "bbox": [
+   -58.44,
+   -34.93,
+   -53.12,
+   -30.1
+  ],
+  "wiki": {
+   "fr": "Uruguay",
+   "en": "Uruguay",
+   "ar": "أوروغواي",
+   "es": "Uruguay"
+  }
+ },
+ {
+  "code": "UZ",
+  "region": "asia",
+  "subregion": "Central Asia",
+  "names": {
+   "fr": "Ouzbékistan",
+   "en": "Uzbekistan",
+   "ar": "أوزباكستان",
+   "es": "Uzbekistán"
+  },
+  "capital": {
+   "lat": 41.3111,
+   "lng": 69.2797,
+   "names": {
+    "fr": "Tachkent",
+    "en": "Tashkent",
+    "ar": "طشقند",
+    "es": "Taskent"
+   }
+  },
+  "center": [
+   41,
+   64
+  ],
+  "area": 447400,
+  "population": 34915100,
+  "flag": "🇺🇿",
+  "bbox": [
+   55.98,
+   37.17,
+   73.14,
+   45.56
+  ],
+  "wiki": {
+   "fr": "Ouzbékistan",
+   "en": "Uzbekistan",
+   "ar": "أوزبكستان",
+   "es": "Uzbekistán"
+  }
+ },
+ {
+  "code": "VU",
+  "region": "oceania",
+  "subregion": "Melanesia",
+  "names": {
+   "fr": "Vanuatu",
+   "en": "Vanuatu",
+   "ar": "فانواتو",
+   "es": "Vanuatu"
+  },
+  "capital": {
+   "lat": -17.7333,
+   "lng": 168.3167,
+   "names": {
+    "fr": "Port-Vila",
+    "en": "Port Vila",
+    "ar": "بورت فيلا",
+    "es": "Port Vila"
+   }
+  },
+  "center": [
+   -16,
+   167
+  ],
+  "area": 12189,
+  "population": 300019,
+  "flag": "🇻🇺",
+  "bbox": [
+   166.53,
+   -20.24,
+   169.9,
+   -13.71
+  ],
+  "wiki": {
+   "fr": "Vanuatu",
+   "en": "Vanuatu",
+   "ar": "فانواتو",
+   "es": "Vanuatu"
+  }
+ },
+ {
+  "code": "VA",
+  "region": "europe",
+  "subregion": "Southern Europe",
+  "names": {
+   "fr": "Cité du Vatican",
+   "en": "Vatican City",
+   "ar": "مدينة الفاتيكان",
+   "es": "Ciudad del Vaticano"
+  },
+  "capital": {
+   "lat": 41.904,
+   "lng": 12.453,
+   "names": {
+    "fr": "Vatican",
+    "en": "Vatican City",
+    "ar": "الفاتيكان",
+    "es": "Ciudad del Vaticano"
+   }
+  },
+  "center": [
+   41.9,
+   12.45
+  ],
+  "area": 0.44,
+  "population": 882,
+  "flag": "🇻🇦",
+  "bbox": [
+   12.43,
+   41.9,
+   12.44,
+   41.91
+  ],
+  "wiki": {
+   "fr": "Vatican",
+   "en": "Vatican City",
+   "ar": "الفاتيكان",
+   "es": "Ciudad del Vaticano"
+  }
+ },
+ {
+  "code": "VE",
+  "region": "americas",
+  "subregion": "South America",
+  "names": {
+   "fr": "Venezuela",
+   "en": "Venezuela",
+   "ar": "فنزويلا",
+   "es": "Venezuela"
+  },
+  "capital": {
+   "lat": 10.5061,
+   "lng": -66.9144,
+   "names": {
+    "fr": "Caracas",
+    "en": "Caracas",
+    "ar": "كراكاس",
+    "es": "Caracas"
+   }
+  },
+  "center": [
+   8,
+   -66
+  ],
+  "area": 916445,
+  "population": 31250306,
+  "flag": "🇻🇪",
+  "bbox": [
+   -73.37,
+   0.69,
+   -59.83,
+   12.18
+  ],
+  "wiki": {
+   "fr": "Venezuela",
+   "en": "Venezuela",
+   "ar": "فنزويلا",
+   "es": "Venezuela"
+  }
+ },
+ {
+  "code": "VN",
+  "region": "asia",
+  "subregion": "South-Eastern Asia",
+  "names": {
+   "fr": "Viêt Nam",
+   "en": "Vietnam",
+   "ar": "فيتنام",
+   "es": "Vietnam"
+  },
+  "capital": {
+   "lat": 21.0245,
+   "lng": 105.8412,
+   "names": {
+    "fr": "Hanoï",
+    "en": "Hanoi",
+    "ar": "هانوي",
+    "es": "Hanói"
+   }
+  },
+  "center": [
+   16.17,
+   107.83
+  ],
+  "area": 331212,
+  "population": 96208984,
+  "flag": "🇻🇳",
+  "bbox": [
+   102.13,
+   8.58,
+   109.45,
+   23.35
+  ],
+  "wiki": {
+   "fr": "Vietnam",
+   "en": "Vietnam",
+   "ar": "فيتنام",
+   "es": "Vietnam"
+  }
+ },
+ {
+  "code": "EH",
+  "region": "africa",
+  "subregion": "Northern Africa",
+  "names": {
+   "fr": "Sahara Occidental",
+   "en": "Western Sahara",
+   "ar": "الصحراء الغربية",
+   "es": "Sahara Occidental"
+  },
+  "capital": {
+   "lat": 27.1536,
+   "lng": -13.2033,
+   "names": {
+    "fr": "Laâyoune",
+    "en": "Laayoune",
+    "ar": "العيون",
+    "es": "El Aaiún"
+   }
+  },
+  "center": [
+   24.5,
+   -13
+  ],
+  "area": 266000,
+  "population": 612000,
+  "flag": "🇪🇭",
+  "bbox": [
+   -17.1,
+   20.81,
+   -8.68,
+   27.67
+  ],
+  "wiki": {
+   "fr": "Sahara occidental",
+   "en": "Western Sahara",
+   "ar": "الصحراء الغربية",
+   "es": "Sahara Occidental"
+  }
+ },
+ {
+  "code": "YE",
+  "region": "asia",
+  "subregion": "Western Asia",
+  "names": {
+   "fr": "Yémen",
+   "en": "Yemen",
+   "ar": "اليمن",
+   "es": "Yemen"
+  },
+  "capital": {
+   "lat": 15.35,
+   "lng": 44.2,
+   "names": {
+    "fr": "Sanaa",
+    "en": "Sanaa",
+    "ar": "صنعاء",
+    "es": "Saná"
+   }
+  },
+  "center": [
+   15,
+   48
+  ],
+  "area": 527968,
+  "population": 28250420,
+  "flag": "🇾🇪",
+  "bbox": [
+   42.55,
+   12.32,
+   54.51,
+   19
+  ],
+  "wiki": {
+   "fr": "Yémen",
+   "en": "Yemen",
+   "ar": "اليمن",
+   "es": "Yemen"
+  }
+ },
+ {
+  "code": "ZM",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Zambie",
+   "en": "Zambia",
+   "ar": "زامبيا",
+   "es": "Zambia"
+  },
+  "capital": {
+   "lat": -15.4167,
+   "lng": 28.2833,
+   "names": {
+    "fr": "Lusaka",
+    "en": "Lusaka",
+    "ar": "لوساكا",
+    "es": "Lusaka"
+   }
+  },
+  "center": [
+   -15,
+   30
+  ],
+  "area": 752612,
+  "population": 19610769,
+  "flag": "🇿🇲",
+  "bbox": [
+   21.98,
+   -18.04,
+   33.66,
+   -8.19
+  ],
+  "wiki": {
+   "fr": "Zambie",
+   "en": "Zambia",
+   "ar": "زامبيا",
+   "es": "Zambia"
+  }
+ },
+ {
+  "code": "ZW",
+  "region": "africa",
+  "subregion": "Eastern Africa",
+  "names": {
+   "fr": "Zimbabwe",
+   "en": "Zimbabwe",
+   "ar": "زيمبابوي",
+   "es": "Zimbabue"
+  },
+  "capital": {
+   "lat": -17.8292,
+   "lng": 31.0522,
+   "names": {
+    "fr": "Harare",
+    "en": "Harare",
+    "ar": "هراري",
+    "es": "Harare"
+   }
+  },
+  "center": [
+   -20,
+   30
+  ],
+  "area": 390757,
+  "population": 15178979,
+  "flag": "🇿🇼",
+  "bbox": [
+   25.22,
+   -22.4,
+   33.01,
+   -15.64
+  ],
+  "wiki": {
+   "fr": "Zimbabwe",
+   "en": "Zimbabwe",
+   "ar": "زيمبابوي",
+   "es": "Zimbabue"
+  }
+ }
+]
