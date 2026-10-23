@@ -27,7 +27,7 @@ export const fr = {
   "home.games": "Parties",
   "home.rules": "Règles actuelles",
   "home.dataNote":
-    "Frontières : Natural Earth (domaine public). Le Sahara Occidental est représenté comme un territoire distinct.",
+    "Frontières : Natural Earth (domaine public).",
 
   "target.findCountry": "Trouve le pays",
   "target.findCapital": "Trouve la capitale",

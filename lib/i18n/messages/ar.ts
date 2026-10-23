@@ -29,7 +29,7 @@ export const ar: Messages = {
   "home.games": "الجولات",
   "home.rules": "القواعد الحالية",
   "home.dataNote":
-    "الحدود: Natural Earth (ملكية عامة). تظهر الصحراء الغربية إقليمًا مستقلًا بحدوده.",
+    "الحدود: Natural Earth (ملكية عامة).",
 
   "target.findCountry": "اعثر على الدولة",
   "target.findCapital": "اعثر على العاصمة",

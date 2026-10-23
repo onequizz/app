@@ -29,7 +29,7 @@ export const en: Messages = {
   "home.games": "Games",
   "home.rules": "Current rules",
   "home.dataNote":
-    "Borders: Natural Earth (public domain). Western Sahara is shown as a distinct territory.",
+    "Borders: Natural Earth (public domain).",
 
   "target.findCountry": "Find the country",
   "target.findCapital": "Find the capital",

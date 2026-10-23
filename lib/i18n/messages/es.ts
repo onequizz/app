@@ -29,7 +29,7 @@ export const es: Messages = {
   "home.games": "Partidas",
   "home.rules": "Reglas actuales",
   "home.dataNote":
-    "Fronteras: Natural Earth (dominio público). El Sáhara Occidental se muestra como un territorio diferenciado.",
+    "Fronteras: Natural Earth (dominio público).",
 
   "target.findCountry": "Encuentra el país",
   "target.findCapital": "Encuentra la capital",
