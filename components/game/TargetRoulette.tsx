@@ -1,24 +1,16 @@
 "use client";
 
 import { animate, motion, useMotionValue, useTransform, useVelocity } from "framer-motion";
-import { Landmark, MapPin } from "lucide-react";
 import { useEffect, useMemo, useRef } from "react";
+import { KindIcon } from "@/components/ui/KindIcon";
 import { sfx } from "@/lib/audio/sfx";
 import { targetLabel, targetPool } from "@/lib/data/countries";
 import { shuffle } from "@/lib/game/engine";
 import { useI18n } from "@/lib/i18n/I18nProvider";
-import type { Target, TargetMode, Zone } from "@/lib/types";
+import type { QuizTheme, Target, Zone } from "@/lib/types";
 
 // Assez haut pour un nom en arabe (Cairo, interligne 1,75) sans rogner les lettres.
 const ITEM_H = 64;
-
-function KindIcon({ kind, size = 20 }: { kind: Target["kind"]; size?: number }) {
-  return kind === "capital" ? (
-    <Landmark size={size} className="shrink-0 text-accent" />
-  ) : (
-    <MapPin size={size} className="shrink-0 text-accent" />
-  );
-}
 
 /**
  * Machine à sous : une bande de cibles défile puis décélère jusqu'à la cible tirée.
@@ -27,14 +19,14 @@ function KindIcon({ kind, size = 20 }: { kind: Target["kind"]; size?: number }) 
 export function TargetRoulette({
   target,
   zone,
-  mode,
+  themes,
   fast = false,
   spinning,
   onDone,
 }: {
   target: Target;
   zone: Zone;
-  mode: TargetMode;
+  themes: QuizTheme[];
   fast?: boolean;
   spinning: boolean;
   onDone: () => void;
@@ -43,7 +35,7 @@ export function TargetRoulette({
   const count = fast ? 10 : 26;
 
   const items = useMemo(() => {
-    const pool = targetPool(zone, mode).filter((t) => t.code !== target.code || t.kind !== target.kind);
+    const pool = targetPool(zone, themes).filter((t) => t.code !== target.code || t.kind !== target.kind);
     const filler = shuffle(pool).slice(0, count);
     return [...filler, target];
     // Une nouvelle bande seulement quand la cible change.
@@ -101,7 +93,7 @@ export function TargetRoulette({
             style={{ height: ITEM_H }}
             className="flex items-center justify-center gap-2.5 px-2"
           >
-            <KindIcon kind={t.kind} size={22} />
+            <KindIcon kind={t.kind} size={22} className="shrink-0 text-accent" />
             <span className="truncate font-display text-[clamp(1.4rem,5vw,2.25rem)] leading-none font-extrabold">
               {targetLabel(t, locale)}
             </span>

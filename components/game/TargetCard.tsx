@@ -5,9 +5,12 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Lightbulb, MousePointerClick } from "lucide-react";
 import { Flag } from "@/components/ui/Flag";
 import { getCountry } from "@/lib/data/countries";
-import { HINT_COUNT } from "@/lib/game/engine";
+import { getFeature, isFeatureKind } from "@/lib/data/features";
+import { hintKeys, type HintKey } from "@/lib/game/hints";
 import { useI18n } from "@/lib/i18n/I18nProvider";
+import type { Target } from "@/lib/types";
 import { useGame } from "@/store/game";
+import { FeatureMeasure } from "./FeatureFacts";
 import { TargetRoulette } from "./TargetRoulette";
 
 function AttemptDots({ total, used }: { total: number; used: number }) {
@@ -24,29 +27,48 @@ function AttemptDots({ total, used }: { total: number; used: number }) {
   );
 }
 
-function HintChips() {
+function useHintChip() {
   const { t, n, locale } = useI18n();
+  return (target: Target, key: HintKey): { label: string; value: React.ReactNode } => {
+    if (isFeatureKind(target.kind)) {
+      const f = getFeature(target.code);
+      switch (key) {
+        case "region":
+          return { label: t("hint.region"), value: f.region ? t(`zone.${f.region}`) : "—" };
+        case "measure":
+          return { label: "", value: <FeatureMeasure feature={f} inline /> };
+        default:
+          return { label: t("hint.initial"), value: f.names[locale].charAt(0) };
+      }
+    }
+    const c = getCountry(target.code);
+    switch (key) {
+      case "region":
+        return { label: t("hint.region"), value: t(`zone.${c.region}`) };
+      case "flag":
+        return { label: t("hint.flag"), value: <Flag code={c.code} className="h-5" /> };
+      case "population":
+        return {
+          label: t("hint.population"),
+          value: c.population ? n(c.population, { notation: "compact", maximumFractionDigits: 1 }) : "—",
+        };
+      case "country":
+        return { label: t("hint.country"), value: c.names[locale] };
+      default:
+        return { label: t("hint.capital"), value: c.capital?.names[locale] ?? "—" };
+    }
+  };
+}
+
+function HintChips() {
   const target = useGame((s) => s.target);
   const hints = useGame((s) => s.hints);
+  const chip = useHintChip();
   if (!target || hints === 0) return null;
-  const c = getCountry(target.code);
 
-  const chips = [
-    { key: "region", label: t("hint.region"), value: t(`zone.${c.region}`) },
-    {
-      key: "flag",
-      label: t("hint.flag"),
-      value: <Flag code={c.code} className="h-5" />,
-    },
-    {
-      key: "population",
-      label: t("hint.population"),
-      value: c.population ? n(c.population, { notation: "compact", maximumFractionDigits: 1 }) : "—",
-    },
-    target.kind === "capital"
-      ? { key: "country", label: t("hint.country"), value: c.names[locale] }
-      : { key: "capital", label: t("hint.capital"), value: c.capital?.names[locale] ?? "—" },
-  ].slice(0, hints);
+  const chips = hintKeys(target)
+    .slice(0, hints)
+    .map((key) => ({ key, ...chip(target, key) }));
 
   return (
     <div className="flex flex-wrap justify-center gap-1.5">
@@ -58,7 +80,7 @@ function HintChips() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             className="inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1 text-xs"
           >
-            <span className="text-muted">{chip.label}</span>
+            {chip.label && <span className="text-muted">{chip.label}</span>}
             <span className="font-bold">{chip.value}</span>
           </motion.span>
         ))}
@@ -80,7 +102,8 @@ export function TargetCard() {
 
   if (!target) return null;
   const spinning = phase === "spinning";
-  const prompt = target.kind === "capital" ? t("target.findCapital") : t("target.findCountry");
+  const prompt = t(`target.find.${target.kind}`);
+  const hintTotal = hintKeys(target).length;
 
   return (
     <motion.div
@@ -108,7 +131,7 @@ export function TargetCard() {
       <TargetRoulette
         target={target}
         zone={rules.zone}
-        mode={rules.mode}
+        themes={rules.themes}
         fast={session === "timeAttack"}
         spinning={spinning}
         onDone={spinDone}
@@ -119,16 +142,16 @@ export function TargetCard() {
         <div className="flex w-full items-center justify-between gap-3">
           <span className="flex items-center gap-1.5 text-xs text-muted">
             <MousePointerClick size={14} />
-            {t("target.clickMap")}
+            {isFeatureKind(target.kind) && target.kind !== "sea" ? t("target.clickCountry") : t("target.clickMap")}
           </span>
           <button
             onClick={takeHint}
-            disabled={phase !== "guessing" || hints >= HINT_COUNT}
+            disabled={phase !== "guessing" || hints >= hintTotal}
             title={t("hint.cost")}
             className="inline-flex items-center gap-1.5 rounded-full border border-line px-3 py-1.5 text-xs font-bold transition hover:border-accent hover:text-accent disabled:opacity-40 disabled:hover:border-line disabled:hover:text-inherit"
           >
             <Lightbulb size={14} />
-            {t("hint.button")} {hints}/{HINT_COUNT}
+            {t("hint.button")} {hints}/{hintTotal}
           </button>
         </div>
       </div>

@@ -1,10 +1,13 @@
 import booleanPointInPolygon from "@turf/boolean-point-in-polygon";
 import nearestPointOnLine from "@turf/nearest-point-on-line";
 import { multiLineString, point } from "@turf/helpers";
+import type { Feature, MultiPolygon, Polygon, Position } from "geojson";
 import { getCountry } from "@/lib/data/countries";
+import { getFeature, isFeatureKind } from "@/lib/data/features";
+import { getFeatureShape } from "@/lib/geo/features";
 import { haversineKm } from "@/lib/geo/haversine";
 import { getShape } from "@/lib/geo/world";
-import type { LngLat, Target } from "@/lib/types";
+import type { FeatureKind, LngLat, Target } from "@/lib/types";
 
 export interface Evaluation {
   correct: boolean;
@@ -24,7 +27,21 @@ export function smallCountryRadiusKm(areaKm2: number): number {
   return 0;
 }
 
+/**
+ * Rayon minimal autour des cibles nature : un sommet est un point, un fleuve une ligne,
+ * et un petit lac ou une petite île se visent mal à l'échelle d'un continent.
+ */
+export function featureRadiusKm(kind: FeatureKind, bbox: [number, number, number, number]): number {
+  if (kind === "peak") return 60;
+  if (kind === "river") return 30;
+  const diagonal = haversineKm({ lng: bbox[0], lat: bbox[1] }, { lng: bbox[2], lat: bbox[3] });
+  if (diagonal < 60) return 40;
+  if (diagonal < 200) return 20;
+  return 0;
+}
+
 export function evaluateGuess(target: Target, click: LngLat, toleranceKm: number): Evaluation {
+  if (isFeatureKind(target.kind)) return evaluateFeature(target.code, click, toleranceKm);
   const country = getCountry(target.code);
 
   if (target.kind === "capital" && country.capital) {
@@ -36,6 +53,48 @@ export function evaluateGuess(target: Target, click: LngLat, toleranceKm: number
   }
 
   return evaluateCountry(target.code, click, toleranceKm);
+}
+
+/** Distance au contour le plus proche (anneaux d'un polygone ou tronçons d'un fleuve). */
+function nearestOnLines(lines: Position[][], click: LngLat): Evaluation {
+  const snapped = nearestPointOnLine(multiLineString(lines), point([click.lng, click.lat]), { units: "kilometers" });
+  const [lng, lat] = snapped.geometry.coordinates;
+  return { correct: false, distanceKm: snapped.properties.pointDistance, nearest: { lng, lat } };
+}
+
+/** Le clic tombe dans le polygone de ce pays. */
+function insideCountry(code: string, click: LngLat): boolean {
+  const shape = getShape(code);
+  return !!shape && booleanPointInPolygon(point([click.lng, click.lat]), shape);
+}
+
+/**
+ * Cible nature : cliquer dans l'un de ses pays suffit (sauf mers et océans, qui n'en ont pas) ;
+ * sinon il faut viser la cible elle-même, à la tolérance près. La distance à la cible module le score.
+ */
+function evaluateFeature(id: string, click: LngLat, toleranceKm: number): Evaluation {
+  const feature = getFeature(id);
+  const inCountry = feature.countries.some((code) => insideCountry(code, click));
+  const radius = Math.max(toleranceKm, featureRadiusKm(feature.kind, feature.bbox));
+  const geometry = getFeatureShape(id)?.geometry;
+
+  let ev: Evaluation;
+  if (!geometry || geometry.type === "Point") {
+    const [lng, lat] = geometry?.type === "Point" ? geometry.coordinates : [feature.anchor[1], feature.anchor[0]];
+    const nearest = { lng, lat };
+    ev = { correct: false, distanceKm: haversineKm(click, nearest), nearest };
+  } else if (geometry.type === "MultiLineString" || geometry.type === "LineString") {
+    ev = nearestOnLines(geometry.type === "LineString" ? [geometry.coordinates] : geometry.coordinates, click);
+  } else if (geometry.type === "Polygon" || geometry.type === "MultiPolygon") {
+    const shape = { type: "Feature", properties: {}, geometry } as Feature<Polygon | MultiPolygon>;
+    if (booleanPointInPolygon(point([click.lng, click.lat]), shape)) {
+      return { correct: true, distanceKm: 0, nearest: click };
+    }
+    ev = nearestOnLines(geometry.type === "Polygon" ? geometry.coordinates : geometry.coordinates.flat(), click);
+  } else {
+    throw new Error(`Géométrie inattendue : ${geometry.type}`);
+  }
+  return { ...ev, correct: inCountry || ev.distanceKm <= radius };
 }
 
 function evaluateCountry(code: string, click: LngLat, toleranceKm: number): Evaluation {

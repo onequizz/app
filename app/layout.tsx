@@ -1,10 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Suspense } from "react";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { Bricolage_Grotesque, Cairo, Manrope } from "next/font/google";
 import { Providers } from "@/components/Providers";
 import { Splash } from "@/components/ui/Splash";
-import { DEFAULT_LOCALE, isLocale, LOCALE_COOKIE } from "@/lib/i18n/config";
+import { DEFAULT_LOCALE, isLocale, LOCALE_COOKIE, LOCALES, negotiateLocale, parseAcceptLanguage } from "@/lib/i18n/config";
 import { SETTINGS_STORAGE_KEY } from "@/store/settings";
 import "./globals.css";
 
@@ -14,7 +14,7 @@ const cairo = Cairo({ subsets: ["arabic", "latin"], variable: "--font-cairo" });
 
 export const metadata: Metadata = {
   title: "OneQuizz — Find the Country / Capital",
-  description: "Jeu de géographie : trouve les pays et les capitales sur une carte interactive.",
+  description: "Jeu de géographie : trouve pays, capitales, fleuves, montagnes, déserts et mers sur une carte interactive.",
 };
 
 export const viewport: Viewport = {
@@ -24,11 +24,16 @@ export const viewport: Viewport = {
   ],
 };
 
-/** Exécuté avant le premier rendu : langue, sens d'écriture et thème, sans flash. */
+/**
+ * Exécuté avant le premier rendu : langue, sens d'écriture et thème, sans flash.
+ * Sans choix enregistré, la langue est celle du navigateur et le thème celui du système.
+ */
 const BOOT_SCRIPT = `(function(){try{
 var d=document.documentElement;
 var m=document.cookie.match(/(?:^|; )${LOCALE_COOKIE}=(\\w+)/);
-var l=m?m[1]:"${DEFAULT_LOCALE}";
+var L=${JSON.stringify(LOCALES)};
+var l=m&&L.indexOf(m[1])>=0?m[1]:"${DEFAULT_LOCALE}";
+if(!m){var n=navigator.languages||[navigator.language];for(var i=0;i<n.length;i++){var b=String(n[i]).split("-")[0].toLowerCase();if(L.indexOf(b)>=0){l=b;break;}}}
 d.lang=l;d.dir=l==="ar"?"rtl":"ltr";
 var s=JSON.parse(localStorage.getItem("${SETTINGS_STORAGE_KEY}")||"{}");
 var t=(s.state&&s.state.theme)||"system";
@@ -38,7 +43,10 @@ d.dataset.theme=t;
 
 async function LocaleRoot({ children }: { children: React.ReactNode }) {
   const value = (await cookies()).get(LOCALE_COOKIE)?.value;
-  return <Providers initialLocale={isLocale(value) ? value : DEFAULT_LOCALE}>{children}</Providers>;
+  const locale = isLocale(value)
+    ? value
+    : negotiateLocale(parseAcceptLanguage((await headers()).get("accept-language")));
+  return <Providers initialLocale={locale}>{children}</Providers>;
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

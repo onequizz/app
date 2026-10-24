@@ -13,8 +13,10 @@ import type { Feature, FeatureCollection, LineString } from "geojson";
 import { Loader2 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { getCountry, ZONE_BOUNDS } from "@/lib/data/countries";
+import { getFeature, isFeatureKind } from "@/lib/data/features";
 import { HEAT_COLORS, heatOf } from "@/lib/game/engine";
 import { greatCirclePoints } from "@/lib/geo/haversine";
+import { getFeatureShape } from "@/lib/geo/features";
 import { smallCountryRadiusKm } from "@/lib/geo/validate";
 import { loadWorld, type WorldData } from "@/lib/geo/world";
 import { useI18n } from "@/lib/i18n/I18nProvider";
@@ -87,6 +89,8 @@ function buildStyle(world: WorldData, p: Palette): StyleSpecification {
       countries: { type: "geojson", data: world, promoteId: "code" },
       graticule: { type: "geojson", data: graticule() },
       lines: { type: "geojson", data: EMPTY_FC },
+      // Tracé de la cible nature, ajouté seulement à la révélation.
+      feature: { type: "geojson", data: EMPTY_FC },
     },
     layers: [
       { id: "ocean", type: "background", paint: { "background-color": p.ocean } },
@@ -117,6 +121,24 @@ function buildStyle(world: WorldData, p: Palette): StyleSpecification {
         source: "countries",
         filter: ["==", ["get", "code"], ""],
         paint: { "line-color": p.reveal, "line-width": 2.5 },
+      },
+      {
+        id: "feature-fill",
+        type: "fill",
+        source: "feature",
+        filter: ["in", ["geometry-type"], ["literal", ["Polygon", "MultiPolygon"]]],
+        paint: { "fill-color": p.reveal, "fill-opacity": 0.45 },
+      },
+      {
+        id: "feature-line",
+        type: "line",
+        source: "feature",
+        filter: ["!", ["in", ["geometry-type"], ["literal", ["Point", "MultiPoint"]]]],
+        layout: { "line-join": "round", "line-cap": "round" },
+        paint: {
+          "line-color": p.reveal,
+          "line-width": ["case", ["in", ["geometry-type"], ["literal", ["LineString", "MultiLineString"]]], 3.5, 2],
+        },
       },
       {
         id: "error-lines",
@@ -224,7 +246,8 @@ export default function GameMap(props: GameMapProps) {
         map.on("mousemove", "countries-fill", (e) => {
           const { interactive, target } = live.current;
           const code = (e.features?.[0]?.properties?.code as string | undefined) ?? null;
-          const enabled = interactive && target !== null;
+          // Survol des pays : trompeur quand on cherche un fleuve, un lac…
+          const enabled = interactive && target !== null && !isFeatureKind(target.kind);
           const next = enabled && code && !code.startsWith("_") ? code : null;
           if (next === hovered.current) return;
           if (hovered.current) map!.setFeatureState({ source: "countries", id: hovered.current }, { hover: false });
@@ -311,11 +334,36 @@ export default function GameMap(props: GameMapProps) {
       stateful.current = null;
     }
     map.setFilter("target-outline", ["==", ["get", "code"], ""]);
+    const featureSource = map.getSource("feature") as GeoJSONSource | undefined;
+    featureSource?.setData(EMPTY_FC);
 
     if (!target || roundStatus === "playing") return;
 
     const won = roundStatus === "won";
     const color = won ? palette.success : palette.reveal;
+    const options = { padding: { top: 120, bottom: 260, left: 60, right: 60 }, maxZoom: 5.5, duration: 1200 };
+
+    if (isFeatureKind(target.kind)) {
+      const feature = getFeature(target.code);
+      const shape = getFeatureShape(target.code);
+      if (shape) featureSource?.setData(shape);
+      map.setPaintProperty("feature-fill", "fill-color", color);
+      map.setPaintProperty("feature-line", "line-color", color);
+      const [lat, lng] =
+        shape?.geometry.type === "Point"
+          ? [shape.geometry.coordinates[1], shape.geometry.coordinates[0]]
+          : feature.anchor;
+      markers.current.push(
+        new Marker({ element: markerEl(color, targetName, "target", true) }).setLngLat([lng, lat]).addTo(map),
+      );
+      const bounds = new LngLatBounds([feature.bbox[0], feature.bbox[1]], [feature.bbox[2], feature.bbox[3]]);
+      bounds.extend([lng, lat]);
+      // Océans et grandes mers : on garde la cible seule, les essais lointains feraient tout dézoomer.
+      if (feature.bbox[2] - feature.bbox[0] < 90) guesses.forEach((g) => bounds.extend([g.lng, g.lat]));
+      map.fitBounds(bounds, options);
+      return;
+    }
+
     const country = getCountry(target.code);
 
     map.setFeatureState({ source: "countries", id: target.code }, won ? { success: true } : { reveal: true });
@@ -346,7 +394,6 @@ export default function GameMap(props: GameMapProps) {
     const bounds = focus.isEmpty() ? new LngLatBounds() : new LngLatBounds(focus.getSouthWest(), focus.getNorthEast());
     guesses.forEach((g) => bounds.extend([g.lng, g.lat]));
 
-    const options = { padding: { top: 120, bottom: 260, left: 60, right: 60 }, maxZoom: 5.5, duration: 1200 };
     // En Mercator, la carte ne dézoome pas au-delà du monde entier en hauteur : sur un écran en
     // portrait, une cible et des essais très éloignés ne tiennent pas ensemble. On centre alors la cible.
     const minZoom = Math.log2(map.getContainer().clientHeight / 512);

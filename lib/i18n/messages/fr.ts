@@ -1,7 +1,7 @@
 export const fr = {
   "app.tagline": "Le monde à portée de clic.",
   "app.subtitle":
-    "Un jeu de géographie sur une vraie carte du monde. Une cible est tirée au sort : pointe-la sur la carte, mesure ton erreur en kilomètres, apprends.",
+    "Un jeu de géographie sur une vraie carte du monde : pays, capitales, fleuves, montagnes, déserts, mers… Une cible est tirée au sort : pointe-la sur la carte, mesure ton erreur en kilomètres, apprends.",
 
   "nav.home": "Accueil",
   "nav.stats": "Statistiques",
@@ -19,22 +19,55 @@ export const fr = {
   "mode.review.empty": "Rien à réviser pour l'instant.",
   "mode.review.count": "Cibles à revoir : {n}",
 
-  "home.playCountries": "Trouver des pays",
-  "home.playCapitals": "Trouver des capitales",
   "home.bestScore": "Meilleur score",
   "home.bestStreak": "Meilleure série",
   "home.accuracy": "Précision",
   "home.games": "Parties",
   "home.rules": "Règles actuelles",
-  "home.dataNote":
-    "Frontières : Natural Earth (domaine public).",
+  "home.quizTitle": "Choisis tes thèmes",
+  "home.quizHelp":
+    "Sélectionne un thème, plusieurs, ou « Tout », puis lance la partie.",
+  "home.play": "Jouer",
+  "home.themesSelected": "{n} thèmes",
+  "home.targetsInPlay": "{n} cibles en jeu",
 
-  "target.findCountry": "Trouve le pays",
-  "target.findCapital": "Trouve la capitale",
+  "quiz.country": "Pays",
+  "quiz.capital": "Capitales",
+  "quiz.river": "Fleuves et rivières",
+  "quiz.lake": "Lacs",
+  "quiz.peak": "Sommets",
+  "quiz.range": "Chaînes de montagnes",
+  "quiz.desert": "Déserts",
+  "quiz.sea": "Mers et océans",
+  "quiz.island": "Îles",
+  "quiz.all": "Tout",
+  "quiz.country.desc": "Tous les pays et territoires du monde.",
+  "quiz.capital.desc": "Une capitale par pays.",
+  "quiz.river.desc": "Du Nil et de l'Amazone à la Moulouya.",
+  "quiz.lake.desc": "Des Grands Lacs à la mer Morte.",
+  "quiz.peak.desc": "Les plus hauts sommets, volcans et monts célèbres.",
+  "quiz.range.desc": "Himalaya, Andes, Atlas, Alpes…",
+  "quiz.desert.desc": "Sahara, Gobi, Atacama…",
+  "quiz.sea.desc": "Océans, mers, golfes et détroits.",
+  "quiz.island.desc": "Des plus grandes îles aux plus célèbres.",
+  "quiz.all.desc": "Tous les thèmes réunis dans une même partie.",
+  "home.dataNote":
+    "Frontières et tracés : Natural Earth (domaine public). Noms : Wikidata.",
+
+  "target.find.country": "Trouve le pays",
+  "target.find.capital": "Trouve la capitale",
+  "target.find.river": "Trouve le cours d'eau",
+  "target.find.lake": "Trouve le lac",
+  "target.find.peak": "Trouve le sommet",
+  "target.find.range": "Trouve la chaîne de montagnes",
+  "target.find.desert": "Trouve le désert",
+  "target.find.sea": "Trouve la mer ou l'océan",
+  "target.find.island": "Trouve l'île",
   "target.drawing": "Tirage au sort…",
   "target.country": "Pays",
   "target.capital": "Capitale",
   "target.clickMap": "Clique sur la carte",
+  "target.clickCountry": "Clique sur la cible ou sur l'un de ses pays",
 
   "hud.score": "Score",
   "hud.round": "Tour",
@@ -49,6 +82,8 @@ export const fr = {
   "hint.population": "Population",
   "hint.country": "Pays",
   "hint.capital": "Capitale",
+  "hint.countries": "Pays",
+  "hint.initial": "Initiale",
 
   "feedback.correct": "Bien joué !",
   "feedback.inside": "En plein dans le mille !",
@@ -66,6 +101,7 @@ export const fr = {
   "result.bestDistance": "Meilleur essai : {km}",
   "result.attempt": "Essai {n}",
   "result.inside": "dans le pays",
+  "result.onTarget": "en plein dessus",
   "result.retry": "Rejouer ce tour",
   "result.next": "Suivant",
   "result.finish": "Voir le bilan",
@@ -79,6 +115,9 @@ export const fr = {
   "fact.readMore": "Lire sur Wikipédia",
   "fact.loading": "Chargement de la fiche…",
   "fact.unavailable": "Fiche indisponible pour le moment.",
+  "fact.missing": "Pas encore d'article Wikipédia en français sur ce sujet.",
+  "fact.readEnglish": "Lire l'article en anglais",
+  "fact.retry": "Réessayer",
 
   "summary.title": "Bilan de la partie",
   "summary.timeUp": "Temps écoulé !",
@@ -94,14 +133,14 @@ export const fr = {
 
   "settings.title": "Paramètres",
   "settings.attempts": "Essais par cible",
-  "settings.mode": "Mode de jeu",
-  "settings.mode.country": "Pays uniquement",
-  "settings.mode.capital": "Capitales uniquement",
-  "settings.mode.mixed": "Mixte",
+  "settings.mode": "Thèmes",
+  "settings.atLeastOne": "Garde au moins un thème.",
+  "settings.zoneEmpty":
+    "Aucune cible de ce quiz dans cette zone : la partie se jouera sur le monde entier.",
   "settings.zone": "Zone géographique",
   "settings.tolerance": "Marge de tolérance",
   "settings.toleranceHelp":
-    "Distance acceptée autour d'une capitale, ou autour de la frontière d'un pays.",
+    "Distance acceptée autour de la cible : capitale, sommet, frontière d'un pays, rive d'un fleuve…",
   "settings.rounds": "Tours par partie",
   "settings.sound": "Effets sonores",
   "settings.hotCold": "Mode chaud / froid",
@@ -143,6 +182,12 @@ export const fr = {
   "unit.km": "{n} km",
   "unit.pts": "{n} pts",
   "unit.sec": "{n} s",
+  "unit.m": "{n} m",
+  "unit.km2": "{n} km²",
+
+  "measure.elevation": "Altitude",
+  "measure.length": "Longueur",
+  "measure.area": "Superficie",
 } as const;
 
 export type MessageKey = keyof typeof fr;

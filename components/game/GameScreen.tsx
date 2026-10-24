@@ -10,7 +10,9 @@ import { SettingsPanel } from "@/components/settings/SettingsPanel";
 import { buttonClass } from "@/components/ui/controls";
 import { Splash } from "@/components/ui/Splash";
 import { targetLabel } from "@/lib/data/countries";
+import { themesUseFeatures } from "@/lib/data/features";
 import { reviewPool, todayKey } from "@/lib/game/engine";
+import { loadFeatures } from "@/lib/geo/features";
 import { useI18n } from "@/lib/i18n/I18nProvider";
 import type { SessionMode } from "@/lib/types";
 import { useGame } from "@/store/game";
@@ -56,6 +58,7 @@ export function GameScreen() {
   const [restart, setRestart] = useState(0);
   const [settingsOpen, setSettingsOpen] = useState(false);
 
+  const themes = useSettings((s) => s.themes);
   const globe = useSettings((s) => s.globe);
   const hotCold = useSettings((s) => s.hotCold);
   const daily = useStats((s) => s.daily[todayKey()]);
@@ -72,20 +75,37 @@ export function GameScreen() {
   const tick = useGame((s) => s.tick);
   const nextRound = useGame((s) => s.nextRound);
 
+  // Tracés nature : chargés avant la partie pour valider les clics dès le premier tour.
+  // La révision peut reprendre n'importe quelle cible ratée.
+  const needsFeatures = hydrated && mode !== "daily" && (mode === "review" || themesUseFeatures(themes));
+  const [featuresReady, setFeaturesReady] = useState(false);
+  useEffect(() => {
+    if (!needsFeatures) return;
+    let cancelled = false;
+    // En cas d'échec, la validation se rabat sur le point d'étiquette de chaque cible.
+    loadFeatures()
+      .catch(() => {})
+      .then(() => !cancelled && setFeaturesReady(true));
+    return () => {
+      cancelled = true;
+    };
+  }, [needsFeatures]);
+  const waiting = needsFeatures && !featuresReady;
+
   // --- Démarrage de la partie --------------------------------------------------
   useEffect(() => {
-    if (!hydrated) return;
+    if (!hydrated || waiting) return;
     if (mode === "daily" && useStats.getState().daily[todayKey()]) return;
     const s = useSettings.getState();
     useGame.getState().start(mode, {
       attempts: s.attempts,
       toleranceKm: s.toleranceKm,
       zone: s.zone,
-      mode: s.mode,
+      themes: s.themes,
       rounds: s.rounds,
     });
     return () => useGame.getState().reset();
-  }, [hydrated, mode, restart]);
+  }, [hydrated, waiting, mode, restart]);
 
   // --- Contre-la-montre : décompte et enchaînement automatique ----------------------
   useEffect(() => {
@@ -109,7 +129,7 @@ export function GameScreen() {
 
   // Statut dérivé : une partie n'est jamais lancée dans ces deux cas (phase « idle »).
   const idle = phase === "idle";
-  const status: Status = !hydrated
+  const status: Status = !hydrated || waiting
     ? "loading"
     : mode === "daily" && daily && idle
       ? "dailyDone"

@@ -1,11 +1,13 @@
 "use client";
 
-import { Info } from "lucide-react";
+import { Info, TriangleAlert } from "lucide-react";
 import { Drawer } from "@/components/ui/Drawer";
 import { Field, Segmented, Slider, Toggle } from "@/components/ui/controls";
+import { ThemePicker } from "@/components/ui/ThemePicker";
+import { targetPool } from "@/lib/data/countries";
 import { LOCALE_LABELS, LOCALES } from "@/lib/i18n/config";
 import { useI18n } from "@/lib/i18n/I18nProvider";
-import type { TargetMode, Zone } from "@/lib/types";
+import type { Zone } from "@/lib/types";
 import { useSettings, type Theme } from "@/store/settings";
 
 const ZONES: Zone[] = ["world", "europe", "africa", "asia", "americas", "oceania"];
@@ -22,6 +24,7 @@ export function SettingsPanel({
 }) {
   const { t, km, locale, setLocale } = useI18n();
   const s = useSettings();
+  const zoneEmpty = targetPool(s.zone, s.themes).length === 0;
 
   return (
     <Drawer open={open} onClose={onClose} title={t("settings.title")}>
@@ -32,16 +35,7 @@ export function SettingsPanel({
         </p>
 
         <Field label={t("settings.mode")}>
-          <Segmented<TargetMode>
-            value={s.mode}
-            onChange={(v) => s.set("mode", v)}
-            disabled={rulesLocked}
-            options={[
-              { value: "country", label: t("settings.mode.country") },
-              { value: "capital", label: t("settings.mode.capital") },
-              { value: "mixed", label: t("settings.mode.mixed") },
-            ]}
-          />
+          <ThemePicker zone={s.zone} disabled={rulesLocked} />
         </Field>
 
         <Field label={t("settings.zone")}>
@@ -61,6 +55,12 @@ export function SettingsPanel({
               </button>
             ))}
           </div>
+          {zoneEmpty && !rulesLocked && (
+            <p className="mt-2 flex items-start gap-2 text-xs text-muted">
+              <TriangleAlert size={14} className="mt-px shrink-0 text-accent" />
+              {t("settings.zoneEmpty")}
+            </p>
+          )}
         </Field>
 
         <Field label={t("settings.attempts")}>

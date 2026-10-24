@@ -8,8 +8,8 @@ import {
   BookMarked,
   CalendarDays,
   Crosshair,
-  Landmark,
   MapPin,
+  Play,
   Settings2,
   Timer,
   type LucideIcon,
@@ -19,9 +19,12 @@ import { useEffect, useMemo, useState } from "react";
 import { SettingsPanel } from "@/components/settings/SettingsPanel";
 import { buttonClass, IconButton } from "@/components/ui/controls";
 import { Flag } from "@/components/ui/Flag";
+import { KindIcon } from "@/components/ui/KindIcon";
+import { ThemePicker } from "@/components/ui/ThemePicker";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
 import { Logo } from "@/components/ui/Logo";
 import { targetLabel, targetPool } from "@/lib/data/countries";
+import { QUIZ_THEMES } from "@/lib/data/features";
 import { mulberry32, reviewPool, shuffle, todayKey } from "@/lib/game/engine";
 import { isRtl } from "@/lib/i18n/config";
 import { useI18n } from "@/lib/i18n/I18nProvider";
@@ -35,7 +38,7 @@ function RoulettePreview() {
   const { t, locale } = useI18n();
   // Graine fixe : même liste côté serveur et client (pas d'écart d'hydratation).
   const targets = useMemo<Target[]>(
-    () => shuffle(targetPool("world", "mixed"), mulberry32(7)).slice(0, 40),
+    () => shuffle(targetPool("world", QUIZ_THEMES), mulberry32(7)).slice(0, 40),
     [],
   );
   const [i, setI] = useState(0);
@@ -52,7 +55,7 @@ function RoulettePreview() {
       <div className="absolute -inset-6 rounded-[2.5rem] bg-accent/20 blur-3xl" aria-hidden />
       <div className="glass relative rounded-3xl p-6 shadow-2xl">
         <div className="mb-3 flex items-center justify-between text-xs font-bold tracking-wide text-accent uppercase">
-          <span>{current?.kind === "capital" ? t("target.findCapital") : t("target.findCountry")}</span>
+          <span>{current && t(`target.find.${current.kind}`)}</span>
           <span className="flex gap-1.5">
             <span className="size-2.5 rounded-full bg-accent" />
             <span className="size-2.5 rounded-full bg-accent" />
@@ -70,11 +73,7 @@ function RoulettePreview() {
                 transition={{ type: "spring", stiffness: 260, damping: 26 }}
                 className="absolute inset-0 flex items-center gap-3"
               >
-                {current.kind === "capital" ? (
-                  <Landmark className="shrink-0 text-accent" size={26} />
-                ) : (
-                  <MapPin className="shrink-0 text-accent" size={26} />
-                )}
+                <KindIcon kind={current.kind} className="shrink-0 text-accent" size={26} />
                 <span className="truncate font-display text-3xl font-extrabold">{targetLabel(current, locale)}</span>
               </motion.div>
             )}
@@ -163,6 +162,13 @@ export function HomeScreen() {
   const best = (m: SessionMode) =>
     hydrated && stats.bestScore[m] ? `${t("home.bestScore")} · ${n(stats.bestScore[m]!)}` : undefined;
 
+  const themesLabel =
+    settings.themes.length === QUIZ_THEMES.length
+      ? t("quiz.all")
+      : settings.themes.length === 1
+        ? t(`quiz.${settings.themes[0]}`)
+        : t("home.themesSelected", { n: settings.themes.length });
+
   const highlightCodes = ["DZ", "DE", "JP", "BR", "NO", "AU", "KE"];
 
   return (
@@ -194,30 +200,13 @@ export function HomeScreen() {
             </h1>
             <p className="mt-5 max-w-xl text-lg text-muted">{t("app.subtitle")}</p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
-              {/* Le choix pays / capitales devient le mode de cible des parties suivantes. */}
-              <Link
-                href="/play?mode=classic"
-                onClick={() => settings.set("mode", "country")}
-                className={buttonClass("primary", "lg")}
-              >
-                <MapPin size={18} />
-                {t("home.playCountries")}
-              </Link>
-              <Link
-                href="/play?mode=classic"
-                onClick={() => settings.set("mode", "capital")}
-                className={buttonClass("primary", "lg")}
-              >
-                <Landmark size={18} />
-                {t("home.playCapitals")}
-              </Link>
               <button
                 onClick={() => setSettingsOpen(true)}
                 className="flex flex-wrap items-center gap-1.5 rounded-full border border-line px-3 py-2 text-xs text-muted transition hover:border-accent/50"
               >
                 <Settings2 size={13} />
                 <span className="font-bold text-ink">{t("home.rules")}</span>·
-                <span>{t(`settings.mode.${settings.mode}`)}</span>·<span>{t(`zone.${settings.zone}`)}</span>·
+                <span>{themesLabel}</span>·<span>{t(`zone.${settings.zone}`)}</span>·
                 <span>
                   {settings.attempts} × {t("hud.attempts").toLowerCase()}
                 </span>
@@ -227,6 +216,31 @@ export function HomeScreen() {
           </motion.div>
           <RoulettePreview />
         </section>
+
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.05, type: "spring", stiffness: 260, damping: 26 }}
+          className="relative mb-10 overflow-hidden rounded-[2rem] border border-accent/30 bg-surface p-5 shadow-xl shadow-accent/5 sm:p-7"
+        >
+          <div className="pointer-events-none absolute -top-24 -right-24 size-72 rounded-full bg-accent/15 blur-3xl" aria-hidden />
+          <div className="relative mb-5">
+            <h2 className="font-display text-3xl font-extrabold sm:text-4xl">{t("home.quizTitle")}</h2>
+            <p className="mt-1.5 max-w-xl text-sm text-muted">{t("home.quizHelp")}</p>
+          </div>
+          <div className="relative">
+            <ThemePicker zone={settings.zone} large />
+          </div>
+          <div className="relative mt-6 flex justify-center">
+            <Link href="/play?mode=classic" className={buttonClass("primary", "lg", "w-full sm:w-auto sm:min-w-72")}>
+              <Play size={18} />
+              {t("home.play")}
+              <span className="tabular rounded-full bg-black/10 px-2 py-0.5 text-xs">
+                {t("home.targetsInPlay", { n: n(targetPool(settings.zone, settings.themes).length) })}
+              </span>
+            </Link>
+          </div>
+        </motion.section>
 
         <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <ModeCard

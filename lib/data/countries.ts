@@ -1,6 +1,7 @@
 import raw from "@/data/countries.json";
+import { FEATURES, getFeature, isFeatureKind } from "@/lib/data/features";
 import type { Locale } from "@/lib/i18n/config";
-import type { Country, Target, TargetMode, Zone } from "@/lib/types";
+import type { Country, QuizTheme, Target, Zone } from "@/lib/types";
 
 export const COUNTRIES = raw as Country[];
 
@@ -16,12 +17,21 @@ export function countriesInZone(zone: Zone): Country[] {
   return zone === "world" ? COUNTRIES : COUNTRIES.filter((c) => c.region === zone);
 }
 
-/** Toutes les cibles jouables pour une zone et un mode donnés. */
-export function targetPool(zone: Zone, mode: TargetMode): Target[] {
+/** Toutes les cibles jouables pour une zone et un ou plusieurs thèmes. */
+export function targetPool(zone: Zone, themes: readonly QuizTheme[]): Target[] {
   const pool: Target[] = [];
-  for (const c of countriesInZone(zone)) {
-    if (mode !== "capital") pool.push({ kind: "country", code: c.code });
-    if (mode !== "country" && c.capital) pool.push({ kind: "capital", code: c.code });
+  const country = themes.includes("country");
+  const capital = themes.includes("capital");
+  if (country || capital) {
+    for (const c of countriesInZone(zone)) {
+      if (country) pool.push({ kind: "country", code: c.code });
+      if (capital && c.capital) pool.push({ kind: "capital", code: c.code });
+    }
+  }
+  for (const f of FEATURES) {
+    if (!themes.includes(f.kind)) continue;
+    if (zone !== "world" && f.region !== zone) continue;
+    pool.push({ kind: f.kind, code: f.id });
   }
   return pool;
 }
@@ -35,8 +45,9 @@ export function parseTargetKey(key: string): Target {
   return { kind: kind as Target["kind"], code };
 }
 
-/** Libellé affiché pour une cible : nom du pays ou de la capitale. */
+/** Libellé affiché pour une cible : nom du pays, de la capitale, du fleuve… */
 export function targetLabel(t: Target, locale: Locale): string {
+  if (isFeatureKind(t.kind)) return getFeature(t.code).names[locale];
   const c = getCountry(t.code);
   return t.kind === "capital" && c.capital ? c.capital.names[locale] : c.names[locale];
 }

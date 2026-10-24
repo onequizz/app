@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "build:data": "tsx scripts/build-data.ts"
+    "build:data": "tsx scripts/build-data.ts",
+    "build:features": "tsx scripts/build-features.ts"
   },
   "dependencies": {
     "@turf/boolean-point-in-polygon": "^7.4.0",

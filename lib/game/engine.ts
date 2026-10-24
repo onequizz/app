@@ -1,5 +1,6 @@
-import { targetKey, targetPool } from "@/lib/data/countries";
-import type { RoundResult, Target, TargetMode, Zone } from "@/lib/types";
+import { parseTargetKey, targetKey, targetPool } from "@/lib/data/countries";
+import { findFeature, isFeatureKind } from "@/lib/data/features";
+import type { QuizTheme, RoundResult, Target, Zone } from "@/lib/types";
 
 // --- Aléatoire reproductible (défi du jour) ---------------------------------
 
@@ -42,16 +43,15 @@ export const DAILY_RULES = {
   attempts: 3,
   toleranceKm: 75,
   zone: "world" as Zone,
-  mode: "mixed" as TargetMode,
+  themes: ["country", "capital"] as QuizTheme[],
 };
 
 export const TIME_ATTACK = { startMs: 60_000, bonusMs: 3_000 };
-export const HINT_COUNT = 4;
 
 /** Les 10 mêmes cibles pour tout le monde, tirées à partir de la date. */
 export function dailyTargets(date: string): Target[] {
   const rand = mulberry32(hashString(`onequizz:${date}`));
-  const countries = targetPool(DAILY_RULES.zone, "country");
+  const countries = targetPool(DAILY_RULES.zone, ["country"]);
   const picked = shuffle(countries, rand).slice(0, DAILY_RULES.rounds);
   // Moitié pays, moitié capitales, ordre mélangé.
   return picked.map((t, i) => ({ ...t, kind: i % 2 === 0 ? "country" : "capital" }));
@@ -89,6 +89,11 @@ export function pickTarget(
 export function reviewPool(stats: Record<string, TargetStat>): string[] {
   return Object.entries(stats)
     .filter(([, s]) => s.misses > s.hits)
+    // Cible retirée du catalogue depuis la partie : ignorée.
+    .filter(([k]) => {
+      const t = parseTargetKey(k);
+      return !isFeatureKind(t.kind) || findFeature(t.code) !== undefined;
+    })
     .sort(([, a], [, b]) => b.misses - b.hits - (a.misses - a.hits))
     .map(([k]) => k);
 }
@@ -115,7 +120,7 @@ export function computePoints(opts: {
 }): number {
   const attempt = ATTEMPT_FACTOR[Math.min(opts.attemptIndex, ATTEMPT_FACTOR.length - 1)];
   const precision =
-    opts.kind === "capital"
+    opts.kind === "capital" || opts.kind === "peak"
       ? 1 + 0.5 * Math.max(0, 1 - opts.distanceKm / Math.max(1, opts.toleranceKm))
       : opts.distanceKm === 0
         ? 1.2

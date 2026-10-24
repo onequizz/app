@@ -137,7 +137,9 @@ export function RoundResult() {
                     <li key={i} className="flex items-center justify-between rounded-lg bg-surface-2 px-3 py-1.5">
                       <span className="text-muted">{t("result.attempt", { n: i + 1 })}</span>
                       <span className={clsx("tabular font-bold", g.correct ? "text-success" : "text-ink")}>
-                        {g.correct && g.distanceKm === 0 ? t("result.inside") : km(g.distanceKm)}
+                        {g.correct && g.distanceKm === 0
+                          ? t(target.kind === "country" ? "result.inside" : "result.onTarget")
+                          : km(g.distanceKm)}
                       </span>
                     </li>
                   ))}
@@ -167,7 +169,7 @@ export function RoundResult() {
               </div>
 
               <div className="border-line max-md:border-t max-md:pt-4 md:border-s md:ps-5">
-                <FactCard code={target.code} />
+                <FactCard target={target} />
               </div>
             </div>
           </motion.div>

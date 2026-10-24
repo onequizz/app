@@ -13,15 +13,16 @@ import {
   TIME_ATTACK,
   todayKey,
 } from "@/lib/game/engine";
+import { hintKeys } from "@/lib/game/hints";
 import { evaluateGuess } from "@/lib/geo/validate";
 import type {
   Guess,
+  QuizTheme,
   LngLat,
   RoundResult,
   RoundStatus,
   SessionMode,
   Target,
-  TargetMode,
   Zone,
 } from "@/lib/types";
 import { useStats } from "@/store/stats";
@@ -32,7 +33,7 @@ export interface Rules {
   attempts: number;
   toleranceKm: number;
   zone: Zone;
-  mode: TargetMode;
+  themes: QuizTheme[];
   rounds: number;
 }
 
@@ -124,6 +125,8 @@ export const useGame = create<GameStore>()((set, get) => ({
     } else if (session === "timeAttack") {
       totalRounds = null;
     }
+    // Aucune cible de ce type dans la zone choisie (ex. déserts en Europe) : on joue sur le monde entier.
+    if (!queue && targetPool(rules.zone, rules.themes).length === 0) rules = { ...rules, zone: "world" };
 
     set({
       phase: "idle",
@@ -151,7 +154,7 @@ export const useGame = create<GameStore>()((set, get) => ({
     if (queue) {
       target = queue[results.length];
     } else {
-      const pool = targetPool(rules.zone, rules.mode);
+      const pool = targetPool(rules.zone, rules.themes);
       target = pickTarget(pool, new Set(used), useStats.getState().targets);
     }
     set({ ...ROUND_RESET, target, used: [...used, targetKey(target)], phase: "spinning" });
@@ -248,8 +251,8 @@ export const useGame = create<GameStore>()((set, get) => ({
   },
 
   takeHint: () => {
-    const { phase, hints } = get();
-    if (phase === "guessing" && hints < 4) {
+    const { phase, hints, target } = get();
+    if (phase === "guessing" && target && hints < hintKeys(target).length) {
       sfx.click();
       set({ hints: hints + 1 });
     }

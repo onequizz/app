@@ -1,0 +1,10774 @@
+[
+ {
+  "id": "Q3392",
+  "kind": "river",
+  "names": {
+   "fr": "Nil",
+   "en": "Nile",
+   "ar": "نهر النيل",
+   "es": "Nilo"
+  },
+  "region": "africa",
+  "anchor": [
+   26.626,
+   31.714
+  ],
+  "bbox": [
+   30.19,
+   -0.94,
+   33.99,
+   31.53
+  ],
+  "countries": [
+   "EG",
+   "SD",
+   "SS",
+   "UG",
+   "RW",
+   "ET"
+  ],
+  "elevation": null,
+  "length": 6650,
+  "area": null,
+  "wiki": {
+   "fr": "Nil",
+   "en": "Nile",
+   "ar": "نهر النيل",
+   "es": "Nilo"
+  }
+ },
+ {
+  "id": "Q3783",
+  "kind": "river",
+  "names": {
+   "fr": "Amazone",
+   "en": "Amazon River",
+   "ar": "نهر الأمازون",
+   "es": "Amazonas"
+  },
+  "region": "americas",
+  "anchor": [
+   -3.141,
+   -64.843
+  ],
+  "bbox": [
+   -73.49,
+   -4.44,
+   -52.71,
+   -1.58
+  ],
+  "countries": [
+   "BR",
+   "PE",
+   "CO"
+  ],
+  "elevation": null,
+  "length": 6992,
+  "area": null,
+  "wiki": {
+   "fr": "Amazone (fleuve)",
+   "en": "Amazon River",
+   "ar": "نهر الأمازون",
+   "es": "Río Amazonas"
+  }
+ },
+ {
+  "id": "Q5413",
+  "kind": "river",
+  "names": {
+   "fr": "Yangzi Jiang",
+   "en": "Yangtze River",
+   "ar": "يانغتسي",
+   "es": "Yangtsé"
+  },
+  "region": "asia",
+  "anchor": [
+   29.904,
+   107.744
+  ],
+  "bbox": [
+   90.8,
+   25.97,
+   119.61,
+   34.76
+  ],
+  "countries": [
+   "CN"
+  ],
+  "elevation": null,
+  "length": 6300,
+  "area": null,
+  "wiki": {
+   "fr": "Yangtsé",
+   "en": "Yangtze",
+   "ar": "نهر يانغتسي",
+   "es": "Yangtsé"
+  }
+ },
+ {
+  "id": "Q1497",
+  "kind": "river",
+  "names": {
+   "fr": "Mississippi",
+   "en": "Mississippi River",
+   "ar": "نهر المسيسيبي",
+   "es": "Río Misisipi"
+  },
+  "region": "americas",
+  "anchor": [
+   43.74,
+   -91.243
+  ],
+  "bbox": [
+   -95.26,
+   28.94,
+   -89.03,
+   47.5
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": null,
+  "length": 3766,
+  "area": null,
+  "wiki": {
+   "fr": "Mississippi (fleuve)",
+   "en": "Mississippi River",
+   "ar": "نهر المسيسيبي",
+   "es": "Río Misisipi"
+  }
+ },
+ {
+  "id": "Q5419",
+  "kind": "river",
+  "names": {
+   "fr": "Rivière Missouri",
+   "en": "Missouri River",
+   "ar": "نهر ميزوري",
+   "es": "Río Misuri"
+  },
+  "region": "americas",
+  "anchor": [
+   39.739,
+   -94.969
+  ],
+  "bbox": [
+   -112,
+   38.55,
+   -90.13,
+   48.16
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": null,
+  "length": 3726,
+  "area": null,
+  "wiki": {
+   "fr": "Missouri (rivière)",
+   "en": "Missouri River",
+   "ar": "نهر ميزوري",
+   "es": "Río Misuri"
+  }
+ },
+ {
+  "id": "Q78707",
+  "kind": "river",
+  "names": {
+   "fr": "Ienisseï",
+   "en": "Yenisei",
+   "ar": "نهر ينسي",
+   "es": "Río Yeniséi"
+  },
+  "region": "asia",
+  "anchor": [
+   64.634,
+   87.576
+  ],
+  "bbox": [
+   83.18,
+   58.1,
+   93,
+   70.08
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": 3487,
+  "area": null,
+  "wiki": {
+   "fr": "Ienisseï",
+   "en": "Yenisei",
+   "ar": "نهر ينسي",
+   "es": "Río Yeniséi"
+  }
+ },
+ {
+  "id": "Q7355",
+  "kind": "river",
+  "names": {
+   "fr": "Fleuve Jaune",
+   "en": "Yellow River",
+   "ar": "النهر الأصفر",
+   "es": "Río Amarillo"
+  },
+  "region": "asia",
+  "anchor": [
+   37.409,
+   104.939
+  ],
+  "bbox": [
+   96.16,
+   33.34,
+   119.03,
+   40.88
+  ],
+  "countries": [
+   "CN"
+  ],
+  "elevation": null,
+  "length": 5464,
+  "area": null,
+  "wiki": {
+   "fr": "Fleuve Jaune",
+   "en": "Yellow River",
+   "ar": "النهر الأصفر",
+   "es": "Río Amarillo"
+  }
+ },
+ {
+  "id": "Q973",
+  "kind": "river",
+  "names": {
+   "fr": "Ob",
+   "en": "Ob",
+   "ar": "أوبي",
+   "es": "Obi"
+  },
+  "region": "asia",
+  "anchor": [
+   59.255,
+   80.247
+  ],
+  "bbox": [
+   65.05,
+   52.32,
+   85.06,
+   66.83
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": 3650,
+  "area": null,
+  "wiki": {
+   "fr": "Ob",
+   "en": "Ob",
+   "ar": "أوب (نهر)",
+   "es": "Río Obi"
+  }
+ },
+ {
+  "id": "Q127892",
+  "kind": "river",
+  "names": {
+   "fr": "Paraná",
+   "en": "Paraná River",
+   "ar": "نهر بارانا",
+   "es": "Río Paraná"
+  },
+  "region": "americas",
+  "anchor": [
+   -21.038,
+   -57.853
+  ],
+  "bbox": [
+   -60.77,
+   -34.05,
+   -50.49,
+   -14.29
+  ],
+  "countries": [
+   "BR",
+   "PY",
+   "AR"
+  ],
+  "elevation": null,
+  "length": 4880,
+  "area": null,
+  "wiki": {
+   "fr": "Rio Paraná",
+   "en": "Paraná River",
+   "ar": "نهر بارانا",
+   "es": "Río Paraná"
+  }
+ },
+ {
+  "id": "Q3503",
+  "kind": "river",
+  "names": {
+   "fr": "Congo",
+   "en": "River Congo",
+   "ar": "نهر الكونغو",
+   "es": "Congo"
+  },
+  "region": "africa",
+  "anchor": [
+   -2.882,
+   16.177
+  ],
+  "bbox": [
+   13.18,
+   -11.74,
+   27.08,
+   2.19
+  ],
+  "countries": [
+   "CD",
+   "CG",
+   "ZM",
+   "AO"
+  ],
+  "elevation": null,
+  "length": 4700,
+  "area": null,
+  "wiki": {
+   "fr": "Congo (fleuve)",
+   "en": "Congo River",
+   "ar": "نهر الكونغو",
+   "es": "Río Congo"
+  }
+ },
+ {
+  "id": "Q6862",
+  "kind": "river",
+  "names": {
+   "fr": "Amour",
+   "en": "Amur River",
+   "ar": "نهر آمور",
+   "es": "Amur"
+  },
+  "region": "asia",
+  "anchor": [
+   48.064,
+   130.675
+  ],
+  "bbox": [
+   121.41,
+   47.66,
+   140.71,
+   53.57
+  ],
+  "countries": [
+   "RU",
+   "CN"
+  ],
+  "elevation": null,
+  "length": 2824,
+  "area": null,
+  "wiki": {
+   "fr": "Amour (fleuve)",
+   "en": "Amur",
+   "ar": "نهر آمور",
+   "es": "Río Amur"
+  }
+ },
+ {
+  "id": "Q46841",
+  "kind": "river",
+  "names": {
+   "fr": "Léna",
+   "en": "Lena River",
+   "ar": "نهر لينا",
+   "es": "Lena"
+  },
+  "region": "asia",
+  "anchor": [
+   57.581,
+   107.741
+  ],
+  "bbox": [
+   105.05,
+   53.84,
+   130.06,
+   72.29
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": 4294,
+  "area": null,
+  "wiki": {
+   "fr": "Léna",
+   "en": "Lena River",
+   "ar": "نهر لينا",
+   "es": "Río Lena"
+  }
+ },
+ {
+  "id": "Q41179",
+  "kind": "river",
+  "names": {
+   "fr": "Mékong",
+   "en": "Mekong River",
+   "ar": "نهر ميكونغ",
+   "es": "Mekong"
+  },
+  "region": "asia",
+  "anchor": [
+   23.165,
+   100.114
+  ],
+  "bbox": [
+   96.94,
+   10.01,
+   106.12,
+   31.97
+  ],
+  "countries": [
+   "CN",
+   "LA",
+   "KH",
+   "TH",
+   "VN",
+   "MM"
+  ],
+  "elevation": null,
+  "length": 4350,
+  "area": null,
+  "wiki": {
+   "fr": "Mékong",
+   "en": "Mekong",
+   "ar": "نهر ميكونغ",
+   "es": "Río Mekong"
+  }
+ },
+ {
+  "id": "Q3411",
+  "kind": "river",
+  "names": {
+   "fr": "Fleuve Mackenzie",
+   "en": "Mackenzie River",
+   "ar": "نهر ماكينزي",
+   "es": "Río Mackenzie"
+  },
+  "region": "americas",
+  "anchor": [
+   64.904,
+   -125.418
+  ],
+  "bbox": [
+   -135.61,
+   61.04,
+   -113.7,
+   69.26
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": 1738,
+  "area": null,
+  "wiki": {
+   "fr": "Mackenzie (fleuve)",
+   "en": "Mackenzie River",
+   "ar": "نهر ماكينزي",
+   "es": "Río Mackenzie"
+  }
+ },
+ {
+  "id": "Q3542",
+  "kind": "river",
+  "names": {
+   "fr": "Niger",
+   "en": "Niger River",
+   "ar": "نهر النيجر",
+   "es": "Níger"
+  },
+  "region": "africa",
+  "anchor": [
+   14.915,
+   0.837
+  ],
+  "bbox": [
+   -10.83,
+   4.42,
+   6.8,
+   17.07
+  ],
+  "countries": [
+   "ML",
+   "NG",
+   "GN",
+   "NE",
+   "BJ"
+  ],
+  "elevation": null,
+  "length": 4180,
+  "area": null,
+  "wiki": {
+   "fr": "Niger (fleuve)",
+   "en": "Niger River",
+   "ar": "نهر النيجر",
+   "es": "Río Níger"
+  }
+ },
+ {
+  "id": "Q183078",
+  "kind": "river",
+  "names": {
+   "fr": "Murray",
+   "en": "Murray River",
+   "ar": "نهر موراي",
+   "es": "Río Murray"
+  },
+  "region": "oceania",
+  "anchor": [
+   -34.151,
+   139.927
+  ],
+  "bbox": [
+   139.26,
+   -36.97,
+   148.22,
+   -33.99
+  ],
+  "countries": [
+   "AU"
+  ],
+  "elevation": null,
+  "length": 2530,
+  "area": null,
+  "wiki": {
+   "fr": "Murray (fleuve)",
+   "en": "Murray River",
+   "ar": "نهر موراي",
+   "es": "Río Murray"
+  }
+ },
+ {
+  "id": "Q626",
+  "kind": "river",
+  "names": {
+   "fr": "Volga",
+   "en": "Volga",
+   "ar": "فولغا",
+   "es": "Volga"
+  },
+  "region": "europe",
+  "anchor": [
+   56.353,
+   34.04
+  ],
+  "bbox": [
+   32.6,
+   45.77,
+   50.17,
+   58.29
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": 3530,
+  "area": null,
+  "wiki": {
+   "fr": "Volga",
+   "en": "Volga",
+   "ar": "فولغا",
+   "es": "Volga"
+  }
+ },
+ {
+  "id": "Q1653",
+  "kind": "river",
+  "names": {
+   "fr": "Danube",
+   "en": "Danube",
+   "ar": "دانوب",
+   "es": "Danubio"
+  },
+  "region": "europe",
+  "anchor": [
+   45.267,
+   19.53
+  ],
+  "bbox": [
+   8.18,
+   43.65,
+   28.75,
+   49.03
+  ],
+  "countries": [
+   "DE",
+   "RO",
+   "RS",
+   "HU",
+   "AT",
+   "BG",
+   "HR",
+   "MD",
+   "SK"
+  ],
+  "elevation": null,
+  "length": 2850,
+  "area": null,
+  "wiki": {
+   "fr": "Danube",
+   "en": "Danube",
+   "ar": "دانوب",
+   "es": "Danubio"
+  }
+ },
+ {
+  "id": "Q43106",
+  "kind": "river",
+  "names": {
+   "fr": "Zambèze",
+   "en": "Zambezi River",
+   "ar": "نهر زمبيزي",
+   "es": "Río Zambeze"
+  },
+  "region": "africa",
+  "anchor": [
+   -15.108,
+   22.964
+  ],
+  "bbox": [
+   22.53,
+   -18.81,
+   36.47,
+   -11.09
+  ],
+  "countries": [
+   "ZM",
+   "MZ",
+   "ZW",
+   "AO",
+   "NA"
+  ],
+  "elevation": null,
+  "length": 2574,
+  "area": null,
+  "wiki": {
+   "fr": "Zambèze",
+   "en": "Zambezi",
+   "ar": "نهر زمبيزي",
+   "es": "Río Zambeze"
+  }
+ },
+ {
+  "id": "Q5089",
+  "kind": "river",
+  "names": {
+   "fr": "Gange",
+   "en": "Ganges",
+   "ar": "نهر الغانج",
+   "es": "Río Ganges"
+  },
+  "region": "asia",
+  "anchor": [
+   25.215,
+   82.328
+  ],
+  "bbox": [
+   77.99,
+   21.97,
+   90.39,
+   30.89
+  ],
+  "countries": [
+   "IN",
+   "BD"
+  ],
+  "elevation": null,
+  "length": 2525,
+  "area": null,
+  "wiki": {
+   "fr": "Gange",
+   "en": "Ganges",
+   "ar": "نهر الغانج",
+   "es": "Ganges"
+  }
+ },
+ {
+  "id": "Q7348",
+  "kind": "river",
+  "names": {
+   "fr": "Indus",
+   "en": "Indus River",
+   "ar": "نهر السند",
+   "es": "Indo"
+  },
+  "region": "asia",
+  "anchor": [
+   27.849,
+   68.883
+  ],
+  "bbox": [
+   67.53,
+   23.91,
+   79.74,
+   35.84
+  ],
+  "countries": [
+   "PK",
+   "IN",
+   "CN"
+  ],
+  "elevation": null,
+  "length": 3180,
+  "area": null,
+  "wiki": {
+   "fr": "Indus",
+   "en": "Indus River",
+   "ar": "نهر السند",
+   "es": "Río Indo"
+  }
+ },
+ {
+  "id": "Q45403",
+  "kind": "river",
+  "names": {
+   "fr": "Brahmapoutre",
+   "en": "Brahmaputra River",
+   "ar": "نهر براهمابوترا",
+   "es": "Brahmaputra"
+  },
+  "region": "asia",
+  "anchor": [
+   26.768,
+   93.44
+  ],
+  "bbox": [
+   87.66,
+   23.46,
+   95.47,
+   29.88
+  ],
+  "countries": [
+   "CN",
+   "IN",
+   "BD",
+   "NP"
+  ],
+  "elevation": null,
+  "length": 2900,
+  "area": null,
+  "wiki": {
+   "fr": "Brahmapoutre",
+   "en": "Brahmaputra River",
+   "ar": "نهر براهمابوترا",
+   "es": "Brahmaputra"
+  }
+ },
+ {
+  "id": "Q34589",
+  "kind": "river",
+  "names": {
+   "fr": "Euphrate",
+   "en": "Euphrates",
+   "ar": "الفرات",
+   "es": "Éufrates"
+  },
+  "region": "asia",
+  "anchor": [
+   33.718,
+   42.712
+  ],
+  "bbox": [
+   37.85,
+   30.88,
+   47.47,
+   40.18
+  ],
+  "countries": [
+   "IQ",
+   "TR",
+   "SY"
+  ],
+  "elevation": null,
+  "length": 2800,
+  "area": null,
+  "wiki": {
+   "fr": "Euphrate",
+   "en": "Euphrates",
+   "ar": "الفرات",
+   "es": "Éufrates"
+  }
+ },
+ {
+  "id": "Q35591",
+  "kind": "river",
+  "names": {
+   "fr": "Tigre",
+   "en": "Tigris",
+   "ar": "دجلة",
+   "es": "Tigris"
+  },
+  "region": "asia",
+  "anchor": [
+   33.613,
+   44.323
+  ],
+  "bbox": [
+   39.17,
+   31.02,
+   47.46,
+   38.52
+  ],
+  "countries": [
+   "IQ",
+   "TR",
+   "SY"
+  ],
+  "elevation": null,
+  "length": 1850,
+  "area": null,
+  "wiki": {
+   "fr": "Tigre (fleuve)",
+   "en": "Tigris",
+   "ar": "دجلة",
+   "es": "Tigris"
+  }
+ },
+ {
+  "id": "Q128102",
+  "kind": "river",
+  "names": {
+   "fr": "Irtych",
+   "en": "Irtysh",
+   "ar": "إيرتيش",
+   "es": "Río Irtich"
+  },
+  "region": "asia",
+  "anchor": [
+   57.301,
+   73.347
+  ],
+  "bbox": [
+   68.15,
+   46.98,
+   90.33,
+   61.12
+  ],
+  "countries": [
+   "RU",
+   "KZ",
+   "CN"
+  ],
+  "elevation": null,
+  "length": 4248,
+  "area": null,
+  "wiki": {
+   "fr": "Irtych",
+   "en": "Irtysh",
+   "ar": "إيرتيش",
+   "es": "Río Irtish"
+  }
+ },
+ {
+  "id": "Q584",
+  "kind": "river",
+  "names": {
+   "fr": "Rhin",
+   "en": "Rhine",
+   "ar": "الراين",
+   "es": "Rin"
+  },
+  "region": "europe",
+  "anchor": [
+   51.028,
+   6.966
+  ],
+  "bbox": [
+   4.99,
+   46.62,
+   9.65,
+   51.99
+  ],
+  "countries": [
+   "DE",
+   "CH",
+   "NL",
+   "FR",
+   "LI",
+   "AT"
+  ],
+  "elevation": null,
+  "length": 1233,
+  "area": null,
+  "wiki": {
+   "fr": "Rhin",
+   "en": "Rhine",
+   "ar": "نهر الراين",
+   "es": "Rin"
+  }
+ },
+ {
+  "id": "Q134750",
+  "kind": "river",
+  "names": {
+   "fr": "Fleuve Saint-Laurent",
+   "en": "St. Lawrence River",
+   "ar": "نهر سانت لورانس",
+   "es": "Río San Lorenzo"
+  },
+  "region": "americas",
+  "anchor": [
+   44.864,
+   -75.271
+  ],
+  "bbox": [
+   -75.79,
+   44.5,
+   -74.71,
+   45.01
+  ],
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "elevation": null,
+  "length": 3058,
+  "area": null,
+  "wiki": {
+   "fr": "Fleuve Saint-Laurent",
+   "en": "St. Lawrence River",
+   "ar": "نهر سانت لورنس",
+   "es": "Río San Lorenzo"
+  }
+ },
+ {
+  "id": "Q1265",
+  "kind": "river",
+  "names": {
+   "fr": "Colorado",
+   "en": "Colorado River",
+   "ar": "نهر كولورادو",
+   "es": "Río Colorado"
+  },
+  "region": "americas",
+  "anchor": [
+   38.832,
+   -109.27
+  ],
+  "bbox": [
+   -115.2,
+   31.96,
+   -105.82,
+   40.4
+  ],
+  "countries": [
+   "US",
+   "MX"
+  ],
+  "elevation": null,
+  "length": 2334,
+  "area": null,
+  "wiki": {
+   "fr": "Colorado (fleuve)",
+   "en": "Colorado River",
+   "ar": "نهر كولورادو",
+   "es": "Río Colorado"
+  }
+ },
+ {
+  "id": "Q160636",
+  "kind": "river",
+  "names": {
+   "fr": "Río Grande",
+   "en": "Rio Grande",
+   "ar": "ريو غراندي",
+   "es": "Río Bravo"
+  },
+  "region": "americas",
+  "anchor": [
+   29.174,
+   -103.674
+  ],
+  "bbox": [
+   -107.43,
+   25.84,
+   -97.14,
+   37.84
+  ],
+  "countries": [
+   "US",
+   "MX"
+  ],
+  "elevation": null,
+  "length": 3051,
+  "area": null,
+  "wiki": {
+   "fr": "Río Grande (fleuve)",
+   "en": "Rio Grande",
+   "ar": "ريو غراندي",
+   "es": "Río Bravo"
+  }
+ },
+ {
+  "id": "Q131792",
+  "kind": "river",
+  "names": {
+   "fr": "Orénoque",
+   "en": "Orinoco River",
+   "ar": "نهر أورينوكو",
+   "es": "Río Orinoco"
+  },
+  "region": "americas",
+  "anchor": [
+   5.978,
+   -67.423
+  ],
+  "bbox": [
+   -67.88,
+   2.15,
+   -61.11,
+   9.72
+  ],
+  "countries": [
+   "VE",
+   "CO"
+  ],
+  "elevation": null,
+  "length": 2140,
+  "area": null,
+  "wiki": {
+   "fr": "Orénoque",
+   "en": "Orinoco",
+   "ar": "نهر أورينوكو",
+   "es": "Río Orinoco"
+  }
+ },
+ {
+  "id": "Q104437",
+  "kind": "river",
+  "names": {
+   "fr": "Fleuve Yukon",
+   "en": "Yukon River",
+   "ar": "نهر يوكون",
+   "es": "Yukón"
+  },
+  "region": "americas",
+  "anchor": [
+   63.265,
+   -159.711
+  ],
+  "bbox": [
+   -164.9,
+   61.57,
+   -134.85,
+   66.61
+  ],
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "elevation": null,
+  "length": 3190,
+  "area": null,
+  "wiki": {
+   "fr": "Yukon (fleuve)",
+   "en": "Yukon River",
+   "ar": "نهر يوكون",
+   "es": "Río Yukón"
+  }
+ },
+ {
+  "id": "Q2251",
+  "kind": "river",
+  "names": {
+   "fr": "Fleuve Columbia",
+   "en": "Columbia River",
+   "ar": "نهر كولومبيا",
+   "es": "Río Columbia"
+  },
+  "region": "americas",
+  "anchor": [
+   44.26,
+   -117.044
+  ],
+  "bbox": [
+   -123.21,
+   42.51,
+   -110.63,
+   52.1
+  ],
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "elevation": null,
+  "length": 2000,
+  "area": null,
+  "wiki": {
+   "fr": "Columbia (fleuve)",
+   "en": "Columbia River",
+   "ar": "نهر كولومبيا",
+   "es": "Río Columbia"
+  }
+ },
+ {
+  "id": "Q4915",
+  "kind": "river",
+  "names": {
+   "fr": "Rivière Ohio",
+   "en": "Ohio River",
+   "ar": "نهر أوهايو",
+   "es": "Río Ohio"
+  },
+  "region": "americas",
+  "anchor": [
+   39.022,
+   -82.003
+  ],
+  "bbox": [
+   -89.18,
+   36.98,
+   -79.99,
+   40.71
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": null,
+  "length": 1579,
+  "area": null,
+  "wiki": {
+   "fr": "Ohio (rivière)",
+   "en": "Ohio River",
+   "ar": "نهر أوهايو",
+   "es": "Río Ohio"
+  }
+ },
+ {
+  "id": "Q181475",
+  "kind": "river",
+  "names": {
+   "fr": "Orange",
+   "en": "Orange River",
+   "ar": "نهر أورانج",
+   "es": "Río Orange"
+  },
+  "region": "africa",
+  "anchor": [
+   -28.734,
+   20.534
+  ],
+  "bbox": [
+   16.49,
+   -30.68,
+   29.06,
+   -28.03
+  ],
+  "countries": [
+   "ZA",
+   "LS",
+   "NA"
+  ],
+  "elevation": null,
+  "length": 2200,
+  "area": null,
+  "wiki": {
+   "fr": "Orange (fleuve)",
+   "en": "Orange River",
+   "ar": "نهر أورانج",
+   "es": "Río Orange"
+  }
+ },
+ {
+  "id": "Q173017",
+  "kind": "river",
+  "names": {
+   "fr": "Limpopo",
+   "en": "Limpopo River",
+   "ar": "نهر ليمبوبو",
+   "es": "Limpopo"
+  },
+  "region": "africa",
+  "anchor": [
+   -22.345,
+   30.334
+  ],
+  "bbox": [
+   26.96,
+   -25.19,
+   33.66,
+   -22.13
+  ],
+  "countries": [
+   "MZ",
+   "ZA",
+   "BW",
+   "ZW"
+  ],
+  "elevation": null,
+  "length": 1750,
+  "area": null,
+  "wiki": {
+   "fr": "Limpopo (fleuve)",
+   "en": "Limpopo River",
+   "ar": "نهر ليمبوبو",
+   "es": "Limpopo"
+  }
+ },
+ {
+  "id": "Q3569",
+  "kind": "river",
+  "names": {
+   "fr": "Sénégal",
+   "en": "Senegal River",
+   "ar": "نهر السنغال",
+   "es": "Río Senegal"
+  },
+  "region": "africa",
+  "anchor": [
+   16.641,
+   -14.913
+  ],
+  "bbox": [
+   -16.54,
+   13.8,
+   -10.85,
+   16.69
+  ],
+  "countries": [
+   "SN",
+   "MR",
+   "ML"
+  ],
+  "elevation": null,
+  "length": 1050,
+  "area": null,
+  "wiki": {
+   "fr": "Sénégal (fleuve)",
+   "en": "Senegal River",
+   "ar": "نهر السنغال",
+   "es": "Río Senegal"
+  }
+ },
+ {
+  "id": "Q1469",
+  "kind": "river",
+  "names": {
+   "fr": "Loire",
+   "en": "Loire",
+   "ar": "نهر اللوار",
+   "es": "Loira"
+  },
+  "region": "europe",
+  "anchor": [
+   47.498,
+   1.242
+  ],
+  "bbox": [
+   -1.73,
+   44.78,
+   4.26,
+   47.91
+  ],
+  "countries": [
+   "FR"
+  ],
+  "elevation": null,
+  "length": 1006,
+  "area": null,
+  "wiki": {
+   "fr": "Loire",
+   "en": "Loire",
+   "ar": "نهر اللوار",
+   "es": "Río Loira"
+  }
+ },
+ {
+  "id": "Q1471",
+  "kind": "river",
+  "names": {
+   "fr": "Seine",
+   "en": "Seine",
+   "ar": "السين",
+   "es": "Sena"
+  },
+  "region": "europe",
+  "anchor": [
+   48.911,
+   2.122
+  ],
+  "bbox": [
+   0.49,
+   47.51,
+   4.71,
+   49.52
+  ],
+  "countries": [
+   "FR"
+  ],
+  "elevation": null,
+  "length": 777,
+  "area": null,
+  "wiki": {
+   "fr": "Seine",
+   "en": "Seine",
+   "ar": "السين (نهر)",
+   "es": "Río Sena"
+  }
+ },
+ {
+  "id": "Q602",
+  "kind": "river",
+  "names": {
+   "fr": "Rhône",
+   "en": "Rhône",
+   "ar": "نهر الرون",
+   "es": "Ródano"
+  },
+  "region": "europe",
+  "anchor": [
+   45.55,
+   4.87
+  ],
+  "bbox": [
+   4.35,
+   43.45,
+   8.38,
+   46.58
+  ],
+  "countries": [
+   "FR",
+   "CH"
+  ],
+  "elevation": null,
+  "length": 812,
+  "area": null,
+  "wiki": {
+   "fr": "Rhône",
+   "en": "Rhône",
+   "ar": "نهر الرون",
+   "es": "Ródano"
+  }
+ },
+ {
+  "id": "Q1644",
+  "kind": "river",
+  "names": {
+   "fr": "Elbe",
+   "en": "Elbe",
+   "ar": "إلبه",
+   "es": "Elba"
+  },
+  "region": "europe",
+  "anchor": [
+   50.609,
+   14.075
+  ],
+  "bbox": [
+   9.82,
+   50.02,
+   15.93,
+   53.55
+  ],
+  "countries": [
+   "DE",
+   "CZ"
+  ],
+  "elevation": null,
+  "length": 1094,
+  "area": null,
+  "wiki": {
+   "fr": "Elbe (fleuve)",
+   "en": "Elbe",
+   "ar": "إلبه",
+   "es": "Río Elba"
+  }
+ },
+ {
+  "id": "Q40855",
+  "kind": "river",
+  "names": {
+   "fr": "Dniepr",
+   "en": "Dnieper",
+   "ar": "نهر دنبر",
+   "es": "Río Dniéper"
+  },
+  "region": "europe",
+  "anchor": [
+   53.105,
+   30.275
+  ],
+  "bbox": [
+   30.01,
+   46.65,
+   35.2,
+   55.87
+  ],
+  "countries": [
+   "UA",
+   "BY",
+   "RU"
+  ],
+  "elevation": null,
+  "length": 2285,
+  "area": null,
+  "wiki": {
+   "fr": "Dniepr",
+   "en": "Dnieper",
+   "ar": "نهر دنبر",
+   "es": "Dniéper"
+  }
+ },
+ {
+  "id": "Q1229",
+  "kind": "river",
+  "names": {
+   "fr": "Don",
+   "en": "Don",
+   "ar": "نهر الدون",
+   "es": "Don"
+  },
+  "region": "europe",
+  "anchor": [
+   50.055,
+   40.363
+  ],
+  "bbox": [
+   38.31,
+   47.11,
+   44,
+   54.06
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": 1870,
+  "area": null,
+  "wiki": {
+   "fr": "Don (fleuve)",
+   "en": "Don (river)",
+   "ar": "نهر الدون",
+   "es": "Río Don"
+  }
+ },
+ {
+  "id": "Q643",
+  "kind": "river",
+  "names": {
+   "fr": "Pô",
+   "en": "Po",
+   "ar": "نهر بادي",
+   "es": "Río Po"
+  },
+  "region": "europe",
+  "anchor": [
+   45.037,
+   10.072
+  ],
+  "bbox": [
+   7.1,
+   44.63,
+   12.53,
+   45.22
+  ],
+  "countries": [
+   "IT"
+  ],
+  "elevation": null,
+  "length": 652,
+  "area": null,
+  "wiki": {
+   "fr": "Pô",
+   "en": "Po (river)",
+   "ar": "نهر بادي",
+   "es": "Río Po"
+  }
+ },
+ {
+  "id": "Q14294",
+  "kind": "river",
+  "names": {
+   "fr": "Tage",
+   "en": "Tagus River",
+   "ar": "نهر تاجة",
+   "es": "Tajo"
+  },
+  "region": "europe",
+  "anchor": [
+   40.033,
+   -3.658
+  ],
+  "bbox": [
+   -8.76,
+   39.1,
+   -1.63,
+   40.86
+  ],
+  "countries": [
+   "ES",
+   "PT"
+  ],
+  "elevation": null,
+  "length": 1007,
+  "area": null,
+  "wiki": {
+   "fr": "Tage",
+   "en": "Tagus",
+   "ar": "نهر تاجة",
+   "es": "Tajo"
+  }
+ },
+ {
+  "id": "Q19686",
+  "kind": "river",
+  "names": {
+   "fr": "Tamise",
+   "en": "River Thames",
+   "ar": "نهر التمز",
+   "es": "Támesis"
+  },
+  "region": "europe",
+  "anchor": [
+   51.491,
+   -0.887
+  ],
+  "bbox": [
+   -2.05,
+   51.39,
+   0.39,
+   51.84
+  ],
+  "countries": [
+   "GB"
+  ],
+  "elevation": null,
+  "length": 334,
+  "area": null,
+  "wiki": {
+   "fr": "Tamise",
+   "en": "River Thames",
+   "ar": "نهر التمز",
+   "es": "Río Támesis"
+  }
+ },
+ {
+  "id": "Q80240",
+  "kind": "river",
+  "names": {
+   "fr": "Oural",
+   "en": "Ural River",
+   "ar": "نهر الأورال",
+   "es": "Ural"
+  },
+  "region": "asia",
+  "anchor": [
+   50.368,
+   51.094
+  ],
+  "bbox": [
+   51.09,
+   46.94,
+   59.45,
+   54.7
+  ],
+  "countries": [
+   "KZ",
+   "RU"
+  ],
+  "elevation": null,
+  "length": 2428,
+  "area": null,
+  "wiki": {
+   "fr": "Oural (fleuve)",
+   "en": "Ural (river)",
+   "ar": "نهر الأورال",
+   "es": "Río Ural"
+  }
+ },
+ {
+  "id": "Q483159",
+  "kind": "river",
+  "names": {
+   "fr": "Syr-Daria",
+   "en": "Syr Darya",
+   "ar": "نهر سيحون",
+   "es": "Río Sir Daria"
+  },
+  "region": "asia",
+  "anchor": [
+   44.1,
+   66.54
+  ],
+  "bbox": [
+   60.88,
+   40.21,
+   70.36,
+   46.14
+  ],
+  "countries": [
+   "KZ",
+   "UZ",
+   "TJ",
+   "KG"
+  ],
+  "elevation": null,
+  "length": 2212,
+  "area": null,
+  "wiki": {
+   "fr": "Syr-Daria",
+   "en": "Syr Darya",
+   "ar": "سيحون (نهر)",
+   "es": "Sir Daria"
+  }
+ },
+ {
+  "id": "Q8493",
+  "kind": "river",
+  "names": {
+   "fr": "Amou-Daria",
+   "en": "Amu Darya",
+   "ar": "جيحون",
+   "es": "Amu Daria"
+  },
+  "region": "asia",
+  "anchor": [
+   40.737,
+   62.036
+  ],
+  "bbox": [
+   58.32,
+   36.93,
+   68.21,
+   44.43
+  ],
+  "countries": [
+   "UZ",
+   "TM",
+   "AF",
+   "TJ"
+  ],
+  "elevation": null,
+  "length": 2620,
+  "area": null,
+  "wiki": {
+   "fr": "Amou-Daria",
+   "en": "Amu Darya",
+   "ar": "جيحون (نهر)",
+   "es": "Amu Daria"
+  }
+ },
+ {
+  "id": "Q26076",
+  "kind": "river",
+  "names": {
+   "fr": "Irrawaddy",
+   "en": "Irrawaddy River",
+   "ar": "نهر إيراوادي",
+   "es": "Irawadi"
+  },
+  "region": "asia",
+  "anchor": [
+   21.537,
+   95.324
+  ],
+  "bbox": [
+   94.68,
+   16.02,
+   97.53,
+   25.7
+  ],
+  "countries": [
+   "MM"
+  ],
+  "elevation": null,
+  "length": 2170,
+  "area": null,
+  "wiki": {
+   "fr": "Irrawaddy",
+   "en": "Irrawaddy River",
+   "ar": "نهر إيراوادي",
+   "es": "Río Irawadi"
+  }
+ },
+ {
+  "id": "Q142148",
+  "kind": "river",
+  "names": {
+   "fr": "Rio São Francisco",
+   "en": "São Francisco River",
+   "ar": "نهر ساو فرانسيسكو",
+   "es": "Río São Francisco"
+  },
+  "region": "americas",
+  "anchor": [
+   -15.608,
+   -44.412
+  ],
+  "bbox": [
+   -45.36,
+   -19.05,
+   -36.41,
+   -8.53
+  ],
+  "countries": [
+   "BR"
+  ],
+  "elevation": null,
+  "length": 2814,
+  "area": null,
+  "wiki": {
+   "fr": "Rio São Francisco",
+   "en": "São Francisco River",
+   "ar": "نهر ساو فرانسيسكو",
+   "es": "Río San Francisco (Brasil)"
+  }
+ },
+ {
+  "id": "Q78879",
+  "kind": "river",
+  "names": {
+   "fr": "Kolyma",
+   "en": "Kolyma",
+   "ar": "نهر كوليما",
+   "es": "Kolymá"
+  },
+  "region": "asia",
+  "anchor": [
+   63.146,
+   152.523
+  ],
+  "bbox": [
+   145.22,
+   61.43,
+   160.76,
+   68.8
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": 2129,
+  "area": null,
+  "wiki": {
+   "fr": "Kolyma (fleuve)",
+   "en": "Kolyma (river)",
+   "ar": "نهر كوليما",
+   "es": "Río Kolimá"
+  }
+ },
+ {
+  "id": "Q8168",
+  "kind": "river",
+  "names": {
+   "fr": "Petchora",
+   "en": "Pechora",
+   "ar": "نهر بيشورا",
+   "es": "Pechora"
+  },
+  "region": "europe",
+  "anchor": [
+   64.217,
+   57.467
+  ],
+  "bbox": [
+   52.12,
+   61.69,
+   59.29,
+   68.25
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": 1809,
+  "area": null,
+  "wiki": {
+   "fr": "Petchora (fleuve)",
+   "en": "Pechora (river)",
+   "ar": "نهر بيتشورا",
+   "es": "Río Pechora"
+  }
+ },
+ {
+  "id": "Q40059",
+  "kind": "river",
+  "names": {
+   "fr": "Jourdain",
+   "en": "Jordan River",
+   "ar": "نهر الأردن",
+   "es": "Río Jordán"
+  },
+  "region": "asia",
+  "anchor": [
+   32.41,
+   35.545
+  ],
+  "bbox": [
+   35.4,
+   31.23,
+   35.86,
+   33.6
+  ],
+  "countries": [
+   "IL",
+   "JO",
+   "PS",
+   "LB",
+   "SY"
+  ],
+  "elevation": null,
+  "length": 252,
+  "area": null,
+  "wiki": {
+   "fr": "Jourdain",
+   "en": "Jordan River",
+   "ar": "نهر الأردن",
+   "es": "Río Jordán"
+  }
+ },
+ {
+  "id": "Q1146608",
+  "kind": "river",
+  "names": {
+   "fr": "Moulouya",
+   "en": "Moulouya River",
+   "ar": "وادي ملوية",
+   "es": "Río Muluya"
+  },
+  "region": "africa",
+  "anchor": [
+   33.889,
+   -3.52
+  ],
+  "bbox": [
+   -5.41,
+   32.59,
+   -2.34,
+   35.12
+  ],
+  "countries": [
+   "MA"
+  ],
+  "elevation": null,
+  "length": 520,
+  "area": null,
+  "wiki": {
+   "fr": "Moulouya",
+   "en": "Moulouya River",
+   "ar": "وادي ملوية",
+   "es": "Río Muluya"
+  }
+ },
+ {
+  "id": "Q1129810",
+  "kind": "river",
+  "names": {
+   "fr": "Sebou",
+   "en": "Sebou River",
+   "ar": "سبو",
+   "es": "Río Sebú"
+  },
+  "region": "africa",
+  "anchor": [
+   34.272,
+   -5.403
+  ],
+  "bbox": [
+   -6.67,
+   33.16,
+   -4.52,
+   34.61
+  ],
+  "countries": [
+   "MA"
+  ],
+  "elevation": null,
+  "length": 458,
+  "area": null,
+  "wiki": {
+   "fr": "Sebou",
+   "en": "Sebou River",
+   "ar": "سبو",
+   "es": "Río Sebú"
+  }
+ },
+ {
+  "id": "Q1066",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Supérieur",
+   "en": "Lake Superior",
+   "ar": "بحيرة سوبيريور",
+   "es": "Lago Superior"
+  },
+  "region": "americas",
+  "anchor": [
+   47.529,
+   -87.76
+  ],
+  "bbox": [
+   -92.11,
+   46.42,
+   -84.36,
+   49.03
+  ],
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 82350,
+  "wiki": {
+   "fr": "Lac Supérieur",
+   "en": "Lake Superior",
+   "ar": "بحيرة سوبيريور",
+   "es": "Lago Superior"
+  }
+ },
+ {
+  "id": "Q1169",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Michigan",
+   "en": "Lake Michigan",
+   "ar": "بحيرة ميشيغين",
+   "es": "Lago Míchigan"
+  },
+  "region": "americas",
+  "anchor": [
+   44.008,
+   -86.756
+  ],
+  "bbox": [
+   -88.04,
+   41.64,
+   -84.77,
+   46.12
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 57750,
+  "wiki": {
+   "fr": "Lac Michigan",
+   "en": "Lake Michigan",
+   "ar": "بحيرة مشيغان",
+   "es": "Lago Míchigan"
+  }
+ },
+ {
+  "id": "Q1383",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Huron",
+   "en": "Lake Huron",
+   "ar": "بحيرة هرون",
+   "es": "Lago Hurón"
+  },
+  "region": "americas",
+  "anchor": [
+   44.593,
+   -82.756
+  ],
+  "bbox": [
+   -84.78,
+   43.02,
+   -79.66,
+   46.36
+  ],
+  "countries": [
+   "CA",
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 59600,
+  "wiki": {
+   "fr": "Lac Huron",
+   "en": "Lake Huron",
+   "ar": "بحيرة هورون",
+   "es": "Lago Hurón"
+  }
+ },
+ {
+  "id": "Q5492",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Érié",
+   "en": "Lake Erie",
+   "ar": "بحيرة إري",
+   "es": "Erie"
+  },
+  "region": "americas",
+  "anchor": [
+   42.25,
+   -81
+  ],
+  "bbox": [
+   -83.47,
+   41.39,
+   -78.87,
+   43.11
+  ],
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 25744,
+  "wiki": {
+   "fr": "Lac Érié",
+   "en": "Lake Erie",
+   "ar": "بحيرة إري",
+   "es": "Lago Erie"
+  }
+ },
+ {
+  "id": "Q1062",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Ontario",
+   "en": "Lake Ontario",
+   "ar": "بحيرة أونتاريو",
+   "es": "Lago Ontario"
+  },
+  "region": "americas",
+  "anchor": [
+   43.729,
+   -78.106
+  ],
+  "bbox": [
+   -79.78,
+   43.19,
+   -75.77,
+   44.5
+  ],
+  "countries": [
+   "CA",
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 18529,
+  "wiki": {
+   "fr": "Lac Ontario",
+   "en": "Lake Ontario",
+   "ar": "بحيرة أونتاريو",
+   "es": "Lago Ontario"
+  }
+ },
+ {
+  "id": "Q5505",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Victoria",
+   "en": "Lake Victoria",
+   "ar": "بحيرة فيكتوريا",
+   "es": "Victoria"
+  },
+  "region": "africa",
+  "anchor": [
+   -1,
+   33
+  ],
+  "bbox": [
+   31.61,
+   -3.01,
+   34.85,
+   0.5
+  ],
+  "countries": [
+   "TZ",
+   "UG",
+   "KE"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 68100,
+  "wiki": {
+   "fr": "Lac Victoria",
+   "en": "Lake Victoria",
+   "ar": "بحيرة فكتوريا",
+   "es": "Lago Victoria"
+  }
+ },
+ {
+  "id": "Q5511",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Tanganyika",
+   "en": "Lake Tanganyika",
+   "ar": "بحيرة تنجانيقا",
+   "es": "Lago Tanganica"
+  },
+  "region": "africa",
+  "anchor": [
+   -6.1,
+   29.5
+  ],
+  "bbox": [
+   29.04,
+   -8.8,
+   31.2,
+   -3.33
+  ],
+  "countries": [
+   "TZ",
+   "CD",
+   "ZM",
+   "BI"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 32900,
+  "wiki": {
+   "fr": "Lac Tanganyika",
+   "en": "Lake Tanganyika",
+   "ar": "بحيرة تنجانيقا",
+   "es": "Lago Tanganica"
+  }
+ },
+ {
+  "id": "Q5532",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Malawi",
+   "en": "Lake Malawi",
+   "ar": "بحيرة ملاوي",
+   "es": "Lago Malaui"
+  },
+  "region": "africa",
+  "anchor": [
+   -12.183,
+   34.367
+  ],
+  "bbox": [
+   33.9,
+   -14.4,
+   35.29,
+   -9.48
+  ],
+  "countries": [
+   "MW",
+   "MZ",
+   "TZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 29600,
+  "wiki": {
+   "fr": "Lac Malawi",
+   "en": "Lake Malawi",
+   "ar": "بحيرة ملاوي",
+   "es": "Lago Malaui"
+  }
+ },
+ {
+  "id": "Q5513",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Baïkal",
+   "en": "Lake Baikal",
+   "ar": "بحيرة بيقال",
+   "es": "Baikal"
+  },
+  "region": "asia",
+  "anchor": [
+   53.303,
+   108.005
+  ],
+  "bbox": [
+   103.71,
+   51.47,
+   109.96,
+   55.79
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 31722,
+  "wiki": {
+   "fr": "Lac Baïkal",
+   "en": "Lake Baikal",
+   "ar": "بحيرة بيقال",
+   "es": "Lago Baikal"
+  }
+ },
+ {
+  "id": "Q5525",
+  "kind": "lake",
+  "names": {
+   "fr": "Grand Lac de l'Ours",
+   "en": "Great Bear Lake",
+   "ar": "بحيرة الدب العظيم",
+   "es": "Gran Lago del Oso"
+  },
+  "region": "americas",
+  "anchor": [
+   66,
+   -121
+  ],
+  "bbox": [
+   -125.12,
+   64.81,
+   -117.46,
+   67.05
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 31153,
+  "wiki": {
+   "fr": "Grand lac de l'Ours",
+   "en": "Great Bear Lake",
+   "ar": "بحيرة الدب العظيم",
+   "es": "Gran Lago del Oso"
+  }
+ },
+ {
+  "id": "Q5539",
+  "kind": "lake",
+  "names": {
+   "fr": "Grand Lac des Esclaves",
+   "en": "Great Slave Lake",
+   "ar": "بحيرة جريت سليف",
+   "es": "Gran Lago del Esclavo"
+  },
+  "region": "americas",
+  "anchor": [
+   61.667,
+   -114
+  ],
+  "bbox": [
+   -117.69,
+   60.84,
+   -109.68,
+   62.8
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 27209,
+  "wiki": {
+   "fr": "Grand lac des Esclaves",
+   "en": "Great Slave Lake",
+   "ar": "بحيرة جريت سليف",
+   "es": "Gran Lago del Esclavo"
+  }
+ },
+ {
+  "id": "Q3272",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Winnipeg",
+   "en": "Lake Winnipeg",
+   "ar": "بحيرة وينيبيغ",
+   "es": "Lago Winnipeg"
+  },
+  "region": "americas",
+  "anchor": [
+   52.117,
+   -97.25
+  ],
+  "bbox": [
+   -99.25,
+   50.39,
+   -96.26,
+   54.41
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 24400,
+  "wiki": {
+   "fr": "Lac Winnipeg",
+   "en": "Lake Winnipeg",
+   "ar": "بحيرة وينيبيغ",
+   "es": "Lago Winnipeg"
+  }
+ },
+ {
+  "id": "Q15288",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Ladoga",
+   "en": "Lake Ladoga",
+   "ar": "بحيرة لادوغا",
+   "es": "Ládoga"
+  },
+  "region": "europe",
+  "anchor": [
+   60.843,
+   31.46
+  ],
+  "bbox": [
+   29.8,
+   59.9,
+   32.96,
+   61.78
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 17700,
+  "wiki": {
+   "fr": "Lac Ladoga",
+   "en": "Lake Ladoga",
+   "ar": "بحيرة لادوغا",
+   "es": "Lago de Ládoga"
+  }
+ },
+ {
+  "id": "Q166162",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Onega",
+   "en": "Lake Onega",
+   "ar": "بحيرة أونيغا",
+   "es": "Onega"
+  },
+  "region": "europe",
+  "anchor": [
+   61.691,
+   35.656
+  ],
+  "bbox": [
+   33.93,
+   60.86,
+   36.46,
+   62.92
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 9800,
+  "wiki": {
+   "fr": "Lac Onega",
+   "en": "Lake Onega",
+   "ar": "بحيرة أونيغا",
+   "es": "Lago Onega"
+  }
+ },
+ {
+  "id": "Q35342",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Titicaca",
+   "en": "Titicaca",
+   "ar": "بحيرة تيتيكاكا",
+   "es": "Titicaca"
+  },
+  "region": "americas",
+  "anchor": [
+   -15.825,
+   -69.325
+  ],
+  "bbox": [
+   -70.04,
+   -16.6,
+   -68.58,
+   -15.24
+  ],
+  "countries": [
+   "PE",
+   "BO"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 8562,
+  "wiki": {
+   "fr": "Lac Titicaca",
+   "en": "Lake Titicaca",
+   "ar": "بحيرة تيتيكاكا",
+   "es": "Lago Titicaca"
+  }
+ },
+ {
+  "id": "Q173862",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Nicaragua",
+   "en": "Lake Nicaragua",
+   "ar": "بحيرة نيكاراغوا",
+   "es": "Lago de Nicaragua"
+  },
+  "region": "americas",
+  "anchor": [
+   11.574,
+   -85.356
+  ],
+  "bbox": [
+   -85.94,
+   11.03,
+   -84.77,
+   12.12
+  ],
+  "countries": [
+   "NI"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 8264,
+  "wiki": {
+   "fr": "Lac Nicaragua",
+   "en": "Lake Nicaragua",
+   "ar": "بحيرة نيكاراغوا",
+   "es": "Lago Cocibolca"
+  }
+ },
+ {
+  "id": "Q125309",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Tchad",
+   "en": "Lake Chad",
+   "ar": "بحيرة تشاد",
+   "es": "Lago Chad"
+  },
+  "region": "africa",
+  "anchor": [
+   13.098,
+   14.534
+  ],
+  "bbox": [
+   14.25,
+   12.87,
+   14.77,
+   13.25
+  ],
+  "countries": [
+   "TD",
+   "CM",
+   "NG",
+   "NE"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 1540,
+  "wiki": {
+   "fr": "Lac Tchad",
+   "en": "Lake Chad",
+   "ar": "بحيرة تشاد",
+   "es": "Lago Chad"
+  }
+ },
+ {
+  "id": "Q182719",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Turkana",
+   "en": "Lake Turkana",
+   "ar": "بحيرة توركانا",
+   "es": "Lago Turkana"
+  },
+  "region": "africa",
+  "anchor": [
+   4.05,
+   36.017
+  ],
+  "bbox": [
+   35.83,
+   2.39,
+   36.71,
+   4.66
+  ],
+  "countries": [
+   "KE",
+   "ET"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 6405,
+  "wiki": {
+   "fr": "Lac Turkana",
+   "en": "Lake Turkana",
+   "ar": "بحيرة توركانا",
+   "es": "Lago Turkana"
+  }
+ },
+ {
+  "id": "Q134485",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Balkhach",
+   "en": "Lake Balkhash",
+   "ar": "بحيرة بلقاش",
+   "es": "Lago Baljash"
+  },
+  "region": "asia",
+  "anchor": [
+   46.541,
+   74.879
+  ],
+  "bbox": [
+   73.42,
+   44.96,
+   79.26,
+   46.85
+  ],
+  "countries": [
+   "KZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 18740,
+  "wiki": {
+   "fr": "Lac Balkhach",
+   "en": "Lake Balkhash",
+   "ar": "بحيرة بلقاش",
+   "es": "Lago Baljash"
+  }
+ },
+ {
+  "id": "Q42191",
+  "kind": "lake",
+  "names": {
+   "fr": "Yssyk Koul",
+   "en": "Issyk-Kul",
+   "ar": "بحيرة إيسيق كول",
+   "es": "Lago Issyk-Kul"
+  },
+  "region": "asia",
+  "anchor": [
+   42.417,
+   77.25
+  ],
+  "bbox": [
+   76.2,
+   42.15,
+   78.33,
+   42.74
+  ],
+  "countries": [
+   "KG"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 6236,
+  "wiki": {
+   "fr": "Yssyk Koul",
+   "en": "Issyk-Kul",
+   "ar": "بحيرة إيسيك كول",
+   "es": "Lago Issyk-Kul"
+  }
+ },
+ {
+  "id": "Q6403",
+  "kind": "lake",
+  "names": {
+   "fr": "Léman",
+   "en": "Lake Geneva",
+   "ar": "بحيرة ليمان",
+   "es": "Lemán"
+  },
+  "region": "europe",
+  "anchor": [
+   46.45,
+   6.55
+  ],
+  "bbox": [
+   6.13,
+   46.21,
+   6.94,
+   46.52
+  ],
+  "countries": [
+   "CH",
+   "FR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 581,
+  "wiki": {
+   "fr": "Léman",
+   "en": "Lake Geneva",
+   "ar": "بحيرة ليمان",
+   "es": "Lago Lemán"
+  }
+ },
+ {
+  "id": "Q4127",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac de Constance",
+   "en": "Lake Constance",
+   "ar": "بحيرة كونستانس",
+   "es": "Lago de Constanza"
+  },
+  "region": "europe",
+  "anchor": [
+   47.65,
+   9.317
+  ],
+  "bbox": [
+   9.03,
+   47.49,
+   9.74,
+   47.82
+  ],
+  "countries": [
+   "DE",
+   "AT",
+   "CH"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 536,
+  "wiki": {
+   "fr": "Lac de Constance",
+   "en": "Lake Constance",
+   "ar": "بحيرة كونستانس",
+   "es": "Lago de Constanza"
+  }
+ },
+ {
+  "id": "Q173596",
+  "kind": "lake",
+  "names": {
+   "fr": "Vänern",
+   "en": "Vänern",
+   "ar": "بحيرة فنرن",
+   "es": "Lago Vänern"
+  },
+  "region": "europe",
+  "anchor": [
+   58.917,
+   13.5
+  ],
+  "bbox": [
+   12.3,
+   58.36,
+   14.12,
+   59.41
+  ],
+  "countries": [
+   "SE"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 5650,
+  "wiki": {
+   "fr": "Vänern",
+   "en": "Vänern",
+   "ar": "بحيرة فنرن",
+   "es": "Lago Vänern"
+  }
+ },
+ {
+  "id": "Q116685",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Tana",
+   "en": "Lake Tana",
+   "ar": "بحيرة تانا",
+   "es": "Lago Tana"
+  },
+  "region": "africa",
+  "anchor": [
+   12,
+   37.25
+  ],
+  "bbox": [
+   36.99,
+   11.63,
+   37.6,
+   12.3
+  ],
+  "countries": [
+   "ET"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 3600,
+  "wiki": {
+   "fr": "Lac Tana",
+   "en": "Lake Tana",
+   "ar": "بحيرة تانا",
+   "es": "Lago Tana"
+  }
+ },
+ {
+  "id": "Q201679",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Volta",
+   "en": "Lake Volta",
+   "ar": "بحيرة فولتا",
+   "es": "Lago Volta"
+  },
+  "region": "africa",
+  "anchor": [
+   7.401,
+   0.195
+  ],
+  "bbox": [
+   -1.71,
+   6.34,
+   0.33,
+   9.12
+  ],
+  "countries": [
+   "GH"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 8502,
+  "wiki": {
+   "fr": "Lac Volta",
+   "en": "Lake Volta",
+   "ar": "بحيرة فولتا",
+   "es": "Lago Volta"
+  }
+ },
+ {
+  "id": "Q182796",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Nasser",
+   "en": "Lake Nasser",
+   "ar": "بحيرة ناصر",
+   "es": "Lago Nasser"
+  },
+  "region": "africa",
+  "anchor": [
+   22.5,
+   31.86
+  ],
+  "bbox": [
+   31.09,
+   21.61,
+   33.06,
+   23.99
+  ],
+  "countries": [
+   "EG",
+   "SD"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 5250,
+  "wiki": {
+   "fr": "Lac Nasser",
+   "en": "Lake Nasser",
+   "ar": "بحيرة ناصر",
+   "es": "Lago Nasser"
+  }
+ },
+ {
+  "id": "Q23883",
+  "kind": "lake",
+  "names": {
+   "fr": "Mer Morte",
+   "en": "Dead Sea",
+   "ar": "البحر الميت",
+   "es": "Mar Muerto"
+  },
+  "region": "asia",
+  "anchor": [
+   31.521,
+   35.485
+  ],
+  "bbox": [
+   35.36,
+   31.09,
+   35.59,
+   31.77
+  ],
+  "countries": [
+   "JO",
+   "IL",
+   "PS"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 1050,
+  "wiki": {
+   "fr": "Mer Morte",
+   "en": "Dead Sea",
+   "ar": "البحر الميت",
+   "es": "Mar Muerto"
+  }
+ },
+ {
+  "id": "Q178741",
+  "kind": "lake",
+  "names": {
+   "fr": "Grand Lac Salé",
+   "en": "Great Salt Lake",
+   "ar": "البحيرة المالحة الكبرى",
+   "es": "Gran Lago Salado"
+  },
+  "region": "americas",
+  "anchor": [
+   41.167,
+   -112.583
+  ],
+  "bbox": [
+   -113.02,
+   40.69,
+   -111.93,
+   41.68
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 4400,
+  "wiki": {
+   "fr": "Grand Lac Salé",
+   "en": "Great Salt Lake",
+   "ar": "البحيرة المالحة الكبرى",
+   "es": "Gran Lago Salado"
+  }
+ },
+ {
+  "id": "Q125912",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Kivu",
+   "en": "Lake Kivu",
+   "ar": "بحيرة كيفو",
+   "es": "Lago Kivu"
+  },
+  "region": "africa",
+  "anchor": [
+   -1.853,
+   29.135
+  ],
+  "bbox": [
+   28.84,
+   -2.48,
+   29.36,
+   -1.59
+  ],
+  "countries": [
+   "CD",
+   "RW"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 2700,
+  "wiki": {
+   "fr": "Lac Kivu",
+   "en": "Lake Kivu",
+   "ar": "بحيرة كيفو",
+   "es": "Lago Kivu"
+  }
+ },
+ {
+  "id": "Q35883",
+  "kind": "lake",
+  "names": {
+   "fr": "Mer d'Aral",
+   "en": "Aral Sea",
+   "ar": "بحر آرال",
+   "es": "Mar de Aral"
+  },
+  "region": "asia",
+  "anchor": [
+   46.474,
+   60.793
+  ],
+  "bbox": [
+   58.22,
+   44.43,
+   61.53,
+   46.78
+  ],
+  "countries": [
+   "KZ",
+   "UZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 68000,
+  "wiki": {
+   "fr": "Mer d'Aral",
+   "en": "Aral Sea",
+   "ar": "بحر آرال",
+   "es": "Mar de Aral"
+  }
+ },
+ {
+  "id": "Q126307",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac de Van",
+   "en": "Lake Van",
+   "ar": "بحيرة وان",
+   "es": "Lago de Van"
+  },
+  "region": "asia",
+  "anchor": [
+   38.633,
+   42.817
+  ],
+  "bbox": [
+   42.3,
+   38.32,
+   43.66,
+   39
+  ],
+  "countries": [
+   "TR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 3755,
+  "wiki": {
+   "fr": "Lac de Van",
+   "en": "Lake Van",
+   "ar": "بحيرة وان",
+   "es": "Lago de Van"
+  }
+ },
+ {
+  "id": "Q199551",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac d'Ourmia",
+   "en": "Urmia Lake",
+   "ar": "بحيرة أرومية",
+   "es": "Lago Urmía"
+  },
+  "region": "asia",
+  "anchor": [
+   37.662,
+   45.405
+  ],
+  "bbox": [
+   45,
+   37.12,
+   45.91,
+   38.27
+  ],
+  "countries": [
+   "IR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 5200,
+  "wiki": {
+   "fr": "Lac d'Ourmia",
+   "en": "Lake Urmia",
+   "ar": "بحيرة أرومية",
+   "es": "Lago Urmía"
+  }
+ },
+ {
+  "id": "Q201294",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Qinghai",
+   "en": "Qinghai Lake",
+   "ar": "بحيرة تشينغهاي",
+   "es": "Lago Qinghai"
+  },
+  "region": "asia",
+  "anchor": [
+   37,
+   100
+  ],
+  "bbox": [
+   99.62,
+   36.54,
+   100.77,
+   37.23
+  ],
+  "countries": [
+   "CN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 4400,
+  "wiki": {
+   "fr": "Lac Qinghai",
+   "en": "Qinghai Lake",
+   "ar": "بحيرة تشينغهاي",
+   "es": "Lago Qinghai"
+  }
+ },
+ {
+  "id": "Q199903",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Taupo",
+   "en": "Lake Taupō",
+   "ar": "بحيرة تابو",
+   "es": "Lago Taupo"
+  },
+  "region": "oceania",
+  "anchor": [
+   -38.817,
+   175.917
+  ],
+  "bbox": [
+   175.75,
+   -38.95,
+   176.08,
+   -38.66
+  ],
+  "countries": [
+   "NZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 616,
+  "wiki": {
+   "fr": "Lac Taupo",
+   "en": "Lake Taupō",
+   "ar": "بحيرة تابو",
+   "es": "Lago Taupo"
+  }
+ },
+ {
+  "id": "Q199938",
+  "kind": "lake",
+  "names": {
+   "fr": "Tonlé Sap",
+   "en": "Tonle Sap",
+   "ar": "تونلي ساب",
+   "es": "Tonlé Sap"
+  },
+  "region": "asia",
+  "anchor": [
+   12.883,
+   104.067
+  ],
+  "bbox": [
+   103.69,
+   12.38,
+   104.62,
+   13.26
+  ],
+  "countries": [
+   "KH"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 2700,
+  "wiki": {
+   "fr": "Tonlé Sap",
+   "en": "Tonle Sap",
+   "ar": "بحيرة تونلي ساب",
+   "es": "Tonlé Sap"
+  }
+ },
+ {
+  "id": "Q6414",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac de Garde",
+   "en": "Lake Garda",
+   "ar": "بحيرة غاردا",
+   "es": "Lago de Garda"
+  },
+  "region": "europe",
+  "anchor": [
+   45.633,
+   10.667
+  ],
+  "bbox": [
+   10.51,
+   45.45,
+   10.87,
+   45.9
+  ],
+  "countries": [
+   "IT"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 370,
+  "wiki": {
+   "fr": "Lac de Garde",
+   "en": "Lake Garda",
+   "ar": "بحيرة غاردا",
+   "es": "Lago de Garda"
+  }
+ },
+ {
+  "id": "Q6383",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Balaton",
+   "en": "Lake Balaton",
+   "ar": "بالاتون",
+   "es": "Balaton"
+  },
+  "region": "europe",
+  "anchor": [
+   46.85,
+   17.72
+  ],
+  "bbox": [
+   17.25,
+   46.72,
+   18.17,
+   47.06
+  ],
+  "countries": [
+   "HU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 592,
+  "wiki": {
+   "fr": "Lac Balaton",
+   "en": "Lake Balaton",
+   "ar": "بالاتون",
+   "es": "Lago Balatón"
+  }
+ },
+ {
+  "id": "Q19253",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Peïpous",
+   "en": "Lake Peipus",
+   "ar": "بحيرة بيبوس",
+   "es": "Peipus"
+  },
+  "region": "europe",
+  "anchor": [
+   58.677,
+   27.492
+  ],
+  "bbox": [
+   26.95,
+   58.22,
+   27.83,
+   59.02
+  ],
+  "countries": [
+   "EE",
+   "RU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 3543,
+  "wiki": {
+   "fr": "Lac Peïpous",
+   "en": "Lake Peipus",
+   "ar": "بحيرة بيبوس",
+   "es": "Lago Peipus"
+  }
+ },
+ {
+  "id": "Q125888",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Albert",
+   "en": "Lake Albert",
+   "ar": "بحيرة ألبرت",
+   "es": "Lago Alberto"
+  },
+  "region": "africa",
+  "anchor": [
+   1.683,
+   30.917
+  ],
+  "bbox": [
+   30.39,
+   1.01,
+   31.48,
+   2.41
+  ],
+  "countries": [
+   "UG",
+   "CD"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 5270,
+  "wiki": {
+   "fr": "Lac Albert",
+   "en": "Lake Albert (Africa)",
+   "ar": "بحيرة ألبرت",
+   "es": "Lago Alberto (África)"
+  }
+ },
+ {
+  "id": "Q192215",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Khövsgöl",
+   "en": "Khövsgöl Lake",
+   "ar": "بحيرة خوفسغول",
+   "es": "Lago Ubsugul"
+  },
+  "region": "asia",
+  "anchor": [
+   51.1,
+   100.5
+  ],
+  "bbox": [
+   100.16,
+   50.45,
+   100.8,
+   51.62
+  ],
+  "countries": [
+   "MN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 2760,
+  "wiki": {
+   "fr": "Lac Khövsgöl",
+   "en": "Lake Khövsgöl",
+   "ar": "بحيرة خوفسغول",
+   "es": "Lago Ubsugul"
+  }
+ },
+ {
+  "id": "Q272463",
+  "kind": "lake",
+  "names": {
+   "fr": "Lac Athabasca",
+   "en": "Lake Athabasca",
+   "ar": "بحيرة أثاباسكا",
+   "es": "Lago Athabasca"
+  },
+  "region": "americas",
+  "anchor": [
+   59.267,
+   -109.45
+  ],
+  "bbox": [
+   -111.33,
+   58.48,
+   -106.02,
+   59.62
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 7850,
+  "wiki": {
+   "fr": "Lac Athabasca",
+   "en": "Lake Athabasca",
+   "ar": "بحيرة أثاباسكا",
+   "es": "Lago Athabasca"
+  }
+ },
+ {
+  "id": "Q513",
+  "kind": "peak",
+  "names": {
+   "fr": "Everest",
+   "en": "Mount Everest",
+   "ar": "جبل إفرست",
+   "es": "Everest"
+  },
+  "region": "asia",
+  "anchor": [
+   27.988,
+   86.925
+  ],
+  "bbox": [
+   86.93,
+   27.99,
+   86.93,
+   27.99
+  ],
+  "countries": [
+   "CN",
+   "NP"
+  ],
+  "elevation": 8850,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Everest",
+   "en": "Mount Everest",
+   "ar": "جبل إفرست",
+   "es": "Monte Everest"
+  }
+ },
+ {
+  "id": "Q43512",
+  "kind": "peak",
+  "names": {
+   "fr": "K2",
+   "en": "K2",
+   "ar": "جبل كي 2",
+   "es": "K2"
+  },
+  "region": "asia",
+  "anchor": [
+   35.881,
+   76.513
+  ],
+  "bbox": [
+   76.51,
+   35.88,
+   76.51,
+   35.88
+  ],
+  "countries": [
+   "CN",
+   "PK"
+  ],
+  "elevation": 8611,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "K2",
+   "en": "K2",
+   "ar": "جبل كي 2",
+   "es": "K2"
+  }
+ },
+ {
+  "id": "Q82019",
+  "kind": "peak",
+  "names": {
+   "fr": "Kangchenjunga",
+   "en": "Kanchenjunga",
+   "ar": "كانغشينجونغا",
+   "es": "Kanchenjunga"
+  },
+  "region": "asia",
+  "anchor": [
+   27.703,
+   88.147
+  ],
+  "bbox": [
+   88.15,
+   27.7,
+   88.15,
+   27.7
+  ],
+  "countries": [
+   "IN",
+   "NP"
+  ],
+  "elevation": 8586,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Kangchenjunga",
+   "en": "Kangchenjunga",
+   "ar": "كانغشينجونغا",
+   "es": "Kanchenjunga"
+  }
+ },
+ {
+  "id": "Q16466024",
+  "kind": "peak",
+  "names": {
+   "fr": "Annapurna I",
+   "en": "Annapurna I",
+   "ar": "أنابورنا",
+   "es": "Annapurna I"
+  },
+  "region": "asia",
+  "anchor": [
+   28.596,
+   83.82
+  ],
+  "bbox": [
+   83.82,
+   28.6,
+   83.82,
+   28.6
+  ],
+  "countries": [
+   "NP"
+  ],
+  "elevation": 8091,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Annapurna I",
+   "en": "Annapurna",
+   "ar": "أنابورنا (جبل)",
+   "es": null
+  }
+ },
+ {
+  "id": "Q39739",
+  "kind": "peak",
+  "names": {
+   "fr": "Aconcagua",
+   "en": "Aconcagua",
+   "ar": "أكونكاغوا",
+   "es": "Aconcagua"
+  },
+  "region": "americas",
+  "anchor": [
+   -32.653,
+   -70.012
+  ],
+  "bbox": [
+   -70.01,
+   -32.65,
+   -70.01,
+   -32.65
+  ],
+  "countries": [
+   "AR"
+  ],
+  "elevation": 6962,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Aconcagua",
+   "en": "Aconcagua",
+   "ar": "أكونكاغوا",
+   "es": "Aconcagua"
+  }
+ },
+ {
+  "id": "Q130018",
+  "kind": "peak",
+  "names": {
+   "fr": "Denali",
+   "en": "Denali",
+   "ar": "دينالي",
+   "es": "Denali"
+  },
+  "region": "americas",
+  "anchor": [
+   63.069,
+   -151.006
+  ],
+  "bbox": [
+   -151.01,
+   63.07,
+   -151.01,
+   63.07
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": 6190,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont McKinley",
+   "en": "Denali",
+   "ar": "دينالي",
+   "es": "Denali"
+  }
+ },
+ {
+  "id": "Q7296",
+  "kind": "peak",
+  "names": {
+   "fr": "Kilimanjaro",
+   "en": "Mount Kilimanjaro",
+   "ar": "جبل كليمنجارو",
+   "es": "Kilimanjaro"
+  },
+  "region": "africa",
+  "anchor": [
+   -3.067,
+   37.359
+  ],
+  "bbox": [
+   37.36,
+   -3.07,
+   37.36,
+   -3.07
+  ],
+  "countries": [
+   "TZ"
+  ],
+  "elevation": 5895,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Kilimandjaro",
+   "en": "Mount Kilimanjaro",
+   "ar": "جبل كليمنجارو",
+   "es": "Kilimanjaro"
+  }
+ },
+ {
+  "id": "Q43105",
+  "kind": "peak",
+  "names": {
+   "fr": "Elbrouz",
+   "en": "Mount Elbrus",
+   "ar": "إلبروس",
+   "es": "Monte Elbrús"
+  },
+  "region": "europe",
+  "anchor": [
+   43.353,
+   42.438
+  ],
+  "bbox": [
+   42.44,
+   43.35,
+   42.44,
+   43.35
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": 5642,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Elbrouz",
+   "en": "Mount Elbrus",
+   "ar": "إلبروس",
+   "es": "Monte Elbrús"
+  }
+ },
+ {
+  "id": "Q583",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Blanc",
+   "en": "Mont Blanc",
+   "ar": "مون بلون",
+   "es": "Mont Blanc"
+  },
+  "region": "europe",
+  "anchor": [
+   45.833,
+   6.865
+  ],
+  "bbox": [
+   6.87,
+   45.83,
+   6.87,
+   45.83
+  ],
+  "countries": [
+   "IT",
+   "FR"
+  ],
+  "elevation": 4810,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Blanc",
+   "en": "Mont Blanc",
+   "ar": "مون بلان",
+   "es": "Mont Blanc"
+  }
+ },
+ {
+  "id": "Q1374",
+  "kind": "peak",
+  "names": {
+   "fr": "Cervin",
+   "en": "Matterhorn",
+   "ar": "ماترهورن",
+   "es": "Cervino"
+  },
+  "region": "europe",
+  "anchor": [
+   45.976,
+   7.659
+  ],
+  "bbox": [
+   7.66,
+   45.98,
+   7.66,
+   45.98
+  ],
+  "countries": [
+   "CH",
+   "IT"
+  ],
+  "elevation": 4478,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Cervin",
+   "en": "Matterhorn",
+   "ar": "ماترهورن",
+   "es": "Cervino"
+  }
+ },
+ {
+  "id": "Q39231",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Fuji",
+   "en": "Mount Fuji",
+   "ar": "جبل فوجي",
+   "es": "Monte Fuji"
+  },
+  "region": "asia",
+  "anchor": [
+   35.361,
+   138.728
+  ],
+  "bbox": [
+   138.73,
+   35.36,
+   138.73,
+   35.36
+  ],
+  "countries": [
+   "JP"
+  ],
+  "elevation": 3777,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Fuji",
+   "en": "Mount Fuji",
+   "ar": "جبل فوجي",
+   "es": "Monte Fuji"
+  }
+ },
+ {
+  "id": "Q172070",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Kenya",
+   "en": "Mount Kenya",
+   "ar": "جبل كينيا",
+   "es": "Monte Kenia"
+  },
+  "region": "africa",
+  "anchor": [
+   -0.1,
+   37.2
+  ],
+  "bbox": [
+   37.2,
+   -0.1,
+   37.2,
+   -0.1
+  ],
+  "countries": [
+   "KE"
+  ],
+  "elevation": 5199,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Kenya",
+   "en": "Mount Kenya",
+   "ar": "جبل كينيا",
+   "es": "Monte Kenia"
+  }
+ },
+ {
+  "id": "Q178167",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Kosciuszko",
+   "en": "Mount Kosciuszko",
+   "ar": "جبل كزيسك",
+   "es": "Monte Kosciuszko"
+  },
+  "region": "oceania",
+  "anchor": [
+   -36.456,
+   148.264
+  ],
+  "bbox": [
+   148.26,
+   -36.46,
+   148.26,
+   -36.46
+  ],
+  "countries": [
+   "AU"
+  ],
+  "elevation": 2228,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Kosciuszko",
+   "en": "Mount Kosciuszko",
+   "ar": "جبل كوسيياسكو",
+   "es": "Monte Kosciuszko"
+  }
+ },
+ {
+  "id": "Q1045888",
+  "kind": "peak",
+  "names": {
+   "fr": "Puncak Jaya",
+   "en": "Puncak Jaya",
+   "ar": "بونتشاك جايا",
+   "es": "Jaya"
+  },
+  "region": "asia",
+  "anchor": [
+   -4.083,
+   137.183
+  ],
+  "bbox": [
+   137.18,
+   -4.08,
+   137.18,
+   -4.08
+  ],
+  "countries": [
+   "ID"
+  ],
+  "elevation": 4884,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Puncak Jaya",
+   "en": "Puncak Jaya",
+   "ar": "بونتشاك جايا",
+   "es": "Jaya"
+  }
+ },
+ {
+  "id": "Q163758",
+  "kind": "peak",
+  "names": {
+   "fr": "Massif Vinson",
+   "en": "Vinson Massif",
+   "ar": "فينسون ماسيف",
+   "es": "Macizo Vinson"
+  },
+  "region": null,
+  "anchor": [
+   -78.526,
+   -85.617
+  ],
+  "bbox": [
+   -85.62,
+   -78.53,
+   -85.62,
+   -78.53
+  ],
+  "countries": [],
+  "elevation": 4892,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Massif Vinson",
+   "en": "Vinson Massif",
+   "ar": "فينسون ماسيف",
+   "es": "Macizo Vinson"
+  }
+ },
+ {
+  "id": "Q16990",
+  "kind": "peak",
+  "names": {
+   "fr": "Etna",
+   "en": "Mount Etna",
+   "ar": "جبل إتنا",
+   "es": "Monte Etna"
+  },
+  "region": "europe",
+  "anchor": [
+   37.751,
+   14.993
+  ],
+  "bbox": [
+   14.99,
+   37.75,
+   14.99,
+   37.75
+  ],
+  "countries": [
+   "IT"
+  ],
+  "elevation": 3403,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Etna",
+   "en": "Mount Etna",
+   "ar": "جبل إتنا",
+   "es": "Etna"
+  }
+ },
+ {
+  "id": "Q524",
+  "kind": "peak",
+  "names": {
+   "fr": "Vésuve",
+   "en": "Mount Vesuvius",
+   "ar": "جبل فيزوف",
+   "es": "Vesubio"
+  },
+  "region": "europe",
+  "anchor": [
+   40.823,
+   14.429
+  ],
+  "bbox": [
+   14.43,
+   40.82,
+   14.43,
+   40.82
+  ],
+  "countries": [
+   "IT"
+  ],
+  "elevation": 1297,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Vésuve",
+   "en": "Mount Vesuvius",
+   "ar": "جبل فيزوف",
+   "es": "Monte Vesubio"
+  }
+ },
+ {
+  "id": "Q80344",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Olympe",
+   "en": "Mount Olympus",
+   "ar": "جبل أوليمبوس",
+   "es": "Olimpo"
+  },
+  "region": "europe",
+  "anchor": [
+   40.083,
+   22.35
+  ],
+  "bbox": [
+   22.35,
+   40.08,
+   22.35,
+   40.08
+  ],
+  "countries": [
+   "GR"
+  ],
+  "elevation": 2918,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Olympe",
+   "en": "Mount Olympus",
+   "ar": "جبل أوليمبوس",
+   "es": "Olimpo"
+  }
+ },
+ {
+  "id": "Q503433",
+  "kind": "peak",
+  "names": {
+   "fr": "Djebel Toubkal",
+   "en": "Jbel Toubkal",
+   "ar": "توبقال",
+   "es": "Monte Tubqal"
+  },
+  "region": "africa",
+  "anchor": [
+   31.062,
+   -7.916
+  ],
+  "bbox": [
+   -7.92,
+   31.06,
+   -7.92,
+   31.06
+  ],
+  "countries": [
+   "MA"
+  ],
+  "elevation": 4167,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Djebel Toubkal",
+   "en": "Toubkal",
+   "ar": "توبقال",
+   "es": "Monte Tubqal"
+  }
+ },
+ {
+  "id": "Q72303",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Ararat",
+   "en": "Mount Ararat",
+   "ar": "جبل أرارات",
+   "es": "Monte Ararat"
+  },
+  "region": "asia",
+  "anchor": [
+   39.702,
+   44.298
+  ],
+  "bbox": [
+   44.3,
+   39.7,
+   44.3,
+   39.7
+  ],
+  "countries": [
+   "TR"
+  ],
+  "elevation": 5137,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Ararat",
+   "en": "Mount Ararat",
+   "ar": "جبل أرارات",
+   "es": "Monte Ararat"
+  }
+ },
+ {
+  "id": "Q40758",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Damavand",
+   "en": "Damavand",
+   "ar": "جبل دماوند",
+   "es": "Damavand"
+  },
+  "region": "asia",
+  "anchor": [
+   35.955,
+   52.109
+  ],
+  "bbox": [
+   52.11,
+   35.96,
+   52.11,
+   35.96
+  ],
+  "countries": [
+   "IR"
+  ],
+  "elevation": 5628,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Damavand",
+   "en": "Mount Damavand",
+   "ar": "جبل دماوند",
+   "es": "Damavand"
+  }
+ },
+ {
+  "id": "Q14081",
+  "kind": "peak",
+  "names": {
+   "fr": "Chimborazo",
+   "en": "Chimborazo",
+   "ar": "تشيمبورازو",
+   "es": "Volcán Chimborazo"
+  },
+  "region": "americas",
+  "anchor": [
+   -1.469,
+   -78.817
+  ],
+  "bbox": [
+   -78.82,
+   -1.47,
+   -78.82,
+   -1.47
+  ],
+  "countries": [
+   "EC"
+  ],
+  "elevation": 6263,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Chimborazo (volcan)",
+   "en": "Chimborazo",
+   "ar": "تشيمبورازو (بركان)",
+   "es": "Volcán Chimborazo"
+  }
+ },
+ {
+  "id": "Q181476",
+  "kind": "peak",
+  "names": {
+   "fr": "Cotopaxi",
+   "en": "Cotopaxi volcano",
+   "ar": "كوتوباكسي",
+   "es": "Volcán Cotopaxi"
+  },
+  "region": "americas",
+  "anchor": [
+   -0.689,
+   -78.429
+  ],
+  "bbox": [
+   -78.43,
+   -0.69,
+   -78.43,
+   -0.69
+  ],
+  "countries": [
+   "EC"
+  ],
+  "elevation": 5897,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Cotopaxi",
+   "en": "Cotopaxi",
+   "ar": "كوتوباكسي",
+   "es": "Volcán Cotopaxi"
+  }
+ },
+ {
+  "id": "Q200935",
+  "kind": "peak",
+  "names": {
+   "fr": "Huascarán",
+   "en": "Huascarán",
+   "ar": "هوسكاران",
+   "es": "Huascarán"
+  },
+  "region": "americas",
+  "anchor": [
+   -9.117,
+   -77.6
+  ],
+  "bbox": [
+   -77.6,
+   -9.12,
+   -77.6,
+   -9.12
+  ],
+  "countries": [
+   "PE"
+  ],
+  "elevation": 6768,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Huascarán",
+   "en": "Huascarán",
+   "ar": "واسكاران",
+   "es": "Huascarán"
+  }
+ },
+ {
+  "id": "Q4675",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Saint Helens",
+   "en": "Mount St. Helens",
+   "ar": "جبل سانت هيلين",
+   "es": "Monte Santa Helena"
+  },
+  "region": "americas",
+  "anchor": [
+   46.2,
+   -122.189
+  ],
+  "bbox": [
+   -122.19,
+   46.2,
+   -122.19,
+   46.2
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": 2549,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Saint Helens",
+   "en": "Mount St. Helens",
+   "ar": "جبل سانت هيلين",
+   "es": "Monte Santa Helena"
+  }
+ },
+ {
+  "id": "Q194057",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Rainier",
+   "en": "Mount Rainier",
+   "ar": "جبل رينييه",
+   "es": "Monte Rainier"
+  },
+  "region": "americas",
+  "anchor": [
+   46.852,
+   -121.76
+  ],
+  "bbox": [
+   -121.76,
+   46.85,
+   -121.76,
+   46.85
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": 4389,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Rainier",
+   "en": "Mount Rainier",
+   "ar": "جبل رينييه",
+   "es": "Monte Rainier"
+  }
+ },
+ {
+  "id": "Q235539",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Whitney",
+   "en": "Mount Whitney",
+   "ar": "جبل ويتني",
+   "es": "Monte Whitney"
+  },
+  "region": "americas",
+  "anchor": [
+   36.579,
+   -118.292
+  ],
+  "bbox": [
+   -118.29,
+   36.58,
+   -118.29,
+   36.58
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": 4421,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Whitney",
+   "en": "Mount Whitney",
+   "ar": "جبل ويتني",
+   "es": "Monte Whitney"
+  }
+ },
+ {
+  "id": "Q238147",
+  "kind": "peak",
+  "names": {
+   "fr": "Pic d'Orizaba",
+   "en": "Citlaltepetl",
+   "ar": "بيكو دي أوريزابا",
+   "es": "Citlaltépetl"
+  },
+  "region": "americas",
+  "anchor": [
+   19.03,
+   -97.27
+  ],
+  "bbox": [
+   -97.27,
+   19.03,
+   -97.27,
+   19.03
+  ],
+  "countries": [
+   "MX"
+  ],
+  "elevation": 5636,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Pic d'Orizaba",
+   "en": "Pico de Orizaba",
+   "ar": "بيكو دي أوريزابا",
+   "es": "Citlaltépetl"
+  }
+ },
+ {
+  "id": "Q181157",
+  "kind": "peak",
+  "names": {
+   "fr": "Popocatepetl",
+   "en": "Popocatépetl",
+   "ar": "بوبوكاتبتبيل",
+   "es": "Popocatépetl"
+  },
+  "region": "americas",
+  "anchor": [
+   19.023,
+   -98.623
+  ],
+  "bbox": [
+   -98.62,
+   19.02,
+   -98.62,
+   19.02
+  ],
+  "countries": [
+   "MX"
+  ],
+  "elevation": 5454,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Popocatepetl",
+   "en": "Popocatépetl",
+   "ar": "بوبوكاتبتبيل",
+   "es": "Popocatépetl"
+  }
+ },
+ {
+  "id": "Q60967",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Kinabalu",
+   "en": "Mount Kinabalu",
+   "ar": "جبل كينابالو",
+   "es": "Monte Kinabalu"
+  },
+  "region": "asia",
+  "anchor": [
+   6.075,
+   116.559
+  ],
+  "bbox": [
+   116.56,
+   6.08,
+   116.56,
+   6.08
+  ],
+  "countries": [
+   "MY"
+  ],
+  "elevation": 4095,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Kinabalu",
+   "en": "Mount Kinabalu",
+   "ar": "جبل كينابالو",
+   "es": "Monte Kinabalu"
+  }
+ },
+ {
+  "id": "Q5059",
+  "kind": "peak",
+  "names": {
+   "fr": "Aoraki/Mont Cook",
+   "en": "Aoraki / Mount Cook",
+   "ar": "اوراكي - جبل كوك",
+   "es": "Monte Cook"
+  },
+  "region": "oceania",
+  "anchor": [
+   -43.595,
+   170.142
+  ],
+  "bbox": [
+   170.14,
+   -43.59,
+   170.14,
+   -43.59
+  ],
+  "countries": [
+   "NZ"
+  ],
+  "elevation": 3724,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Aoraki/Mont Cook",
+   "en": "Aoraki / Mount Cook",
+   "ar": "اوراكي/جبل كوك",
+   "es": "Monte Cook"
+  }
+ },
+ {
+  "id": "Q377485",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Sinaï",
+   "en": "Mount Sinai",
+   "ar": "طور سيناء",
+   "es": "Monte Sinaí"
+  },
+  "region": "africa",
+  "anchor": [
+   28.538,
+   33.975
+  ],
+  "bbox": [
+   33.98,
+   28.54,
+   33.98,
+   28.54
+  ],
+  "countries": [
+   "EG"
+  ],
+  "elevation": 2287,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Sinaï",
+   "en": "Mount Sinai",
+   "ar": "جبل موسى (مصر)",
+   "es": "Monte Sinaí"
+  }
+ },
+ {
+  "id": "Q190562",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Cameroun",
+   "en": "Mount Cameroon",
+   "ar": "جبل كمرون",
+   "es": "Monte Camerún"
+  },
+  "region": "africa",
+  "anchor": [
+   4.217,
+   9.173
+  ],
+  "bbox": [
+   9.17,
+   4.22,
+   9.17,
+   4.22
+  ],
+  "countries": [
+   "CM"
+  ],
+  "elevation": 4095,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Cameroun",
+   "en": "Mount Cameroon",
+   "ar": "جبل كمرون",
+   "es": "Monte Camerún"
+  }
+ },
+ {
+  "id": "Q275435",
+  "kind": "peak",
+  "names": {
+   "fr": "Ras Dashan",
+   "en": "Ras Dashen",
+   "ar": "رأس داشن",
+   "es": "Monte Ras Dejen"
+  },
+  "region": "africa",
+  "anchor": [
+   13.237,
+   38.373
+  ],
+  "bbox": [
+   38.37,
+   13.24,
+   38.37,
+   13.24
+  ],
+  "countries": [
+   "ET"
+  ],
+  "elevation": 4533,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Ras Dashan",
+   "en": "Ras Dashen",
+   "ar": null,
+   "es": "Monte Ras Dejen"
+  }
+ },
+ {
+  "id": "Q221666",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Stanley",
+   "en": "Mount Stanley",
+   "ar": "جبل ستانلي",
+   "es": "Monte Stanley"
+  },
+  "region": "africa",
+  "anchor": [
+   0.386,
+   29.872
+  ],
+  "bbox": [
+   29.87,
+   0.39,
+   29.87,
+   0.39
+  ],
+  "countries": [
+   "UG",
+   "CD"
+  ],
+  "elevation": 5109,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Stanley",
+   "en": "Mount Stanley",
+   "ar": "جبل ستانلي",
+   "es": "Monte Stanley"
+  }
+ },
+ {
+  "id": "Q120306",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Logan",
+   "en": "Mount Logan",
+   "ar": "جبل لوغان",
+   "es": "Monte Logan"
+  },
+  "region": "americas",
+  "anchor": [
+   60.567,
+   -140.405
+  ],
+  "bbox": [
+   -140.41,
+   60.57,
+   -140.41,
+   60.57
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": 5959,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Logan",
+   "en": "Mount Logan",
+   "ar": "جبل لوغان",
+   "es": "Monte Logan"
+  }
+ },
+ {
+  "id": "Q208081",
+  "kind": "peak",
+  "names": {
+   "fr": "Aneto",
+   "en": "Aneto",
+   "ar": "أنيتو",
+   "es": "Pico Aneto"
+  },
+  "region": "europe",
+  "anchor": [
+   42.631,
+   0.657
+  ],
+  "bbox": [
+   0.66,
+   42.63,
+   0.66,
+   42.63
+  ],
+  "countries": [
+   "ES"
+  ],
+  "elevation": 3404,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Aneto",
+   "en": "Aneto",
+   "ar": "أنيتو (جبل)",
+   "es": "Pico Aneto"
+  }
+ },
+ {
+  "id": "Q38954",
+  "kind": "peak",
+  "names": {
+   "fr": "Teide",
+   "en": "Teide",
+   "ar": "تيد",
+   "es": "Teide"
+  },
+  "region": "europe",
+  "anchor": [
+   28.273,
+   -16.644
+  ],
+  "bbox": [
+   -16.64,
+   28.27,
+   -16.64,
+   28.27
+  ],
+  "countries": [
+   "ES"
+  ],
+  "elevation": 3715,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Teide",
+   "en": "Teide",
+   "ar": "جبل تيد",
+   "es": "Teide"
+  }
+ },
+ {
+  "id": "Q3375",
+  "kind": "peak",
+  "names": {
+   "fr": "Zugspitze",
+   "en": "Zugspitze",
+   "ar": "قمة تسوغشبيتسه",
+   "es": "Zugspitze"
+  },
+  "region": "europe",
+  "anchor": [
+   47.421,
+   10.986
+  ],
+  "bbox": [
+   10.99,
+   47.42,
+   10.99,
+   47.42
+  ],
+  "countries": [
+   "DE",
+   "AT"
+  ],
+  "elevation": 2962,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Zugspitze",
+   "en": "Zugspitze",
+   "ar": "قمة تسوغشبيتسه",
+   "es": "Zugspitze"
+  }
+ },
+ {
+  "id": "Q131230",
+  "kind": "peak",
+  "names": {
+   "fr": "Mauna Kea",
+   "en": "Mauna Kea",
+   "ar": "مونا كيا",
+   "es": "Mauna Kea"
+  },
+  "region": "americas",
+  "anchor": [
+   19.821,
+   -155.468
+  ],
+  "bbox": [
+   -155.47,
+   19.82,
+   -155.47,
+   19.82
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": 4207,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mauna Kea",
+   "en": "Mauna Kea",
+   "ar": "مونا كيا",
+   "es": "Mauna Kea"
+  }
+ },
+ {
+  "id": "Q188982",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Erebus",
+   "en": "Mount Erebus",
+   "ar": "جبل إريباص",
+   "es": "Monte Erebus"
+  },
+  "region": null,
+  "anchor": [
+   -77.533,
+   167.283
+  ],
+  "bbox": [
+   167.28,
+   -77.53,
+   167.28,
+   -77.53
+  ],
+  "countries": [],
+  "elevation": 3794,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Erebus",
+   "en": "Mount Erebus",
+   "ar": "جبل إريباص",
+   "es": "Monte Erebus"
+  }
+ },
+ {
+  "id": "Q229107",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Kailash",
+   "en": "Mount Kailash",
+   "ar": "جبل كايلاش",
+   "es": "Kailash"
+  },
+  "region": "asia",
+  "anchor": [
+   31.067,
+   81.313
+  ],
+  "bbox": [
+   81.31,
+   31.07,
+   81.31,
+   31.07
+  ],
+  "countries": [
+   "CN"
+  ],
+  "elevation": 6638,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Kailash",
+   "en": "Mount Kailash",
+   "ar": "جبل كيلاش",
+   "es": "Monte Kailāsh"
+  }
+ },
+ {
+  "id": "Q104674",
+  "kind": "peak",
+  "names": {
+   "fr": "Ben Nevis",
+   "en": "Ben Nevis",
+   "ar": "جبل بن نيفيس",
+   "es": "Ben Nevis"
+  },
+  "region": "europe",
+  "anchor": [
+   56.797,
+   -5.004
+  ],
+  "bbox": [
+   -5,
+   56.8,
+   -5,
+   56.8
+  ],
+  "countries": [
+   "GB"
+  ],
+  "elevation": 1345,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Ben Nevis",
+   "en": "Ben Nevis",
+   "ar": "جبل بن نيفيس",
+   "es": "Ben Nevis"
+  }
+ },
+ {
+  "id": "Q822326",
+  "kind": "peak",
+  "names": {
+   "fr": "Tahat",
+   "en": "Mount Tahat",
+   "ar": "تاهات",
+   "es": "Tahat"
+  },
+  "region": "africa",
+  "anchor": [
+   23.289,
+   5.534
+  ],
+  "bbox": [
+   5.53,
+   23.29,
+   5.53,
+   23.29
+  ],
+  "countries": [
+   "DZ"
+  ],
+  "elevation": 2908,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Tahat",
+   "en": "Mount Tahat",
+   "ar": "تاهات",
+   "es": "Tahat"
+  }
+ },
+ {
+  "id": "Q257441",
+  "kind": "peak",
+  "names": {
+   "fr": "Emi Koussi",
+   "en": "Emi Koussi",
+   "ar": "إيمي كوسي",
+   "es": "Emi Koussi"
+  },
+  "region": "africa",
+  "anchor": [
+   19.789,
+   18.551
+  ],
+  "bbox": [
+   18.55,
+   19.79,
+   18.55,
+   19.79
+  ],
+  "countries": [
+   "TD"
+  ],
+  "elevation": 3445,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Emi Koussi",
+   "en": "Emi Koussi",
+   "ar": "إيمي كوسي",
+   "es": "Emi Koussi"
+  }
+ },
+ {
+  "id": "Q41413",
+  "kind": "peak",
+  "names": {
+   "fr": "Pic Ismail Samani",
+   "en": "Ismoil Somoni Peak",
+   "ar": "قمة إسماعيل ساماني",
+   "es": "Pico Ismail Samani"
+  },
+  "region": "asia",
+  "anchor": [
+   38.943,
+   72.015
+  ],
+  "bbox": [
+   72.02,
+   38.94,
+   72.02,
+   38.94
+  ],
+  "countries": [
+   "TJ"
+  ],
+  "elevation": 7495,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Pic Ismail Samani",
+   "en": "Ismoil Somoni Peak",
+   "ar": "قمة إسماعيل ساماني",
+   "es": "Pico Ismail Samani"
+  }
+ },
+ {
+  "id": "Q332762",
+  "kind": "peak",
+  "names": {
+   "fr": "Jengish Chokusu",
+   "en": "Jengish Chokusu",
+   "ar": "جبل جينجيش تشوكوسو",
+   "es": "Yenguis Chokusu"
+  },
+  "region": "asia",
+  "anchor": [
+   42.035,
+   80.129
+  ],
+  "bbox": [
+   80.13,
+   42.03,
+   80.13,
+   42.03
+  ],
+  "countries": [
+   "KG",
+   "CN"
+  ],
+  "elevation": 7439,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Jengish Chokusu",
+   "en": "Jengish Chokusu",
+   "ar": "جبل جينجيش تشوكوسو",
+   "es": "Yenguis Chokusu"
+  }
+ },
+ {
+  "id": "Q207680",
+  "kind": "peak",
+  "names": {
+   "fr": "Mont Kazbek",
+   "en": "Mount Kazbek",
+   "ar": "جبل كازبجي",
+   "es": "Monte Kazbek"
+  },
+  "region": "asia",
+  "anchor": [
+   42.697,
+   44.519
+  ],
+  "bbox": [
+   44.52,
+   42.7,
+   44.52,
+   42.7
+  ],
+  "countries": [
+   "GE",
+   "RU"
+  ],
+  "elevation": 5033,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mont Kazbek",
+   "en": "Mount Kazbek",
+   "ar": "جبل كازبجي",
+   "es": "Monte Kazbek"
+  }
+ },
+ {
+  "id": "Q213704",
+  "kind": "peak",
+  "names": {
+   "fr": "Pico Bolívar",
+   "en": "Pico Bolívar",
+   "ar": "بيكو بوليفار",
+   "es": "Pico Bolívar"
+  },
+  "region": "americas",
+  "anchor": [
+   8.541,
+   -71.046
+  ],
+  "bbox": [
+   -71.05,
+   8.54,
+   -71.05,
+   8.54
+  ],
+  "countries": [
+   "VE"
+  ],
+  "elevation": 4978,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Pico Bolívar",
+   "en": "Pico Bolívar",
+   "ar": "بيكو بوليفار",
+   "es": "Pico Bolívar"
+  }
+ },
+ {
+  "id": "Q233836",
+  "kind": "peak",
+  "names": {
+   "fr": "Nevado Ojos del Salado",
+   "en": "Ojos del Salado",
+   "ar": "أوخوس ديل سالادو",
+   "es": "Ojos del Salado"
+  },
+  "region": "americas",
+  "anchor": [
+   -27.11,
+   -68.541
+  ],
+  "bbox": [
+   -68.54,
+   -27.11,
+   -68.54,
+   -27.11
+  ],
+  "countries": [
+   "AR",
+   "CL"
+  ],
+  "elevation": 6893,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Nevado Ojos del Salado",
+   "en": "Ojos del Salado",
+   "ar": "أوخوس ديل سالادو",
+   "es": "Nevado Ojos del Salado"
+  }
+ },
+ {
+  "id": "Q5451",
+  "kind": "range",
+  "names": {
+   "fr": "Himalaya",
+   "en": "Himalayas",
+   "ar": "هملايا",
+   "es": "Himalaya"
+  },
+  "region": "asia",
+  "anchor": [
+   29,
+   84
+  ],
+  "bbox": [
+   75.52,
+   26.86,
+   95.66,
+   33.91
+  ],
+  "countries": [
+   "IN",
+   "CN",
+   "NP",
+   "BT",
+   "AF",
+   "PK",
+   "MM"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 600000,
+  "wiki": {
+   "fr": "Himalaya",
+   "en": "Himalayas",
+   "ar": "هملايا",
+   "es": "Himalaya"
+  }
+ },
+ {
+  "id": "Q5456",
+  "kind": "range",
+  "names": {
+   "fr": "Cordillère des Andes",
+   "en": "Andes",
+   "ar": "أنديز",
+   "es": "Cordillera de Los Andes"
+  },
+  "region": "americas",
+  "anchor": [
+   -16.878,
+   -70.302
+  ],
+  "bbox": [
+   -80.6,
+   -55.29,
+   -63.09,
+   11.41
+  ],
+  "countries": [
+   "CL",
+   "VE",
+   "CO",
+   "PE",
+   "AR",
+   "EC",
+   "BO"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 3300000,
+  "wiki": {
+   "fr": "Cordillère des Andes",
+   "en": "Andes",
+   "ar": "أنديز",
+   "es": "Cordillera de los Andes"
+  }
+ },
+ {
+  "id": "Q5463",
+  "kind": "range",
+  "names": {
+   "fr": "Montagnes Rocheuses",
+   "en": "Rocky Mountains",
+   "ar": "جبال روكي",
+   "es": "Montañas Rocosas"
+  },
+  "region": "americas",
+  "anchor": [
+   44.15,
+   -113.8
+  ],
+  "bbox": [
+   -127.19,
+   35.27,
+   -104.12,
+   59.71
+  ],
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Montagnes Rocheuses",
+   "en": "Rocky Mountains",
+   "ar": "جبال روكي",
+   "es": "Montañas Rocosas"
+  }
+ },
+ {
+  "id": "Q1286",
+  "kind": "range",
+  "names": {
+   "fr": "Alpes",
+   "en": "Alps",
+   "ar": "الألب",
+   "es": "Alpes"
+  },
+  "region": "europe",
+  "anchor": [
+   46.578,
+   8.615
+  ],
+  "bbox": [
+   5.16,
+   43.67,
+   16.18,
+   48.16
+  ],
+  "countries": [
+   "FR",
+   "IT",
+   "AT",
+   "SI",
+   "CH",
+   "DE",
+   "LI",
+   "MC",
+   "HU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 190000,
+  "wiki": {
+   "fr": "Alpes",
+   "en": "Alps",
+   "ar": "الألب",
+   "es": "Alpes"
+  }
+ },
+ {
+  "id": "Q35600",
+  "kind": "range",
+  "names": {
+   "fr": "Oural",
+   "en": "Ural Mountains",
+   "ar": "جبال الأورال",
+   "es": "Montes Urales"
+  },
+  "region": "europe",
+  "anchor": [
+   60,
+   59
+  ],
+  "bbox": [
+   56.22,
+   51.57,
+   66.91,
+   68.36
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Oural",
+   "en": "Ural Mountains",
+   "ar": "جبال الأورال",
+   "es": "Montes Urales"
+  }
+ },
+ {
+  "id": "Q5477",
+  "kind": "range",
+  "names": {
+   "fr": "Caucase",
+   "en": "Caucasus Mountains",
+   "ar": "جبال القوقاز",
+   "es": "Cordillera del Cáucaso"
+  },
+  "region": "asia",
+  "anchor": [
+   42.5,
+   45
+  ],
+  "bbox": [
+   37.21,
+   40.37,
+   49.46,
+   45.1
+  ],
+  "countries": [
+   "RU",
+   "AZ",
+   "GE"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 477165,
+  "wiki": {
+   "fr": "Géographie du Caucase",
+   "en": "Caucasus Mountains",
+   "ar": "جبال القوقاز",
+   "es": "Cordillera del Cáucaso"
+  }
+ },
+ {
+  "id": "Q130135",
+  "kind": "range",
+  "names": {
+   "fr": "Atlas",
+   "en": "Atlas Mountains",
+   "ar": "جبال الأطلس",
+   "es": "Atlas"
+  },
+  "region": "africa",
+  "anchor": [
+   31.062,
+   -7.916
+  ],
+  "bbox": [
+   -10.99,
+   28.31,
+   10.47,
+   37.31
+  ],
+  "countries": [
+   "MA",
+   "DZ",
+   "TN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Atlas (massif)",
+   "en": "Atlas Mountains",
+   "ar": "جبال الأطلس",
+   "es": "Cordillera del Atlas"
+  }
+ },
+ {
+  "id": "Q584279",
+  "kind": "range",
+  "names": {
+   "fr": "Haut Atlas",
+   "en": "High Atlas",
+   "ar": "الأطلس الكبير",
+   "es": "Alto Atlas"
+  },
+  "region": "africa",
+  "anchor": [
+   31.062,
+   -7.916
+  ],
+  "bbox": [
+   -9.49,
+   30.65,
+   -2.37,
+   33.15
+  ],
+  "countries": [
+   "MA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Haut Atlas",
+   "en": "High Atlas",
+   "ar": "الأطلس الكبير",
+   "es": "Alto Atlas"
+  }
+ },
+ {
+  "id": "Q574853",
+  "kind": "range",
+  "names": {
+   "fr": "Anti-Atlas",
+   "en": "Anti-Atlas",
+   "ar": "الأطلس الصغير",
+   "es": "Anti-Atlas"
+  },
+  "region": "africa",
+  "anchor": [
+   30,
+   -8.5
+  ],
+  "bbox": [
+   -10.83,
+   28.4,
+   -4.31,
+   31.7
+  ],
+  "countries": [
+   "MA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 116587,
+  "wiki": {
+   "fr": "Anti-Atlas",
+   "en": "Anti-Atlas",
+   "ar": "الأطلس الصغير",
+   "es": "Anti-Atlas"
+  }
+ },
+ {
+  "id": "Q1898305",
+  "kind": "range",
+  "names": {
+   "fr": "Atlas saharien",
+   "en": "Saharan Atlas",
+   "ar": "الأطلس الصحراوي",
+   "es": "Atlas sahariano"
+  },
+  "region": "africa",
+  "anchor": [
+   34,
+   2
+  ],
+  "bbox": [
+   -2.35,
+   31.84,
+   4.86,
+   35.67
+  ],
+  "countries": [
+   "DZ",
+   "MA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Atlas saharien",
+   "en": "Saharan Atlas",
+   "ar": "الأطلس الصحراوي",
+   "es": "Atlas sahariano"
+  }
+ },
+ {
+  "id": "Q93332",
+  "kind": "range",
+  "names": {
+   "fr": "Appalaches",
+   "en": "Appalachian Mountains",
+   "ar": "جبال الأبالاش",
+   "es": "Apalaches"
+  },
+  "region": "americas",
+  "anchor": [
+   38,
+   -79
+  ],
+  "bbox": [
+   -88.54,
+   32.61,
+   -64.21,
+   49.25
+  ],
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Appalaches",
+   "en": "Appalachian Mountains",
+   "ar": "جبال الأبالاش",
+   "es": "Apalaches"
+  }
+ },
+ {
+  "id": "Q12431",
+  "kind": "range",
+  "names": {
+   "fr": "Pyrénées",
+   "en": "Pyrenees",
+   "ar": "البرانس",
+   "es": "Pirineos"
+  },
+  "region": "europe",
+  "anchor": [
+   42.7,
+   0.6
+  ],
+  "bbox": [
+   -2.29,
+   41.96,
+   3.17,
+   43.48
+  ],
+  "countries": [
+   "ES",
+   "FR",
+   "AD"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 19000,
+  "wiki": {
+   "fr": "Pyrénées",
+   "en": "Pyrenees",
+   "ar": "البرانس",
+   "es": "Pirineos"
+  }
+ },
+ {
+  "id": "Q1288",
+  "kind": "range",
+  "names": {
+   "fr": "Carpates",
+   "en": "Carpathians",
+   "ar": "الكربات",
+   "es": "Montes Cárpatos"
+  },
+  "region": "europe",
+  "anchor": [
+   47,
+   25.5
+  ],
+  "bbox": [
+   17.48,
+   44.6,
+   27.2,
+   50.07
+  ],
+  "countries": [
+   "RO",
+   "UA",
+   "PL",
+   "SK",
+   "HU",
+   "CZ",
+   "RS",
+   "AT"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Carpates",
+   "en": "Carpathian Mountains",
+   "ar": "الكربات",
+   "es": "Montes Cárpatos"
+  }
+ },
+ {
+  "id": "Q5474",
+  "kind": "range",
+  "names": {
+   "fr": "Tian Shan",
+   "en": "Tianshan Mountains",
+   "ar": "جبال تيان شان",
+   "es": "Tian Shan"
+  },
+  "region": "asia",
+  "anchor": [
+   42.038,
+   80.125
+  ],
+  "bbox": [
+   72.99,
+   39.66,
+   95.22,
+   44.18
+  ],
+  "countries": [
+   "CN",
+   "KG",
+   "KZ",
+   "UZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Tian Shan",
+   "en": "Tian Shan",
+   "ar": "جبال تيان شان",
+   "es": "Cordillera de Tian Shan"
+  }
+ },
+ {
+  "id": "Q5955",
+  "kind": "range",
+  "names": {
+   "fr": "Altaï",
+   "en": "Altai Mountains",
+   "ar": "جبال ألتاي",
+   "es": "Macizo de Altái"
+  },
+  "region": "asia",
+  "anchor": [
+   49,
+   89
+  ],
+  "bbox": [
+   81.93,
+   43.26,
+   100.79,
+   52.31
+  ],
+  "countries": [
+   "MN",
+   "CN",
+   "RU",
+   "KZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Altaï",
+   "en": "Altai Mountains",
+   "ar": "جبال ألتاي",
+   "es": "Macizo de Altái"
+  }
+ },
+ {
+  "id": "Q5472",
+  "kind": "range",
+  "names": {
+   "fr": "Hindou Kouch",
+   "en": "Hindu Kush",
+   "ar": "هندوكوش",
+   "es": "Hindú Kush"
+  },
+  "region": "asia",
+  "anchor": [
+   35,
+   71
+  ],
+  "bbox": [
+   66.67,
+   34.09,
+   75.72,
+   37.52
+  ],
+  "countries": [
+   "PK",
+   "AF",
+   "TJ",
+   "IN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Hindou Kouch",
+   "en": "Hindu Kush",
+   "ar": "هندوكوش",
+   "es": "Hindú Kush"
+  }
+ },
+ {
+  "id": "Q5469",
+  "kind": "range",
+  "names": {
+   "fr": "Karakoram",
+   "en": "Karakoram",
+   "ar": "قراقرم",
+   "es": "Cordillera del Karakórum"
+  },
+  "region": "asia",
+  "anchor": [
+   35.883,
+   76.509
+  ],
+  "bbox": [
+   74.93,
+   33.35,
+   79.86,
+   37.91
+  ],
+  "countries": [
+   "CN",
+   "PK",
+   "IN",
+   "TJ",
+   "AF"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Karakoram",
+   "en": "Karakoram",
+   "ar": "قراقرم",
+   "es": "Cordillera del Karakórum"
+  }
+ },
+ {
+  "id": "Q161750",
+  "kind": "range",
+  "names": {
+   "fr": "Pamir",
+   "en": "Pamir Mountains",
+   "ar": "جبال بامير",
+   "es": "Cordillera del Pamir"
+  },
+  "region": "asia",
+  "anchor": [
+   39.002,
+   72
+  ],
+  "bbox": [
+   71.23,
+   37.1,
+   77.03,
+   39.56
+  ],
+  "countries": [
+   "CN",
+   "TJ",
+   "AF",
+   "PK",
+   "KG"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 120000,
+  "wiki": {
+   "fr": "Pamir",
+   "en": "Pamir Mountains",
+   "ar": "جبال بامير",
+   "es": "Cordillera del Pamir"
+  }
+ },
+ {
+  "id": "Q167021",
+  "kind": "range",
+  "names": {
+   "fr": "Zagros",
+   "en": "Zagros Mountains",
+   "ar": "زاغروس",
+   "es": "Zagros"
+  },
+  "region": "asia",
+  "anchor": [
+   33.667,
+   47
+  ],
+  "bbox": [
+   46.12,
+   26.77,
+   56.54,
+   35.92
+  ],
+  "countries": [
+   "IR",
+   "IQ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 533512,
+  "wiki": {
+   "fr": "Monts Zagros",
+   "en": "Zagros Mountains",
+   "ar": "زاغروس",
+   "es": "Zagros"
+  }
+ },
+ {
+  "id": "Q484725",
+  "kind": "range",
+  "names": {
+   "fr": "Elbourz",
+   "en": "Alborz",
+   "ar": "جبال ألبرز",
+   "es": "Montes Elburz"
+  },
+  "region": "asia",
+  "anchor": [
+   36.076,
+   51.796
+  ],
+  "bbox": [
+   48.19,
+   35.38,
+   55.15,
+   37.85
+  ],
+  "countries": [
+   "IR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 155970,
+  "wiki": {
+   "fr": "Elbourz",
+   "en": "Alborz",
+   "ar": "جبال ألبرز",
+   "es": "Montes Elburz"
+  }
+ },
+ {
+  "id": "Q187871",
+  "kind": "range",
+  "names": {
+   "fr": "Cordillère du Kunlun",
+   "en": "Kunlun Mountains",
+   "ar": "جبال كونلون",
+   "es": "Kunlun"
+  },
+  "region": "asia",
+  "anchor": [
+   36,
+   84
+  ],
+  "bbox": [
+   77.96,
+   35.09,
+   99.47,
+   37.71
+  ],
+  "countries": [
+   "CN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Cordillère du Kunlun",
+   "en": "Kunlun Mountains",
+   "ar": "جبال كونلون",
+   "es": "Kunlun"
+  }
+ },
+ {
+  "id": "Q192583",
+  "kind": "range",
+  "names": {
+   "fr": "Cordillère australienne",
+   "en": "Great Dividing Range",
+   "ar": "غريت ديفايدينغ",
+   "es": "Gran Cordillera Divisoria"
+  },
+  "region": "oceania",
+  "anchor": [
+   -14.73,
+   143.031
+  ],
+  "bbox": [
+   142.68,
+   -38.02,
+   153.3,
+   -12.66
+  ],
+  "countries": [
+   "AU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Cordillère australienne",
+   "en": "Great Dividing Range",
+   "ar": "غريت ديفايدينغ",
+   "es": "Gran Cordillera Divisoria"
+  }
+ },
+ {
+  "id": "Q183295",
+  "kind": "range",
+  "names": {
+   "fr": "Drakensberg",
+   "en": "Drakensberg",
+   "ar": "دراكنزبرغ",
+   "es": "Drakensberg"
+  },
+  "region": "africa",
+  "anchor": [
+   -29.367,
+   29.533
+  ],
+  "bbox": [
+   23.53,
+   -33.51,
+   32.34,
+   -22.38
+  ],
+  "countries": [
+   "ZA",
+   "LS"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Drakensberg (chaîne de montagnes)",
+   "en": "Drakensberg",
+   "ar": "دراكنزبرغ",
+   "es": "Drakensberg"
+  }
+ },
+ {
+  "id": "Q319288",
+  "kind": "range",
+  "names": {
+   "fr": "Plateaux d'Éthiopie",
+   "en": "Ethiopian Highlands",
+   "ar": "مرتفعات إثيوبيا",
+   "es": "Macizo abisino"
+  },
+  "region": "africa",
+  "anchor": [
+   10,
+   38.167
+  ],
+  "bbox": [
+   33.95,
+   4.1,
+   43.38,
+   18.03
+  ],
+  "countries": [
+   "ET",
+   "ER",
+   "SD"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Hauts plateaux abyssins",
+   "en": "Ethiopian Highlands",
+   "ar": "مرتفعات إثيوبيا",
+   "es": "Macizo etíope"
+  }
+ },
+ {
+  "id": "Q186547",
+  "kind": "range",
+  "names": {
+   "fr": "Alpes scandinaves",
+   "en": "Scandinavian Mountains",
+   "ar": "سلسلة الجبال الإسكندنافية",
+   "es": "Alpes escandinavos"
+  },
+  "region": "europe",
+  "anchor": [
+   65,
+   14
+  ],
+  "bbox": [
+   5.59,
+   58.52,
+   24.45,
+   70.06
+  ],
+  "countries": [
+   "NO",
+   "SE",
+   "FI"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Alpes scandinaves",
+   "en": "Scandinavian Mountains",
+   "ar": "سلسلة الجبال الإسكندنافية",
+   "es": "Alpes escandinavos"
+  }
+ },
+ {
+  "id": "Q189915",
+  "kind": "range",
+  "names": {
+   "fr": "Alpes dinariques",
+   "en": "Dinaric Alps",
+   "ar": "جبال الألب الدينارية",
+   "es": "Alpes Dináricos"
+  },
+  "region": "europe",
+  "anchor": [
+   44.029,
+   16.724
+  ],
+  "bbox": [
+   13.6,
+   41.83,
+   21.63,
+   46.22
+  ],
+  "countries": [
+   "HR",
+   "RS",
+   "SI",
+   "BA",
+   "XK",
+   "AL",
+   "ME"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 175000,
+  "wiki": {
+   "fr": "Alpes dinariques",
+   "en": "Dinaric Alps",
+   "ar": "جبال الألب الدينارية",
+   "es": "Alpes dináricos"
+  }
+ },
+ {
+  "id": "Q170427",
+  "kind": "range",
+  "names": {
+   "fr": "Grand Balkan",
+   "en": "Balkan Mountains",
+   "ar": "جبال البلقان",
+   "es": "Montes Balcanes"
+  },
+  "region": "europe",
+  "anchor": [
+   42.784,
+   24.976
+  ],
+  "bbox": [
+   22.33,
+   42.51,
+   27.43,
+   43.81
+  ],
+  "countries": [
+   "BG",
+   "RS"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 11596,
+  "wiki": {
+   "fr": "Grand Balkan",
+   "en": "Balkan Mountains",
+   "ar": "جبال البلقان",
+   "es": "Montes Balcanes"
+  }
+ },
+ {
+  "id": "Q1124584",
+  "kind": "range",
+  "names": {
+   "fr": "Sierra Madre occidentale",
+   "en": "Sierra Madre Occidental",
+   "ar": "سييرا مادري الغربية",
+   "es": "Sierra Madre Occidental"
+  },
+  "region": "americas",
+  "anchor": [
+   26.746,
+   -108.058
+  ],
+  "bbox": [
+   -110.76,
+   20.77,
+   -102.22,
+   31.14
+  ],
+  "countries": [
+   "MX"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 289000,
+  "wiki": {
+   "fr": "Sierra Madre occidentale",
+   "en": "Sierra Madre Occidental",
+   "ar": "سييرا مادري الغربية",
+   "es": "Sierra Madre Occidental"
+  }
+ },
+ {
+  "id": "Q144040",
+  "kind": "range",
+  "names": {
+   "fr": "Sierra Madre orientale",
+   "en": "Sierra Madre Oriental",
+   "ar": "سييرا مادري الشرقية",
+   "es": "Sierra Madre Oriental"
+  },
+  "region": "americas",
+  "anchor": [
+   25.367,
+   -100.55
+  ],
+  "bbox": [
+   -103.41,
+   20.16,
+   -97.77,
+   29.85
+  ],
+  "countries": [
+   "MX",
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Sierra Madre orientale",
+   "en": "Sierra Madre Oriental",
+   "ar": "سييرا مادري الشرقية",
+   "es": "Sierra Madre Oriental"
+  }
+ },
+ {
+  "id": "Q26777",
+  "kind": "range",
+  "names": {
+   "fr": "Sierra Nevada",
+   "en": "Sierra Nevada",
+   "ar": "سييرا نيفادا",
+   "es": "Sierra Nevada"
+  },
+  "region": "americas",
+  "anchor": [
+   37.73,
+   -119.57
+  ],
+  "bbox": [
+   -121.79,
+   34.87,
+   -117.88,
+   40.59
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 63118,
+  "wiki": {
+   "fr": "Sierra Nevada (États-Unis)",
+   "en": "Sierra Nevada",
+   "ar": "سييرا نيفادا (الولايات المتحدة)",
+   "es": "Sierra Nevada (Estados Unidos)"
+  }
+ },
+ {
+  "id": "Q4558",
+  "kind": "range",
+  "names": {
+   "fr": "Chaîne des Cascades",
+   "en": "Cascade Range",
+   "ar": "جبال كاسكيد",
+   "es": "Cordillera de las Cascadas"
+  },
+  "region": "americas",
+  "anchor": [
+   46.851,
+   -121.76
+  ],
+  "bbox": [
+   -123.08,
+   40.11,
+   -119.01,
+   50.99
+  ],
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 150000,
+  "wiki": {
+   "fr": "Chaîne des Cascades",
+   "en": "Cascade Range",
+   "ar": "جبال كاسكيد",
+   "es": "Cordillera de las Cascadas"
+  }
+ },
+ {
+  "id": "Q929910",
+  "kind": "range",
+  "names": {
+   "fr": "Chaîne Brooks",
+   "en": "Brooks Range",
+   "ar": "سلسلة بروكس",
+   "es": "Cordillera de Brooks"
+  },
+  "region": "americas",
+  "anchor": [
+   68.2,
+   -152.25
+  ],
+  "bbox": [
+   -166.79,
+   66.61,
+   -137.24,
+   71.41
+  ],
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Chaîne Brooks",
+   "en": "Brooks Range",
+   "ar": "سلسلة جبال بروكس",
+   "es": "Cordillera de Brooks"
+  }
+ },
+ {
+  "id": "Q156684",
+  "kind": "range",
+  "names": {
+   "fr": "Chaîne d'Alaska",
+   "en": "Alaska Range",
+   "ar": "سلسلة جبال ألاسكا",
+   "es": "Cordillera de Alaska"
+  },
+  "region": "americas",
+  "anchor": [
+   63.069,
+   -151.007
+  ],
+  "bbox": [
+   -154.6,
+   60.88,
+   -142.58,
+   64.35
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 144752,
+  "wiki": {
+   "fr": "Chaîne d'Alaska",
+   "en": "Alaska Range",
+   "ar": null,
+   "es": "Cordillera de Alaska"
+  }
+ },
+ {
+  "id": "Q4527",
+  "kind": "range",
+  "names": {
+   "fr": "Ghâts occidentaux",
+   "en": "Western Ghats",
+   "ar": "غاتس الغربية",
+   "es": "Ghats occidentales"
+  },
+  "region": "asia",
+  "anchor": [
+   15.503,
+   74.747
+  ],
+  "bbox": [
+   72.85,
+   10.55,
+   77.4,
+   20.79
+  ],
+  "countries": [
+   "IN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 160000,
+  "wiki": {
+   "fr": "Ghats occidentaux",
+   "en": "Western Ghats",
+   "ar": "الغات الغربية",
+   "es": "Ghats occidentales"
+  }
+ },
+ {
+  "id": "Q465055",
+  "kind": "range",
+  "names": {
+   "fr": "Ghâts orientaux",
+   "en": "Eastern Ghats",
+   "ar": "جبال الغات الشرقية",
+   "es": "Ghats orientales"
+  },
+  "region": "asia",
+  "anchor": [
+   18.391,
+   82.892
+  ],
+  "bbox": [
+   77.68,
+   11.29,
+   85.24,
+   20.74
+  ],
+  "countries": [
+   "IN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Ghats orientaux",
+   "en": "Eastern Ghats",
+   "ar": "جبال الغات الشرقية",
+   "es": "Ghats orientales"
+  }
+ },
+ {
+  "id": "Q206650",
+  "kind": "range",
+  "names": {
+   "fr": "Alpes du Sud",
+   "en": "Southern Alps / Kā Tiritiri o te Moana",
+   "ar": "جبال الألب الجنوبية",
+   "es": "Alpes del Sur"
+  },
+  "region": "oceania",
+  "anchor": [
+   -43.365,
+   170.624
+  ],
+  "bbox": [
+   166.77,
+   -46.02,
+   173.28,
+   -41.42
+  ],
+  "countries": [
+   "NZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Alpes du Sud (Nouvelle-Zélande)",
+   "en": "Southern Alps",
+   "ar": "جبال الألب الجنوبية",
+   "es": "Alpes del Sur"
+  }
+ },
+ {
+  "id": "Q319671",
+  "kind": "range",
+  "names": {
+   "fr": "Chaîne Transantarctique",
+   "en": "Transantarctic Mountains",
+   "ar": "سلسلة الجبال العابرة للقارة القطبية الجنوبية",
+   "es": "Montañas Transantárticas"
+  },
+  "region": null,
+  "anchor": [
+   -85,
+   -175
+  ],
+  "bbox": [
+   -180,
+   -87.65,
+   180,
+   -70.95
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 584000,
+  "wiki": {
+   "fr": "Chaîne Transantarctique",
+   "en": "Transantarctic Mountains",
+   "ar": "سلسلة الجبال العابرة للقارة القطبية الجنوبية",
+   "es": "Montañas Transantárticas"
+  }
+ },
+ {
+  "id": "Q26399",
+  "kind": "range",
+  "names": {
+   "fr": "Hoggar",
+   "en": "Hoggar Mountains",
+   "ar": "جبال هقار",
+   "es": "Hoggar"
+  },
+  "region": "africa",
+  "anchor": [
+   23.289,
+   5.534
+  ],
+  "bbox": [
+   1.07,
+   21.67,
+   8.93,
+   26.98
+  ],
+  "countries": [
+   "DZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 50000,
+  "wiki": {
+   "fr": "Hoggar",
+   "en": "Hoggar Mountains",
+   "ar": "جبال هقار",
+   "es": "Ahaggar"
+  }
+ },
+ {
+  "id": "Q309104",
+  "kind": "range",
+  "names": {
+   "fr": "Massif du Tibesti",
+   "en": "Tibesti Mountains",
+   "ar": "جبال تيبستي",
+   "es": "Tibesti"
+  },
+  "region": "africa",
+  "anchor": [
+   20.781,
+   18.05
+  ],
+  "bbox": [
+   15.68,
+   19.49,
+   19.86,
+   24.09
+  ],
+  "countries": [
+   "TD",
+   "LY"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 100000,
+  "wiki": {
+   "fr": "Massif du Tibesti",
+   "en": "Tibesti Mountains",
+   "ar": "جبال تيبستي",
+   "es": "Tibesti"
+  }
+ },
+ {
+  "id": "Q170383",
+  "kind": "range",
+  "names": {
+   "fr": "Massif de l'Aïr",
+   "en": "Aïr Mountains",
+   "ar": "جبال آير",
+   "es": "Montañas de Air"
+  },
+  "region": "africa",
+  "anchor": [
+   18.631,
+   8.818
+  ],
+  "bbox": [
+   7.31,
+   17.26,
+   9.85,
+   20.36
+  ],
+  "countries": [
+   "NE"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 84000,
+  "wiki": {
+   "fr": "Massif de l'Aïr",
+   "en": "Aïr Mountains",
+   "ar": "جبال آير",
+   "es": "Montañas de Air"
+  }
+ },
+ {
+  "id": "Q208076",
+  "kind": "range",
+  "names": {
+   "fr": "Cordillère Cantabrique",
+   "en": "Cantabrian Mountains",
+   "ar": "جبال قنطبرية",
+   "es": "Cordillera Cantábrica"
+  },
+  "region": "europe",
+  "anchor": [
+   43.198,
+   -4.852
+  ],
+  "bbox": [
+   -7.41,
+   42.68,
+   -1.91,
+   43.43
+  ],
+  "countries": [
+   "ES"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Cordillère Cantabrique",
+   "en": "Cantabrian Mountains",
+   "ar": "جبال قنطبرية",
+   "es": "Cordillera Cantábrica"
+  }
+ },
+ {
+  "id": "Q519263",
+  "kind": "range",
+  "names": {
+   "fr": "Chaîne pontique",
+   "en": "Pontic Mountains",
+   "ar": "جبال بونتيك",
+   "es": "Montes Pónticos"
+  },
+  "region": "asia",
+  "anchor": [
+   40.837,
+   41.159
+  ],
+  "bbox": [
+   34.05,
+   40.14,
+   42.03,
+   41.92
+  ],
+  "countries": [
+   "TR",
+   "GE"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Chaîne pontique",
+   "en": "Pontic Mountains",
+   "ar": "جبال بونتيك",
+   "es": "Montes Pónticos"
+  }
+ },
+ {
+  "id": "Q215917",
+  "kind": "range",
+  "names": {
+   "fr": "Monts de Verkhoïansk",
+   "en": "Verkhoyansk Range",
+   "ar": "جبال فرخويانسك",
+   "es": "Cordillera Verjoyansk"
+  },
+  "region": "asia",
+  "anchor": [
+   67,
+   129
+  ],
+  "bbox": [
+   126.3,
+   62.73,
+   139.51,
+   70.61
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Monts de Verkhoïansk",
+   "en": "Verkhoyansk Range",
+   "ar": "جبال فرخويانسك",
+   "es": "Cordillera Verjoyansk"
+  }
+ },
+ {
+  "id": "Q293713",
+  "kind": "range",
+  "names": {
+   "fr": "Grand Khingan",
+   "en": "Greater Khingan",
+   "ar": "جبال خينغان الكبرى",
+   "es": "Gran Khingan"
+  },
+  "region": "asia",
+  "anchor": [
+   49.383,
+   123.157
+  ],
+  "bbox": [
+   117.38,
+   43.16,
+   125.16,
+   53.52
+  ],
+  "countries": [
+   "CN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Grand Khingan",
+   "en": "Greater Khingan",
+   "ar": "جبال خينغان الكبرى",
+   "es": "Gran Jingan"
+  }
+ },
+ {
+  "id": "Q155322",
+  "kind": "range",
+  "names": {
+   "fr": "Sikhote-Aline",
+   "en": "Sikhote-Alin",
+   "ar": "سيخوت ألين",
+   "es": "Sijoté-Alín"
+  },
+  "region": "asia",
+  "anchor": [
+   45.333,
+   136.167
+  ],
+  "bbox": [
+   132.53,
+   42.83,
+   140.56,
+   51.5
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Sikhote-Aline",
+   "en": "Sikhote-Alin",
+   "ar": "سيخوت ألين",
+   "es": "Sijoté-Alín"
+  }
+ },
+ {
+  "id": "Q6583",
+  "kind": "desert",
+  "names": {
+   "fr": "Sahara",
+   "en": "Sahara",
+   "ar": "الصحراء الكبرى",
+   "es": "Sahara"
+  },
+  "region": "africa",
+  "anchor": [
+   23.08,
+   12.612
+  ],
+  "bbox": [
+   -17.07,
+   9.34,
+   38.46,
+   34.61
+  ],
+  "countries": [
+   "EG",
+   "ML",
+   "SD",
+   "TD",
+   "MR",
+   "LY",
+   "NE",
+   "MA",
+   "TN",
+   "DZ",
+   "EH"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 9200000,
+  "wiki": {
+   "fr": "Sahara",
+   "en": "Sahara",
+   "ar": "الصحراء الكبرى",
+   "es": "Sahara"
+  }
+ },
+ {
+  "id": "Q42070",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert de Gobi",
+   "en": "Gobi Desert",
+   "ar": "صحراء جوبي",
+   "es": "Desierto de Gobi"
+  },
+  "region": "asia",
+  "anchor": [
+   42.5,
+   103
+  ],
+  "bbox": [
+   94.47,
+   37.84,
+   117.72,
+   47.79
+  ],
+  "countries": [
+   "CN",
+   "MN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 2354460,
+  "wiki": {
+   "fr": "Désert de Gobi",
+   "en": "Gobi Desert",
+   "ar": "صحراء جوبي",
+   "es": "Desierto de Gobi"
+  }
+ },
+ {
+  "id": "Q47700",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert du Kalahari",
+   "en": "Kalahari Desert",
+   "ar": "صحراء كلهاري",
+   "es": "Kalahari"
+  },
+  "region": "africa",
+  "anchor": [
+   -23,
+   22
+  ],
+  "bbox": [
+   13.15,
+   -30.53,
+   25.43,
+   -15.19
+  ],
+  "countries": [
+   "NA",
+   "ZA",
+   "BW",
+   "AO"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 930000,
+  "wiki": {
+   "fr": "Désert du Kalahari",
+   "en": "Kalahari Desert",
+   "ar": "صحراء كلهاري",
+   "es": "Kalahari"
+  }
+ },
+ {
+  "id": "Q131377",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert du Namib",
+   "en": "Namib",
+   "ar": "صحراء ناميب",
+   "es": "Namib"
+  },
+  "region": "africa",
+  "anchor": [
+   -23,
+   15
+  ],
+  "bbox": [
+   11.72,
+   -27,
+   17.2,
+   -12.55
+  ],
+  "countries": [
+   "NA",
+   "AO"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 81000,
+  "wiki": {
+   "fr": "Désert du Namib",
+   "en": "Namib",
+   "ar": "صحراء ناميب",
+   "es": "Desierto del Namib"
+  }
+ },
+ {
+  "id": "Q229269",
+  "kind": "desert",
+  "names": {
+   "fr": "Rub al-Khali",
+   "en": "Rub' al Khali",
+   "ar": "الربع الخالي",
+   "es": "Desierto de Rub al-Jali"
+  },
+  "region": "asia",
+  "anchor": [
+   20,
+   50
+  ],
+  "bbox": [
+   44.77,
+   16.54,
+   56.2,
+   24.26
+  ],
+  "countries": [
+   "SA",
+   "OM",
+   "YE",
+   "AE"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 680000,
+  "wiki": {
+   "fr": "Rub al-Khali",
+   "en": "Rub' al Khali",
+   "ar": "الربع الخالي",
+   "es": "Desierto de Rub al-Jali"
+  }
+ },
+ {
+  "id": "Q47141",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert d'Atacama",
+   "en": "Atacama Desert",
+   "ar": "أتكاما",
+   "es": "Desierto de Atacama"
+  },
+  "region": "americas",
+  "anchor": [
+   -24.5,
+   -69.25
+  ],
+  "bbox": [
+   -70.91,
+   -28,
+   -67.87,
+   -17.89
+  ],
+  "countries": [
+   "CL"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 181300,
+  "wiki": {
+   "fr": "Désert d'Atacama",
+   "en": "Atacama Desert",
+   "ar": "أتكاما",
+   "es": "Desierto de Atacama"
+  }
+ },
+ {
+  "id": "Q172691",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert du Thar",
+   "en": "Thar Desert",
+   "ar": "صحراء طهار",
+   "es": "Desierto de Thar"
+  },
+  "region": "asia",
+  "anchor": [
+   26.984,
+   71.002
+  ],
+  "bbox": [
+   68.36,
+   24.42,
+   75.67,
+   30.51
+  ],
+  "countries": [
+   "IN",
+   "PK"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 200000,
+  "wiki": {
+   "fr": "Désert du Thar",
+   "en": "Thar Desert",
+   "ar": "صحراء طهار",
+   "es": "Desierto de Thar"
+  }
+ },
+ {
+  "id": "Q145165",
+  "kind": "desert",
+  "names": {
+   "fr": "Grand désert de Victoria",
+   "en": "Great Victoria Desert",
+   "ar": "صحراء فكتوريا الكبرى",
+   "es": "Gran Desierto de Victoria"
+  },
+  "region": "oceania",
+  "anchor": [
+   -28.5,
+   127.75
+  ],
+  "bbox": [
+   123.76,
+   -29.76,
+   132.34,
+   -26.59
+  ],
+  "countries": [
+   "AU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 348750,
+  "wiki": {
+   "fr": "Grand désert de Victoria",
+   "en": "Great Victoria Desert",
+   "ar": "صحراء فكتوريا الكبرى",
+   "es": "Gran Desierto de Victoria"
+  }
+ },
+ {
+  "id": "Q326896",
+  "kind": "desert",
+  "names": {
+   "fr": "Grand désert de sable",
+   "en": "Great Sandy Desert",
+   "ar": "صحراء الرمل الكبرى",
+   "es": "Gran Desierto Arenoso"
+  },
+  "region": "oceania",
+  "anchor": [
+   -20.916,
+   124.685
+  ],
+  "bbox": [
+   121.3,
+   -22.61,
+   128.45,
+   -18.62
+  ],
+  "countries": [
+   "AU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 284993,
+  "wiki": {
+   "fr": "Grand Désert de Sable",
+   "en": "Great Sandy Desert",
+   "ar": "صحراء الرمل الكبرى",
+   "es": "Gran Desierto Arenoso"
+  }
+ },
+ {
+  "id": "Q272577",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert de Gibson",
+   "en": "Gibson Desert",
+   "ar": "صحراء قبسون",
+   "es": "Desierto de Gibson"
+  },
+  "region": "oceania",
+  "anchor": [
+   -24.503,
+   125.04
+  ],
+  "bbox": [
+   122.92,
+   -25.81,
+   127.11,
+   -23.04
+  ],
+  "countries": [
+   "AU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 155000,
+  "wiki": {
+   "fr": "Désert de Gibson",
+   "en": "Gibson Desert",
+   "ar": "صحراء جيبسون",
+   "es": "Desierto de Gibson"
+  }
+ },
+ {
+  "id": "Q339162",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert de Syrie",
+   "en": "Syrian Desert",
+   "ar": "بادية الشام",
+   "es": "Desierto Sirio"
+  },
+  "region": "asia",
+  "anchor": [
+   33.4,
+   38.75
+  ],
+  "bbox": [
+   36.86,
+   30.48,
+   43.53,
+   34.12
+  ],
+  "countries": [
+   "IQ",
+   "SA",
+   "SY",
+   "JO"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 518000,
+  "wiki": {
+   "fr": "Désert de Syrie",
+   "en": "Syrian desert",
+   "ar": "بادية الشام",
+   "es": "Desierto sirio"
+  }
+ },
+ {
+  "id": "Q172702",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert du Karakoum",
+   "en": "Karakum Desert",
+   "ar": "صحراء قره قوم",
+   "es": "Desierto de Karakum"
+  },
+  "region": "asia",
+  "anchor": [
+   39,
+   60
+  ],
+  "bbox": [
+   55.85,
+   36.22,
+   67.22,
+   45.48
+  ],
+  "countries": [
+   "UZ",
+   "TM"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 400000,
+  "wiki": {
+   "fr": "Désert du Karakoum",
+   "en": "Karakum Desert",
+   "ar": "صحراء قره قوم",
+   "es": "Desierto de Karakum"
+  }
+ },
+ {
+  "id": "Q184364",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert du Kyzylkoum",
+   "en": "Kyzyl Kum",
+   "ar": "قيزيل قوم",
+   "es": "Kyzyl Kum"
+  },
+  "region": "asia",
+  "anchor": [
+   42.441,
+   63.461
+  ],
+  "bbox": [
+   59.03,
+   39.12,
+   69.11,
+   47.49
+  ],
+  "countries": [
+   "UZ",
+   "KZ",
+   "TM"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 298000,
+  "wiki": {
+   "fr": "Désert du Kyzylkoum",
+   "en": "Kyzylkum Desert",
+   "ar": "قيزيل قوم",
+   "es": "Kyzyl Kum"
+  }
+ },
+ {
+  "id": "Q132956",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert du Taklamakan",
+   "en": "Taklamakan",
+   "ar": "تكلامكان",
+   "es": "Taklamakán"
+  },
+  "region": "asia",
+  "anchor": [
+   38.9,
+   82.2
+  ],
+  "bbox": [
+   78.29,
+   37.24,
+   87.65,
+   40.58
+  ],
+  "countries": [
+   "CN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 337000,
+  "wiki": {
+   "fr": "Désert du Taklamakan",
+   "en": "Taklamakan Desert",
+   "ar": "تكلامكان",
+   "es": "Taklamakán"
+  }
+ },
+ {
+  "id": "Q855658",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert de Chihuahua",
+   "en": "Chihuahuan Desert",
+   "ar": "صحراء شيواوية",
+   "es": "Desierto de monterrey"
+  },
+  "region": "americas",
+  "anchor": [
+   30.541,
+   -103.837
+  ],
+  "bbox": [
+   -111.02,
+   24.25,
+   -100.47,
+   34.3
+  ],
+  "countries": [
+   "MX",
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 362600,
+  "wiki": {
+   "fr": "Désert de Chihuahua",
+   "en": "Chihuahuan Desert",
+   "ar": "صحراء شيواوية",
+   "es": "Desierto de Chihuahua"
+  }
+ },
+ {
+  "id": "Q189429",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert de Sonora",
+   "en": "Sonoran Desert",
+   "ar": "صحراء سونورا",
+   "es": "Desierto de Sonora"
+  },
+  "region": "americas",
+  "anchor": [
+   32.26,
+   -112.926
+  ],
+  "bbox": [
+   -116.72,
+   27.57,
+   -109.92,
+   35
+  ],
+  "countries": [
+   "MX",
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 310800,
+  "wiki": {
+   "fr": "Désert de Sonora",
+   "en": "Sonoran Desert",
+   "ar": "صحراء سونورا",
+   "es": "Desierto de Sonora"
+  }
+ },
+ {
+  "id": "Q181528",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert Libyque",
+   "en": "Libyan Desert",
+   "ar": "الصحراء الليبية",
+   "es": "Desierto Líbico"
+  },
+  "region": "africa",
+  "anchor": [
+   24,
+   25
+  ],
+  "bbox": [
+   18.18,
+   9.34,
+   33.99,
+   32.94
+  ],
+  "countries": [
+   "EG",
+   "LY",
+   "SD",
+   "SS",
+   "TD"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 1100000,
+  "wiki": {
+   "fr": "Désert Libyque",
+   "en": "Libyan Desert",
+   "ar": "الصحراء الليبية",
+   "es": "Desierto Líbico"
+  }
+ },
+ {
+  "id": "Q464909",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert de Nubie",
+   "en": "Nubian Desert",
+   "ar": "صحراء النوبة",
+   "es": "Desierto de Nubia"
+  },
+  "region": "africa",
+  "anchor": [
+   20.5,
+   33
+  ],
+  "bbox": [
+   30.37,
+   17.78,
+   37.21,
+   22.12
+  ],
+  "countries": [
+   "SD",
+   "EG"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 400000,
+  "wiki": {
+   "fr": "Désert de Nubie",
+   "en": "Nubian Desert",
+   "ar": "صحراء النوبة",
+   "es": "Desierto de Nubia"
+  }
+ },
+ {
+  "id": "Q272521",
+  "kind": "desert",
+  "names": {
+   "fr": "Ténéré",
+   "en": "Ténéré desert",
+   "ar": "صحراء تينيري",
+   "es": "Teneré"
+  },
+  "region": "africa",
+  "anchor": [
+   18.866,
+   12.483
+  ],
+  "bbox": [
+   8.29,
+   13.87,
+   16.34,
+   24.92
+  ],
+  "countries": [
+   "TD",
+   "NE",
+   "DZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 400000,
+  "wiki": {
+   "fr": "Ténéré",
+   "en": "Ténéré",
+   "ar": "صحراء تينيري",
+   "es": "Desierto del Teneré"
+  }
+ },
+ {
+  "id": "Q307143",
+  "kind": "desert",
+  "names": {
+   "fr": "Grand Erg oriental",
+   "en": "Grand Erg Oriental",
+   "ar": "العرق الشرقي الكبير",
+   "es": "Gran Erg Oriental"
+  },
+  "region": "africa",
+  "anchor": [
+   30,
+   6
+  ],
+  "bbox": [
+   4.04,
+   28.58,
+   9.79,
+   32.85
+  ],
+  "countries": [
+   "DZ",
+   "TN",
+   "LY"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 185000,
+  "wiki": {
+   "fr": "Grand Erg oriental",
+   "en": "Grand Erg Oriental",
+   "ar": "العرق الشرقي الكبير",
+   "es": "Gran Erg Oriental"
+  }
+ },
+ {
+  "id": "Q1537020",
+  "kind": "desert",
+  "names": {
+   "fr": "Grand Erg occidental",
+   "en": "Grand Erg Occidental",
+   "ar": "العرق الغربي الكبير",
+   "es": "Gran Erg Occidental"
+  },
+  "region": "africa",
+  "anchor": [
+   30.667,
+   0
+  ],
+  "bbox": [
+   -2.3,
+   29.19,
+   3.36,
+   32.37
+  ],
+  "countries": [
+   "DZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 75000,
+  "wiki": {
+   "fr": "Grand Erg occidental",
+   "en": "Grand Erg Occidental",
+   "ar": "العرق الغربي الكبير",
+   "es": "Gran Erg Occidental"
+  }
+ },
+ {
+  "id": "Q3056157",
+  "kind": "desert",
+  "names": {
+   "fr": "Erg Chech",
+   "en": "Erg Chech",
+   "ar": "عرق شاش",
+   "es": "Erg Chech"
+  },
+  "region": "africa",
+  "anchor": [
+   24.583,
+   -2.583
+  ],
+  "bbox": [
+   -6.02,
+   22.69,
+   -0.07,
+   28.11
+  ],
+  "countries": [
+   "DZ",
+   "ML",
+   "MR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 206000,
+  "wiki": {
+   "fr": "Erg Chech",
+   "en": "Erg Chech",
+   "ar": "عرق شاش",
+   "es": null
+  }
+ },
+ {
+  "id": "Q767128",
+  "kind": "desert",
+  "names": {
+   "fr": "Dasht-e Lut",
+   "en": "Dasht-e Lut",
+   "ar": "صحراء لوط",
+   "es": "Desierto de Lut"
+  },
+  "region": "asia",
+  "anchor": [
+   30.264,
+   59.241
+  ],
+  "bbox": [
+   56.3,
+   29.82,
+   59.94,
+   33.67
+  ],
+  "countries": [
+   "IR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 22780,
+  "wiki": {
+   "fr": "Dacht-e Lout",
+   "en": "Lut Desert",
+   "ar": "صحراء لوط",
+   "es": "Desierto de Lut"
+  }
+ },
+ {
+  "id": "Q1670841",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert d'Ordos",
+   "en": "Ordos Desert",
+   "ar": "صحراء أوردوس",
+   "es": "Meandro de Ordos"
+  },
+  "region": "asia",
+  "anchor": [
+   39,
+   108
+  ],
+  "bbox": [
+   105.14,
+   37.26,
+   111.26,
+   40.92
+  ],
+  "countries": [
+   "CN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Désert d'Ordos",
+   "en": "Ordos Desert",
+   "ar": "صحراء أوردوس",
+   "es": null
+  }
+ },
+ {
+  "id": "Q14314106",
+  "kind": "desert",
+  "names": {
+   "fr": "Désert occidental",
+   "en": "Western Desert",
+   "ar": "الصحراء الغربية (مصر)",
+   "es": "Desierto occidental"
+  },
+  "region": "africa",
+  "anchor": [
+   26.583,
+   28.417
+  ],
+  "bbox": [
+   25.09,
+   24.79,
+   32.88,
+   30.34
+  ],
+  "countries": [
+   "EG"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": null,
+   "en": "Western Desert",
+   "ar": "الصحراء الغربية (مصر)",
+   "es": "Desierto occidental"
+  }
+ },
+ {
+  "id": "Q190048",
+  "kind": "desert",
+  "names": {
+   "fr": "Tassili n'Ajjer",
+   "en": "Tassili n'Ajjer",
+   "ar": "طاسيلي ناجر",
+   "es": "Tassili n'Ajjer"
+  },
+  "region": "africa",
+  "anchor": [
+   25.667,
+   9
+  ],
+  "bbox": [
+   4.87,
+   22.64,
+   11.55,
+   27.59
+  ],
+  "countries": [
+   "DZ",
+   "LY"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 72000,
+  "wiki": {
+   "fr": "Tassili n'Ajjer",
+   "en": "Tassili n'Ajjer",
+   "ar": "طاسيلي ناجر",
+   "es": "Tassili n'Ajjer"
+  }
+ },
+ {
+  "id": "Q97",
+  "kind": "sea",
+  "names": {
+   "fr": "Océan Atlantique",
+   "en": "Atlantic Ocean",
+   "ar": "المحيط الأطلسي",
+   "es": "Océano Atlántico"
+  },
+  "region": null,
+  "anchor": [
+   0,
+   -30
+  ],
+  "bbox": [
+   -81.52,
+   -60.53,
+   19.64,
+   68.44
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 106460000,
+  "wiki": {
+   "fr": "Océan Atlantique",
+   "en": "Atlantic Ocean",
+   "ar": "المحيط الأطلسي",
+   "es": "Océano Atlántico"
+  }
+ },
+ {
+  "id": "Q98",
+  "kind": "sea",
+  "names": {
+   "fr": "Océan Pacifique",
+   "en": "Pacific Ocean",
+   "ar": "المحيط الهادئ",
+   "es": "Océano Pacífico"
+  },
+  "region": null,
+  "anchor": [
+   0,
+   -160
+  ],
+  "bbox": [
+   -180,
+   -60.53,
+   180,
+   58.24
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 161760000,
+  "wiki": {
+   "fr": "Océan Pacifique",
+   "en": "Pacific Ocean",
+   "ar": "المحيط الهادئ",
+   "es": "Océano Pacífico"
+  }
+ },
+ {
+  "id": "Q1239",
+  "kind": "sea",
+  "names": {
+   "fr": "Océan Indien",
+   "en": "Indian Ocean",
+   "ar": "المحيط الهندي",
+   "es": "Océano Índico"
+  },
+  "region": null,
+  "anchor": [
+   -20,
+   80
+  ],
+  "bbox": [
+   19.62,
+   -60.53,
+   166.07,
+   10.43
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 76174000,
+  "wiki": {
+   "fr": "Océan Indien",
+   "en": "Indian Ocean",
+   "ar": "المحيط الهندي",
+   "es": "Océano Índico"
+  }
+ },
+ {
+  "id": "Q788",
+  "kind": "sea",
+  "names": {
+   "fr": "Océan Arctique",
+   "en": "Arctic Ocean",
+   "ar": "المحيط المتجمد الشمالي",
+   "es": "Océano Ártico"
+  },
+  "region": null,
+  "anchor": [
+   90,
+   0
+  ],
+  "bbox": [
+   -180,
+   71.21,
+   180,
+   90
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 14056000,
+  "wiki": {
+   "fr": "Océan Arctique",
+   "en": "Arctic Ocean",
+   "ar": "المحيط المتجمد الشمالي",
+   "es": "Océano Ártico"
+  }
+ },
+ {
+  "id": "Q7354",
+  "kind": "sea",
+  "names": {
+   "fr": "Océan Austral",
+   "en": "Southern Ocean",
+   "ar": "المحيط الجنوبي",
+   "es": "Océano Austral"
+  },
+  "region": null,
+  "anchor": [
+   -67.683,
+   12.458
+  ],
+  "bbox": [
+   -180,
+   -72.26,
+   180,
+   -60.53
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 20327000,
+  "wiki": {
+   "fr": "Océan Austral",
+   "en": "Southern Ocean",
+   "ar": "المحيط المتجمد الجنوبي",
+   "es": "Océano Austral"
+  }
+ },
+ {
+  "id": "Q4918",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Méditerranée",
+   "en": "Mediterranean Sea",
+   "ar": "البحر الأبيض المتوسط",
+   "es": "Mediterráneo"
+  },
+  "region": "europe",
+  "anchor": [
+   36.25,
+   17.203
+  ],
+  "bbox": [
+   -2.09,
+   30.83,
+   36.19,
+   43.83
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 2500000,
+  "wiki": {
+   "fr": "Mer Méditerranée",
+   "en": "Mediterranean Sea",
+   "ar": "البحر الأبيض المتوسط",
+   "es": "Mar Mediterráneo"
+  }
+ },
+ {
+  "id": "Q166",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Noire",
+   "en": "Black Sea",
+   "ar": "البحر الأسود",
+   "es": "Mar Negro"
+  },
+  "region": "europe",
+  "anchor": [
+   43.41,
+   34.26
+  ],
+  "bbox": [
+   27.49,
+   40.92,
+   41.76,
+   47.21
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 436402,
+  "wiki": {
+   "fr": "Mer Noire",
+   "en": "Black Sea",
+   "ar": "البحر الأسود",
+   "es": "Mar Negro"
+  }
+ },
+ {
+  "id": "Q5484",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Caspienne",
+   "en": "Caspian Sea",
+   "ar": "بحر قزوين",
+   "es": "Mar Caspio"
+  },
+  "region": "asia",
+  "anchor": [
+   42,
+   50.5
+  ],
+  "bbox": [
+   46.72,
+   36.62,
+   54.02,
+   47.11
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 386400,
+  "wiki": {
+   "fr": "Mer Caspienne",
+   "en": "Caspian Sea",
+   "ar": "بحر قزوين",
+   "es": "Mar Caspio"
+  }
+ },
+ {
+  "id": "Q23406",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Rouge",
+   "en": "Red Sea",
+   "ar": "البحر الأحمر",
+   "es": "Mar Rojo"
+  },
+  "region": "asia",
+  "anchor": [
+   22,
+   38
+  ],
+  "bbox": [
+   33.83,
+   12.46,
+   43.49,
+   28.13
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 445816,
+  "wiki": {
+   "fr": "Mer Rouge",
+   "en": "Red Sea",
+   "ar": "البحر الأحمر",
+   "es": "Mar Rojo"
+  }
+ },
+ {
+  "id": "Q545",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Baltique",
+   "en": "Baltic Sea",
+   "ar": "بحر البلطيق",
+   "es": "Mar Báltico"
+  },
+  "region": "europe",
+  "anchor": [
+   58,
+   20
+  ],
+  "bbox": [
+   12.06,
+   53.93,
+   23.48,
+   59.82
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 377000,
+  "wiki": {
+   "fr": "Mer Baltique",
+   "en": "Baltic Sea",
+   "ar": "بحر البلطيق",
+   "es": "Mar Báltico"
+  }
+ },
+ {
+  "id": "Q1693",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer du Nord",
+   "en": "North Sea",
+   "ar": "بحر الشمال",
+   "es": "Mar del Norte"
+  },
+  "region": "europe",
+  "anchor": [
+   55,
+   3
+  ],
+  "bbox": [
+   -4.13,
+   50.91,
+   9.78,
+   60.69
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 570000,
+  "wiki": {
+   "fr": "Mer du Nord",
+   "en": "North Sea",
+   "ar": "بحر الشمال",
+   "es": "Mar del Norte"
+  }
+ },
+ {
+  "id": "Q1247",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer des Caraïbes",
+   "en": "Caribbean Sea",
+   "ar": "البحر الكاريبي",
+   "es": "Mar Caribe"
+  },
+  "region": "americas",
+  "anchor": [
+   15,
+   -75
+  ],
+  "bbox": [
+   -88.35,
+   8.49,
+   -59.21,
+   22.69
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 2754000,
+  "wiki": {
+   "fr": "Mer des Caraïbes",
+   "en": "Caribbean Sea",
+   "ar": "البحر الكاريبي",
+   "es": "Mar Caribe"
+  }
+ },
+ {
+  "id": "Q12630",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe du Mexique",
+   "en": "Gulf of Mexico",
+   "ar": "خليج المكسيك",
+   "es": "Golfo de México"
+  },
+  "region": "americas",
+  "anchor": [
+   25,
+   -90
+  ],
+  "bbox": [
+   -97.86,
+   20.8,
+   -79.9,
+   30.69
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 1550000,
+  "wiki": {
+   "fr": "Golfe du Mexique",
+   "en": "Gulf of Mexico",
+   "ar": "خليج المكسيك",
+   "es": "Golfo de México"
+  }
+ },
+ {
+  "id": "Q34675",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe Persique",
+   "en": "Persian Gulf",
+   "ar": "الخليج العربي",
+   "es": "Golfo Pérsico"
+  },
+  "region": "asia",
+  "anchor": [
+   26,
+   52
+  ],
+  "bbox": [
+   47.73,
+   23.99,
+   57.2,
+   30.51
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 251000,
+  "wiki": {
+   "fr": "Golfe Persique",
+   "en": "Persian Gulf",
+   "ar": "الخليج العربي",
+   "es": "Golfo Pérsico"
+  }
+ },
+ {
+  "id": "Q58705",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer d'Arabie",
+   "en": "Arabian Sea",
+   "ar": "بحر العرب",
+   "es": "Mar Arábigo"
+  },
+  "region": "asia",
+  "anchor": [
+   16,
+   64
+  ],
+  "bbox": [
+   51.03,
+   -0.68,
+   74.35,
+   25.59
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 3862000,
+  "wiki": {
+   "fr": "Mer d'Arabie",
+   "en": "Arabian Sea",
+   "ar": "بحر العرب",
+   "es": "Mar Arábigo"
+  }
+ },
+ {
+  "id": "Q38684",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe du Bengale",
+   "en": "Bay of Bengal",
+   "ar": "خليج البنغال",
+   "es": "Bahía de Bengala"
+  },
+  "region": "asia",
+  "anchor": [
+   15,
+   88
+  ],
+  "bbox": [
+   79.69,
+   5.52,
+   95.23,
+   23.59
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 2172000,
+  "wiki": {
+   "fr": "Golfe du Bengale",
+   "en": "Bay of Bengal",
+   "ar": "خليج البنغال",
+   "es": "Golfo de Bengala"
+  }
+ },
+ {
+  "id": "Q37660",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Chine méridionale",
+   "en": "South China Sea",
+   "ar": "بحر الصين الجنوبي",
+   "es": "Mar de China Meridional"
+  },
+  "region": "asia",
+  "anchor": [
+   12,
+   113
+  ],
+  "bbox": [
+   102.35,
+   -3.22,
+   122.27,
+   23.76
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 3500000,
+  "wiki": {
+   "fr": "Mer de Chine méridionale",
+   "en": "South China Sea",
+   "ar": "بحر الصين الجنوبي",
+   "es": "Mar de la China Meridional"
+  }
+ },
+ {
+  "id": "Q45341",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Chine orientale",
+   "en": "East China Sea",
+   "ar": "بحر الصين الشرقي",
+   "es": "Mar de China Oriental"
+  },
+  "region": "asia",
+  "anchor": [
+   30,
+   125
+  ],
+  "bbox": [
+   119.14,
+   23.65,
+   130.85,
+   33.27
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 1249000,
+  "wiki": {
+   "fr": "Mer de Chine orientale",
+   "en": "East China Sea",
+   "ar": "بحر الصين الشرقي",
+   "es": "Mar de la China Oriental"
+  }
+ },
+ {
+  "id": "Q27092",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer du Japon",
+   "en": "Sea of Japan",
+   "ar": "بحر اليابان",
+   "es": "Mar del Japón"
+  },
+  "region": "asia",
+  "anchor": [
+   40,
+   135
+  ],
+  "bbox": [
+   128.31,
+   34.28,
+   142.21,
+   51.91
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 1048950,
+  "wiki": {
+   "fr": "Mer du Japon",
+   "en": "Sea of Japan",
+   "ar": "بحر اليابان",
+   "es": "Mar del Japón"
+  }
+ },
+ {
+  "id": "Q37960",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Jaune",
+   "en": "Yellow Sea",
+   "ar": "البحر الأصفر",
+   "es": "Mar Amarillo"
+  },
+  "region": "asia",
+  "anchor": [
+   35,
+   123
+  ],
+  "bbox": [
+   119.17,
+   31.96,
+   126.98,
+   40.01
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 380000,
+  "wiki": {
+   "fr": "Mer Jaune",
+   "en": "Yellow Sea",
+   "ar": "البحر الأصفر",
+   "es": "Mar Amarillo"
+  }
+ },
+ {
+  "id": "Q159183",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer des Philippines",
+   "en": "Philippine Sea",
+   "ar": "بحر الفلبين",
+   "es": "Mar de Filipinas"
+  },
+  "region": "oceania",
+  "anchor": [
+   18,
+   134
+  ],
+  "bbox": [
+   120.82,
+   2.62,
+   146.31,
+   35.12
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 5000000,
+  "wiki": {
+   "fr": "Mer des Philippines",
+   "en": "Philippine Sea",
+   "ar": "بحر الفلبين",
+   "es": "Mar de Filipinas"
+  }
+ },
+ {
+  "id": "Q82931",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Corail",
+   "en": "Coral Sea",
+   "ar": "بحر المرجان",
+   "es": "Mar del Coral"
+  },
+  "region": "oceania",
+  "anchor": [
+   -18,
+   158
+  ],
+  "bbox": [
+   142.78,
+   -29.88,
+   169.84,
+   -8.94
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 4791000,
+  "wiki": {
+   "fr": "Mer de Corail",
+   "en": "Coral Sea",
+   "ar": "بحر المرجان",
+   "es": "Mar del Coral"
+  }
+ },
+ {
+  "id": "Q33254",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Tasman",
+   "en": "Tasman Sea",
+   "ar": "بحر تسمان",
+   "es": "Mar de Tasmania"
+  },
+  "region": "oceania",
+  "anchor": [
+   -37,
+   161
+  ],
+  "bbox": [
+   146.36,
+   -50.79,
+   175.25,
+   -29.88
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 2300000,
+  "wiki": {
+   "fr": "Mer de Tasman",
+   "en": "Tasman Sea",
+   "ar": "بحر تسمان",
+   "es": "Mar de Tasmania"
+  }
+ },
+ {
+  "id": "Q44725",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Béring",
+   "en": "Bering Sea",
+   "ar": "بحر بيرنغ",
+   "es": "Mar de Bering"
+  },
+  "region": null,
+  "anchor": [
+   58,
+   -178
+  ],
+  "bbox": [
+   -180,
+   50.99,
+   180,
+   66.06
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 2300000,
+  "wiki": {
+   "fr": "Mer de Béring",
+   "en": "Bering Sea",
+   "ar": "بحر بيرنغ",
+   "es": "Mar de Bering"
+  }
+ },
+ {
+  "id": "Q41602",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer d'Okhotsk",
+   "en": "Sea of Okhotsk",
+   "ar": "بحر أوخوتسك",
+   "es": "Mar de Ojotsk"
+  },
+  "region": "asia",
+  "anchor": [
+   55,
+   150
+  ],
+  "bbox": [
+   137.22,
+   43.28,
+   157.14,
+   59.77
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 1583000,
+  "wiki": {
+   "fr": "Mer d'Okhotsk",
+   "en": "Sea of Okhotsk",
+   "ar": "بحر أوخوتسك",
+   "es": "Mar de Ojotsk"
+  }
+ },
+ {
+  "id": "Q3040",
+  "kind": "sea",
+  "names": {
+   "fr": "Baie d'Hudson",
+   "en": "Hudson Bay",
+   "ar": "خليج هدسن",
+   "es": "Bahía de Hudson"
+  },
+  "region": "americas",
+  "anchor": [
+   60,
+   -85
+  ],
+  "bbox": [
+   -94.96,
+   54.7,
+   -76.52,
+   66.02
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 1243000,
+  "wiki": {
+   "fr": "Baie d'Hudson",
+   "en": "Hudson Bay",
+   "ar": "خليج هدسون",
+   "es": "Bahía de Hudson"
+  }
+ },
+ {
+  "id": "Q45823",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Barents",
+   "en": "Barents Sea",
+   "ar": "بحر بارنتس",
+   "es": "Mar de Barents"
+  },
+  "region": "europe",
+  "anchor": [
+   75,
+   40
+  ],
+  "bbox": [
+   17.05,
+   66.8,
+   68.92,
+   81.86
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 1424000,
+  "wiki": {
+   "fr": "Mer de Barents",
+   "en": "Barents Sea",
+   "ar": "بحر بارنتس",
+   "es": "Mar de Barents"
+  }
+ },
+ {
+  "id": "Q47545",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Norvège",
+   "en": "Norwegian Sea",
+   "ar": "بحر النرويج",
+   "es": "Mar de Noruega"
+  },
+  "region": "europe",
+  "anchor": [
+   69,
+   0
+  ],
+  "bbox": [
+   -13.85,
+   60.4,
+   27.6,
+   76.65
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 1383000,
+  "wiki": {
+   "fr": "Mer de Norvège",
+   "en": "Norwegian Sea",
+   "ar": "بحر النرويج",
+   "es": "Mar de Noruega"
+  }
+ },
+ {
+  "id": "Q13924",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Adriatique",
+   "en": "Adriatic Sea",
+   "ar": "البحر الأدرياتيكي",
+   "es": "Mar Adriático"
+  },
+  "region": "europe",
+  "anchor": [
+   42.776,
+   15.426
+  ],
+  "bbox": [
+   12.23,
+   39.74,
+   20,
+   45.77
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 138595,
+  "wiki": {
+   "fr": "Mer Adriatique",
+   "en": "Adriatic Sea",
+   "ar": "البحر الأدرياتيكي",
+   "es": "Mar Adriático"
+  }
+ },
+ {
+  "id": "Q34575",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Égée",
+   "en": "Aegean Sea",
+   "ar": "بحر إيجة",
+   "es": "Mar Egeo"
+  },
+  "region": "europe",
+  "anchor": [
+   38.5,
+   25.3
+  ],
+  "bbox": [
+   22.57,
+   36.51,
+   28.24,
+   41
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 214000,
+  "wiki": {
+   "fr": "Mer Égée",
+   "en": "Aegean Sea",
+   "ar": "بحر إيجة",
+   "es": "Mar Egeo"
+  }
+ },
+ {
+  "id": "Q38882",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Tyrrhénienne",
+   "en": "Tyrrhenian Sea",
+   "ar": "بحر طرانة",
+   "es": "Mar Tirreno"
+  },
+  "region": "europe",
+  "anchor": [
+   40,
+   12
+  ],
+  "bbox": [
+   8.9,
+   37.74,
+   16.21,
+   44.09
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 275000,
+  "wiki": {
+   "fr": "Mer Tyrrhénienne",
+   "en": "Tyrrhenian Sea",
+   "ar": "بحر طرانة",
+   "es": "Mar Tirreno"
+  }
+ },
+ {
+  "id": "Q37495",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Ionienne",
+   "en": "Ionian Sea",
+   "ar": "البحر الأيوني",
+   "es": "Mar Jónico"
+  },
+  "region": "europe",
+  "anchor": [
+   38,
+   19
+  ],
+  "bbox": [
+   15.1,
+   36.46,
+   23.18,
+   40.51
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mer Ionienne",
+   "en": "Ionian Sea",
+   "ar": "البحر الأيوني",
+   "es": "Mar Jónico"
+  }
+ },
+ {
+  "id": "Q41573",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe de Gascogne",
+   "en": "Bay of Biscay",
+   "ar": "خليج غشكونية",
+   "es": "Golfo de Vizcaya"
+  },
+  "region": "europe",
+  "anchor": [
+   45.5,
+   -4.4
+  ],
+  "bbox": [
+   -8,
+   43.33,
+   -0.55,
+   48.47
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 223000,
+  "wiki": {
+   "fr": "Golfe de Gascogne",
+   "en": "Bay of Biscay",
+   "ar": "خليج غشكونية",
+   "es": "Golfo de Vizcaya"
+  }
+ },
+ {
+  "id": "Q34640",
+  "kind": "sea",
+  "names": {
+   "fr": "Manche",
+   "en": "English Channel",
+   "ar": "بحر المانش",
+   "es": "Canal de la Mancha"
+  },
+  "region": "europe",
+  "anchor": [
+   50,
+   -2
+  ],
+  "bbox": [
+   -6.57,
+   48.42,
+   1.71,
+   51.17
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Manche (mer)",
+   "en": "English Channel",
+   "ar": "بحر المانش",
+   "es": "Canal de la Mancha"
+  }
+ },
+ {
+  "id": "Q41430",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe de Guinée",
+   "en": "Gulf of Guinea",
+   "ar": "خليج غينيا",
+   "es": "Golfo de Guinea"
+  },
+  "region": "africa",
+  "anchor": [
+   1,
+   4
+  ],
+  "bbox": [
+   -7.53,
+   -0.71,
+   10,
+   5.81
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Golfe de Guinée",
+   "en": "Gulf of Guinea",
+   "ar": "خليج غينيا",
+   "es": "Golfo de Guinea"
+  }
+ },
+ {
+  "id": "Q165100",
+  "kind": "sea",
+  "names": {
+   "fr": "Canal du Mozambique",
+   "en": "Mozambique Channel",
+   "ar": "قناة موزنبيق",
+   "es": "Canal de Mozambique"
+  },
+  "region": "africa",
+  "anchor": [
+   -18,
+   41
+  ],
+  "bbox": [
+   32.59,
+   -26.57,
+   49.26,
+   -10.66
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Canal du Mozambique",
+   "en": "Mozambique Channel",
+   "ar": "قناة موزمبيق",
+   "es": "Canal de Mozambique"
+  }
+ },
+ {
+  "id": "Q41837",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe d'Aden",
+   "en": "Gulf of Aden",
+   "ar": "خليج عدن",
+   "es": "Golfo de Adén"
+  },
+  "region": "africa",
+  "anchor": [
+   12,
+   48
+  ],
+  "bbox": [
+   42.52,
+   10.43,
+   51.27,
+   15.21
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Golfe d'Aden",
+   "en": "Gulf of Aden",
+   "ar": "خليج عدن",
+   "es": "Golfo de Adén"
+  }
+ },
+ {
+  "id": "Q79948",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe d'Oman",
+   "en": "Gulf of Oman",
+   "ar": "خليج عمان",
+   "es": "Golfo de Omán"
+  },
+  "region": "asia",
+  "anchor": [
+   25,
+   58
+  ],
+  "bbox": [
+   56.3,
+   22.46,
+   61.41,
+   26.28
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Golfe d'Oman",
+   "en": "Gulf of Oman",
+   "ar": "خليج عمان",
+   "es": "Golfo de Omán"
+  }
+ },
+ {
+  "id": "Q36124",
+  "kind": "sea",
+  "names": {
+   "fr": "Détroit de Gibraltar",
+   "en": "Strait of Gibraltar",
+   "ar": "مضيق جبل طارق",
+   "es": "Estrecho de Gibraltar"
+  },
+  "region": "europe",
+  "anchor": [
+   36.135,
+   -5.368
+  ],
+  "bbox": [
+   -5.45,
+   36.12,
+   -5.37,
+   36.17
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Détroit de Gibraltar",
+   "en": "Strait of Gibraltar",
+   "ar": "مضيق جبل طارق",
+   "es": "Estrecho de Gibraltar"
+  }
+ },
+ {
+  "id": "Q48359",
+  "kind": "sea",
+  "names": {
+   "fr": "Détroit de Malacca",
+   "en": "Strait of Malacca",
+   "ar": "مضيق ملقا",
+   "es": "Estrecho de Malaca"
+  },
+  "region": "asia",
+  "anchor": [
+   2.833,
+   101.037
+  ],
+  "bbox": [
+   95.45,
+   0.69,
+   103.51,
+   8.34
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Détroit de Malacca",
+   "en": "Strait of Malacca",
+   "ar": "مضيق ملقا",
+   "es": "Estrecho de Malaca"
+  }
+ },
+ {
+  "id": "Q169274",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer des Sargasses",
+   "en": "Sargasso Sea",
+   "ar": "بحر سرقوسة",
+   "es": "Mar de los Sargazos"
+  },
+  "region": "americas",
+  "anchor": [
+   27.409,
+   -59.97
+  ],
+  "bbox": [
+   -70.06,
+   20.04,
+   -50.03,
+   35.03
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mer des Sargasses",
+   "en": "Sargasso Sea",
+   "ar": "بحر سرقوسة",
+   "es": "Mar de los Sargazos"
+  }
+ },
+ {
+  "id": "Q184189",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer du Labrador",
+   "en": "Labrador Sea",
+   "ar": "بحر لبرادور",
+   "es": "Mar de Labrador"
+  },
+  "region": "americas",
+  "anchor": [
+   54.773,
+   -57.929
+  ],
+  "bbox": [
+   -64.77,
+   47.46,
+   -43.94,
+   60.33
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 841000,
+  "wiki": {
+   "fr": "Mer du Labrador",
+   "en": "Labrador Sea",
+   "ar": "بحر لبرادور",
+   "es": "Mar de Labrador"
+  }
+ },
+ {
+  "id": "Q131274",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Beaufort",
+   "en": "Beaufort Sea",
+   "ar": "بحر بيوفورت",
+   "es": "Mar de Beaufort"
+  },
+  "region": "americas",
+  "anchor": [
+   72,
+   -137
+  ],
+  "bbox": [
+   -156.57,
+   69.21,
+   -122.51,
+   76.36
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 178000,
+  "wiki": {
+   "fr": "Mer de Beaufort",
+   "en": "Beaufort Sea",
+   "ar": "بحر بوفورت",
+   "es": "Mar de Beaufort"
+  }
+ },
+ {
+  "id": "Q173343",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Weddell",
+   "en": "Weddell Sea",
+   "ar": "بحر ودل",
+   "es": "Mar de Weddell"
+  },
+  "region": null,
+  "anchor": [
+   -73,
+   -45
+  ],
+  "bbox": [
+   -83.78,
+   -83.46,
+   -10.96,
+   -71.13
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 2800000,
+  "wiki": {
+   "fr": "Mer de Weddell",
+   "en": "Weddell Sea",
+   "ar": "بحر ودل",
+   "es": "Mar de Weddell"
+  }
+ },
+ {
+  "id": "Q164466",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Ross",
+   "en": "Ross Sea",
+   "ar": "بحر روس",
+   "es": "Mar de Ross"
+  },
+  "region": null,
+  "anchor": [
+   -75,
+   -175
+  ],
+  "bbox": [
+   -180,
+   -85.19,
+   180,
+   -71.94
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 960000,
+  "wiki": {
+   "fr": "Mer de Ross",
+   "en": "Ross Sea",
+   "ar": "بحر روس",
+   "es": "Mar de Ross"
+  }
+ },
+ {
+  "id": "Q122574",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe de Botnie",
+   "en": "Gulf of Bothnia",
+   "ar": "خليج بوثنيه",
+   "es": "Golfo de Botnia"
+  },
+  "region": "europe",
+  "anchor": [
+   63,
+   20
+  ],
+  "bbox": [
+   17.13,
+   59.66,
+   25.37,
+   65.87
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Golfe de Botnie",
+   "en": "Gulf of Bothnia",
+   "ar": "خليج بوثنيه",
+   "es": "Golfo de Botnia"
+  }
+ },
+ {
+  "id": "Q132811",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe de Californie",
+   "en": "Gulf of California",
+   "ar": "خليج كاليفورنيا",
+   "es": "Golfo de California"
+  },
+  "region": "americas",
+  "anchor": [
+   28,
+   -112
+  ],
+  "bbox": [
+   -114.93,
+   23.27,
+   -106.92,
+   31.9
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 160000,
+  "wiki": {
+   "fr": "Golfe de Californie",
+   "en": "Gulf of California",
+   "ar": "خليج كاليفورنيا",
+   "es": "Golfo de California"
+  }
+ },
+ {
+  "id": "Q49364",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Java",
+   "en": "Java Sea",
+   "ar": "بحر جاوة",
+   "es": "Mar de Java"
+  },
+  "region": "asia",
+  "anchor": [
+   -5,
+   110
+  ],
+  "bbox": [
+   104.61,
+   -7.77,
+   119.47,
+   -2.53
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 320000,
+  "wiki": {
+   "fr": "Mer de Java",
+   "en": "Java Sea",
+   "ar": "بحر جاوة",
+   "es": "Mar de Java"
+  }
+ },
+ {
+  "id": "Q47632",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer d'Andaman",
+   "en": "Andaman Sea",
+   "ar": "بحر أندامان",
+   "es": "Mar de Andamán"
+  },
+  "region": "asia",
+  "anchor": [
+   10,
+   96
+  ],
+  "bbox": [
+   92.2,
+   5.57,
+   98.88,
+   16.51
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 798000,
+  "wiki": {
+   "fr": "Mer d'Andaman",
+   "en": "Andaman Sea",
+   "ar": "بحر أندامان",
+   "es": "Mar de Andamán"
+  }
+ },
+ {
+  "id": "Q131217",
+  "kind": "sea",
+  "names": {
+   "fr": "Golfe de Thaïlande",
+   "en": "Gulf of Thailand",
+   "ar": "خليج تايلاند",
+   "es": "Golfo de Tailandia"
+  },
+  "region": "asia",
+  "anchor": [
+   9.5,
+   102
+  ],
+  "bbox": [
+   99.16,
+   6.16,
+   105.09,
+   13.57
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 320000,
+  "wiki": {
+   "fr": "Golfe de Thaïlande",
+   "en": "Gulf of Thailand",
+   "ar": "خليج تايلاند",
+   "es": "Golfo de Tailandia"
+  }
+ },
+ {
+  "id": "Q41735",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer d'Irlande",
+   "en": "Irish Sea",
+   "ar": "البحر الأيرلندي",
+   "es": "Mar de Irlanda"
+  },
+  "region": "europe",
+  "anchor": [
+   53.5,
+   -5
+  ],
+  "bbox": [
+   -6.62,
+   51.68,
+   -2.75,
+   54.95
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mer d'Irlande",
+   "en": "Irish Sea",
+   "ar": "البحر الأيرلندي",
+   "es": "Mar de Irlanda"
+  }
+ },
+ {
+  "id": "Q186733",
+  "kind": "sea",
+  "names": {
+   "fr": "Grande baie australienne",
+   "en": "Great Australian Bight",
+   "ar": "الخليج الأسترالي العظيم",
+   "es": "Gran Bahía Australiana"
+  },
+  "region": "oceania",
+  "anchor": [
+   -33,
+   130
+  ],
+  "bbox": [
+   118.04,
+   -43.42,
+   146.23,
+   -31.5
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Grande Baie australienne",
+   "en": "Great Australian Bight",
+   "ar": "الخليج الأسترالي العظيم",
+   "es": "Gran Bahía Australiana"
+  }
+ },
+ {
+  "id": "Q200712",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer des Baléares",
+   "en": "Balearic Sea",
+   "ar": "البحر البلياري",
+   "es": "Mar Balear"
+  },
+  "region": "europe",
+  "anchor": [
+   40,
+   1.5
+  ],
+  "bbox": [
+   -0.33,
+   38.66,
+   4.28,
+   41.96
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mer des Baléares",
+   "en": "Balearic Sea",
+   "ar": "البحر البلياري",
+   "es": "Mar Balear"
+  }
+ },
+ {
+  "id": "Q44133",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer Blanche",
+   "en": "White Sea",
+   "ar": "البحر الأبيض",
+   "es": "Mar Blanco"
+  },
+  "region": "europe",
+  "anchor": [
+   65.8,
+   39
+  ],
+  "bbox": [
+   31.9,
+   63.81,
+   44.49,
+   68.67
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 90800,
+  "wiki": {
+   "fr": "Mer Blanche",
+   "en": "White Sea",
+   "ar": "البحر الأبيض",
+   "es": "Mar Blanco"
+  }
+ },
+ {
+  "id": "Q33629",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer de Kara",
+   "en": "Kara Sea",
+   "ar": "بحر كارا",
+   "es": "Mar de Kara"
+  },
+  "region": "asia",
+  "anchor": [
+   77,
+   77
+  ],
+  "bbox": [
+   55.3,
+   68.31,
+   102.32,
+   81.28
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": null,
+  "wiki": {
+   "fr": "Mer de Kara",
+   "en": "Kara Sea",
+   "ar": "بحر كارا",
+   "es": "Mar de Kara"
+  }
+ },
+ {
+  "id": "Q7988",
+  "kind": "sea",
+  "names": {
+   "fr": "Mer des Laptev",
+   "en": "Laptev Sea",
+   "ar": "بحر لابتيف",
+   "es": "Mar de Láptev"
+  },
+  "region": "asia",
+  "anchor": [
+   76,
+   125
+  ],
+  "bbox": [
+   96.19,
+   70.74,
+   138.84,
+   81.27
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 700000,
+  "wiki": {
+   "fr": "Mer des Laptev",
+   "en": "Laptev Sea",
+   "ar": "بحر لابتيف",
+   "es": "Mar de Láptev"
+  }
+ },
+ {
+  "id": "Q223",
+  "kind": "island",
+  "names": {
+   "fr": "Groenland",
+   "en": "Greenland",
+   "ar": "غرينلاند",
+   "es": "Groenlandia"
+  },
+  "region": "europe",
+  "anchor": [
+   72,
+   -40
+  ],
+  "bbox": [
+   -72.82,
+   59.82,
+   -11.43,
+   83.6
+  ],
+  "countries": [],
+  "elevation": null,
+  "length": null,
+  "area": 2166086,
+  "wiki": {
+   "fr": "Groenland",
+   "en": "Greenland",
+   "ar": "جرينلاند",
+   "es": "Groenlandia"
+  }
+ },
+ {
+  "id": "Q40285",
+  "kind": "island",
+  "names": {
+   "fr": "Nouvelle-Guinée",
+   "en": "New Guinea",
+   "ar": "غينيا الجديدة",
+   "es": "Nueva Guinea"
+  },
+  "region": "asia",
+  "anchor": [
+   -5,
+   140
+  ],
+  "bbox": [
+   131,
+   -10.65,
+   150.85,
+   -0.35
+  ],
+  "countries": [
+   "ID",
+   "PG"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 785753,
+  "wiki": {
+   "fr": "Nouvelle-Guinée",
+   "en": "New Guinea",
+   "ar": "غينيا الجديدة",
+   "es": "Nueva Guinea"
+  }
+ },
+ {
+  "id": "Q36117",
+  "kind": "island",
+  "names": {
+   "fr": "Bornéo",
+   "en": "Borneo",
+   "ar": "بورنيو",
+   "es": "Isla de Borneo"
+  },
+  "region": "asia",
+  "anchor": [
+   -1,
+   114
+  ],
+  "bbox": [
+   108.91,
+   -4.17,
+   119.26,
+   6.99
+  ],
+  "countries": [
+   "ID",
+   "MY",
+   "BN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 748168,
+  "wiki": {
+   "fr": "Bornéo",
+   "en": "Borneo",
+   "ar": "بورنيو",
+   "es": "Borneo"
+  }
+ },
+ {
+  "id": "Q1019",
+  "kind": "island",
+  "names": {
+   "fr": "Madagascar",
+   "en": "Madagascar",
+   "ar": "مدغشقر",
+   "es": "Madagascar"
+  },
+  "region": "africa",
+  "anchor": [
+   -20,
+   47
+  ],
+  "bbox": [
+   43.26,
+   -25.57,
+   50.48,
+   -12.08
+  ],
+  "countries": [
+   "MG"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 587295,
+  "wiki": {
+   "fr": "Madagascar",
+   "en": "Madagascar",
+   "ar": "مدغشقر",
+   "es": "Madagascar"
+  }
+ },
+ {
+  "id": "Q81178",
+  "kind": "island",
+  "names": {
+   "fr": "Île de Baffin",
+   "en": "Baffin Island",
+   "ar": "بافين",
+   "es": "Isla de Baffin"
+  },
+  "region": "americas",
+  "anchor": [
+   68,
+   -70
+  ],
+  "bbox": [
+   -89.99,
+   61.87,
+   -61.34,
+   73.85
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 507451,
+  "wiki": {
+   "fr": "Île de Baffin",
+   "en": "Baffin Island",
+   "ar": "بافن (جزيرة)",
+   "es": "Isla de Baffin"
+  }
+ },
+ {
+  "id": "Q3492",
+  "kind": "island",
+  "names": {
+   "fr": "Sumatra",
+   "en": "Sumatra",
+   "ar": "سومطرة",
+   "es": "Sumatra"
+  },
+  "region": "asia",
+  "anchor": [
+   -0.299,
+   101.271
+  ],
+  "bbox": [
+   95.21,
+   -5.9,
+   106.06,
+   5.63
+  ],
+  "countries": [
+   "ID"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 473481,
+  "wiki": {
+   "fr": "Sumatra",
+   "en": "Sumatra",
+   "ar": "سومطرة",
+   "es": "Sumatra"
+  }
+ },
+ {
+  "id": "Q13989",
+  "kind": "island",
+  "names": {
+   "fr": "Honshu",
+   "en": "Honshu",
+   "ar": "هونشو",
+   "es": "Honshū"
+  },
+  "region": "asia",
+  "anchor": [
+   36,
+   138
+  ],
+  "bbox": [
+   130.89,
+   33.49,
+   141.99,
+   41.51
+  ],
+  "countries": [
+   "JP"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 230426,
+  "wiki": {
+   "fr": "Honshū",
+   "en": "Honshu",
+   "ar": "هونشو",
+   "es": "Honshu"
+  }
+ },
+ {
+  "id": "Q23666",
+  "kind": "island",
+  "names": {
+   "fr": "Grande-Bretagne",
+   "en": "Great Britain",
+   "ar": "بريطانيا",
+   "es": "Gran Bretaña"
+  },
+  "region": "europe",
+  "anchor": [
+   53.833,
+   -2.417
+  ],
+  "bbox": [
+   -6.13,
+   50.02,
+   1.75,
+   58.65
+  ],
+  "countries": [
+   "GB"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 228938,
+  "wiki": {
+   "fr": "Grande-Bretagne",
+   "en": "Great Britain",
+   "ar": "بريطانيا العظمى",
+   "es": "Gran Bretaña"
+  }
+ },
+ {
+  "id": "Q158129",
+  "kind": "island",
+  "names": {
+   "fr": "Île Victoria",
+   "en": "Victoria Island",
+   "ar": "جزيرة فكتوريا",
+   "es": "Isla Victoria"
+  },
+  "region": "americas",
+  "anchor": [
+   71.451,
+   -113.754
+  ],
+  "bbox": [
+   -118.99,
+   68.48,
+   -100.91,
+   73.37
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 217291,
+  "wiki": {
+   "fr": "Île Victoria",
+   "en": "Victoria Island",
+   "ar": "جزيرة فكتوريا (كندا)",
+   "es": "Isla Victoria (Canadá)"
+  }
+ },
+ {
+  "id": "Q146841",
+  "kind": "island",
+  "names": {
+   "fr": "Île d'Ellesmere",
+   "en": "Ellesmere Island",
+   "ar": "جزيرة إليسمير",
+   "es": "Isla de Ellesmere"
+  },
+  "region": "americas",
+  "anchor": [
+   79.833,
+   -78
+  ],
+  "bbox": [
+   -91.65,
+   76.24,
+   -61.21,
+   83.11
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 196235,
+  "wiki": {
+   "fr": "Île d'Ellesmere",
+   "en": "Ellesmere Island",
+   "ar": "جزيرة إليسمير",
+   "es": "Isla de Ellesmere"
+  }
+ },
+ {
+  "id": "Q3812",
+  "kind": "island",
+  "names": {
+   "fr": "Célèbes",
+   "en": "Sulawesi",
+   "ar": "سولاوسي",
+   "es": "Célebes"
+  },
+  "region": "asia",
+  "anchor": [
+   -2,
+   121
+  ],
+  "bbox": [
+   118.78,
+   -5.69,
+   125.23,
+   1.7
+  ],
+  "countries": [
+   "ID"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 174600,
+  "wiki": {
+   "fr": "Célèbes",
+   "en": "Sulawesi",
+   "ar": "سولاوسي",
+   "es": "Célebes"
+  }
+ },
+ {
+  "id": "Q120755",
+  "kind": "island",
+  "names": {
+   "fr": "Île du Sud",
+   "en": "South Island",
+   "ar": "الجزيرة الجنوبية",
+   "es": "Isla Sur"
+  },
+  "region": "oceania",
+  "anchor": [
+   -43.6,
+   170.4
+  ],
+  "bbox": [
+   166.48,
+   -46.63,
+   174.33,
+   -40.5
+  ],
+  "countries": [
+   "NZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 150437,
+  "wiki": {
+   "fr": "Île du Sud",
+   "en": "South Island",
+   "ar": "الجزيرة الجنوبية",
+   "es": "Isla Sur"
+  }
+ },
+ {
+  "id": "Q3757",
+  "kind": "island",
+  "names": {
+   "fr": "Java",
+   "en": "Java",
+   "ar": "جاوة",
+   "es": "Java"
+  },
+  "region": "asia",
+  "anchor": [
+   -7.312,
+   109.418
+  ],
+  "bbox": [
+   105.24,
+   -8.77,
+   114.6,
+   -5.91
+  ],
+  "countries": [
+   "ID"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 128297,
+  "wiki": {
+   "fr": "Java (île)",
+   "en": "Java",
+   "ar": "جاوة",
+   "es": "Java (isla)"
+  }
+ },
+ {
+  "id": "Q118863",
+  "kind": "island",
+  "names": {
+   "fr": "Île du Nord",
+   "en": "North Island",
+   "ar": "الجزيرة الشمالية",
+   "es": "Isla Norte"
+  },
+  "region": "oceania",
+  "anchor": [
+   -39,
+   176
+  ],
+  "bbox": [
+   172.71,
+   -41.61,
+   178.54,
+   -34.43
+  ],
+  "countries": [
+   "NZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 113729,
+  "wiki": {
+   "fr": "Île du Nord",
+   "en": "North Island",
+   "ar": "الجزيرة الشمالية (نيوزيلندا)",
+   "es": "Isla Norte"
+  }
+ },
+ {
+  "id": "Q125384",
+  "kind": "island",
+  "names": {
+   "fr": "Luçon",
+   "en": "Luzon",
+   "ar": "لوزون",
+   "es": "Luzón"
+  },
+  "region": "asia",
+  "anchor": [
+   16,
+   121
+  ],
+  "bbox": [
+   119.77,
+   12.57,
+   124.14,
+   18.61
+  ],
+  "countries": [
+   "PH"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 109965,
+  "wiki": {
+   "fr": "Luçon (Philippines)",
+   "en": "Luzon",
+   "ar": "لوزون",
+   "es": "Luzón"
+  }
+ },
+ {
+  "id": "Q48335",
+  "kind": "island",
+  "names": {
+   "fr": "Terre-Neuve",
+   "en": "Newfoundland",
+   "ar": "نيوفاوندلاند",
+   "es": "Isla de Terranova"
+  },
+  "region": "americas",
+  "anchor": [
+   48.542,
+   -56.125
+  ],
+  "bbox": [
+   -59.36,
+   46.65,
+   -52.69,
+   51.56
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 108860,
+  "wiki": {
+   "fr": "Terre-Neuve",
+   "en": "Newfoundland (island)",
+   "ar": "نيوفندلاند (جزيرة)",
+   "es": "Isla de Terranova"
+  }
+ },
+ {
+  "id": "Q241",
+  "kind": "island",
+  "names": {
+   "fr": "Cuba",
+   "en": "Cuba",
+   "ar": "كوبا",
+   "es": "Cuba"
+  },
+  "region": "americas",
+  "anchor": [
+   22,
+   -79.5
+  ],
+  "bbox": [
+   -84.88,
+   19.86,
+   -74.16,
+   23.18
+  ],
+  "countries": [
+   "CU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 109884,
+  "wiki": {
+   "fr": "Cuba",
+   "en": "Cuba",
+   "ar": "كوبا",
+   "es": "Cuba"
+  }
+ },
+ {
+  "id": "Q189",
+  "kind": "island",
+  "names": {
+   "fr": "Islande",
+   "en": "Iceland",
+   "ar": "آيسلندا",
+   "es": "Islandia"
+  },
+  "region": "europe",
+  "anchor": [
+   65,
+   -19
+  ],
+  "bbox": [
+   -24.48,
+   63.41,
+   -13.56,
+   66.53
+  ],
+  "countries": [
+   "IS"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 103004,
+  "wiki": {
+   "fr": "Islande",
+   "en": "Iceland",
+   "ar": "آيسلندا",
+   "es": "Islandia"
+  }
+ },
+ {
+  "id": "Q124873",
+  "kind": "island",
+  "names": {
+   "fr": "Mindanao",
+   "en": "Mindanao",
+   "ar": "مندناو",
+   "es": "Mindanao"
+  },
+  "region": "asia",
+  "anchor": [
+   7.5,
+   125
+  ],
+  "bbox": [
+   121.9,
+   5.6,
+   126.59,
+   9.76
+  ],
+  "countries": [
+   "PH"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 97530,
+  "wiki": {
+   "fr": "Mindanao",
+   "en": "Mindanao",
+   "ar": "مينداناو",
+   "es": "Mindanao"
+  }
+ },
+ {
+  "id": "Q22890",
+  "kind": "island",
+  "names": {
+   "fr": "Irlande",
+   "en": "Ireland",
+   "ar": "أيرلندا",
+   "es": "Isla de Irlanda"
+  },
+  "region": "europe",
+  "anchor": [
+   53.351,
+   -7.921
+  ],
+  "bbox": [
+   -10.39,
+   51.47,
+   -5.47,
+   55.37
+  ],
+  "countries": [
+   "IE",
+   "GB"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 84421,
+  "wiki": {
+   "fr": "Irlande (île)",
+   "en": "Ireland",
+   "ar": "أيرلندا",
+   "es": "Irlanda (isla)"
+  }
+ },
+ {
+  "id": "Q35581",
+  "kind": "island",
+  "names": {
+   "fr": "Hokkaidō",
+   "en": "Hokkaidō",
+   "ar": "هوكايدو",
+   "es": "Hokkaidō"
+  },
+  "region": "asia",
+  "anchor": [
+   43.461,
+   142.792
+  ],
+  "bbox": [
+   139.82,
+   41.42,
+   145.82,
+   45.51
+  ],
+  "countries": [
+   "JP"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 77984,
+  "wiki": {
+   "fr": "Hokkaidō",
+   "en": "Hokkaido",
+   "ar": "هوكايدو",
+   "es": "Hokkaidō"
+  }
+ },
+ {
+  "id": "Q25277",
+  "kind": "island",
+  "names": {
+   "fr": "Hispaniola",
+   "en": "Hispaniola",
+   "ar": "هسبنيولا",
+   "es": "La Española"
+  },
+  "region": "americas",
+  "anchor": [
+   19,
+   -71
+  ],
+  "bbox": [
+   -74.45,
+   17.66,
+   -68.36,
+   19.93
+  ],
+  "countries": [
+   "HT",
+   "DO"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 77900,
+  "wiki": {
+   "fr": "Hispaniola",
+   "en": "Hispaniola",
+   "ar": "هسبنيولا",
+   "es": "La Española"
+  }
+ },
+ {
+  "id": "Q7792",
+  "kind": "island",
+  "names": {
+   "fr": "Sakhaline",
+   "en": "Sakhalin",
+   "ar": "سخالين",
+   "es": "Sajalín"
+  },
+  "region": "asia",
+  "anchor": [
+   50.5,
+   143
+  ],
+  "bbox": [
+   141.66,
+   45.92,
+   144.71,
+   54.42
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 72492,
+  "wiki": {
+   "fr": "Sakhaline",
+   "en": "Sakhalin",
+   "ar": "سخالين",
+   "es": "Isla de Sajalín"
+  }
+ },
+ {
+  "id": "Q34366",
+  "kind": "island",
+  "names": {
+   "fr": "Tasmanie",
+   "en": "Tasmania",
+   "ar": "تسمانية",
+   "es": "Tasmania"
+  },
+  "region": "oceania",
+  "anchor": [
+   -42,
+   147
+  ],
+  "bbox": [
+   144.65,
+   -43.61,
+   148.34,
+   -40.67
+  ],
+  "countries": [
+   "AU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 68401,
+  "wiki": {
+   "fr": "Tasmanie",
+   "en": "Tasmania",
+   "ar": "تسمانيا",
+   "es": "Tasmania"
+  }
+ },
+ {
+  "id": "Q854",
+  "kind": "island",
+  "names": {
+   "fr": "Sri Lanka",
+   "en": "Sri Lanka",
+   "ar": "سريلانكا",
+   "es": "Sri Lanka"
+  },
+  "region": "asia",
+  "anchor": [
+   7,
+   81
+  ],
+  "bbox": [
+   79.71,
+   5.95,
+   81.87,
+   9.81
+  ],
+  "countries": [
+   "LK"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 65610,
+  "wiki": {
+   "fr": "Sri Lanka",
+   "en": "Sri Lanka",
+   "ar": "سريلانكا",
+   "es": "Sri Lanka"
+  }
+ },
+ {
+  "id": "Q1460",
+  "kind": "island",
+  "names": {
+   "fr": "Sicile",
+   "en": "Sicily",
+   "ar": "صقلية",
+   "es": "Sicilia"
+  },
+  "region": "europe",
+  "anchor": [
+   37.6,
+   14.017
+  ],
+  "bbox": [
+   12.44,
+   36.69,
+   15.62,
+   38.3
+  ],
+  "countries": [
+   "IT"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 25711,
+  "wiki": {
+   "fr": "Sicile",
+   "en": "Sicily",
+   "ar": "صقلية",
+   "es": "Sicilia"
+  }
+ },
+ {
+  "id": "Q1462",
+  "kind": "island",
+  "names": {
+   "fr": "Sardaigne",
+   "en": "Sardinia",
+   "ar": "سردينيا",
+   "es": "Cerdeña"
+  },
+  "region": "europe",
+  "anchor": [
+   40,
+   9
+  ],
+  "bbox": [
+   8.18,
+   38.91,
+   9.81,
+   41.26
+  ],
+  "countries": [
+   "IT"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 23949,
+  "wiki": {
+   "fr": "Sardaigne",
+   "en": "Sardinia",
+   "ar": "سردينيا",
+   "es": "Cerdeña"
+  }
+ },
+ {
+  "id": "Q14112",
+  "kind": "island",
+  "names": {
+   "fr": "Corse",
+   "en": "Corsica",
+   "ar": "كورسيكا",
+   "es": "Córcega"
+  },
+  "region": "europe",
+  "anchor": [
+   42.15,
+   9.083
+  ],
+  "bbox": [
+   8.57,
+   41.39,
+   9.56,
+   43.02
+  ],
+  "countries": [
+   "FR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 8680,
+  "wiki": {
+   "fr": "Corse",
+   "en": "Corsica",
+   "ar": "كورسيكا",
+   "es": "Córcega"
+  }
+ },
+ {
+  "id": "Q34374",
+  "kind": "island",
+  "names": {
+   "fr": "Crète",
+   "en": "Crete",
+   "ar": "كريت",
+   "es": "Creta"
+  },
+  "region": "europe",
+  "anchor": [
+   35.31,
+   24.893
+  ],
+  "bbox": [
+   23.55,
+   34.94,
+   26.32,
+   35.66
+  ],
+  "countries": [
+   "GR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 8336,
+  "wiki": {
+   "fr": "Crète",
+   "en": "Crete",
+   "ar": "كريت",
+   "es": "Creta"
+  }
+ },
+ {
+  "id": "Q229",
+  "kind": "island",
+  "names": {
+   "fr": "Chypre",
+   "en": "Cyprus",
+   "ar": "قبرص",
+   "es": "Chipre"
+  },
+  "region": "europe",
+  "anchor": [
+   35,
+   33
+  ],
+  "bbox": [
+   32.3,
+   34.57,
+   34.56,
+   35.66
+  ],
+  "countries": [
+   "CY"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 9242,
+  "wiki": {
+   "fr": "Chypre (pays)",
+   "en": "Cyprus",
+   "ar": "قبرص",
+   "es": "Chipre"
+  }
+ },
+ {
+  "id": "Q766",
+  "kind": "island",
+  "names": {
+   "fr": "Jamaïque",
+   "en": "Jamaica",
+   "ar": "جامايكا",
+   "es": "Jamaica"
+  },
+  "region": "americas",
+  "anchor": [
+   18.18,
+   -77.4
+  ],
+  "bbox": [
+   -78.34,
+   17.73,
+   -76.22,
+   18.51
+  ],
+  "countries": [
+   "JM"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 10992,
+  "wiki": {
+   "fr": "Jamaïque",
+   "en": "Jamaica",
+   "ar": "جامايكا",
+   "es": "Jamaica"
+  }
+ },
+ {
+  "id": "Q1183",
+  "kind": "island",
+  "names": {
+   "fr": "Porto Rico",
+   "en": "Puerto Rico",
+   "ar": "بورتوريكو",
+   "es": "Puerto Rico"
+  },
+  "region": "americas",
+  "anchor": [
+   18.25,
+   -66.5
+  ],
+  "bbox": [
+   -67.24,
+   17.95,
+   -65.65,
+   18.51
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 9104,
+  "wiki": {
+   "fr": "Porto Rico",
+   "en": "Puerto Rico",
+   "ar": "بورتوريكو",
+   "es": "Puerto Rico"
+  }
+ },
+ {
+  "id": "Q865",
+  "kind": "island",
+  "names": {
+   "fr": "Taïwan",
+   "en": "Taiwan",
+   "ar": "تايوان",
+   "es": "República de China"
+  },
+  "region": "asia",
+  "anchor": [
+   24,
+   121
+  ],
+  "bbox": [
+   120.07,
+   21.93,
+   121.93,
+   25.28
+  ],
+  "countries": [
+   "TW"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 11418174,
+  "wiki": {
+   "fr": "Taïwan",
+   "en": "Taiwan",
+   "ar": "تايوان",
+   "es": "República de China"
+  }
+ },
+ {
+  "id": "Q42200",
+  "kind": "island",
+  "names": {
+   "fr": "Hainan",
+   "en": "Hainan",
+   "ar": "هاينان",
+   "es": "Hainan"
+  },
+  "region": "asia",
+  "anchor": [
+   20.033,
+   110.324
+  ],
+  "bbox": [
+   108.64,
+   18.22,
+   111.01,
+   20.14
+  ],
+  "countries": [
+   "CN"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 33920,
+  "wiki": {
+   "fr": "Hainan",
+   "en": "Hainan",
+   "ar": "هاينان",
+   "es": "Hainan"
+  }
+ },
+ {
+  "id": "Q170479",
+  "kind": "island",
+  "names": {
+   "fr": "Île de Vancouver",
+   "en": "Vancouver Island",
+   "ar": "جزيرة فانكوفر",
+   "es": "Isla de Vancouver"
+  },
+  "region": "americas",
+  "anchor": [
+   49.633,
+   -125.7
+  ],
+  "bbox": [
+   -128.35,
+   48.34,
+   -123.3,
+   50.86
+  ],
+  "countries": [
+   "CA"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 32134,
+  "wiki": {
+   "fr": "Île de Vancouver",
+   "en": "Vancouver Island",
+   "ar": "جزيرة فانكوفر",
+   "es": "Isla de Vancouver"
+  }
+ },
+ {
+  "id": "Q1674067",
+  "kind": "island",
+  "names": {
+   "fr": "Grande Île de Terre de Feu",
+   "en": "Isla Grande de Tierra del Fuego",
+   "ar": "الجزيرة الكبرى لأرض النار",
+   "es": "Isla Grande de Tierra del Fuego"
+  },
+  "region": "americas",
+  "anchor": [
+   -54.222,
+   -67.679
+  ],
+  "bbox": [
+   -72.21,
+   -55.88,
+   -65.21,
+   -52.49
+  ],
+  "countries": [
+   "CL",
+   "AR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 47992,
+  "wiki": {
+   "fr": "Grande île de la Terre de Feu",
+   "en": "Isla Grande de Tierra del Fuego",
+   "ar": "الجزيرة الكبرى لأرض النار",
+   "es": "Isla Grande de Tierra del Fuego"
+  }
+ },
+ {
+  "id": "Q83067",
+  "kind": "island",
+  "names": {
+   "fr": "Timor",
+   "en": "Timor",
+   "ar": "تيمور",
+   "es": "Timor"
+  },
+  "region": "asia",
+  "anchor": [
+   -9.712,
+   124.355
+  ],
+  "bbox": [
+   123.59,
+   -10.35,
+   127.3,
+   -8.32
+  ],
+  "countries": [
+   "TL",
+   "ID"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 30777,
+  "wiki": {
+   "fr": "Timor",
+   "en": "Timor",
+   "ar": "تيمور (جزيرة)",
+   "es": "Timor"
+  }
+ },
+ {
+  "id": "Q13987",
+  "kind": "island",
+  "names": {
+   "fr": "Kyushu",
+   "en": "Kyushu",
+   "ar": "كيوشو",
+   "es": "Kyūshū"
+  },
+  "region": "asia",
+  "anchor": [
+   33,
+   131
+  ],
+  "bbox": [
+   129.58,
+   31.02,
+   132.01,
+   33.92
+  ],
+  "countries": [
+   "JP"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 36782,
+  "wiki": {
+   "fr": "Kyūshū",
+   "en": "Kyushu",
+   "ar": "كيوشو",
+   "es": "Kyūshū"
+  }
+ },
+ {
+  "id": "Q13991",
+  "kind": "island",
+  "names": {
+   "fr": "Shikoku",
+   "en": "Shikoku",
+   "ar": "شيكوكو",
+   "es": "Shikoku"
+  },
+  "region": "asia",
+  "anchor": [
+   33.75,
+   133.5
+  ],
+  "bbox": [
+   132.03,
+   32.75,
+   134.74,
+   34.35
+  ],
+  "countries": [
+   "JP"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 18297,
+  "wiki": {
+   "fr": "Shikoku",
+   "en": "Shikoku",
+   "ar": "شيكوكو",
+   "es": "Región de Shikoku"
+  }
+ },
+ {
+  "id": "Q1061269",
+  "kind": "island",
+  "names": {
+   "fr": "Palawan",
+   "en": "Palawan",
+   "ar": "بالاوان",
+   "es": "Palawan"
+  },
+  "region": "asia",
+  "anchor": [
+   9.5,
+   118.5
+  ],
+  "bbox": [
+   117.22,
+   8.37,
+   119.69,
+   11.35
+  ],
+  "countries": [
+   "PH"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 12189,
+  "wiki": {
+   "fr": "Palawan",
+   "en": "Palawan (island)",
+   "ar": "بالاوان (جزيرة)",
+   "es": "Isla de Palawan"
+  }
+ },
+ {
+  "id": "Q128323",
+  "kind": "island",
+  "names": {
+   "fr": "Trinité",
+   "en": "Trinidad",
+   "ar": "ترينيداد",
+   "es": "Isla Trinidad"
+  },
+  "region": "americas",
+  "anchor": [
+   10.461,
+   -61.249
+  ],
+  "bbox": [
+   -61.79,
+   10.07,
+   -60.93,
+   10.83
+  ],
+  "countries": [
+   "TT"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 4768,
+  "wiki": {
+   "fr": "Trinité (île)",
+   "en": "Trinidad",
+   "ar": "ترينيداد",
+   "es": "Isla Trinidad"
+  }
+ },
+ {
+  "id": "Q8828",
+  "kind": "island",
+  "names": {
+   "fr": "Majorque",
+   "en": "Mallorca",
+   "ar": "ميورقة",
+   "es": "Mallorca"
+  },
+  "region": "europe",
+  "anchor": [
+   39.617,
+   2.983
+  ],
+  "bbox": [
+   2.37,
+   39.3,
+   3.46,
+   39.97
+  ],
+  "countries": [
+   "ES"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 3620,
+  "wiki": {
+   "fr": "Majorque",
+   "en": "Mallorca",
+   "ar": "ميورقة",
+   "es": "Mallorca"
+  }
+ },
+ {
+  "id": "Q82859",
+  "kind": "island",
+  "names": {
+   "fr": "Socotra",
+   "en": "Socotra",
+   "ar": "سقطرى",
+   "es": "Socotra"
+  },
+  "region": "asia",
+  "anchor": [
+   12.51,
+   53.92
+  ],
+  "bbox": [
+   53.32,
+   12.32,
+   54.51,
+   12.72
+  ],
+  "countries": [
+   "YE"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 3796,
+  "wiki": {
+   "fr": "Socotra",
+   "en": "Socotra",
+   "ar": "سقطرى",
+   "es": "Socotra"
+  }
+ },
+ {
+  "id": "Q80413",
+  "kind": "island",
+  "names": {
+   "fr": "Nouvelle-Zemble",
+   "en": "Novaya Zemlya",
+   "ar": "نوفايا زيمليا",
+   "es": "Nueva Zembla"
+  },
+  "region": "europe",
+  "anchor": [
+   73.953,
+   56.349
+  ],
+  "bbox": [
+   51.18,
+   70.22,
+   69.08,
+   77.37
+  ],
+  "countries": [
+   "RU"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 90650,
+  "wiki": {
+   "fr": "Nouvelle-Zemble",
+   "en": "Novaya Zemlya",
+   "ar": "نوفايا زيمليا",
+   "es": "Nueva Zembla"
+  }
+ },
+ {
+  "id": "Q21162",
+  "kind": "island",
+  "names": {
+   "fr": "Spitzberg",
+   "en": "Spitsbergen",
+   "ar": "سبيتسبرغن",
+   "es": "Spitsbergen"
+  },
+  "region": "europe",
+  "anchor": [
+   78.75,
+   16
+  ],
+  "bbox": [
+   10.73,
+   76.58,
+   21.39,
+   80.05
+  ],
+  "countries": [
+   "NO"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 39044,
+  "wiki": {
+   "fr": "Spitzberg",
+   "en": "Spitsbergen",
+   "ar": "سبيتسبرغن",
+   "es": "Spitsbergen"
+  }
+ },
+ {
+  "id": "Q68740",
+  "kind": "island",
+  "names": {
+   "fr": "Hawaï",
+   "en": "Hawaii",
+   "ar": "هاواي",
+   "es": "Isla de Hawái"
+  },
+  "region": "americas",
+  "anchor": [
+   19.59,
+   -155.435
+  ],
+  "bbox": [
+   -156.05,
+   18.93,
+   -154.8,
+   20.28
+  ],
+  "countries": [
+   "US"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 10434,
+  "wiki": {
+   "fr": "Hawaï (île)",
+   "en": "Hawaiʻi (island)",
+   "ar": "هاواي (جزيرة)",
+   "es": "Isla de Hawái"
+  }
+ },
+ {
+  "id": "Q208198",
+  "kind": "island",
+  "names": {
+   "fr": "Viti Levu",
+   "en": "Viti Levu",
+   "ar": "فيتي ليفو",
+   "es": "Viti Levu"
+  },
+  "region": "oceania",
+  "anchor": [
+   -17.8,
+   178
+  ],
+  "bbox": [
+   177.25,
+   -18.27,
+   178.71,
+   -17.3
+  ],
+  "countries": [
+   "FJ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 10531,
+  "wiki": {
+   "fr": "Viti Levu",
+   "en": "Viti Levu",
+   "ar": "فيتي ليفو",
+   "es": "Viti Levu"
+  }
+ },
+ {
+  "id": "Q7332301",
+  "kind": "island",
+  "names": {
+   "fr": "Unguja",
+   "en": "Unguja",
+   "ar": "جزيرة أنغوجا",
+   "es": "Unguja"
+  },
+  "region": "africa",
+  "anchor": [
+   -6.134,
+   39.316
+  ],
+  "bbox": [
+   39.18,
+   -6.45,
+   39.57,
+   -5.73
+  ],
+  "countries": [
+   "TZ"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 1575,
+  "wiki": {
+   "fr": "Unguja",
+   "en": "Unguja",
+   "ar": "جزيرة أنغوجا",
+   "es": "Unguja"
+  }
+ },
+ {
+  "id": "Q40846",
+  "kind": "island",
+  "names": {
+   "fr": "Ténérife",
+   "en": "Tenerife",
+   "ar": "تنريفه",
+   "es": "Tenerife"
+  },
+  "region": "europe",
+  "anchor": [
+   28.269,
+   -16.606
+  ],
+  "bbox": [
+   -16.9,
+   28.01,
+   -16.12,
+   28.58
+  ],
+  "countries": [
+   "ES"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 2034,
+  "wiki": {
+   "fr": "Tenerife",
+   "en": "Tenerife",
+   "ar": "تينيريف",
+   "es": "Tenerife"
+  }
+ },
+ {
+  "id": "Q17070",
+  "kind": "island",
+  "names": {
+   "fr": "La Réunion",
+   "en": "Réunion",
+   "ar": "ريونيون",
+   "es": "Reunión"
+  },
+  "region": "europe",
+  "anchor": [
+   -21.114,
+   55.533
+  ],
+  "bbox": [
+   55.23,
+   -21.37,
+   55.84,
+   -20.86
+  ],
+  "countries": [
+   "FR"
+  ],
+  "elevation": null,
+  "length": null,
+  "area": 2512,
+  "wiki": {
+   "fr": "La Réunion",
+   "en": "Réunion",
+   "ar": "ريونيون",
+   "es": "Reunión (Francia)"
+  }
+ }
+]

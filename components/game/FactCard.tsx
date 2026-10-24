@@ -1,10 +1,24 @@
 "use client";
 
-import { BookOpen, ExternalLink, Landmark, Users, Globe2 } from "lucide-react";
+import {
+  BookOpen,
+  ExternalLink,
+  Flag as FlagIcon,
+  Globe2,
+  Landmark,
+  RotateCcw,
+  Ruler,
+  Users,
+  type LucideIcon,
+} from "lucide-react";
 import { useEffect, useState } from "react";
 import { Flag } from "@/components/ui/Flag";
+import { KindIcon } from "@/components/ui/KindIcon";
 import { getCountry } from "@/lib/data/countries";
+import { getFeature, isFeatureKind } from "@/lib/data/features";
 import { useI18n } from "@/lib/i18n/I18nProvider";
+import type { GeoFeature, Target } from "@/lib/types";
+import { useFeatureMeasure } from "./FeatureFacts";
 
 export interface Fact {
   title: string;
@@ -14,34 +28,41 @@ export interface Fact {
   lang: string;
 }
 
-const cache = new Map<string, Fact | null>();
+/** Résumé chargé, article absent dans la langue (avec le lien anglais), ou panne passagère. */
+type FactState = { status: "ok"; fact: Fact } | { status: "missing"; url: string | null } | { status: "error" };
 
-/** Fiche pays : chiffres clés + résumé Wikipédia dans la langue de l'interface. */
-export function FactCard({ code }: { code: string }) {
+// Les pannes ne sont pas mises en cache : la fiche est redemandée à la prochaine ouverture.
+const cache = new Map<string, FactState>();
+
+interface Stat {
+  icon: LucideIcon;
+  label: string;
+  value: string;
+}
+
+function StatGrid({ stats }: { stats: Stat[] }) {
+  return (
+    <dl className="grid grid-cols-3 gap-2 text-center">
+      {stats.map(({ icon: Icon, label, value }) => (
+        <div key={label} className="rounded-xl bg-surface-2 px-2 py-2">
+          <dt className="flex items-center justify-center gap-1 text-[10px] font-bold tracking-wide text-muted uppercase">
+            <Icon size={11} />
+            {label}
+          </dt>
+          <dd className="mt-0.5 truncate text-sm font-bold" title={value}>
+            {value}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+function CountryHeader({ code }: { code: string }) {
   const { t, n, locale } = useI18n();
   const c = getCountry(code);
-  const key = `${code}:${locale}`;
-  const [loaded, setLoaded] = useState<{ key: string; fact: Fact | null } | null>(null);
-  // undefined = en cours de chargement, null = indisponible.
-  const fact = cache.has(key) ? cache.get(key) : loaded?.key === key ? loaded.fact : undefined;
-
-  useEffect(() => {
-    if (cache.has(key)) return;
-    const ctrl = new AbortController();
-    fetch(`/api/fact/${code}?lang=${locale}`, { signal: ctrl.signal })
-      .then((r) => (r.ok ? (r.json() as Promise<Fact>) : null))
-      .then((f) => {
-        cache.set(key, f);
-        setLoaded({ key, fact: f });
-      })
-      .catch((e) => {
-        if ((e as Error).name !== "AbortError") setLoaded({ key, fact: null });
-      });
-    return () => ctrl.abort();
-  }, [code, locale, key]);
-
   return (
-    <div className="space-y-3">
+    <>
       <div className="flex items-center gap-3">
         <Flag code={code} className="h-9" title={c.names[locale]} />
         <div className="min-w-0">
@@ -49,9 +70,8 @@ export function FactCard({ code }: { code: string }) {
           <div className="text-xs text-muted">{t(`zone.${c.region}`)}</div>
         </div>
       </div>
-
-      <dl className="grid grid-cols-3 gap-2 text-center">
-        {[
+      <StatGrid
+        stats={[
           { icon: Landmark, label: t("fact.capital"), value: c.capital?.names[locale] ?? "—" },
           {
             icon: Users,
@@ -59,26 +79,115 @@ export function FactCard({ code }: { code: string }) {
             value: c.population ? n(c.population, { notation: "compact", maximumFractionDigits: 1 }) : "—",
           },
           { icon: Globe2, label: t("fact.region"), value: t(`zone.${c.region}`) },
-        ].map(({ icon: Icon, label, value }) => (
-          <div key={label} className="rounded-xl bg-surface-2 px-2 py-2">
-            <dt className="flex items-center justify-center gap-1 text-[10px] font-bold tracking-wide text-muted uppercase">
-              <Icon size={11} />
-              {label}
-            </dt>
-            <dd className="mt-0.5 truncate text-sm font-bold">{value}</dd>
-          </div>
-        ))}
-      </dl>
+        ]}
+      />
+    </>
+  );
+}
+
+function FeatureHeader({ feature: f }: { feature: GeoFeature }) {
+  const { t, locale } = useI18n();
+  const measure = useFeatureMeasure(f);
+  return (
+    <>
+      <div className="flex items-center gap-3">
+        <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-accent/12 text-accent">
+          <KindIcon kind={f.kind} size={20} />
+        </span>
+        <div className="min-w-0">
+          <div className="truncate font-display text-lg font-bold">{f.names[locale]}</div>
+          <div className="text-xs text-muted">{t(`quiz.${f.kind}`)}</div>
+        </div>
+      </div>
+      <StatGrid
+        stats={[
+          { icon: Globe2, label: t("fact.region"), value: f.region ? t(`zone.${f.region}`) : t("zone.world") },
+          {
+            icon: FlagIcon,
+            label: t("hint.countries"),
+            value: f.countries.length ? f.countries.map((c) => getCountry(c).names[locale]).join(", ") : "—",
+          },
+          { icon: Ruler, label: measure?.label ?? t("measure.area"), value: measure?.value ?? "—" },
+        ]}
+      />
+    </>
+  );
+}
+
+/** Fiche de la cible : chiffres clés + résumé Wikipédia dans la langue de l'interface. */
+export function FactCard({ target }: { target: Target }) {
+  const { t, locale } = useI18n();
+  const code = target.code;
+  const key = `${code}:${locale}`;
+  const [loaded, setLoaded] = useState<{ key: string; state: FactState } | null>(null);
+  const [retry, setRetry] = useState(0);
+  // undefined = en cours de chargement.
+  const state = cache.get(key) ?? (loaded?.key === key ? loaded.state : undefined);
+
+  useEffect(() => {
+    if (cache.has(key)) return;
+    const ctrl = new AbortController();
+    fetch(`/api/fact/${code}?lang=${locale}`, { signal: ctrl.signal })
+      .then(async (r): Promise<FactState> => {
+        if (r.ok) return { status: "ok", fact: (await r.json()) as Fact };
+        const body = (await r.json().catch(() => null)) as { error?: string; url?: string | null } | null;
+        return body?.error === "missing" ? { status: "missing", url: body.url ?? null } : { status: "error" };
+      })
+      .then((next) => {
+        if (next.status !== "error") cache.set(key, next);
+        setLoaded({ key, state: next });
+      })
+      .catch((e) => {
+        if ((e as Error).name !== "AbortError") setLoaded({ key, state: { status: "error" } });
+      });
+    return () => ctrl.abort();
+  }, [code, locale, key, retry]);
+
+  const fact = state?.status === "ok" ? state.fact : null;
+
+  return (
+    <div className="space-y-3">
+      {isFeatureKind(target.kind) ? <FeatureHeader feature={getFeature(code)} /> : <CountryHeader code={code} />}
 
       <div className="flex gap-3 text-sm">
-        {fact === undefined && (
+        {state === undefined && (
           <div className="w-full space-y-2" aria-label={t("fact.loading")}>
             <div className="h-3 w-full animate-pulse rounded bg-surface-2" />
             <div className="h-3 w-11/12 animate-pulse rounded bg-surface-2" />
             <div className="h-3 w-3/4 animate-pulse rounded bg-surface-2" />
           </div>
         )}
-        {fact === null && <p className="text-muted">{t("fact.unavailable")}</p>}
+        {state?.status === "missing" && (
+          <div className="text-muted">
+            <p>{t("fact.missing")}</p>
+            {state.url && (
+              <a
+                href={state.url}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-1.5 inline-flex items-center gap-1 text-xs font-bold text-accent hover:underline"
+              >
+                {t("fact.readEnglish")}
+                <ExternalLink size={12} />
+              </a>
+            )}
+          </div>
+        )}
+        {state?.status === "error" && (
+          <div className="flex flex-wrap items-center gap-2 text-muted">
+            <p>{t("fact.unavailable")}</p>
+            <button
+              onClick={() => {
+                setLoaded(null);
+                setRetry((n) => n + 1);
+              }}
+              className="inline-flex items-center gap-1 text-xs font-bold text-accent hover:underline"
+            >
+              <RotateCcw size={12} />
+              {t("fact.retry")}
+            </button>
+          </div>
+        )}
         {fact && (
           <>
             {fact.thumbnail && (

@@ -1,13 +1,15 @@
 "use client";
 
 import clsx from "clsx";
-import { ArrowLeft, BookMarked, Landmark, MapPin, Play, Trash2 } from "lucide-react";
+import { ArrowLeft, BookMarked, Play, Trash2 } from "lucide-react";
 import Link from "next/link";
 import { useMemo } from "react";
 import { Button, buttonClass } from "@/components/ui/controls";
 import { Flag } from "@/components/ui/Flag";
+import { KindIcon } from "@/components/ui/KindIcon";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
 import { parseTargetKey, targetLabel } from "@/lib/data/countries";
+import { findFeature, isFeatureKind } from "@/lib/data/features";
 import { reviewPool } from "@/lib/game/engine";
 import { isRtl } from "@/lib/i18n/config";
 import { useI18n } from "@/lib/i18n/I18nProvider";
@@ -69,14 +71,21 @@ export function StatsScreen() {
             <ul className="grid gap-2 sm:grid-cols-2">
               {notebook.slice(0, 30).map((key) => {
                 const target = parseTargetKey(key);
+                if (isFeatureKind(target.kind) && !findFeature(target.code)) return null;
                 const s = stats.targets[key];
                 const total = s.hits + s.misses;
                 return (
                   <li key={key} className="flex items-center gap-3 rounded-xl bg-surface-2 px-3 py-2">
-                    <Flag code={target.code} className="h-6" />
+                    {isFeatureKind(target.kind) ? (
+                      <span className="grid h-6 w-9 shrink-0 place-items-center rounded-[3px] bg-accent/12 text-accent">
+                        <KindIcon kind={target.kind} size={15} />
+                      </span>
+                    ) : (
+                      <Flag code={target.code} className="h-6" />
+                    )}
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-1.5 truncate text-sm font-bold">
-                        {target.kind === "capital" ? <Landmark size={13} /> : <MapPin size={13} />}
+                        <KindIcon kind={target.kind} size={13} />
                         {targetLabel(target, locale)}
                       </div>
                       <div className="mt-1 flex h-1.5 overflow-hidden rounded-full bg-danger/25">
