@@ -46,6 +46,8 @@ interface GameStore {
   phase: Phase;
   session: SessionMode;
   rules: Rules;
+  /** Règles demandées au lancement (avant les ajustements du défi du jour ou de zone vide). */
+  requested: Rules;
   /** Cibles imposées (défi du jour, révision) ; null = tirage libre. */
   queue: Target[] | null;
   used: string[];
@@ -94,6 +96,7 @@ export const useGame = create<GameStore>()((set, get) => ({
   phase: "idle",
   session: "classic",
   rules: { ...DAILY_RULES },
+  requested: { ...DAILY_RULES },
   queue: null,
   used: [],
   totalRounds: null,
@@ -132,6 +135,7 @@ export const useGame = create<GameStore>()((set, get) => ({
       phase: "idle",
       session,
       rules,
+      requested: settingsRules,
       queue,
       used: [],
       totalRounds,

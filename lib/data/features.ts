@@ -28,3 +28,23 @@ export function isFeatureKind(kind: TargetKind): kind is FeatureKind {
 export function themesUseFeatures(themes: readonly QuizTheme[]): boolean {
   return themes.some(isFeatureKind);
 }
+
+/** Couleur de chaque type de cible nature sur la carte de l'atlas. */
+export const FEATURE_COLORS: Record<FeatureKind, string> = {
+  river: "#2b8fd6",
+  lake: "#17a2b8",
+  sea: "#3f6fd8",
+  peak: "#c0562c",
+  range: "#9a6b3f",
+  desert: "#d99a1e",
+  island: "#22a06b",
+};
+
+/** Cibles nature d'un pays, par type puis du plus au moins concernées par ce pays. */
+export function featuresInCountry(code: string): GeoFeature[] {
+  return FEATURES.filter((f) => f.countries.includes(code)).sort(
+    (a, b) =>
+      FEATURE_KINDS.indexOf(a.kind) - FEATURE_KINDS.indexOf(b.kind) ||
+      a.countries.indexOf(code) - b.countries.indexOf(code),
+  );
+}

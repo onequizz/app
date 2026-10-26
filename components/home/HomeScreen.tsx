@@ -7,6 +7,7 @@ import {
   BarChart3,
   BookMarked,
   CalendarDays,
+  Compass,
   Crosshair,
   MapPin,
   Play,
@@ -32,6 +33,8 @@ import type { SessionMode, Target } from "@/lib/types";
 import { useSettings } from "@/store/settings";
 import { useStats } from "@/store/stats";
 import { useHydrated } from "@/store/useHydrated";
+import { LegalLinks } from "@/components/legal/LegalLinks";
+import { PlayDialog } from "./PlayDialog";
 
 /** Aperçu animé de la roulette dans le bandeau d'accueil. */
 function RoulettePreview() {
@@ -100,9 +103,11 @@ interface ModeCardProps {
   accent?: boolean;
   disabled?: boolean;
   index: number;
+  /** Ouvre le choix des thèmes au lieu d'aller directement en partie. */
+  onPlay?: (mode: SessionMode) => void;
 }
 
-function ModeCard({ mode, icon: Icon, title, desc, meta, accent, disabled, index }: ModeCardProps) {
+function ModeCard({ mode, icon: Icon, title, desc, meta, accent, disabled, index, onPlay }: ModeCardProps) {
   const { locale } = useI18n();
   return (
     <motion.div
@@ -112,6 +117,13 @@ function ModeCard({ mode, icon: Icon, title, desc, meta, accent, disabled, index
     >
       <Link
         href={`/play?mode=${mode}`}
+        onClick={
+          onPlay &&
+          ((e) => {
+            e.preventDefault();
+            onPlay(mode);
+          })
+        }
         aria-disabled={disabled}
         className={clsx(
           "group relative flex h-full flex-col gap-3 overflow-hidden rounded-3xl border p-5 transition",
@@ -150,11 +162,17 @@ function ModeCard({ mode, icon: Icon, title, desc, meta, accent, disabled, index
 }
 
 export function HomeScreen() {
-  const { t, n, km } = useI18n();
+  const { t, n, km, locale } = useI18n();
   const hydrated = useHydrated();
   const settings = useSettings();
   const stats = useStats();
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [playMode, setPlayMode] = useState<SessionMode | null>(null);
+
+  // Aucun thème coché à l'arrivée sur l'accueil : on les choisit au moment de jouer.
+  useEffect(() => {
+    if (hydrated) useSettings.getState().set("themes", []);
+  }, [hydrated]);
 
   const today = hydrated ? stats.daily[todayKey()] : undefined;
   const reviewCount = useMemo(() => (hydrated ? reviewPool(stats.targets).length : 0), [hydrated, stats.targets]);
@@ -163,11 +181,13 @@ export function HomeScreen() {
     hydrated && stats.bestScore[m] ? `${t("home.bestScore")} · ${n(stats.bestScore[m]!)}` : undefined;
 
   const themesLabel =
-    settings.themes.length === QUIZ_THEMES.length
-      ? t("quiz.all")
-      : settings.themes.length === 1
-        ? t(`quiz.${settings.themes[0]}`)
-        : t("home.themesSelected", { n: settings.themes.length });
+    settings.themes.length === 0
+      ? t("home.noTheme")
+      : settings.themes.length === QUIZ_THEMES.length
+        ? t("quiz.all")
+        : settings.themes.length === 1
+          ? t(`quiz.${settings.themes[0]}`)
+          : t("home.themesSelected", { n: settings.themes.length });
 
   const highlightCodes = ["DZ", "DE", "JP", "BR", "NO", "AU", "KE"];
 
@@ -176,6 +196,10 @@ export function HomeScreen() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
         <Logo />
         <div className="flex items-center gap-1">
+          <Link href="/explore" className={buttonClass("ghost", "sm")}>
+            <Compass size={17} />
+            <span className="max-sm:hidden">{t("nav.explore")}</span>
+          </Link>
           <Link href="/stats" className={buttonClass("ghost", "sm")}>
             <BarChart3 size={17} />
             <span className="max-sm:hidden">{t("nav.stats")}</span>
@@ -229,16 +253,21 @@ export function HomeScreen() {
             <p className="mt-1.5 max-w-xl text-sm text-muted">{t("home.quizHelp")}</p>
           </div>
           <div className="relative">
-            <ThemePicker zone={settings.zone} large />
+            <ThemePicker zone={settings.zone} large hint={false} />
           </div>
           <div className="relative mt-6 flex justify-center">
-            <Link href="/play?mode=classic" className={buttonClass("primary", "lg", "w-full sm:w-auto sm:min-w-72")}>
+            <button
+              onClick={() => setPlayMode("classic")}
+              className={buttonClass("primary", "lg", "w-full sm:w-auto sm:min-w-72")}
+            >
               <Play size={18} />
               {t("home.play")}
-              <span className="tabular rounded-full bg-black/10 px-2 py-0.5 text-xs">
-                {t("home.targetsInPlay", { n: n(targetPool(settings.zone, settings.themes).length) })}
-              </span>
-            </Link>
+              {settings.themes.length > 0 && (
+                <span className="tabular rounded-full bg-black/10 px-2 py-0.5 text-xs">
+                  {t("home.targetsInPlay", { n: n(targetPool(settings.zone, settings.themes).length) })}
+                </span>
+              )}
+            </button>
           </div>
         </motion.section>
 
@@ -248,6 +277,7 @@ export function HomeScreen() {
             mode="classic"
             icon={Crosshair}
             accent
+            onPlay={setPlayMode}
             title={t("mode.classic.title")}
             desc={t("mode.classic.desc", { n: settings.rounds })}
             meta={best("classic")}
@@ -256,6 +286,7 @@ export function HomeScreen() {
             index={1}
             mode="timeAttack"
             icon={Timer}
+            onPlay={setPlayMode}
             title={t("mode.timeAttack.title")}
             desc={t("mode.timeAttack.desc")}
             meta={best("timeAttack")}
@@ -279,6 +310,29 @@ export function HomeScreen() {
           />
         </section>
 
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4, type: "spring", stiffness: 260, damping: 26 }}
+        >
+          <Link
+            href="/explore"
+            className="group mt-4 flex items-center gap-4 rounded-3xl border border-line bg-surface-solid p-5 transition hover:-translate-y-1 hover:border-accent/50 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-accent"
+          >
+            <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-accent/12 text-accent">
+              <Compass size={24} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block font-display text-xl font-bold">{t("explore.title")}</span>
+              <span className="mt-0.5 block text-sm text-muted">{t("explore.desc")}</span>
+            </span>
+            <span className={buttonClass("secondary", "sm", "shrink-0 max-sm:hidden")}>
+              {t("explore.open")}
+              <ArrowRight size={16} className={clsx(isRtl(locale) && "rotate-180")} />
+            </span>
+          </Link>
+        </motion.div>
+
         <section className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
           {[
             { label: t("home.bestScore"), value: n(Math.max(0, ...Object.values(stats.bestScore))) },
@@ -293,10 +347,13 @@ export function HomeScreen() {
           ))}
         </section>
 
-        <footer className="mt-12 text-center text-xs text-muted">{t("home.dataNote")}</footer>
+        <footer className="mt-12">
+          <LegalLinks />
+        </footer>
       </main>
 
       <SettingsPanel open={settingsOpen} onClose={() => setSettingsOpen(false)} />
+      <PlayDialog mode={playMode} onClose={() => setPlayMode(null)} />
     </div>
   );
 }

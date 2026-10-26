@@ -7,7 +7,7 @@ export type Theme = "system" | "light" | "dark";
 
 export interface Settings {
   attempts: number;
-  /** Thèmes mélangés dans une partie (au moins un). */
+  /** Thèmes mélangés dans une partie (vide tant que rien n'est choisi sur l'accueil). */
   themes: QuizTheme[];
   zone: Zone;
   toleranceKm: number;
@@ -20,9 +20,9 @@ export interface Settings {
 
 interface SettingsStore extends Settings {
   set: <K extends keyof Settings>(key: K, value: Settings[K]) => void;
-  /** Ajoute ou retire un thème (le dernier thème choisi reste sélectionné). */
+  /** Ajoute ou retire un thème (la sélection peut être vide : on ne lance pas de partie sans thème). */
   toggleTheme: (theme: QuizTheme) => void;
-  /** « Tout » : coche tous les thèmes ; s'ils le sont déjà, ne garde que le premier. */
+  /** « Tout » : coche tous les thèmes ; s'ils le sont déjà, les décoche tous. */
   toggleAllThemes: () => void;
 }
 
@@ -40,6 +40,11 @@ export const DEFAULT_SETTINGS: Settings = {
 
 export const SETTINGS_STORAGE_KEY = "oq-settings";
 
+/** Thèmes réellement joués : une partie ouverte sans thème (lien direct) reprend ceux par défaut. */
+export function playableThemes(themes: QuizTheme[]): QuizTheme[] {
+  return themes.length ? themes : DEFAULT_SETTINGS.themes;
+}
+
 export const useSettings = create<SettingsStore>()(
   persist(
     (set) => ({
@@ -48,11 +53,10 @@ export const useSettings = create<SettingsStore>()(
       toggleTheme: (theme) =>
         set((s) => {
           const has = s.themes.includes(theme);
-          if (has && s.themes.length === 1) return s;
           return { themes: QUIZ_THEMES.filter((t) => (t === theme ? !has : s.themes.includes(t))) };
         }),
       toggleAllThemes: () =>
-        set((s) => ({ themes: s.themes.length === QUIZ_THEMES.length ? [QUIZ_THEMES[0]] : [...QUIZ_THEMES] })),
+        set((s) => ({ themes: s.themes.length === QUIZ_THEMES.length ? [] : [...QUIZ_THEMES] })),
     }),
     {
       name: SETTINGS_STORAGE_KEY,

@@ -15,6 +15,14 @@ const cairo = Cairo({ subsets: ["arabic", "latin"], variable: "--font-cairo" });
 export const metadata: Metadata = {
   title: "OneQuizz — Find the Country / Capital",
   description: "Jeu de géographie : trouve pays, capitales, fleuves, montagnes, déserts et mers sur une carte interactive.",
+  // Icône d'onglet selon le thème du système ; sur l'écran d'accueil mobile, la version pour fond sombre.
+  icons: {
+    icon: [
+      { url: "/brand/logo_clair.png", type: "image/png", media: "(prefers-color-scheme: light)" },
+      { url: "/brand/logo_sombre.png", type: "image/png", media: "(prefers-color-scheme: dark)" },
+    ],
+    apple: "/brand/logo_sombre.png",
+  },
 };
 
 export const viewport: Viewport = {

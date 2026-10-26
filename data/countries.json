@@ -5290,13 +5290,13 @@
    "es": "Palestina"
   },
   "capital": {
-   "lat": 31.8969,
-   "lng": 35.2017,
+   "lat": 31.7833,
+   "lng": 35.2333,
    "names": {
-    "fr": "Ramallah",
-    "en": "Ramallah",
-    "ar": "رام الله",
-    "es": "Ramala"
+    "fr": "Jérusalem",
+    "en": "Jerusalem",
+    "ar": "القدس",
+    "es": "Jerusalén"
    }
   },
   "center": [

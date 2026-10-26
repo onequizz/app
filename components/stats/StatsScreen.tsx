@@ -8,6 +8,7 @@ import { Button, buttonClass } from "@/components/ui/controls";
 import { Flag } from "@/components/ui/Flag";
 import { KindIcon } from "@/components/ui/KindIcon";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
+import { LegalLinks } from "@/components/legal/LegalLinks";
 import { parseTargetKey, targetLabel } from "@/lib/data/countries";
 import { findFeature, isFeatureKind } from "@/lib/data/features";
 import { reviewPool } from "@/lib/game/engine";
@@ -132,6 +133,9 @@ export function StatsScreen() {
             </Button>
           </div>
         )}
+        <footer className="pt-6">
+          <LegalLinks />
+        </footer>
       </main>
     </div>
   );

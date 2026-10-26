@@ -5,11 +5,10 @@ import {
   LngLatBounds,
   Map as MlMap,
   Marker,
-  setWorkerUrl,
   type GeoJSONSource,
   type StyleSpecification,
 } from "maplibre-gl";
-import type { Feature, FeatureCollection, LineString } from "geojson";
+import type { Feature, LineString } from "geojson";
 import { Loader2 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { getCountry, ZONE_BOUNDS } from "@/lib/data/countries";
@@ -21,6 +20,7 @@ import { smallCountryRadiusKm } from "@/lib/geo/validate";
 import { loadWorld, type WorldData } from "@/lib/geo/world";
 import { useI18n } from "@/lib/i18n/I18nProvider";
 import type { Guess, LngLat, RoundStatus, Target, Zone } from "@/lib/types";
+import { EMPTY_FC, graticule, markerEl, readPalette, type Palette } from "./mapShared";
 
 export interface GameMapProps {
   zone: Zone;
@@ -37,50 +37,6 @@ export interface GameMapProps {
   targetName: string;
   onPick: (p: LngLat) => void;
 }
-
-type Palette = Record<
-  "ocean" | "land" | "landHover" | "border" | "graticule" | "success" | "reveal" | "danger",
-  string
->;
-
-function readPalette(): Palette {
-  const cs = getComputedStyle(document.documentElement);
-  const v = (name: string) => cs.getPropertyValue(name).trim();
-  return {
-    ocean: v("--map-ocean"),
-    land: v("--map-land"),
-    landHover: v("--map-land-hover"),
-    border: v("--map-border"),
-    graticule: v("--map-graticule"),
-    success: v("--success"),
-    reveal: v("--reveal"),
-    danger: v("--danger"),
-  };
-}
-
-function graticule(step = 15): FeatureCollection<LineString> {
-  const features: Feature<LineString>[] = [];
-  for (let lng = -180; lng <= 180; lng += step) {
-    features.push({
-      type: "Feature",
-      properties: {},
-      geometry: { type: "LineString", coordinates: Array.from({ length: 33 }, (_, i) => [lng, -80 + i * 5]) },
-    });
-  }
-  for (let lat = -75; lat <= 75; lat += step) {
-    features.push({
-      type: "Feature",
-      properties: {},
-      geometry: { type: "LineString", coordinates: Array.from({ length: 73 }, (_, i) => [-180 + i * 5, lat]) },
-    });
-  }
-  return { type: "FeatureCollection", features };
-}
-
-const EMPTY_FC: FeatureCollection = { type: "FeatureCollection", features: [] };
-
-// Worker servi depuis public/ (copié par scripts/copy-maplibre-worker.mjs).
-setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
 
 function buildStyle(world: WorldData, p: Palette): StyleSpecification {
   return {
@@ -174,21 +130,6 @@ function fillPaint(p: Palette) {
       1,
     ],
   } as never;
-}
-
-function markerEl(color: string, label?: string, variant: "guess" | "target" = "guess", pulse = false) {
-  const el = document.createElement("div");
-  el.className = `oq-marker oq-marker--${variant}`;
-  el.style.setProperty("--c", color);
-  if (pulse) el.insertAdjacentHTML("beforeend", '<span class="oq-marker__pulse"></span>');
-  el.insertAdjacentHTML("beforeend", '<span class="oq-marker__dot"></span>');
-  if (label) {
-    const l = document.createElement("span");
-    l.className = "oq-marker__label";
-    l.textContent = label;
-    el.appendChild(l);
-  }
-  return el;
 }
 
 export default function GameMap(props: GameMapProps) {

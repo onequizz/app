@@ -9,11 +9,11 @@ import {
   RotateCcw,
   Ruler,
   Users,
-  type LucideIcon,
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Flag } from "@/components/ui/Flag";
 import { KindIcon } from "@/components/ui/KindIcon";
+import { StatGrid } from "@/components/ui/StatGrid";
 import { getCountry } from "@/lib/data/countries";
 import { getFeature, isFeatureKind } from "@/lib/data/features";
 import { useI18n } from "@/lib/i18n/I18nProvider";
@@ -33,30 +33,6 @@ type FactState = { status: "ok"; fact: Fact } | { status: "missing"; url: string
 
 // Les pannes ne sont pas mises en cache : la fiche est redemandée à la prochaine ouverture.
 const cache = new Map<string, FactState>();
-
-interface Stat {
-  icon: LucideIcon;
-  label: string;
-  value: string;
-}
-
-function StatGrid({ stats }: { stats: Stat[] }) {
-  return (
-    <dl className="grid grid-cols-3 gap-2 text-center">
-      {stats.map(({ icon: Icon, label, value }) => (
-        <div key={label} className="rounded-xl bg-surface-2 px-2 py-2">
-          <dt className="flex items-center justify-center gap-1 text-[10px] font-bold tracking-wide text-muted uppercase">
-            <Icon size={11} />
-            {label}
-          </dt>
-          <dd className="mt-0.5 truncate text-sm font-bold" title={value}>
-            {value}
-          </dd>
-        </div>
-      ))}
-    </dl>
-  );
-}
 
 function CountryHeader({ code }: { code: string }) {
   const { t, n, locale } = useI18n();

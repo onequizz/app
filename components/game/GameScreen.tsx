@@ -4,8 +4,9 @@ import { AnimatePresence } from "framer-motion";
 import { BookMarked, CalendarCheck, Home } from "lucide-react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
+import { LegalLinks } from "@/components/legal/LegalLinks";
 import { SettingsPanel } from "@/components/settings/SettingsPanel";
 import { buttonClass } from "@/components/ui/controls";
 import { Splash } from "@/components/ui/Splash";
@@ -16,7 +17,7 @@ import { loadFeatures } from "@/lib/geo/features";
 import { useI18n } from "@/lib/i18n/I18nProvider";
 import type { SessionMode } from "@/lib/types";
 import { useGame } from "@/store/game";
-import { useSettings } from "@/store/settings";
+import { playableThemes, useSettings } from "@/store/settings";
 import { useStats } from "@/store/stats";
 import { useHydrated } from "@/store/useHydrated";
 import { FeedbackToast } from "./FeedbackToast";
@@ -53,12 +54,15 @@ export function GameScreen() {
   const params = useSearchParams();
   const raw = params.get("mode") as SessionMode | null;
   const mode: SessionMode = raw && MODES.includes(raw) ? raw : "classic";
+  const router = useRouter();
+  // Mode choisi dans les paramètres, appliqué avec « Appliquer ».
+  const [pendingMode, setPendingMode] = useState<SessionMode>(mode);
 
   const hydrated = useHydrated();
   const [restart, setRestart] = useState(0);
   const [settingsOpen, setSettingsOpen] = useState(false);
 
-  const themes = useSettings((s) => s.themes);
+  const storeThemes = playableThemes(useSettings((s) => s.themes));
   const globe = useSettings((s) => s.globe);
   const hotCold = useSettings((s) => s.hotCold);
   const daily = useStats((s) => s.daily[todayKey()]);
@@ -67,6 +71,7 @@ export function GameScreen() {
   const phase = useGame((s) => s.phase);
   const session = useGame((s) => s.session);
   const rules = useGame((s) => s.rules);
+  const requested = useGame((s) => s.requested);
   const target = useGame((s) => s.target);
   const guesses = useGame((s) => s.guesses);
   const roundStatus = useGame((s) => s.roundStatus);
@@ -76,7 +81,9 @@ export function GameScreen() {
   const nextRound = useGame((s) => s.nextRound);
 
   // Tracés nature : chargés avant la partie pour valider les clics dès le premier tour.
-  // La révision peut reprendre n'importe quelle cible ratée.
+  // La révision peut reprendre n'importe quelle cible ratée. Une fois la partie lancée, seuls
+  // ses thèmes comptent : modifier les paramètres ne la relance pas avant « Appliquer ».
+  const themes = phase === "idle" ? storeThemes : requested.themes;
   const needsFeatures = hydrated && mode !== "daily" && (mode === "review" || themesUseFeatures(themes));
   const [featuresReady, setFeaturesReady] = useState(false);
   useEffect(() => {
@@ -101,7 +108,7 @@ export function GameScreen() {
       attempts: s.attempts,
       toleranceKm: s.toleranceKm,
       zone: s.zone,
-      themes: s.themes,
+      themes: playableThemes(s.themes),
       rounds: s.rounds,
     });
     return () => useGame.getState().reset();
@@ -125,7 +132,31 @@ export function GameScreen() {
     return () => clearTimeout(id);
   }, [session, phase, nextRound]);
 
-  const onReplay = useCallback(() => setRestart((k) => k + 1), []);
+  // « Rejouer » et « Appliquer » : nouvelle partie avec les paramètres actuels.
+  // Les tracés nature sont chargés d'abord, pour ne pas relancer la partie une seconde fois.
+  const relaunch = useCallback(async () => {
+    setSettingsOpen(false);
+    if (mode !== "daily" && themesUseFeatures(playableThemes(useSettings.getState().themes))) {
+      await loadFeatures().catch(() => {});
+      setFeaturesReady(true);
+    }
+    setRestart((k) => k + 1);
+  }, [mode]);
+
+  // Changement de mode : nouvelle URL, la partie redémarre avec le mode demandé.
+  const apply = useCallback(() => {
+    if (pendingMode === mode) return void relaunch();
+    setSettingsOpen(false);
+    router.push(`/play?mode=${pendingMode}`);
+  }, [pendingMode, mode, relaunch, router]);
+
+  const settings = useSettings();
+  const rulesChanged =
+    settings.attempts !== requested.attempts ||
+    settings.toleranceKm !== requested.toleranceKm ||
+    settings.zone !== requested.zone ||
+    settings.rounds !== requested.rounds ||
+    settings.themes.join() !== requested.themes.join();
 
   // Statut dérivé : une partie n'est jamais lancée dans ces deux cas (phase « idle »).
   const idle = phase === "idle";
@@ -176,6 +207,7 @@ export function GameScreen() {
       />
       <Hud onOpenSettings={() => setSettingsOpen(true)} />
       <FeedbackToast />
+      <LegalLinks className="pointer-events-auto absolute bottom-1.5 left-3 z-10 justify-start gap-x-3 text-[10px] opacity-60 transition-opacity hover:opacity-100 max-sm:hidden" />
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 flex justify-center p-3 sm:p-5">
         <div className="pointer-events-auto flex w-full justify-center">
@@ -189,12 +221,16 @@ export function GameScreen() {
         </div>
       </div>
 
-      {phase === "finished" && <SessionSummary onReplay={onReplay} />}
+      {phase === "finished" && <SessionSummary onReplay={relaunch} />}
 
       <SettingsPanel
         open={settingsOpen}
         onClose={() => setSettingsOpen(false)}
-        rulesLocked={session === "daily"}
+        rulesLocked={pendingMode === "daily"}
+        onApply={apply}
+        canApply={pendingMode !== mode || (pendingMode !== "daily" && rulesChanged)}
+        mode={pendingMode}
+        onModeChange={setPendingMode}
       />
     </main>
   );

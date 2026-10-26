@@ -34,7 +34,7 @@ function Tile({ theme, selected, count, large, disabled, onClick }: TileProps) {
         selected
           ? "border-accent bg-accent/12 shadow-sm shadow-accent/10"
           : "border-line bg-surface-solid hover:border-accent/50",
-        theme === "all" && large && "sm:col-span-2 lg:col-span-3",
+        theme === "all" && (large ? "sm:col-span-2 lg:col-span-3" : "col-span-2"),
       )}
     >
       <span
@@ -73,10 +73,13 @@ export function ThemePicker({
   zone,
   large = false,
   disabled = false,
+  hint = true,
 }: {
   zone: Zone;
   large?: boolean;
   disabled?: boolean;
+  /** Rappel « au moins un thème » sous la grille quand rien n'est coché. */
+  hint?: boolean;
 }) {
   const { t } = useI18n();
   const themes = useSettings((s) => s.themes);
@@ -107,7 +110,7 @@ export function ThemePicker({
           onClick={toggleAllThemes}
         />
       </div>
-      {themes.length === 1 && !disabled && <p className="mt-2 text-xs text-muted">{t("settings.atLeastOne")}</p>}
+      {hint && themes.length === 0 && !disabled && <p className="mt-2 text-xs text-muted">{t("settings.atLeastOne")}</p>}
     </div>
   );
 }

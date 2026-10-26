@@ -13,11 +13,14 @@ export function Drawer({
   onClose,
   title,
   children,
+  footer,
 }: {
   open: boolean;
   onClose: () => void;
   title: string;
   children: ReactNode;
+  /** Zone fixe sous le contenu défilant (actions). */
+  footer?: ReactNode;
 }) {
   const { t, locale } = useI18n();
   const offset = isRtl(locale) ? "-100%" : "100%";
@@ -57,6 +60,7 @@ export function Drawer({
               </IconButton>
             </header>
             <div className="flex-1 overflow-y-auto px-5 py-5">{children}</div>
+            {footer && <footer className="border-t border-line px-5 py-4">{footer}</footer>}
           </motion.aside>
         </div>
       )}
