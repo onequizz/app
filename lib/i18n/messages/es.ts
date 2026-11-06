@@ -30,6 +30,10 @@ export const es: Messages = {
   "home.quizHelp":
     "Selecciona un tema, varios o «Todo», y empieza la partida.",
   "home.play": "Jugar",
+  "home.start": "Empezar la partida",
+  "home.themesTitle": "Los temas del quiz",
+  "home.themesHelp":
+    "Cada partida saca sus objetivos de los temas que elijas. Pulsa «Jugar» para seleccionar uno, varios o «Todo».",
   "home.themesSelected": "{n} temas",
   "home.targetsInPlay": "{n} objetivos en juego",
 

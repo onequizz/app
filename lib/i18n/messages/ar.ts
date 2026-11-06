@@ -30,6 +30,10 @@ export const ar: Messages = {
   "home.quizHelp":
     "اختر موضوعًا واحدًا أو عدة مواضيع أو «الكل»، ثم ابدأ المباراة.",
   "home.play": "العب",
+  "home.start": "ابدأ المباراة",
+  "home.themesTitle": "مواضيع الاختبار",
+  "home.themesHelp":
+    "تسحب كل مباراة أهدافها من المواضيع التي تختارها. اضغط على «العب» لاختيار موضوع واحد أو عدة مواضيع أو «الكل».",
   "home.themesSelected": "{n} مواضيع",
   "home.targetsInPlay": "{n} هدفًا في اللعب",
 

@@ -30,6 +30,10 @@ export const en: Messages = {
   "home.quizHelp":
     "Select one theme, several, or “Everything”, then start the game.",
   "home.play": "Play",
+  "home.start": "Start the game",
+  "home.themesTitle": "The quiz themes",
+  "home.themesHelp":
+    "Each game draws its targets from the themes you choose. Hit “Play” to select one, several, or “Everything”.",
   "home.themesSelected": "{n} themes",
   "home.targetsInPlay": "{n} targets in play",
 

@@ -28,6 +28,10 @@ export const fr = {
   "home.quizHelp":
     "Sélectionne un thème, plusieurs, ou « Tout », puis lance la partie.",
   "home.play": "Jouer",
+  "home.start": "Lancer la partie",
+  "home.themesTitle": "Les thèmes du quiz",
+  "home.themesHelp":
+    "Chaque partie pioche ses cibles dans les thèmes que tu choisis. Clique sur « Jouer » pour en sélectionner un, plusieurs, ou « Tout ».",
   "home.themesSelected": "{n} thèmes",
   "home.targetsInPlay": "{n} cibles en jeu",
 

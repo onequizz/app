@@ -18,6 +18,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { SettingsPanel } from "@/components/settings/SettingsPanel";
 import { buttonClass, IconButton } from "@/components/ui/controls";
+import { Drawer } from "@/components/ui/Drawer";
 import { Flag } from "@/components/ui/Flag";
 import { KindIcon } from "@/components/ui/KindIcon";
 import { ThemePicker } from "@/components/ui/ThemePicker";
@@ -155,6 +156,7 @@ export function HomeScreen() {
   const settings = useSettings();
   const stats = useStats();
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [themesOpen, setThemesOpen] = useState(false);
 
   const today = hydrated ? stats.daily[todayKey()] : undefined;
   const reviewCount = useMemo(() => (hydrated ? reviewPool(stats.targets).length : 0), [hydrated, stats.targets]);
@@ -225,20 +227,31 @@ export function HomeScreen() {
         >
           <div className="pointer-events-none absolute -top-24 -right-24 size-72 rounded-full bg-accent/15 blur-3xl" aria-hidden />
           <div className="relative mb-5">
-            <h2 className="font-display text-3xl font-extrabold sm:text-4xl">{t("home.quizTitle")}</h2>
-            <p className="mt-1.5 max-w-xl text-sm text-muted">{t("home.quizHelp")}</p>
+            <h2 className="font-display text-3xl font-extrabold sm:text-4xl">{t("home.themesTitle")}</h2>
+            <p className="mt-1.5 max-w-xl text-sm text-muted">{t("home.themesHelp")}</p>
           </div>
-          <div className="relative">
-            <ThemePicker zone={settings.zone} large />
-          </div>
+          <ul className="relative grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {QUIZ_THEMES.map((theme) => (
+              <li key={theme} className="flex items-start gap-3 rounded-2xl border border-line bg-surface-solid p-4">
+                <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-accent/12 text-accent">
+                  <KindIcon kind={theme} size={22} />
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="block font-display text-base leading-tight font-bold">{t(`quiz.${theme}`)}</span>
+                  <span className="mt-0.5 block text-xs text-muted">{t(`quiz.${theme}.desc`)}</span>
+                </span>
+              </li>
+            ))}
+          </ul>
           <div className="relative mt-6 flex justify-center">
-            <Link href="/play?mode=classic" className={buttonClass("primary", "lg", "w-full sm:w-auto sm:min-w-72")}>
+            <button
+              type="button"
+              onClick={() => setThemesOpen(true)}
+              className={buttonClass("primary", "lg", "w-full sm:w-auto sm:min-w-72")}
+            >
               <Play size={18} />
               {t("home.play")}
-              <span className="tabular rounded-full bg-black/10 px-2 py-0.5 text-xs">
-                {t("home.targetsInPlay", { n: n(targetPool(settings.zone, settings.themes).length) })}
-              </span>
-            </Link>
+            </button>
           </div>
         </motion.section>
 
@@ -297,6 +310,18 @@ export function HomeScreen() {
       </main>
 
       <SettingsPanel open={settingsOpen} onClose={() => setSettingsOpen(false)} />
+
+      <Drawer open={themesOpen} onClose={() => setThemesOpen(false)} title={t("home.quizTitle")}>
+        <p className="mb-4 text-sm text-muted">{t("home.quizHelp")}</p>
+        <ThemePicker zone={settings.zone} />
+        <Link href="/play?mode=classic" className={buttonClass("primary", "lg", "mt-6 w-full")}>
+          <Play size={18} />
+          {t("home.start")}
+          <span className="tabular rounded-full bg-black/10 px-2 py-0.5 text-xs">
+            {t("home.targetsInPlay", { n: n(targetPool(settings.zone, settings.themes).length) })}
+          </span>
+        </Link>
+      </Drawer>
     </div>
   );
 }
