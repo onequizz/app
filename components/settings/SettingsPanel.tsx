@@ -1,97 +1,76 @@
 "use client";
 
-import { Info, TriangleAlert } from "lucide-react";
+import { Info, RotateCcw } from "lucide-react";
 import { Drawer } from "@/components/ui/Drawer";
-import { Field, Segmented, Slider, Toggle } from "@/components/ui/controls";
+import { Button, Field, Segmented, Toggle } from "@/components/ui/controls";
 import { ThemePicker } from "@/components/ui/ThemePicker";
-import { targetPool } from "@/lib/data/countries";
 import { LOCALE_LABELS, LOCALES } from "@/lib/i18n/config";
 import { useI18n } from "@/lib/i18n/I18nProvider";
-import type { Zone } from "@/lib/types";
+import type { SessionMode } from "@/lib/types";
 import { useSettings, type Theme } from "@/store/settings";
-
-const ZONES: Zone[] = ["world", "europe", "africa", "asia", "americas", "oceania"];
+import { ModePicker } from "./ModePicker";
+import { RulesFields } from "./RulesFields";
 
 export function SettingsPanel({
   open,
   onClose,
   rulesLocked = false,
+  onApply,
+  canApply = false,
+  mode,
+  onModeChange,
 }: {
   open: boolean;
   onClose: () => void;
   /** Règles verrouillées (défi du jour). */
   rulesLocked?: boolean;
+  /** En partie : relance une partie avec les règles modifiées (bouton « Appliquer »). */
+  onApply?: () => void;
+  /** Les règles diffèrent de celles de la partie en cours. */
+  canApply?: boolean;
+  /** En partie : mode choisi, appliqué avec « Appliquer ». */
+  mode?: SessionMode;
+  onModeChange?: (mode: SessionMode) => void;
 }) {
-  const { t, km, locale, setLocale } = useI18n();
+  const { t, locale, setLocale } = useI18n();
   const s = useSettings();
-  const zoneEmpty = targetPool(s.zone, s.themes).length === 0;
+  const withApply = !!onApply;
 
   return (
-    <Drawer open={open} onClose={onClose} title={t("settings.title")}>
+    <Drawer
+      open={open}
+      onClose={onClose}
+      title={t("settings.title")}
+      footer={
+        withApply && (
+          <Button className="w-full" disabled={!canApply || s.themes.length === 0} onClick={onApply}>
+            <RotateCcw size={16} />
+            {t("settings.apply")}
+          </Button>
+        )
+      }
+    >
       <div className="space-y-7">
         <p className="flex items-start gap-2 rounded-xl bg-surface-2 px-3 py-2.5 text-xs text-muted">
           <Info size={15} className="mt-px shrink-0" />
-          {rulesLocked ? t("settings.dailyLocked") : t("settings.appliesNext")}
+          {rulesLocked
+            ? t("settings.dailyLocked")
+            : withApply
+              ? t("settings.appliesOnApply")
+              : t("settings.appliesNext")}
         </p>
+
+        {mode && onModeChange && (
+          <Field label={t("settings.gameMode")}>
+            <ModePicker value={mode} onChange={onModeChange} />
+          </Field>
+        )}
 
         <Field label={t("settings.mode")}>
           <ThemePicker zone={s.zone} disabled={rulesLocked} />
         </Field>
 
-        <Field label={t("settings.zone")}>
-          <div className="grid grid-cols-2 gap-2">
-            {ZONES.map((z) => (
-              <button
-                key={z}
-                disabled={rulesLocked}
-                onClick={() => s.set("zone", z)}
-                className={`rounded-xl border px-3 py-2.5 text-start text-sm font-semibold transition disabled:opacity-50 ${
-                  s.zone === z
-                    ? "border-accent bg-accent/12 text-ink"
-                    : "border-line text-muted hover:border-accent/50 hover:text-ink"
-                }`}
-              >
-                {t(`zone.${z}`)}
-              </button>
-            ))}
-          </div>
-          {zoneEmpty && !rulesLocked && (
-            <p className="mt-2 flex items-start gap-2 text-xs text-muted">
-              <TriangleAlert size={14} className="mt-px shrink-0 text-accent" />
-              {t("settings.zoneEmpty")}
-            </p>
-          )}
-        </Field>
-
-        <Field label={t("settings.attempts")}>
-          <Segmented<number>
-            value={s.attempts}
-            onChange={(v) => s.set("attempts", v)}
-            disabled={rulesLocked}
-            options={[1, 2, 3, 4, 5].map((n) => ({ value: n, label: n }))}
-          />
-        </Field>
-
-        <Field label={t("settings.tolerance")} help={t("settings.toleranceHelp")}>
-          <Slider
-            value={s.toleranceKm}
-            min={0}
-            max={500}
-            step={25}
-            onChange={(v) => s.set("toleranceKm", v)}
-            format={km}
-            disabled={rulesLocked}
-          />
-        </Field>
-
-        <Field label={t("settings.rounds")}>
-          <Segmented<number>
-            value={s.rounds}
-            onChange={(v) => s.set("rounds", v)}
-            disabled={rulesLocked}
-            options={[5, 10, 15, 20].map((n) => ({ value: n, label: n }))}
-          />
-        </Field>
+        <RulesFields disabled={rulesLocked} mode={mode} />
 
         <hr className="border-line" />
 

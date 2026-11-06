@@ -44,6 +44,8 @@ const EMPTY = {
   daily: {},
 };
 
+export const STATS_STORAGE_KEY = "oq-stats";
+
 export const useStats = create<StatsStore>()(
   persist(
     (set, get) => ({
@@ -76,6 +78,6 @@ export const useStats = create<StatsStore>()(
       recordDaily: (date, record) => set((s) => ({ daily: { ...s.daily, [date]: record } })),
       reset: () => set(EMPTY),
     }),
-    { name: "oq-stats", skipHydration: true },
+    { name: STATS_STORAGE_KEY, skipHydration: true },
   ),
 );

@@ -41,6 +41,12 @@ const CAPITAL_OVERRIDES: Record<string, { lat: number; lng: number; names: Names
     lng: -13.2033,
     names: { fr: "Laâyoune", en: "Laayoune", ar: "العيون", es: "El Aaiún" },
   },
+  // Jérusalem-Est (et non Ramallah, siège administratif).
+  PS: {
+    lat: 31.7833,
+    lng: 35.2333,
+    names: { fr: "Jérusalem", en: "Jerusalem", ar: "القدس", es: "Jerusalén" },
+  },
 };
 
 const REGION_MAP: Record<string, string> = {
